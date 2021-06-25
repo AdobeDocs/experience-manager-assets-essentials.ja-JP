@@ -2,14 +2,14 @@
 title: ' [!DNL Assets Essentials]の使用を開始する'
 description: ' [!DNL Assets Essentials]のアクセス方法、ログイン操作方法、サポートされる使用例、既知の問題について説明します。'
 role: Business Practitioner, Leader
-source-git-commit: 825297959b19361260121949c99ede37dced9a9c
+source-git-commit: 4a7fe369485db5cae843694c68f84133c9118337
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '462'
 ht-degree: 2%
 
 ---
 
-# [!DNL Experience Manager Assets Essentials] {#assets-essentials-get-started}の使用を開始する
+# [!DNL Experience Manager Assets Essentials]の使用を開始する {#assets-essentials-get-started}
 
 <!-- TBD: Make links for these steps. -->
 
@@ -23,7 +23,7 @@ ht-degree: 2%
 
 さらに、ユーザーインターフェイス](/help/navigate-view.md)、[使用例](#use-cases)、<!-- TBD: [supported file types](/help/supported-file-formats.md), -->、[既知の問題](/help/release-notes.md#known-issues)のリストを[理解することが役立つ参考情報です。
 
-## [!DNL Assets Essentials] {#get-access}へのアクセスを受け取る
+## [!DNL Assets Essentials]へのアクセスを受け取る {#get-access}
 
 Adobeは、ソリューションをプロビジョニングし、組織の指定した個人を管理者として追加します。 管理者は、[[!DNL Admin Console]](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/welcome.ug.html)を使用して、組織の様々なユーザーにアクセス権を付与できます。 アクセスに関するリクエストについては、組織の管理者にお問い合わせください。
 
@@ -49,7 +49,7 @@ When logging in, after providing the credentials, you can be prompted to select 
 ![Select an account to login](assets/do-not-localize/login-experience.gif)
 -->
 
-## [!DNL Assets Essentials] 使用例  {#use-cases}
+## [!DNL Assets Essentials] 使用例 {#use-cases}
 
 [!DNL Assets Essentials]を使用して実行できる様々なデジタルアセット管理(DAM)タスクを以下に示します。
 
@@ -69,13 +69,16 @@ When logging in, after providing the credentials, you can be prompted to select 
 | How do I collaborate with others and get my assets reviewed | <ul> <li>Share for review</li> <li>Provide comments. Resolve and filter comments</li> <li>Annotations on images</li> <li>Assign tasks to specific users and prioritize</li> </ul> |
 -->
 
-## ![feedback ](assets/do-not-localize/feedback-icon.png) iconProvide product feedback  {#provide-feedback}
+## ![feedback ](assets/do-not-localize/feedback-icon.png) iconProvide product feedback {#provide-feedback}
 
 Adobeは、ソリューションに関するフィードバックを歓迎します。 作業用アプリケーションを切り替えることなくフィードバックを提供するには、ユーザーインターフェイスで[!UICONTROL Feedback]オプションを使用します。 また、スクリーンショットや問題のビデオ録画などのファイルを添付することもできます。
 
 ![インターフェイスの「フィードバック」オプション](assets/feedback-panel.png)
 
-ドキュメントに関するフィードバックを提供するには、「 Edit this page ![edit the page](assets/do-not-localize/edit-page.png) 」をクリックするか、「 Log an issue ![ create a GitHub issue](assets/do-not-localize/github-issue.png) 」を右側の余白からクリックします。 コンテンツを更新し、GitHubのプル要求を送信するか、GitHubでイシューまたはチケットを作成します。
+ドキュメントに関するフィードバックを提供するには、[!UICONTROL Edit this page] ![edit the page](assets/do-not-localize/edit-page.png)または[!UICONTROL Log an issue] ![GitHub issue](assets/do-not-localize/github-issue.png)を右側のサイドバーから作成をクリックします。 次のいずれかを実行できます。
+
+* コンテンツを更新し、GitHubプル要求を送信します。
+* GitHubでイシューまたはチケットを作成します。 イシューを作成する際に、自動的に入力された記事名を保持します。
 
 >[!MORELIKETHIS]
 >
