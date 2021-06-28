@@ -3,35 +3,29 @@ title: リリースノート
 description: ' [!DNL Assets Essentials]のリリースノートと既知の問題'
 role: Business Practitioner,Leader,Administrator,Architect,Developer
 contentOwner: AG
-source-git-commit: 3389908e3ba085362b48a18cd3c106e658484a96
+source-git-commit: a52db0574483d3c17643a2c35c95be67c6608602
 workflow-type: tm+mt
-source-wordcount: '252'
-ht-degree: 2%
+source-wordcount: '145'
+ht-degree: 4%
 
 ---
 
 
-# [!DNL Assets Essentials] のリリースノート {#release-notes}
+# [!DNL Assets Essentials] のリリースノート  {#release-notes}
 
-現在のリリースは、2021年6月21日に公開される[!DNL Assets Essentials]の最初の公開リリースです。 Assets Essentialsは、軽量なアセット管理機能を備えており、最初のバージョンでは次の主な機能をサポートしています。
+現在のリリースは、2021年6月21日に公開された[!DNL Assets Essentials]の最初の公開リリースです。 [!DNL Assets Essentials] は、軽量なアセット管理機能とその最初のバージョンで、次の主な機能とCRUD（作成、読み取り、更新、削除）操作をサポートしています。
 
-* ネストされたフォルダーを含むアセットをアップロードし、追加する。 アセットをプレビューします。
+* ネストされたフォルダーを含むアセットをアップロードし、追加する。 アセットとバージョンをプレビューします。
 * フルテキスト検索、詳細検索フィルター、迅速なアセット検出のための保存済み検索。
-* 更新、バージョン、ダウンロード、メタデータなどの基本的なアセット管理操作。
-* [!DNL Adobe Journey Optimizer]との統合。
+* メタデータの更新、削除、ダウンロード、管理など、基本的なアセット管理操作。
+* [[!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/create-messages/assets-essentials.html)との統合。
 
-解決策の詳細については、[はじめに](introduction.md)を参照してください。 この機能の使用を開始するには、[get started](/help/get-started.md)を参照してください。
+現在、[!DNL Assets Essentials]は[[!DNL Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer.html)のお客様が利用できます。
+
+このソリューションの詳細については、[の [!DNL Assets Essentials]](introduction.md)の紹介を参照してください。 この機能の使用を開始するには、[get started](/help/get-started.md)を参照してください。
 
 ## 既知の問題 {#known-issues}
 
-[!DNL Assets Essentials] には、現在、次の既知の問題があります。
+現時点では、[!DNL Assets Essentials]に関する既知の問題はありません。
 
-* 現時点では、複数のアセットやフォルダーをダウンロードすることはできません。 回避策は、ファイルまたはフォルダーを1つずつダウンロードすることです。
-* 削除したアセットをごみ箱から復元できない場合があります。 回避策は、削除したアセットをクリックし、そのアセットのレンディションを表示し、ダウンロードする元のアセットをクリックすることです。 元のアセットを手動でアップロードします。
-* アセットに対する一括操作（コピー、移動、削除または復元）は、50個を超えるアセットをまとめて実行すると失敗する場合があります。 回避策は、1回で最大50個のアセットを選択することです。
-* アセットが更新されても、古いレンディションが引き続き表示されると、レンディションは更新されます。 回避策は、ブラウザーを更新することです。
-* 操作の後、変更がユーザーインターフェイスに直ちに表示されない場合があります。 回避策は、ブラウザーを更新することです。
-
-Adobeは、できるだけ早く問題を修正し、リストを更新するよう作業中です。
-
-その他の問題が発生した場合は、[チームにフィードバック](#provide-feedback)を提供します。
+問題や拡張リクエストが発生した場合は、[チームにフィードバック](#provide-feedback)を提供してください。
