@@ -8,10 +8,10 @@ user-guide-description: Adobe Experience Manager Assets Essentialsの使用方�
 feature-set: Experience Manager Assets,Experience Manager
 feature: アセット管理
 role: Business Practitioner, Leader
-source-git-commit: b3fea5209fb29409b3aae5970fa30505f8b5c22c
+source-git-commit: e54cdf9b8ecb5d9ddc5b90a3ca82549c61b35074
 workflow-type: tm+mt
-source-wordcount: '49'
-ht-degree: 22%
+source-wordcount: '53'
+ht-degree: 20%
 
 ---
 
@@ -20,6 +20,7 @@ ht-degree: 22%
 
 + [ソリューションの概要](introduction.md)
 + [リリースノート](release-notes.md)
++ [ユーザーのデプロイと追加](deploy-administer.md)
 + [ [!DNL Assets Essentials]の使用を開始する](get-started.md)
 + [アセットの表示](navigate-view.md)
 + [アセットのアップロードと追加](add-delete.md)
