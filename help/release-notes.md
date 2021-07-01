@@ -3,7 +3,7 @@ title: リリースノート
 description: ' [!DNL Assets Essentials]のリリースノートと既知の問題'
 role: Business Practitioner,Leader,Administrator,Architect,Developer
 contentOwner: AG
-source-git-commit: a52db0574483d3c17643a2c35c95be67c6608602
+source-git-commit: e54cdf9b8ecb5d9ddc5b90a3ca82549c61b35074
 workflow-type: tm+mt
 source-wordcount: '145'
 ht-degree: 4%
@@ -27,5 +27,9 @@ ht-degree: 4%
 ## 既知の問題 {#known-issues}
 
 現時点では、[!DNL Assets Essentials]に関する既知の問題はありません。
+
+<!--
+* Use assets that do not have whitespace in the file names. The replies to comments do not work for such assets.
+-->
 
 問題や拡張リクエストが発生した場合は、[チームにフィードバック](#provide-feedback)を提供してください。
