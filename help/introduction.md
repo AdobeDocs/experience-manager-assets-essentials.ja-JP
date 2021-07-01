@@ -2,14 +2,14 @@
 title: ' [!DNL Assets Essentials]の概要'
 description: Assets Essentialsの概要とソリューションの概要
 role: Business Practitioner,Leader
-source-git-commit: 88a28d1a8ebdd9d316b768b1398e559462b71e85
+source-git-commit: e54cdf9b8ecb5d9ddc5b90a3ca82549c61b35074
 workflow-type: tm+mt
-source-wordcount: '227'
+source-wordcount: '225'
 ht-degree: 0%
 
 ---
 
-# [!DNL Adobe Experience Manager Assets Essentials] 概要  {#assets-essentials}
+# [!DNL Adobe Experience Manager Assets Essentials] 概要 {#assets-essentials}
 
 <!-- TBD: Update this banner to remove Beta label. 
 ![Banner image for beta docs](assets/do-not-localize/banner-image-beta-docs.png)
@@ -25,7 +25,7 @@ Adobeは、デジタルアセットを最大限に活用するための堅牢な
 
 管理の場合は、よりシンプルな設定と管理が必要です。つまり、価値の高い時間が必要です。 管理者はソリューションにすぐにアクセスでき、[!DNL Adobe Admin Console]で使い慣れた機能やユーザー使用権限を使用できます。
 
-Assets Essentialsを使用したデジタルアセットの管理は、次の3つの手順と同じくらい簡単です。 [ [!DNL Assets Essentials]](/help/get-started.md)を使い始めるを参照してください。
+[!DNL Assets Essentials]を使用したデジタルアセットの管理は、次の3つの手順と同じくらい簡単です。 [ [!DNL Assets Essentials]](/help/get-started.md)を使い始めるを参照してください。
 
 * **手順1**:アセットをアップロードして表示します。
 * **手順2**:必要なアセットを検索してダウンロードします。
