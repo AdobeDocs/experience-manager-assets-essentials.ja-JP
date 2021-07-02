@@ -2,9 +2,9 @@
 title: ユーザーのデプロイと管理
 description: ' [!DNL Assets Essentials]でのデプロイメントやユーザー管理など、管理の使用例。'
 role: Administrator
-source-git-commit: e54cdf9b8ecb5d9ddc5b90a3ca82549c61b35074
+source-git-commit: 6e482854e7cec3d8bc2fed786a2c6a685b3f8eed
 workflow-type: tm+mt
-source-wordcount: '801'
+source-wordcount: '866'
 ht-degree: 2%
 
 ---
@@ -30,11 +30,15 @@ ht-degree: 2%
 
    ![[!DNL Assets Essentials] カード  [!DNL Admin Console]](assets/essentials-in-admin-console.png)
 
+   *図： [!DNL Assets Essentials] カードを挿入しま [!DNL Admin Console]す。*
+
 1. [!DNL Cloud Manager]の`AEM Assets Essentials - Cloud Manager`製品に管理者として追加します。 自分ではなく、組織の別のメンバーを追加することも、複数の管理者を追加することもできます。
 
 1. ![追加アイコン](assets/do-not-localize/add-icon.svg)をクリックして[!UICONTROL 製品プロファイル]を選択し、**[!UICONTROL 製品プロファイル]**&#x200B;として[!UICONTROL デプロイメントマネージャー — Assets Essentials]を選択します。 この手順で追加されたユーザーは、[!DNL Cloud Manager]へのアクセス権を持つAdobeから電子メールを受け取り、デプロイを実行できます。
 
    ![管理者の追加と、  [!DNL Admin Console]](assets/adminconsole-user1.png)
+
+   *図：管理者を追加し、で製品プロファイルを選択しま [!DNL Admin Console]す。*
 
 1. [!DNL Cloud Manager]にアクセスするには、電子メール内の[!DNL Cloud Manager]へのアクセス権を持つリンクをクリックします。 または、ブラウザーで`https://experience.adobe.com/#/cloud-manager/`にアクセスします。
 
@@ -48,9 +52,13 @@ ht-degree: 2%
 
    ![での環境の追加  [!DNL Cloud Manager]](assets/cloudmanager-add-environment-for-essentials.png)
 
+   *図：で環境を追加して、 [!DNL Cloud Manager] の使用を開始しま [!DNL Assets Essentials]す。*
+
 1. 環境が正常に作成されたら、[!DNL Admin Console]にアクセスし、組織のユーザーを[!DNL Assets Essentials]ソリューションに追加できます。 ![オプションアイコン](assets/do-not-localize/options-ellipses-icon.png)をクリックし、「**[!UICONTROL アクセスを管理]**」オプションを選択します。
 
    ![での環境の準備  [!DNL Cloud Manager]](assets/cloudmanager-manage-access-essentials.png)
+
+   *図：使用でき [!DNL Cloud Manager] る環境。*
 
 ## ユーザー管理 {#add-users-to-essentials}
 
@@ -65,9 +73,13 @@ ht-degree: 2%
 
    ![2種類のユーザーに対する2つのプロファイル](assets/adminconsole-user-types.png)
 
+   *図：2種類のユーザーを追加するには、2つのプロファイルを使用できます。*
+
 1. ユーザーをグループに追加するには、グループをクリックし、「**[!UICONTROL ユーザーを追加]**」を選択し、ユーザーの詳細を入力して、「**[!UICONTROL 保存]**」をクリックします。 ユーザーを追加すると、開始を求める電子メールがユーザーに送信されます。 [!DNL Admin Console]の製品プロファイル設定で、Eメールの招待状を無効にできます。
 
    ![ユーザーの追加先  [!DNL Assets Essentials]](assets/adminconsole-add-user.png)
+
+   *図：からにユーザーを追 [!DNL Assets Essentials] 加しま [!DNL Admin Console]す。*
 
 1. グループからユーザーを削除するには、グループをクリックし、既存のユーザーを選択して、「**[!UICONTROL ユーザーを削除]**」を選択します。
 
@@ -81,11 +93,15 @@ ht-degree: 2%
 
 1. ユーザーが問題を報告したら、**[!UICONTROL プログラムの概要]**&#x200B;インターフェイスで[!DNL Assets Essentials]のサービスステータスを確認します。 ソリューションの通常の動作時のステータスは`Running`です。 [!DNL Cloud Manager]にその他のステータスが表示された場合は、[!DNL Admin Console]サポートセクションでサポートチケットを作成します。
 
-   ![でのステータスを実行し [!DNL Assets Essentials] ています  [!DNL Cloud Manager]](assets/cloudmanager-manage-access-essentials.png)
+   ![のステー [!DNL Assets Essentials] タス  [!DNL Cloud Manager]](assets/cloudmanager-manage-access-essentials.png)
+
+   *図：の通常のステー [!DNL Assets Essentials] タスは [!DNL Cloud Manager] で `Running`す。*
 
 1. 最近のアクセスログをダウンロードするには、![オプションアイコン](assets/do-not-localize/options-ellipses-icon.png)をクリックし、**[!UICONTROL ログをダウンロード]**&#x200B;を選択して、画面の指示に従います。 ログを使用してHTTPSアクセス要求を監査できます。
 
-   ![ログのダウンロードオプション](assets/cloudmanager-download-logs.png)
+   ![ アクセスログをダウンロードするオプション](assets/cloudmanager-download-logs.png)
+
+   *図：アクセスログをダウンロードするオプション。*
 
 >[!MORELIKETHIS]
 >
