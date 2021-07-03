@@ -7,11 +7,11 @@ breadcrumb-title: Assets Essentialsガイド
 user-guide-description: Adobe Experience Manager Assets Essentialsの使用方法を説明します。
 feature-set: Experience Manager Assets,Experience Manager
 feature: アセット管理
-role: Business Practitioner, Leader
-source-git-commit: e54cdf9b8ecb5d9ddc5b90a3ca82549c61b35074
+role: User, Leader
+source-git-commit: 5bae37e18ac587aaacaa004e5ec02775888d7f9a
 workflow-type: tm+mt
-source-wordcount: '53'
-ht-degree: 20%
+source-wordcount: '59'
+ht-degree: 18%
 
 ---
 
@@ -22,6 +22,7 @@ ht-degree: 20%
 + [リリースノート](release-notes.md)
 + [ユーザーのデプロイと追加](deploy-administer.md)
 + [ [!DNL Assets Essentials]の使用を開始する](get-started.md)
++ [サポートされるファイルタイプと使用例](supported-file-formats.md)
 + [アセットの表示](navigate-view.md)
 + [アセットのアップロードと追加](add-delete.md)
 + [アセットの検索と検出](search.md)
