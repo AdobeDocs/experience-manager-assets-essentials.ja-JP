@@ -1,9 +1,9 @@
 ---
 title: アセットの更新または変更
 description: リポジトリ内に存在するアセットの更新
-role: Business Practitioner,Leader,Administrator,Architect,Developer
+role: User,Leader,Administrator,Architect,Developer
 contentOwner: AG
-source-git-commit: b3fea5209fb29409b3aae5970fa30505f8b5c22c
+source-git-commit: 5bae37e18ac587aaacaa004e5ec02775888d7f9a
 workflow-type: tm+mt
 source-wordcount: '39'
 ht-degree: 12%
@@ -11,7 +11,7 @@ ht-degree: 12%
 ---
 
 
-# [!DNL Assets Essentials] {#update-assets}内のアセットを更新する
+# [!DNL Assets Essentials]内のアセットを更新する {#update-assets}
 
 新しいバージョンをアップロードするか、[!DNL Assets Essentials]で画像を編集することで、既存のアセットを更新できます。
 
