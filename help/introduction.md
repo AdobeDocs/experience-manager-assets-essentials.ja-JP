@@ -1,8 +1,8 @@
 ---
 title: ' [!DNL Assets Essentials]の概要'
 description: Assets Essentialsの概要とソリューションの概要
-role: Business Practitioner,Leader
-source-git-commit: a9dfa9cc9e971faf24e5275c843fb1d0247d18c9
+role: User,Leader
+source-git-commit: 5bae37e18ac587aaacaa004e5ec02775888d7f9a
 workflow-type: tm+mt
 source-wordcount: '252'
 ht-degree: 0%
