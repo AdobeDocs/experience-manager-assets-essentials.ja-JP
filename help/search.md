@@ -1,8 +1,8 @@
 ---
 title: ' [!DNL Assets Essentials]内のアセットの検索と検出'
 description: ' [!DNL Assets Essentials]内のアセットを検索および検出します。'
-role: Business Practitioner
-source-git-commit: 3389908e3ba085362b48a18cd3c106e658484a96
+role: User
+source-git-commit: 5bae37e18ac587aaacaa004e5ec02775888d7f9a
 workflow-type: tm+mt
 source-wordcount: '389'
 ht-degree: 3%
@@ -10,7 +10,7 @@ ht-degree: 3%
 ---
 
 
-# [!DNL Assets Essentials] でのアセットの検索 {#search-assets}
+# [!DNL Assets Essentials] でのアセットの検索  {#search-assets}
 
 [!DNL Assets Essentials] は、デフォルトで機能する、効果的な検索を提供します。全文検索なので、検索は包括的です。 強力な検索機能を使用すると、適切なアセットをすばやく見つけて、コンテンツの速度を向上できます。 [!DNL Assets Essentials] では、フルテキスト検索を実行したり、スマートタグ、タイトル、作成日、著作権などのメタデータを検索したりできます。
 
@@ -24,7 +24,7 @@ ht-degree: 3%
 
    * 最近表示したアセットを直接検索して操作を開始します。 検索ボックス内をクリックし、候補から最近表示したアセットを選択します。
 
-## 検索結果のフィルター{#refine-search-results}
+## 検索結果のフィルタリング {#refine-search-results}
 
 次のパラメーターに基づいて検索結果をフィルタリングできます。
 
