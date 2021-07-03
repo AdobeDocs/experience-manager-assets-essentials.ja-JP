@@ -1,9 +1,9 @@
 ---
 title: アセットの更新または変更
 description: リポジトリ内に存在するアセットの更新
-role: User,Leader,Administrator,Architect,Developer
+role: User,Leader,Admin,Architect,Developer
 contentOwner: AG
-source-git-commit: 5bae37e18ac587aaacaa004e5ec02775888d7f9a
+source-git-commit: a1dc66213f602bce5b5a2ec0ba99084c7f7b1ee1
 workflow-type: tm+mt
 source-wordcount: '39'
 ht-degree: 12%
