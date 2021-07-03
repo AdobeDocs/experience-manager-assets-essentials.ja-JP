@@ -1,8 +1,8 @@
 ---
 title: '[!DNL Assets Essentials] ユーザーインターフェイス'
 description: ' [!DNL Assets Essentials]でのおよびナビゲーションのユーザーインターフェイスを理解します。'
-role: Business Practitioner
-source-git-commit: 3389908e3ba085362b48a18cd3c106e658484a96
+role: User
+source-git-commit: 5bae37e18ac587aaacaa004e5ec02775888d7f9a
 workflow-type: tm+mt
 source-wordcount: '543'
 ht-degree: 0%
@@ -10,13 +10,13 @@ ht-degree: 0%
 ---
 
 
-# ファイルとフォルダーに移動し、アセットを表示します。{#view-assets-and-details}
+# ファイルとフォルダーに移動し、アセットを表示する {#view-assets-and-details}
 
 <!-- TBD: Give screenshots of all views with many assets. Zoom out to showcase how the thumbnails/tiles flow on the UI in different views. -->
 
 <!-- TBD: The options in left sidebar may change. Shared with me and Shared by me are missing for now. Update this section as UI is updated. -->
 
-## [!DNL Assets Essentials]ユーザーインターフェイス{#understand-interface-navigation}を理解する
+## [!DNL Assets Essentials]ユーザーインターフェイスの理解 {#understand-interface-navigation}
 
 [!DNL Assets Essentials] は、直感的で使いやすいユーザーインターフェイスを提供します。クリーンなインターフェイスにより、アセットや関連情報を簡単に見つけ、覚えやすくなります。
 
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 <!-- TBD: Need an embedded video here with narration. It has to be hosted on MPC to be embeddable. -->
 
-## アセットとフォルダーの参照と表示{#browse-repository}
+## アセットとフォルダーの参照と表示 {#browse-repository}
 
 メインのユーザーインターフェイスまたは左側のサイドバーから、必要なファイルまたはフォルダーを参照できます。 参照時に、インターフェイスを使用してアセットのサムネールを表示し、リポジトリーを視覚的に参照したり、アセットの詳細を表示して目的のアセットをすばやく見つけたりできます。 左側のサイドバーで使用できるオプションは次のとおりです。
 
