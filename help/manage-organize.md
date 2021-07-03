@@ -1,9 +1,9 @@
 ---
 title: デジタルアセットの管理
 description: ' [!DNL Assets Essentials]内のアセットを移動、削除、コピー、名前変更、更新、バージョン化します。'
-role: Business Practitioner,Leader
+role: User,Leader
 contentOwner: AG
-source-git-commit: 3389908e3ba085362b48a18cd3c106e658484a96
+source-git-commit: 5bae37e18ac587aaacaa004e5ec02775888d7f9a
 workflow-type: tm+mt
 source-wordcount: '595'
 ht-degree: 0%
@@ -75,7 +75,7 @@ TBD: query for engineering: How many versions are maintained. What happens when 
 
    ![バージョン履歴から新しいバージョンのアセットをアップロードするオプション](assets/view-asset-versions2.png)
 
-### アセットのバージョンの表示{#view-versions}
+### アセットのバージョンの表示 {#view-versions}
 
 重複したコピーやアセットの変更済みコピーをアップロードする際に、そのバージョンを作成できます。 バージョン管理を使用すると、履歴アセットを確認し、必要に応じて以前のバージョンに戻すことができます。
 
