@@ -1,9 +1,9 @@
 ---
 title: メタデータの管理
 description: ' [!DNL Assets Essentials]内のアセットのメタデータの管理'
-role: Business Practitioner,Leader,Administrator,Architect,Developer
+role: User,Leader,Administrator,Architect,Developer
 contentOwner: AG
-source-git-commit: 3389908e3ba085362b48a18cd3c106e658484a96
+source-git-commit: 5bae37e18ac587aaacaa004e5ec02775888d7f9a
 workflow-type: tm+mt
 source-wordcount: '559'
 ht-degree: 13%
@@ -11,7 +11,7 @@ ht-degree: 13%
 ---
 
 
-# [!DNL Assets Essentials]のメタデータ {#metadata}
+# [!DNL Assets Essentials] のメタデータ  {#metadata}
 
 メタデータとは、データに関するデータまたは説明を意味します。 例えば、アセットとしての画像には、クリックされたカメラに関する情報や、著作権情報を含めることができます。 この情報は、画像のメタデータです。 メタデータは、効率的なアセット管理を行うために重要です。メタデータは、1つのアセットで使用可能なすべてのデータのコレクションですが、必ずしもそのアセットに含まれているとは限りません。
 
@@ -25,7 +25,7 @@ ht-degree: 13%
 
 そのため、Assetsではデジタルアセットのメタデータの作成、管理およびやり取りをおこなう適切な方法を提供します。
 
-## メタデータ{#view-metadata}を表示します。
+## メタデータの表示 {#view-metadata}
 
 アセットのメタデータを表示するには、アセットを参照するかアセットを検索し、アセットを選択して、ツールバーの「**[!UICONTROL 詳細]**」をクリックします。
 
@@ -51,7 +51,7 @@ ht-degree: 13%
 
 スマートタグには、信頼性スコアも割合で含まれます。 適用されたタグに関連付けられている信頼性を示します。 自動的に適用されたスマートタグをモデレートできます。
 
-## タグ{#manually-tag}の追加または更新
+## タグの追加または更新 {#manually-tag}
 
 [!DNL Adobe Sensei]スマートサービスを使用して自動的に追加されるスマートタグに加えて、アセットにタグを追加できます。 プレビュー用にアセットを開き、「[!UICONTROL タグ]」をクリックし、「[!UICONTROL キーワード]」フィールドに目的のキーワードを入力します。 タグを追加するには、Returnキーを押します。 [!DNL Assets Essentials] にはほぼリアルタイムでキーワードのインデックスが作成され、チームは新しいキーワードを使用して更新されたアセットをすぐに検索できます。
 
