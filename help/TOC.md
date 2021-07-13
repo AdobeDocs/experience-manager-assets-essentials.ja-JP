@@ -2,16 +2,16 @@
 cloud: Experience Cloud
 product: adobe experience manager
 audience: end-user
-user-guide-title: Experience ManagerAssets Essentialsガイド
-breadcrumb-title: Assets Essentialsガイド
-user-guide-description: Adobe Experience Manager Assets Essentialsの使用方法を説明します。
+user-guide-title: Experience Manager Assets Essentials ガイド
+breadcrumb-title: Assets Essentials ガイド
+user-guide-description: Adobe Experience Manager Assets Essentials の使用方法を説明します。
 feature-set: Experience Manager Assets,Experience Manager
 feature: アセット管理
 role: User,Leader
 source-git-commit: a1dc66213f602bce5b5a2ec0ba99084c7f7b1ee1
 workflow-type: tm+mt
-source-wordcount: '59'
-ht-degree: 18%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 18%
 + [ソリューションの概要](introduction.md)
 + [リリースノート](release-notes.md)
 + [ユーザーのデプロイと追加](deploy-administer.md)
-+ [ [!DNL Assets Essentials]の使用を開始する](get-started.md)
++ [ [!DNL Assets Essentials] の基本](get-started.md)
 + [サポートされるファイルタイプと使用例](supported-file-formats.md)
 + [アセットの表示](navigate-view.md)
 + [アセットのアップロードと追加](add-delete.md)
