@@ -1,15 +1,15 @@
 ---
 source-git-commit: 0dd6f278a75668c3ceafa2ad8d9d232bcecd56ba
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '719'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 # [!DNL Adobe Experience Manager] ドキュメントへの投稿に関するガイドライン
 
 ## ドキュメントの理念
 
-[!DNL Adobe Experience Manager] ユーザーは、競争の厳しい環境でビジネスを展開しており、競合他社より優位に立つためのデジタルエクスペリエンスを構築しようと懸命に努力しています。したがって、Adobeが[!DNL Experience Manager]で高度な新しいツールを提供する際には、お客様が[!DNL Experience Manager]への投資をすぐに活かしROIを最大化できるように、正確かつ明快なドキュメントでこれらのツールを補うことが不可欠です。
+[!DNL Adobe Experience Manager] ユーザーは、競争の厳しい環境でビジネスを展開しており、競合他社より優位に立つためのデジタルエクスペリエンスを構築しようと懸命に努力しています。したがって、アドビが [!DNL Experience Manager] で高度な新しいツールを提供する際には、お客様が [!DNL Experience Manager] への投資をすぐに活かし ROI を最大化できるように、正確かつ明快なドキュメントでこれらのツールを補うことが不可欠です。
 
 [!DNL Experience Manager] ドキュメントの目標は、ドキュメントをできるだけ早く [!DNL Experience Manager] ユーザーに届けることです。そのため、正確で使いやすいドキュメントを最優先し、ドキュメントの継続的な更新と改善に努めます。
 
@@ -19,7 +19,7 @@ ht-degree: 95%
 
 ## ドキュメント標準
 
-アドビのドキュメントへの投稿を歓迎しますが、[!DNL Experience Manager] ドキュメントへの投稿は、プル要求またはイシューの形式でおこない、投稿とドキュメントに関するアドビの標準に準拠する必要があります。
+アドビのドキュメントへの投稿を歓迎しますが、[!DNL Experience Manager] ドキュメントへの投稿は、プル要求またはイシューの形式で行い、投稿とドキュメントに関するアドビの標準に準拠する必要があります。
 
 標準に合致しない投稿は拒否される可能性があります。
 
