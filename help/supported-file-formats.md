@@ -1,25 +1,25 @@
 ---
 title: サポートされているファイル形式
-description: サポートされているファイル形式  [!DNL Assets Essentials]の様々な使用例
+description: ' [!DNL Assets Essentials]の様々な使用例でサポートされるファイル形式'
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AG
 source-git-commit: c63e9ab1054398dc055643f0dca6631bae881047
 workflow-type: tm+mt
-source-wordcount: '206'
-ht-degree: 34%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# [!DNL Assets Essentials]でサポートされるファイル形式 {#file-format-support}
+# [!DNL Assets Essentials] でサポートされているファイル形式  {#file-format-support}
 
-[!DNL Assets Essentials] は様々なファイル形式をサポートし、各機能は様々なファイルタイプをサポートしています。
+[!DNL Assets Essentials] では幅広いファイル形式をサポートしており、各機能は各種ファイルタイプに対応してます。
 
-* ![iconImagesの画像ファ](assets/do-not-localize/image-icon.png) イルタイプ：GIF、JPG、PNGおよびTIFF
-* ![ドキュメントファイルタ](assets/do-not-localize/document-icon.png) イプiconDocuments:DOCX、PDF、PPTXおよびXLSX
-* ![ビデオファイルタ](assets/do-not-localize/video-icon.png) イプiconVideos:MP4
+* ![画像ファイルタイプのアイコン](assets/do-not-localize/image-icon.png) 画像：GIF、JPG、PNG および TIFF
+* ![ドキュメントファイルタタイプのアイコン](assets/do-not-localize/document-icon.png) ドキュメント：DOCX、PDF、PPTX および XLSX
+* ![ビデオファイルタイプのアイコン](assets/do-not-localize/video-icon.png) ビデオ：MP4
 
-以下に示すように、様々なファイルタイプの使用例や機能に対するサポートの度合いは異なります。 凡例を使用して、サポートレベルについて理解します。
+以下に示すように、ユースケースや機能に対する各種ファイルタイプのサポートレベルは異なります。凡例を使用すると、サポートレベルがわかります。
 
 | サポートレベル | 説明 |
 |-------------------|-------------------------|
@@ -32,9 +32,9 @@ ht-degree: 34%
 <!-- TBD: For AEM, AI files require the PDF option to be selected when saving the AI file.
 -->
 
-| アセットタイプ | [参照](/help/navigate-view.md) | コピー | [アップロード](/help/add-delete.md) | 作成 | [削除](/help/add-delete.md#delete-assets) | 詳細 | 画像ズーム | [最近表示された項目](/help/navigate-view.md) |
+| アセットタイプ | [参照](/help/navigate-view.md) | コピー | [アップロード](/help/add-delete.md) | 作成 | [削除](/help/add-delete.md#delete-assets) | 詳細 | 画像のズーム | [最近表示された項目](/help/navigate-view.md) |
 |-------------------|----------|----------|----------|----------|----------|-------------------|------------|-----------------|
-| ラスターイメージ | ✓ | ✓ | ✓ | - | ✓ | ✓ | ✓ | ✓ |
+| ラスター画像 | ✓ | ✓ | ✓ | - | ✓ | ✓ | ✓ | ✓ |
 | フォルダー | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | - | - |
 | MP4ビデオ | ✓ | ✓ | ✓ | - | ✓ | ✓ ‡ | - | ✓ |
 | PDF | ✓ | ✓ | ✓ | - | ✓ | ✓ | - | ✓ |
@@ -48,23 +48,23 @@ ht-degree: 34%
 
 | アセットタイプ | [ダウンロード](/help/manage-organize.md#download) | ドラッグ＆ドロップ | [画像エディター](/help/edit-images.md) | [検索](/help/search.md) | [スマートタグ](/help/metadata.md#tags) | [名前を変更](/help/manage-organize.md) | [バージョン](/help/manage-organize.md#versions-of-assets) |
 |---------------|----------|---------------|--------------|----------|------------|----------|----------|
-| ラスターイメージ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| ラスター画像 | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
 | フォルダー | ✓ | ✓ | - | ✓ | - | ✓ | - |
 | ビデオ | ✓ | ✓ | - | ✓ | ✓ | ✓ | - |
-| CCライブラリ | - | - | - | - | - | ✓ | - |
+| CC ライブラリ | - | - | - | - | - | ✓ | - |
 | PDF | ✓ | ✓ | - | ✓ | ✓ | ✓ | - |
 | PSD | ✓ | ✓ | - | ✓ | ✓ | ✓ | - |
 | AI | ✓ | ✓ | - | ✓ | ✓ | ✓ | - |
 | INDD | ✓ | ✓ | - | ✓ | ✓ | ✓ | - |
 
-## アセットのレビューと共同作業 {#support-to-review-collaborate}
+## アセットの確認と共同作業 {#support-to-review-collaborate}
 
-| アセットタイプ | 注釈 | コメント | タスクの作成とレビュー |
+| アセットタイプ | 注釈 | コメント | タスクの作成と確認 |
 |---------------|----------|----------|-------------------------|
-| ラスターイメージ | ✓ | ✓ | ✓ |
+| ラスター画像 | ✓ | ✓ | ✓ |
 | フォルダー | - | - | - |
 | ビデオ | - | ✓ | ✓ |
-| CCライブラリ | - | - | - |
+| CC ライブラリ | - | - | - |
 | PDF | - | ✓ | ✓ |
 | PSD | - | ✓ | ✓ |
 | AI | - | ✓ | ✓ |
@@ -74,10 +74,10 @@ ht-degree: 34%
 
 | アセットタイプ | [メタデータ](/help/metadata.md) | [レンディション](/help/add-delete.md#renditions) | [ごみ箱](/help/add-delete.md#delete-assets) | コピー | 移動 |
 |---------------|-------------------|------------|----------|----------|----------|
-| ラスターイメージ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| ラスター画像 | ✓ | ✓ | ✓ | ✓ | ✓ |
 | フォルダー | ✓ | - | ✓ | ✓ | ✓ |
 | ビデオ | ✓ | - | ✓ | ✓ | ✓ |
-| CCライブラリ | ✓ | - | - | - | - |
+| CC ライブラリ | ✓ | - | - | - | - |
 | PDF | ✓ | - | ✓ | ✓ | ✓ |
 | PSD | ✓ | - | ✓ | ✓ | ✓ |
 | AI | ✓ | - | ✓ | ✓ | ✓ |
