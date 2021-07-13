@@ -1,12 +1,12 @@
 ---
 title: リリースノート
-description: ' [!DNL Assets Essentials]のリリースノートと既知の問題'
+description: ' [!DNL Assets Essentials] のリリースノートと既知の問題'
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AG
 source-git-commit: a1dc66213f602bce5b5a2ec0ba99084c7f7b1ee1
 workflow-type: tm+mt
-source-wordcount: '145'
-ht-degree: 4%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -15,10 +15,10 @@ ht-degree: 4%
 
 現在のリリースは、2021年6月21日に公開された[!DNL Assets Essentials]の最初の公開リリースです。 [!DNL Assets Essentials] は、軽量なアセット管理機能とその最初のバージョンで、次の主な機能とCRUD（作成、読み取り、更新、削除）操作をサポートしています。
 
-* ネストされたフォルダーを含むアセットをアップロードし、追加する。 アセットとバージョンをプレビューします。
-* フルテキスト検索、詳細検索フィルター、迅速なアセット検出のための保存済み検索。
+* アセット（ネストしたフォルダーを含む）をアップロードし追加する。アセットとバージョンをプレビューします。
+* フルテキスト検索、詳細検索フィルター、迅速にアセットを検出できる保存済みの検索。
 * メタデータの更新、削除、ダウンロード、管理など、基本的なアセット管理操作。
-* [[!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/create-messages/assets-essentials.html)との統合。
+* [[!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/create-messages/assets-essentials.html?lang=ja)との統合。
 
 現在、[!DNL Assets Essentials]は[[!DNL Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer.html)のお客様が利用できます。
 
