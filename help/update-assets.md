@@ -1,19 +1,19 @@
 ---
 title: アセットの更新または変更
-description: リポジトリ内に存在するアセットの更新
+description: リポジトリーに存在するアセットの更新
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AG
 source-git-commit: a1dc66213f602bce5b5a2ec0ba99084c7f7b1ee1
 workflow-type: tm+mt
-source-wordcount: '39'
-ht-degree: 12%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# [!DNL Assets Essentials]内のアセットを更新する {#update-assets}
+# [!DNL Assets Essentials] でのアセットの更新  {#update-assets}
 
-新しいバージョンをアップロードするか、[!DNL Assets Essentials]で画像を編集することで、既存のアセットを更新できます。
+[!DNL Assets Essentials] では、新しいバージョンをアップロードするか画像を編集することで、既存のアセットを更新できます。
 
 <!-- TBD: Discard this article if not too much unique content for it.
 Merge the update asset part in manage assets or upload assets.
