@@ -2,10 +2,10 @@
 title: '[!DNL Assets Essentials] ユーザーインターフェイス'
 description: ' [!DNL Assets Essentials] のユーザーインターフェイスとナビゲーションについて説明します。'
 role: User
-source-git-commit: 5bae37e18ac587aaacaa004e5ec02775888d7f9a
+source-git-commit: 6c050d55aadeffa59c989f5b8ff6fe67da0d4d86
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '518'
+ht-degree: 91%
 
 ---
 
@@ -40,11 +40,15 @@ ht-degree: 0%
 
 ## アセットとフォルダーの参照と表示 {#browse-repository}
 
-メインユーザーインターフェイスまたは左側のサイドバーから、必要なファイルまたはフォルダーを参照できます。参照時には、インターフェイスを使用してアセットのサムネールを表示し、リポジトリーを視覚的に参照したり、アセットの詳細を表示して目的のアセットをすばやく見つけたりできます。左側のサイドバーで使用できるオプションは次のとおりです。
+メインのユーザーインターフェイスまたは左側のサイドバーからフォルダーを参照できます。 参照時には、インターフェイスを使用してアセットのサムネールを表示し、リポジトリーを視覚的に参照したり、アセットの詳細を表示して目的のアセットをすばやく見つけたりできます。左側のサイドバーで使用できるオプションは次のとおりです。
 
-* **アセット**：アクセス可能なすべてのフォルダーとアセットのリストがツリー表示されます。
-* **最近表示された項目**：最近プレビューしたアセットのリスト。[!DNL Assets Essentials] は、プレビューしたアセットのみを表示します。リポジトリーファイルまたはフォルダーを参照する際にスクロールして通過したアセットは、ここには表示されません。
-* **ライブラリ**：[!DNL Adobe Creative Cloud Team]（CCT）ライブラリビューにアクセスできます。このビューは、ユーザーが CCT ライブラリを使用する権限がある場合にのみ表示されます。
+* **アセット**:ツリービュー内の、アクセス可能なすべてのフォルダのリスト。
+* **最近表示された項目**：最近プレビューしたアセットのリスト。[!DNL Assets Essentials] は、プレビューしたアセットのみを表示します。リポジトリファイルまたはフォルダーを参照する際にスクロールし過ぎたアセットは表示されません。
+* **ごみ箱**:
+
+<!-- TBD: Not sure if we want to publish these right now. CC Libs are beta as per Greg.
+* **Libraries**: Access to [!DNL Adobe Creative Cloud Team] (CCT) Libraries view. This view is visible only if the user is entitled to CCT Libraries.
+-->
 
 <!-- TBD: My Work Space shows task inbox and it is not visible on AEM Cloud Demos as of now. It is the source of truth server hence not documenting My Work Space option for now.
 -->
