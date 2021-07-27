@@ -2,9 +2,9 @@
 title: ' [!DNL Assets Essentials] の概要'
 description: Assets Essentials の概要とソリューション紹介
 role: User,Leader
-source-git-commit: 5bae37e18ac587aaacaa004e5ec02775888d7f9a
+source-git-commit: 6c050d55aadeffa59c989f5b8ff6fe67da0d4d86
 workflow-type: tm+mt
-source-wordcount: '252'
+source-wordcount: '250'
 ht-degree: 71%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 71%
 [!DNL Assets Essentials]を使用したデジタルアセットの管理は、次の3つの手順と同じくらい簡単です。 [ [!DNL Assets Essentials]](/help/get-started.md) の基本についての説明を参照してください。
 
 * **手順 1**：アセットをアップロードし表示する。
-* **手順 2**：必要なアセットを検索しダウンロードする。
+* **手順 2**：アセットを検索しダウンロードする。
 * **手順 3**：アセットを管理および整理する。
 
 >[!MORELIKETHIS]
