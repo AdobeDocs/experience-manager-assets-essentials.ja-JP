@@ -3,10 +3,10 @@ title: リリースノート
 description: ' [!DNL Assets Essentials] のリリースノートと既知の問題'
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AG
-source-git-commit: a1dc66213f602bce5b5a2ec0ba99084c7f7b1ee1
+source-git-commit: fd95cf87ae8e5449471cd580405b228c32ede264
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '277'
+ht-degree: 14%
 
 ---
 
@@ -24,9 +24,19 @@ ht-degree: 0%
 
 このソリューションの詳細については、[の [!DNL Assets Essentials]](introduction.md)の紹介を参照してください。 この機能の使用を開始するには、[get started](/help/get-started.md)を参照してください。
 
+## 現在のリリース {#release-notes-current}
+
+Assets Essentialsの現在のリリースは2021.7.0（2021年7月30日にリリース）で、以下のアップデートがおこなわれました。
+
+* カスタマイズされたメタデータフォームを作成および管理して、[!DNL Settings]の下の「メタデータForms] 」オプションのアセットの詳細画面で、ユーザーにメタデータのプロパティを表示するのに使用できます。[!UICONTROL 
+* 多数のサブフォルダーを含むネストされたフォルダーをアップロードする際のパフォーマンスの向上など、様々なバグ修正と製品の改善がおこなわれました。
+
 ## 既知の問題 {#known-issues}
 
-現時点では、[!DNL Assets Essentials]に関する既知の問題はありません。
+[!DNL Assets Essentials]製品の既知の問題のリストは、継続的に改訂および更新されます。
+
+* 1つ以上のフォルダーをアップロードするには、リポジトリ内のサブフォルダーを持つフォルダーに項目をドラッグすると、アップロードは自動的に1つのサブフォルダーに移動します。 回避策は、[!DNL Upload assets]オプションをクリックして、ダイアログにドラッグします。<!-- CQ-4327753 -->
+* フォルダーをアップロードした後、左側のレールに新しいフォルダーが正しく表示されず、ツリービューに表示されないことがあります。 回避策は、ブラウザーを更新することです。<!-- CQ-4323534 -->
 
 <!--
 * Use assets that do not have whitespace in the file names. The replies to comments do not work for such assets.
