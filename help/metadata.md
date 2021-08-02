@@ -3,10 +3,10 @@ title: メタデータの管理
 description: ' [!DNL Assets Essentials] におけるアセットのメタデータの管理'
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AG
-source-git-commit: a1dc66213f602bce5b5a2ec0ba99084c7f7b1ee1
+source-git-commit: a176769247bcafcc0497f2480cdec86c5753f218
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '962'
+ht-degree: 58%
 
 ---
 
@@ -56,6 +56,49 @@ ht-degree: 0%
 [!DNL Adobe Sensei] スマートサービスを使用して自動的に追加されるスマートタグに加えて、アセットにさらにタグを追加できます。アセットをプレビュー用に開き、「[!UICONTROL タグ]」をクリックして、「[!UICONTROL キーワード]」フィールドに目的のキーワードを入力します。タグを追加するには、Return キーを押します。[!DNL Assets Essentials] により、ほぼリアルタイムでキーワードのインデックスが作成されるので、チームは新しいキーワードを使用して更新済みのアセットをすぐに検索できます。
 
 アップロードされたすべてのアセットに [!DNL Assets Essentials] で自動的に追加されたタグを、「[!UICONTROL スマートタグ]」セクションから削除することもできます。
+
+## メタデータフォーム {#metadata-forms}
+
+Assets Essentialsは、デフォルトで多くの標準メタデータフィールドを提供します。 組織には、追加のメタデータニーズがあり、ビジネス固有のメタデータを追加するために、さらに多くのメタデータフィールドが必要です。 メタデータフォームを使用すると、企業はアセットの[!UICONTROL 詳細]ページにカスタムメタデータフィールドを追加できます。 ビジネス固有のメタデータにより、アセットのガバナンスと検出が向上します。
+
+様々なタイプのアセット（MIMEタイプごと）にメタデータフォームを設定できます。 ファイルのMIMEタイプと同じフォーム名を使用します。 Essentialsは、アップロードされたアセットを自動的にフォーム名に一致させます。 例えば、`PDF`または`pdf`という名前のメタデータフォームが存在する場合、アップロードされたPDFドキュメントには、フォームで定義されたメタデータフィールドが含まれます。 フォームは、ゼロから作成することも、既存のフォームを再利用することもできます。
+
+>[!IMPORTANT]
+>
+>特定のファイルタイプの新しいメタデータフォームは、[!DNL Assets Essentials]が提供するデフォルトのメタデータフォームを完全に置き換えます。 メタデータフォームを削除または名前変更すると、新しいアセットに対して、デフォルトのメタデータフィールドが再び使用可能になります。
+
+メタデータフォームを作成するには、次の手順に従います。
+
+1. 左側のレールで、**[!UICONTROL 設定]** / **[!UICONTROL メタデータForms]**&#x200B;をクリックします。
+
+   ![左側のサイドバーにあるメタデータフォームオプション](assets/metadata-forms-sidebar.png)
+
+1. ユーザーインターフェイスの右上にある「**[!UICONTROL 作成]**」をクリックします。
+1. フォームの名前を入力し、「**[!UICONTROL 作成]**」をクリックします。
+1. 右側のレールの&#x200B;**[!UICONTROL 設定]**&#x200B;にタブの名前を入力します。
+1. 左側のレールに表示される&#x200B;**[!UICONTROL コンポーネント]**&#x200B;から、必要なコンポーネントをフォームのタブにドラッグします。 必要な順序でコンポーネントをドラッグします。
+
+   ![左側のサイドバーにあるメタデータフォームオプション](assets/metadata-form-new.png)
+
+   *図：コンポーネントを追加するオプションとフォームをプレビューするオプションを備えたメタデータフォーム作成インターフェイス。*
+
+1. 各コンポーネントについて、右側のレールの&#x200B;**[!UICONTROL 設定]**&#x200B;に名前を指定し、サポートされているプロパティとのマッピングを指定します。
+1. 必要に応じて、コンポーネントの場合、「**[!UICONTROL 必須]**」を選択してメタデータフィールドを必須にし、「**[!UICONTROL 読み取り専用]**」を選択してアセットの[!UICONTROL 詳細]ページでフィールドを編集不可にします。
+1. 必要に応じて、「**[!UICONTROL プレビュー]**」をクリックして、作成するフォームをプレビューします。
+1. オプションで、各タブにタブと必要なコンポーネントを追加します。
+1. フォームが完成したら、「**[!UICONTROL 保存]**」をクリックします。
+
+作成したフォームは、一致するMIMEタイプのアセットをユーザーがアップロードすると自動的に適用されます。
+
+既存のフォームを再利用して新しいフォームを作成するには、メタデータフォームを選択し、ツールバーの「**[!UICONTROL コピー]**」をクリックし、名前を指定して、「**[!UICONTROL 確認]**」をクリックします。 メタデータフォームを編集して変更できます。 フォームを変更すると、変更後にアップロードされたアセットに対して使用されます。 既存のアセットは変更されません。
+
+<!-- TBD: Cannot create a form using the second option. Documenting only the first option for now.
+To reuse an existing form to create a new form, do one of these:
+
+* Select a metadata form and click **[!UICONTROL Copy]** from the toolbar, provide a name, and click **[!UICONTROL Confirm]**.
+
+* Click **[!UICONTROL Create]**, select **[!UICONTROL Use existing form structure as template]** option, and select an existing form. 
+-->
 
 <!-- TBD: Queries for PM and engg.
 
