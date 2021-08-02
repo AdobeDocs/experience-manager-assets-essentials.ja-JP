@@ -3,10 +3,10 @@ title: リリースノート
 description: ' [!DNL Assets Essentials] のリリースノートと既知の問題'
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AG
-source-git-commit: fd95cf87ae8e5449471cd580405b228c32ede264
+source-git-commit: cbeb6f6f59da164115af52dfdbb97023b84bc1d1
 workflow-type: tm+mt
-source-wordcount: '277'
-ht-degree: 14%
+source-wordcount: '280'
+ht-degree: 13%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 14%
 
 Assets Essentialsの現在のリリースは2021.7.0（2021年7月30日にリリース）で、以下のアップデートがおこなわれました。
 
-* カスタマイズされたメタデータフォームを作成および管理して、[!DNL Settings]の下の「メタデータForms] 」オプションのアセットの詳細画面で、ユーザーにメタデータのプロパティを表示するのに使用できます。[!UICONTROL 
+* カスタマイズされたメタデータフォームを作成および管理して、[!DNL Settings]の下の「メタデータForms] 」オプションのアセットの詳細画面で、ユーザーにメタデータのプロパティを表示するのに使用できます。 [!UICONTROL [メタデータフォーム](metadata.md#metadata-forms)を参照してください。
 * 多数のサブフォルダーを含むネストされたフォルダーをアップロードする際のパフォーマンスの向上など、様々なバグ修正と製品の改善がおこなわれました。
 
 ## 既知の問題 {#known-issues}
