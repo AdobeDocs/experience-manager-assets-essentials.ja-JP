@@ -2,10 +2,10 @@
 title: ' [!DNL Assets Essentials] の基本'
 description: ' [!DNL Assets Essentials] のアクセス方法、ログイン操作、サポートされているユースケース、既知の問題について説明します。'
 role: User, Leader
-source-git-commit: 6c050d55aadeffa59c989f5b8ff6fe67da0d4d86
+source-git-commit: 135832e18bdf7ae66f29638cf548088a83daee8d
 workflow-type: tm+mt
-source-wordcount: '467'
-ht-degree: 85%
+source-wordcount: '473'
+ht-degree: 84%
 
 ---
 
@@ -57,10 +57,11 @@ When logging in, after providing the credentials, you can be prompted to select 
 |-----|------|
 | アセットを追加するには | <ul> <li> [アセットのアップロード](/help/add-delete.md) </li> <li> [レンディション](/help/add-delete.md#renditions) </li> </ul> |
 | アセットや関連情報を更新するには | <ul> <li>既存のアセットの変更</li> <li>[バージョンの作成](/help/manage-organize.md#create-versions)と[バージョンの表示](/help/manage-organize.md#view-versions)</li> <li>[画像の編集](/help/edit-images.md)</li> </ul> |
-| アセットを検出するには | <ul> <li>[リポジトリーの参照](/help/navigate-view.md#view-assets-and-details) </li> <li> [アセットのプレビュー](/help/navigate-view.md#preview-assets)と[アセットのダウンロード](/help/manage-organize.md#download) </li> <li>[詳細なメタデータの表示](/help/metadata.md) </li> <li>[アセットの検索](/help/search.md)</li></ul> |
+| アセットを検出するには | <ul> <li>[リポジトリーの参照](/help/navigate-view.md#view-assets-and-details) </li> <li> [アセットのプレビュー](/help/navigate-view.md#preview-assets)と[アセットのダウンロード](/help/manage-organize.md#download) </li> <li>[アセットの検索](/help/search.md)</li></ul> |
 | リポジトリー内のアセットを編集するには | <ul> <li>[Adobe Photoshop Express を使用したブラウザー内編集](/help/edit-images.md)</li> <li>[ソーシャルメディアプロファイルの切り抜き](/help/edit-images.md#crop-straighten-images)</li> <li>[バージョンの表示と管理](/help/manage-organize.md#view-versions)</li> <li>[Adobe Asset Link](/help/integration.md#integrations) の使用</ul></ul> |
 | リポジトリー内のアセットを検索するには | <ul> <li>[特定のフォルダー内での検索](/help/search.md#refine-search-results)</li> <li>[保存済みの検索](/help/search.md#saved-search)</li> <li>[最近表示されたアセットの検索](/help/search.md)</li> <li>[フルテキスト検索](/help/search.md) |
 | 新しいアセットを追加するには | <ul> <li>[新しいアセットやフォルダーのアップロード](/help/add-delete.md#add-assets)</li> <li>[アップロードの進行状況の監視とアップロードの管理](/help/add-delete.md#upload-progress)</li> <li>[重複の解決](/help/add-delete.md#resolve-upload-fails)</li> </ul> |
+| メタデータ操作 | <ul> <li>[詳細なメタデータの表示](/help/metadata.md) </li> <li> [新しいメタデータフォームの作成](/help/metadata.md#metadata-forms) </li> </ul> |
 | [!DNL Assets Essentials] と他のソリューションの統合 | <ul> <li>[アセットセレクターの使用： [!DNL Adobe Journey Optimizer]](/help/integration.md)</li> <li>[[!DNL Adobe Asset Link] （ [!DNL Creative Cloud]](/help/integration.md) 用）</li> <li>[!DNL Creative Cloud Team] ライブラリとの統合</li> </ul> |
 
 <!--TBD: Merge in above table when these use cases are documented/available.
