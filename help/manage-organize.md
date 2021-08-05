@@ -3,10 +3,10 @@ title: デジタルアセットの管理
 description: ' [!DNL Assets Essentials] 内のアセットを移動、削除、コピー、名前変更、更新、バージョン管理について説明します。'
 role: User,Leader
 contentOwner: AG
-source-git-commit: 5bae37e18ac587aaacaa004e5ec02775888d7f9a
+source-git-commit: 9bff6e8570ca05f60844cfd84ef3e695e07ae27b
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '608'
+ht-degree: 97%
 
 ---
 
@@ -25,14 +25,11 @@ ht-degree: 0%
 * ![詳細アイコン](assets/do-not-localize/edit-in-icon.png) アセットをプレビューし、詳細なメタデータを表示します。プレビュー時に、バージョンを表示して画像を編集できます。
 * ![ダウンロードアイコン](assets/do-not-localize/download-icon.png) 選択したアセットをローカルファイルシステムにダウンロードします。
 * ![削除アイコン](assets/do-not-localize/delete-icon.png) 選択したアセットまたはフォルダーを削除します。
-* 
-
-   <!-- ![checkout icon](assets/do-not-localize/checkout-icon.png) --> Checkout an asset.
+* アセットのチェックアウト<!-- ![checkout icon](assets/do-not-localize/checkout-icon.png) -->
 * ![コピーアイコン](assets/do-not-localize/copy-icon.png) 選択したファイルまたはフォルダーをコピーします。
 * ![移動アイコン](assets/do-not-localize/move-icon.png) 選択したアセットまたはフォルダーをリポジトリー階層内の別の場所に移動します。
 * ![名前変更アイコン](assets/do-not-localize/rename-icon.png) 選択したアセットまたはフォルダーの名前を変更します。一意の名前を使用しないと、名前を変更しても警告が表示されて失敗します。その場合は、新しい名前でもう一度やり直すことができます。
-* 
-   <!-- ![assign task icon](assets/do-not-localize/assign-task-icon.png) --> Assign tasks to other users to collaborate on an asset.
+* 他のユーザーにタスクを割り当てて、アセットで共同作業する。<!-- ![assign task icon](assets/do-not-localize/assign-task-icon.png) -->
 
 アセットのサムネールにも同じオプションが表示されます。
 
