@@ -3,10 +3,10 @@ title: デジタルアセットの管理
 description: ' [!DNL Assets Essentials] 内のアセットを移動、削除、コピー、名前変更、更新、バージョン管理について説明します。'
 role: User,Leader
 contentOwner: AG
-source-git-commit: 3f8ba14c702fb3ee0df61aa503c9064c33f94794
+source-git-commit: eda2ba0d271310d0e87f904dc7622583a80d002e
 workflow-type: tm+mt
 source-wordcount: '614'
-ht-degree: 96%
+ht-degree: 95%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 96%
 
 ## アセットのダウンロードと配布 {#download}
 
-1 つ以上のアセットまたはフォルダー、またはその両方を選択し、選択したものをローカルファイルシステムにダウンロードできます。アセットを編集して再度アップロードするか、[!DNL Assets Essentials] の外部にアセットを配布することができます。また、アセットの](/help/add-delete.md#renditions)レンディションをダウンロード[することもできます。
+1 つ以上のアセットまたはフォルダー、またはその両方を選択し、選択したものをローカルファイルシステムにダウンロードできます。アセットを編集して再度アップロードするか、[!DNL Assets Essentials] の外部にアセットを配布することができます。また、アセットのレンディション](/help/add-delete.md#renditions)を[ダウンロードすることもできます。
 
 ## アセットのバージョン管理 {#versions-of-assets}
 

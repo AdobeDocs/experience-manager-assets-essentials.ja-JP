@@ -2,10 +2,10 @@
 title: ' [!DNL Assets Essentials] の基本'
 description: ' [!DNL Assets Essentials] のアクセス方法、ログイン操作、サポートされているユースケース、既知の問題について説明します。'
 role: User, Leader
-source-git-commit: 135832e18bdf7ae66f29638cf548088a83daee8d
+source-git-commit: eda2ba0d271310d0e87f904dc7622583a80d002e
 workflow-type: tm+mt
-source-wordcount: '473'
-ht-degree: 84%
+source-wordcount: '458'
+ht-degree: 76%
 
 ---
 
@@ -55,19 +55,21 @@ When logging in, after providing the credentials, you can be prompted to select 
 
 | ユーザータスク | 機能とハウツー情報 |
 |-----|------|
-| アセットを追加するには | <ul> <li> [アセットのアップロード](/help/add-delete.md) </li> <li> [レンディション](/help/add-delete.md#renditions) </li> </ul> |
-| アセットや関連情報を更新するには | <ul> <li>既存のアセットの変更</li> <li>[バージョンの作成](/help/manage-organize.md#create-versions)と[バージョンの表示](/help/manage-organize.md#view-versions)</li> <li>[画像の編集](/help/edit-images.md)</li> </ul> |
-| アセットを検出するには | <ul> <li>[リポジトリーの参照](/help/navigate-view.md#view-assets-and-details) </li> <li> [アセットのプレビュー](/help/navigate-view.md#preview-assets)と[アセットのダウンロード](/help/manage-organize.md#download) </li> <li>[アセットの検索](/help/search.md)</li></ul> |
-| リポジトリー内のアセットを編集するには | <ul> <li>[Adobe Photoshop Express を使用したブラウザー内編集](/help/edit-images.md)</li> <li>[ソーシャルメディアプロファイルの切り抜き](/help/edit-images.md#crop-straighten-images)</li> <li>[バージョンの表示と管理](/help/manage-organize.md#view-versions)</li> <li>[Adobe Asset Link](/help/integration.md#integrations) の使用</ul></ul> |
-| リポジトリー内のアセットを検索するには | <ul> <li>[特定のフォルダー内での検索](/help/search.md#refine-search-results)</li> <li>[保存済みの検索](/help/search.md#saved-search)</li> <li>[最近表示されたアセットの検索](/help/search.md)</li> <li>[フルテキスト検索](/help/search.md) |
-| 新しいアセットを追加するには | <ul> <li>[新しいアセットやフォルダーのアップロード](/help/add-delete.md#add-assets)</li> <li>[アップロードの進行状況の監視とアップロードの管理](/help/add-delete.md#upload-progress)</li> <li>[重複の解決](/help/add-delete.md#resolve-upload-fails)</li> </ul> |
-| メタデータ操作 | <ul> <li>[詳細なメタデータの表示](/help/metadata.md) </li> <li> [新しいメタデータフォームの作成](/help/metadata.md#metadata-forms) </li> </ul> |
-| [!DNL Assets Essentials] と他のソリューションの統合 | <ul> <li>[アセットセレクターの使用： [!DNL Adobe Journey Optimizer]](/help/integration.md)</li> <li>[[!DNL Adobe Asset Link] （ [!DNL Creative Cloud]](/help/integration.md) 用）</li> <li>[!DNL Creative Cloud Team] ライブラリとの統合</li> </ul> |
+| アセットの参照と表示 | <ul> <li>[リポジトリの参照](/help/navigate-view.md#view-assets-and-details) </li> <li> [アセットのプレビュー](/help/navigate-view.md#preview-assets) <li> [アセットのレンディションの表示](/help/add-delete.md#renditions) </li> <li>[アセットのバージョンの表示](/help/manage-organize.md#view-versions)</li></ul> |
+| 新しいアセットの追加 | <ul> <li>[新しいアセットやフォルダーのアップロード](/help/add-delete.md#add-assets)</li> <li>[アップロードの進行状況の監視とアップロードの管理](/help/add-delete.md#upload-progress)</li> <li>[重複の解決](/help/add-delete.md#resolve-upload-fails)</li> </ul> |
+| アセットまたは関連情報の更新 | <ul> <li>[画像の編集](/help/edit-images.md)</li> <li>[バージョンの作成](/help/manage-organize.md#create-versions)と[バージョンの表示](/help/manage-organize.md#view-versions)</li> <li>[画像の編集](/help/edit-images.md)</li> </ul> |
+| アセットの編集 | <ul> <li>[Adobe Photoshop Express を使用したブラウザー内編集](/help/edit-images.md)</li> <li>[ソーシャルメディアプロファイルの切り抜き](/help/edit-images.md#crop-straighten-images)</li> <li>[バージョンの表示と管理](/help/manage-organize.md#view-versions)</li> <li>[使用方法 [!DNL Adobe Asset Link]](/help/integration.md#integrations)</ul></ul> |
+| リポジトリ内のアセットの検索 | <ul> <li>[特定のフォルダー内での検索](/help/search.md#refine-search-results)</li> <li>[保存済みの検索](/help/search.md#saved-search)</li> <li>[最近表示されたアセットの検索](/help/search.md)</li> <li>[フルテキスト検索](/help/search.md) |
+| アセットのダウンロード | <ul> <li> [アセットのプレビュー](/help/navigate-view.md#preview-assets) </li> <li> [アセットのダウンロード](/help/manage-organize.md#download) <li> [レンディションのダウンロード](/help/add-delete.md#renditions) </li></ul> |
+| メタデータ操作 | <ul> <li>[詳細なメタデータの表示](/help/metadata.md) </li> <li> [メタデータの更新](/help/metadata.md#update-metadata)</li> <li> [新しいメタデータフォームの作成](/help/metadata.md#metadata-forms) </li> </ul> |
+| 他の ソリューションとの統合 | <ul> <li>[アセットセレクターの使用： [!DNL Adobe Journey Optimizer]](/help/integration.md)</li> <li>[[!DNL Adobe Asset Link] （ [!DNL Creative Cloud]](/help/integration.md) 用）</li> <li>[との統合 [!DNL Adobe Workfront]](/help/integration.md)</li> </ul> |
 
-<!--TBD: Merge in above table when these use cases are documented/available.
+<!--TBD: Merge the below rows in the table when the use cases are documented/available.
+
 | How do I delete assets? | <ul> <li>[Delete assets](/help/manage-organize.md)</li> <li>Recover deleted assets</li> <li>Permanently delete assets</li> </ul> |
 | How do I share assets or find shared assets? | <ul> <li>Shared by me</li> <li>Shared with me</li> <li>Share for comments and review</li> <li>Unshare assets</li> </ul> |
 | How do I collaborate with others and get my assets reviewed | <ul> <li>Share for review</li> <li>Provide comments. Resolve and filter comments</li> <li>Annotations on images</li> <li>Assign tasks to specific users and prioritize</li> </ul> |
+
 -->
 
 ## ![フィードバックアイコン](assets/do-not-localize/feedback-icon.png) 製品に関するフィードバックの提供 {#provide-feedback}
