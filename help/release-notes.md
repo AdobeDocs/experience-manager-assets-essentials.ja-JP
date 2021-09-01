@@ -3,17 +3,17 @@ title: リリースノート
 description: ' [!DNL Assets Essentials] のリリースノートと既知の問題'
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AG
-source-git-commit: eda2ba0d271310d0e87f904dc7622583a80d002e
+source-git-commit: 574ac781fc5c5dfdba0640b1032a50268947875d
 workflow-type: tm+mt
-source-wordcount: '290'
-ht-degree: 13%
+source-wordcount: '303'
+ht-degree: 10%
 
 ---
 
 
 # [!DNL Assets Essentials] のリリースノート  {#release-notes}
 
-[!DNL Assets Essentials]の現在のリリースは2021年8月30日にリリースされました。 [!DNL Adobe Workfront]との統合を提供し、[!DNL Workfront]ユーザーは、自分の作業を管理するコンテキストでデジタルアセットを管理できます。 [他のAdobeソリューションとの統合](/help/integration.md)を参照してください。
+[!DNL Assets Essentials]の現在のリリースは2021年8月30日にリリースされました。 [!DNL Adobe Workfront]との統合を提供し、[!DNL Workfront]ユーザーは、自分の作業を管理するコンテキストでデジタルアセットを管理できます。 詳しくは、[他のAdobeソリューションとの統合](/help/integration.md)を参照してください。
 
 このソリューションの詳細については、[の [!DNL Assets Essentials]](introduction.md)の紹介を参照してください。 この機能の使用を開始するには、[get started](/help/get-started.md)を参照してください。
 
@@ -46,4 +46,4 @@ ht-degree: 13%
 * アセット（ネストしたフォルダーを含む）をアップロードし追加する。アセットとバージョンをプレビューします。
 * フルテキスト検索、詳細検索フィルター、迅速にアセットを検出できる保存済みの検索。
 * メタデータの更新、削除、ダウンロード、管理など、基本的なアセット管理操作。
-* [!DNL Assets Essentials] はで使用できま [[!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/create-messages/assets-essentials.html?lang=ja)す。
+* [!DNL Assets Essentials] は、メッセージを作 [!DNL Adobe Journey Optimizer] 成する際にアセットを管理するために使用できます。詳しくは、[他のAdobeソリューションとの統合](/help/integration.md)を参照してください。

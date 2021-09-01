@@ -2,10 +2,10 @@
 title: ' [!DNL Assets Essentials] の基本'
 description: ' [!DNL Assets Essentials] のアクセス方法、ログイン操作、サポートされているユースケース、既知の問題について説明します。'
 role: User, Leader
-source-git-commit: eda2ba0d271310d0e87f904dc7622583a80d002e
+source-git-commit: 574ac781fc5c5dfdba0640b1032a50268947875d
 workflow-type: tm+mt
-source-wordcount: '458'
-ht-degree: 76%
+source-wordcount: '459'
+ht-degree: 73%
 
 ---
 
@@ -74,7 +74,7 @@ When logging in, after providing the credentials, you can be prompted to select 
 
 ## ![フィードバックアイコン](assets/do-not-localize/feedback-icon.png) 製品に関するフィードバックの提供 {#provide-feedback}
 
-アドビは、ソリューションに関するフィードバックを歓迎します。作業中のアプリケーションを切り替えずにフィードバックを提供するには、ユーザーインターフェイスで「[!UICONTROL フィードバック]」オプションを使用します。問題についてのスクリーンショットやビデオ録画などのファイルを添付することもできます。
+アドビは、ソリューションに関するフィードバックを歓迎します。作業中のアプリケーションを切り替えずにフィードバックを提供するには、ユーザーインターフェイスで「[!UICONTROL フィードバック]」オプションを使用します。また、スクリーンショットやイシューのビデオ録画などのファイルを添付することもできます。
 
 ![ユーザーインターフェイスの「フィードバック」オプション](assets/feedback-panel.png)
 
