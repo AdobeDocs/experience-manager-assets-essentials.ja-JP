@@ -2,9 +2,10 @@
 title: ' [!DNL Assets Essentials] の基本'
 description: ' [!DNL Assets Essentials] のアクセス方法、ログイン操作、サポートされているユースケース、既知の問題について説明します。'
 role: User, Leader
-source-git-commit: 574ac781fc5c5dfdba0640b1032a50268947875d
+exl-id: 7917b2a0-8340-4d94-aa6f-30ce986fa752
+source-git-commit: f2c6ea9d31cc6eccf46216b52de254ca88ba1079
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '457'
 ht-degree: 73%
 
 ---
@@ -25,7 +26,7 @@ ht-degree: 73%
 
 ## [!DNL Assets Essentials] へのアクセス権の取得  {#get-access}
 
-アドビは、ソリューションをプロビジョニングし、組織が指名した人物を管理者として追加します。管理者は、[[!DNL Admin Console]](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/welcome.ug.html) を使用して、組織の様々なユーザーにアクセス権を付与できます。アクセスに関するリクエストについては、組織の管理者に問い合わせてください。
+アドビは、ソリューションをプロビジョニングし、組織が指名した人物を管理者として追加します。管理者は、[[!DNL Admin Console]](https://helpx.adobe.com/jp/enterprise/using/admin-console.html) を使用して、組織の様々なユーザーにアクセス権を付与できます。アクセスに関するリクエストについては、組織の管理者に問い合わせてください。
 
 ## [!DNL Assets Essentials] の設定 {#configuration}
 
