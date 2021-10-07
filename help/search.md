@@ -3,9 +3,9 @@ title: ' [!DNL Assets Essentials] でのアセットの検索と検出'
 description: ' [!DNL Assets Essentials] でのアセットの検索と検出について説明します。'
 role: User
 source-git-commit: 5bae37e18ac587aaacaa004e5ec02775888d7f9a
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '389'
+ht-degree: 100%
 
 ---
 
