@@ -1,12 +1,12 @@
 ---
 title: アセットの更新または変更
-description: リポジトリーに存在するアセットの更新
+description: リポジトリに存在するアセットの更新
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AG
 source-git-commit: a1dc66213f602bce5b5a2ec0ba99084c7f7b1ee1
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '39'
+ht-degree: 100%
 
 ---
 
@@ -24,6 +24,6 @@ Link to versioning once an asset is updated.
 >[!MORELIKETHIS]
 >
 >* [画像の編集](edit-images.md)
-* [アセットのバージョンの表示](navigate-view.md#view-versions)
-* [アセットの削除](manage-organize.md#delete-assets)
+>* [アセットのバージョンの表示](navigate-view.md#view-versions)
+>* [アセットの削除](manage-organize.md#delete-assets)
 
