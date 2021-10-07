@@ -1,111 +1,111 @@
 ---
-title: ユーザーのデプロイと管理
-description: ' [!DNL Assets Essentials]でのデプロイメントやユーザー管理など、管理の使用例。'
+title: デプロイとユーザー管理
+description: ' [!DNL Assets Essentials] でのデプロイメントやユーザー管理など、管理に関するユースケースについて説明します。'
 role: Admin
 source-git-commit: a1dc66213f602bce5b5a2ec0ba99084c7f7b1ee1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '887'
-ht-degree: 2%
+ht-degree: 100%
 
 ---
 
 
-# [!DNL Assets Essentials]をデプロイし、ユーザーを追加します {#administer}
+# [!DNL Assets Essentials] のデプロイとユーザーの追加 {#administer}
 
-[!DNL Adobe Experience Manager Assets Essentials] は、お客様向けにAdobeでプロビジョニングされます。プロビジョニングの一環として、[!DNL Assets Essentials]が[!DNL Adobe Admin Console]の顧客の組織に追加されます。 また、お客様は、デプロイメントツールとして[!DNL Experience Manager Cloud Manager]にアクセスし、[!DNL Assets Essentials]ソリューションに対するユーザーの使用権限を管理するために[!DNL Admin Console]にアクセスすることもできます。
+[!DNL Adobe Experience Manager Assets Essentials] は、アドビのお客様向けにアドビによってプロビジョニングされます。プロビジョニングの一環として、[!DNL Adobe Admin Console] でお客様の組織に [!DNL Assets Essentials] が追加されます。また、お客様は、デプロイメントツールとしての [!DNL Experience Manager Cloud Manager] や、[!DNL Assets Essentials] ソリューションに対するユーザーの使用権限を管理する [!DNL Admin Console] にアクセスできます。
 
-管理者は、次のタスクを実行します。
+管理者は次のタスクを実行します。
 
-* [ [!DNL Assets Essentials]](#deploy-essentials) 組織にデプロイします。
-* [に対する組織メン](#add-users-to-essentials) バーのユーザーアクセスを管理 [!DNL Assets Essentials]します。
-* 必要に応じて、[サービスのステータスとログ](#view-logs)を表示します。
+* 組織への [ [!DNL Assets Essentials]](#deploy-essentials) のデプロイ
+* 組織のメンバーの [!DNL Assets Essentials] に対する[ユーザーアクセスの管理](#add-users-to-essentials)
+* （オプション）[サービスステータスとログの確認](#view-logs)
 
-## デプロイ [!DNL Assets Essentials] {#deploy-essentials}
+## [!DNL Assets Essentials] のデプロイ {#deploy-essentials}
 
-プロビジョニング後、[!DNL Assets Essentials]の権限が[!DNL Admin Console]の組織に追加されます。 ソリューションをユーザーが使用できるようにするには、組織管理者がデプロイする必要があります。 管理者は、[!DNL Cloud Manager]ユーザーインターフェイスを使用して1回限りのデプロイメントをおこないます。 最初のデプロイメント後、Adobeはサービスのメンテナンスと更新をおこないます。 ソリューションがプロビジョニングされると、管理者がAdobeから電子メールを受け取ります。 この電子メールには、使い始めるためのお知らせメッセージとリンクが含まれています。 をデプロイするには、次の手順に従います。
+プロビジョニング後に [!DNL Admin Console] で [!DNL Assets Essentials] の使用権限が組織に追加されます。このソリューションをユーザーが使用できるようにするには、組織の管理者がソリューションをデプロイする必要があります。管理者は、[!DNL Cloud Manager] ユーザーインターフェイスを使用して 1 回限りのデプロイメントを行います。初期デプロイ後、サービスのメンテナンスと更新はアドビによって行われます。ソリューションがプロビジョニングされると、アドビから電子メールが管理者に届きます。この電子メールには、歓迎メッセージと使用を開始するためのリンクが含まれています。デプロイするには、次の手順に従います。
 
-1. 電子メール内のリンクから、[Admin Console](https://adminconsole.adobe.com)にアクセスしてログインします。 複数の組織アカウントに対する管理者アクセス権を持っている場合は、適切な組織を選択するか、上部のバーにある切り替えボタンを使用して組織に切り替えます。 [!DNL Assets Essentials]の製品カードは[!DNL Admin Console]に表示されます。
+1. 電子メールに記載されたリンクから、[Admin Console](https://adminconsole.adobe.com) にアクセスしてログインします。複数の組織アカウントに管理者としてアクセスできる場合は、該当する組織を選択するか、上部のバーにある切り替えボタンを使用して組織を切り替えます。[!DNL Assets Essentials] の製品カードが [!DNL Admin Console] に表示されます。
 
-   ![[!DNL Assets Essentials] カード  [!DNL Admin Console]](assets/essentials-in-admin-console.png)
+   ![[!DNL Assets Essentials] カード：[!DNL Admin Console]](assets/essentials-in-admin-console.png)
 
-   *図： [!DNL Assets Essentials] カードを挿入しま [!DNL Admin Console]す。*
+   *図：[!DNL Admin Console] の [!DNL Assets Essentials] カード*
 
-1. [!DNL Admin Console]の`AEM Assets Essentials - Cloud Manager`製品プロファイルに管理者として自分を追加します。 自分ではなく、組織の別のメンバーを追加することも、複数の管理者を追加することもできます。
+1. [!DNL Admin Console] で `AEM Assets Essentials - Cloud Manager` 製品プロファイルに自分自身を管理者として追加します。自分自身ではなく、組織の別のメンバーを追加することもできますし、複数の管理者を追加することもできます。
 
-1. ![追加アイコン](assets/do-not-localize/add-icon.svg)をクリックして[!UICONTROL 製品プロファイル]を選択し、**[!UICONTROL 製品プロファイル]**&#x200B;として[!UICONTROL デプロイメントマネージャー — Assets Essentials]を選択します。 この手順で追加されたユーザーは、[!DNL Cloud Manager]へのアクセス権を持つAdobeから電子メールを受け取り、デプロイを実行できます。
+1. 「[!UICONTROL 製品プロファイルを選択]」で ![追加アイコン](assets/do-not-localize/add-icon.svg) アイコンをクリックしたあと、**[!UICONTROL 製品プロファイル]**&#x200B;として「[!UICONTROL デプロイメントマネージャー - Assets Essentials]」を選択します。この手順で追加されたユーザーが、[!DNL Cloud Manager] へのアクセス情報を記載した電子メールをアドビから受け取り、デプロイメントを行うことができます。
 
-   ![管理者の追加と、  [!DNL Admin Console]](assets/adminconsole-user1.png)
+   ![管理者の追加と製品プロファイルの選択：[!DNL Admin Console]](assets/adminconsole-user1.png)
 
-   *図：管理者を追加し、で製品プロファイルを選択しま [!DNL Admin Console]す。*
+   *図：[!DNL Admin Console] での管理者の追加と製品プロファイルの選択*
 
-1. [!DNL Cloud Manager]にアクセスするには、電子メール内の[!DNL Cloud Manager]へのアクセス権を持つリンクをクリックします。 または、ブラウザーで[https://experience.adobe.com/#/cloud-manager/](https://experience.adobe.com/#/cloud-manager/)にアクセスします。
+1. [!DNL Cloud Manager] にアクセスするには、[!DNL Cloud Manager] へのアクセス情報が記載された電子メール内のリンクをクリックします。または、ブラウザーで [https://experience.adobe.com/#/cloud-manager/](https://experience.adobe.com/#/cloud-manager/) にアクセスします。
 
-1. Cloud Managerのユーザーインターフェイスで、右上隅の「**[!UICONTROL プログラムを追加]**」をクリックします。
+1. Cloud Manager のユーザーインターフェイスで、右上隅の「**[!UICONTROL プログラムの追加]**」をクリックします。
 
-1. 任意の名前を指定し、オプションで画像をアップロードし（[!DNL Cloud Manager]内のプログラムを表す）、「**[!UICONTROL 作成]**」をクリックします。 [!DNL Cloud Manager] プログラムの設定には数分かかります。
+1. 任意の名前を指定して、オプションで画像（[!DNL Cloud Manager] 内のプログラムを表す）をアップロードし、「**[!UICONTROL 作成]**」をクリックします。[!DNL Cloud Manager] でのプログラムのセットアップに数分かかります。
 
-1. プログラムの準備が整ったら、タイルの上にポインターを置き、![環境を追加アイコン](assets/do-not-localize/add-environment-icon.png)をクリックします。
+1. プログラムの準備が整ったら、タイルの上にポインターを置き、![環境を追加アイコン](assets/do-not-localize/add-environment-icon.png) アイコンをクリックします。
 
-1. [!DNL Assets Essentials]サービスを組織に追加するには、「**[!UICONTROL 環境を追加]**」をクリックし、名前とデプロイメント領域を選択して、「**[!UICONTROL 保存]**」をクリックします。 後で配置領域を変更することはできません。 [!DNL Assets Essentials]のデプロイメント領域と、[!DNL Assets Essentials]を使用する他のソリューションのデプロイメント領域を一致させてください。 一致は、デジタルアセットへの最速のネットワークアクセスと、可能な限り短い待ち時間を確保するためです。
+1. [!DNL Assets Essentials] サービスを組織に追加するには、「**[!UICONTROL 環境を追加]**」をクリックし、名前とデプロイメント領域を選択して、「**[!UICONTROL 保存]**」をクリックします。デプロイメント領域を後で変更することはできません。[!DNL Assets Essentials] のデプロイメント領域を、[!DNL Assets Essentials] の使用対象となる他のソリューションのデプロイメント領域と一致させるようにしてください。両者を一致させることにより、デジタルアセットへのネットワークアクセスを可能な限り速くし、待ち時間を可能な限り短くすることができます。
 
-   ![での環境の追加  [!DNL Cloud Manager]](assets/cloudmanager-add-environment-for-essentials.png)
+   ![環境の追加：[!DNL Cloud Manager]](assets/cloudmanager-add-environment-for-essentials.png)
 
-   *図：で環境を追加して、 [!DNL Cloud Manager] の使用を開始しま [!DNL Assets Essentials]す。*
+   *図：[!DNL Assets Essentials] の使用を開始するための環境を [!DNL Cloud Manager] で追加*
 
-1. 数分後に、環境が正常に作成されたら、[!DNL Admin Console]にアクセスし、組織のユーザーを[!DNL Assets Essentials]ソリューションに追加できます。 ![オプションアイコン](assets/do-not-localize/options-ellipses-icon.png)をクリックし、「**[!UICONTROL アクセスを管理]**」オプションを選択します。
+1. 数分後、環境が正常に作成されたら、[!DNL Admin Console] にアクセスし、組織のユーザーを [!DNL Assets Essentials] ソリューションに追加できます。![オプションアイコン](assets/do-not-localize/options-ellipses-icon.png) アイコンをクリックし、「**[!UICONTROL アクセスを管理]**」オプションを選択します。
 
-   ![での環境の準備  [!DNL Cloud Manager]](assets/cloudmanager-manage-access-essentials.png)
+   ![環境の準備：[!DNL Cloud Manager]](assets/cloudmanager-manage-access-essentials.png)
 
-   *図：使用でき [!DNL Cloud Manager] る環境。*
+   *図：使用する準備ができた [!DNL Cloud Manager] 内の環境*
 
 ## ユーザー管理 {#add-users-to-essentials}
 
-管理者は、[!DNL Assets Essentials]にアクセスできるユーザーを管理します。 管理者は、[!DNL Adobe Admin Console]を使用してユーザーアクセスを追加または削除します。 [!DNL Assets Essentials] には、次の2種類のユーザーアクセスが可能です。
+管理者は、[!DNL Assets Essentials] にアクセスできるユーザーを管理します。管理者は、[!DNL Adobe Admin Console] を使用してユーザーアクセスを追加または削除します。[!DNL Assets Essentials] では、次の 2 種類のユーザーアクセスが利用可能です。
 
-* **[!DNL Assets Essentials]** ユーザーは完全なユーザーインターフェイスにアクセスできます。これらのユーザーは、デジタルアセットをアップロード、整理、タグ付け、検索できます。
-* **[!DNL Assets Essentials]消費者ユーザー**:電子メールテンプレートエディターの埋め込みアセット選択エクスペ [!DNL Adobe Journey Optimizer] リエンスにアクセスできます。詳しくは、[ [!DNL Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/create-messages/assets-essentials.html)で [!DNL Assets Essentials] を使用を参照してください。
+* **[!DNL Assets Essentials]ユーザー**：完全なユーザーインターフェイスにアクセスできます。デジタルアセットのアップロード、整理、タグ付け、検索が可能です。
+* **[!DNL Assets Essentials]Consumer ユーザー**：[!DNL Adobe Journey Optimizer] 電子メールテンプレートエディターの埋め込みアセット選択エクスペリエンスにアクセスできます。詳しくは、[ [!DNL Journey Optimizer] での  [!DNL Assets Essentials]  使用](https://experienceleague.adobe.com/docs/journey-optimizer/using/create-messages/assets-essentials.html?lang=ja)を参照してください。
 
-[!DNL Admin Console]では、これら2つのアクセスタイプは2つの[!UICONTROL 製品プロファイル]で表されます。 組織のメンバーを2つのプロファイルのいずれかに追加または削除するには、次の手順に従います。
+[!DNL Admin Console] では、これら 2 つのアクセスタイプは 2 つの[!UICONTROL 製品プロファイル]で表されます。組織のメンバーを 2 つのプロファイルのいずれかに追加またはいずれかから削除するには、次の手順に従います。
 
-1. 組織の[!DNL Admin Console]にアクセスし、上部のバーの「**[!UICONTROL 製品]**」をクリックし、「**[!UICONTROL AEM Assets Essentials]**」をクリックして、「[!DNL Assets Essentials]環境」をクリックします。 [!DNL Assets Essentials] には、通常のユーザーと消費者のユーザーのアクセスを表す2つの製品プロファイルがあります。
+1. 組織の [!DNL Admin Console] にアクセスし、上部のバーで「**[!UICONTROL 製品]**」をクリックし、「**[!UICONTROL AEM Assets Essentials]**」をクリックして、[!DNL Assets Essentials] 環境をクリックします。[!DNL Assets Essentials] には、通常のユーザーと消費者ユーザー用のアクセスを表す 2 つの製品プロファイルがあります。
 
-   ![2種類のユーザーに対する2つのプロファイル](assets/adminconsole-user-types.png)
+   ![2 種類のユーザーに対応する 2 つのプロファイル](assets/adminconsole-user-types.png)
 
-   *図：2種類のユーザーを追加するには、2つのプロファイルを使用できます。*
+   *図：2 種類のユーザーの追加に使用できる 2 つのプロファイル*
 
-1. ユーザーをグループに追加するには、グループをクリックし、「**[!UICONTROL ユーザーを追加]**」を選択し、ユーザーの詳細を入力して、「**[!UICONTROL 保存]**」をクリックします。 ユーザーを追加すると、開始を求める電子メールがユーザーに送信されます。 [!DNL Admin Console]の製品プロファイル設定で、Eメールの招待状を無効にできます。
+1. ユーザーをグループに追加するには、該当するグループをクリックし、「**[!UICONTROL ユーザーを追加]**」を選択し、ユーザーの詳細を入力して、「**[!UICONTROL 保存]**」をクリックします。ユーザーを追加すると、使用を開始するための招待メールがそのユーザーに届きます。招待メールは、[!DNL Admin Console] の製品プロファイル設定で無効にすることができます。
 
-   ![ユーザーの追加先  [!DNL Assets Essentials]](assets/adminconsole-add-user.png)
+   ![ユーザーの追加：[!DNL Assets Essentials]](assets/adminconsole-add-user.png)
 
-   *図：からにユーザーを追 [!DNL Assets Essentials] 加しま [!DNL Admin Console]す。*
+   *図：[!DNL Admin Console] から [!DNL Assets Essentials] へのユーザーの追加*
 
-1. グループからユーザーを削除するには、グループをクリックし、既存のユーザーを選択して、「**[!UICONTROL ユーザーを削除]**」を選択します。
+1. ユーザーをグループから削除するには、該当するグループをクリックし、既存のユーザーを選択して、「**[!UICONTROL ユーザーを削除]**」を選択します。
 
 >[!TIP]
 >
->[!DNL Admin Console]では、CSVファイルを使用してユーザーを一括で管理できます。 詳しくは、[[!DNL Admin Console] ドキュメント](https://helpx.adobe.com/enterprise/using/accounts.html)を参照してください。
+>[!DNL Admin Console] では、CSV ファイルを使用してユーザーを一括で管理できます。詳しくは、[[!DNL Admin Console]  のドキュメント](https://helpx.adobe.com/jp/enterprise/using/accounts.html)を参照してください。
 
-## サービスステータスとアクセスログの表示 {#view-logs}
+## サービスステータスとアクセスログの確認 {#view-logs}
 
-プロビジョニング後、管理者は[!DNL Assets Essentials]を1回だけデプロイします。 最初のデプロイメント後、Adobeはサービスのメンテナンスと更新をおこないます。 管理者は、[!DNL Cloud Manager]ユーザーインターフェイスを使用して、サービスのステータスを確認し、最近のアクセスログをダウンロードできます。
+プロビジョニング後、管理者は [!DNL Assets Essentials] を 1 回だけデプロイします。初期デプロイ後、サービスのメンテナンスと更新はアドビによって行われます。管理者は、[!DNL Cloud Manager] ユーザーインターフェイスを使用して、サービスステータスを確認したり、最近のアクセスログをダウンロードしたりできます。
 
-1. ユーザーが問題を報告したら、**[!UICONTROL プログラムの概要]**&#x200B;インターフェイスで[!DNL Assets Essentials]のサービスステータスを確認します。 ソリューションの通常の動作時のステータスは`Running`です。 [!DNL Cloud Manager]にその他のステータスが表示された場合は、[!DNL Admin Console]サポートセクションでサポートチケットを作成します。
+1. ユーザーから問題が報告された場合は、**[!UICONTROL プログラムの概要]**&#x200B;インターフェイスで [!DNL Assets Essentials] のサービスステータスを確認します。ソリューションの通常動作時のステータスは「`Running`」です。その他のステータスが [!DNL Cloud Manager] に表示された場合は、[!DNL Admin Console] のサポートセクションでサポートチケットを作成します。
 
-   ![のステー [!DNL Assets Essentials] タス  [!DNL Cloud Manager]](assets/cloudmanager-manage-access-essentials.png)
+   ![[!DNL Assets Essentials] のステータス：[!DNL Cloud Manager]](assets/cloudmanager-manage-access-essentials.png)
 
-   *図：の通常のステー [!DNL Assets Essentials] タスは [!DNL Cloud Manager] で `Running`す。*
+   *図：[!DNL Cloud Manager] での [!DNL Assets Essentials] の通常ステータスは「`Running`」です。*
 
-1. 最近のアクセスログをダウンロードするには、![オプションアイコン](assets/do-not-localize/options-ellipses-icon.png)をクリックし、**[!UICONTROL ログをダウンロード]**&#x200B;を選択して、画面の指示に従います。 ログを使用してHTTPSアクセス要求を監査できます。
+1. 最近のアクセスログをダウンロードするには、![オプションアイコン](assets/do-not-localize/options-ellipses-icon.png) アイコンをクリックし、「**[!UICONTROL ログをダウンロード]**」を選択して、画面の指示に従います。ログを使用して HTTPS アクセスリクエストを監査できます。
 
-   ![ アクセスログをダウンロードするオプション](assets/cloudmanager-download-logs.png)
+   ![アクセスログをダウンロードするためのオプション](assets/cloudmanager-download-logs.png)
 
-   *図：アクセスログをダウンロードするオプション。*
+   *図：アクセスログをダウンロードするためのオプション*
 
 >[!MORELIKETHIS]
 >
->* [[!DNL Admin Console] help](https://helpx.adobe.com/enterprise/using/admin-console.html)
->* [[!DNL Cloud Manager] help](https://experienceleague.adobe.com/docs/experience-manager-cloud-manager/using/introduction-to-cloud-manager.html?lang=ja)
->* [Adobe Journey Optimizerドキュメント](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home.html)
+>* [[!DNL Admin Console]  のヘルプ](https://helpx.adobe.com/jp/enterprise/using/admin-console.html)
+>* [[!DNL Cloud Manager]  のヘルプ](https://experienceleague.adobe.com/docs/experience-manager-cloud-manager/using/introduction-to-cloud-manager.html?lang=ja)
+>* [Adobe Journey Optimizer のドキュメント](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home.html?lang=ja)
 >* [リリースノート](release-notes.md)
-* [ [!DNL Assets Essentials]の使用を開始する](get-started.md)
+>*  [!DNL Assets Essentials] の基本 [!DNL Assets Essentials]](get-started.md)
 
