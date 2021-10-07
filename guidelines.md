@@ -1,8 +1,8 @@
 ---
-source-git-commit: 0dd6f278a75668c3ceafa2ad8d9d232bcecd56ba
-workflow-type: ht
+source-git-commit: 15070ea99308741242b43206ed69cf1dbddca890
+workflow-type: tm+mt
 source-wordcount: '719'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 # [!DNL Adobe Experience Manager] ドキュメントへの投稿に関するガイドライン
@@ -37,9 +37,9 @@ ht-degree: 100%
 
 [!DNL Experience Manager] ドキュメントの改善に役立つアイデアの投稿を歓迎します。ただし、コメント、問題報告（イシュー）および変更修正依頼（プル要求）は、*投稿*&#x200B;専用です。これらを、[!DNL Experience Manager] の使用方法、[!DNL Experience Manager] プロジェクトの実装方法、技術的な問題の解決方法についての質問に回答するために使用することはできません。
 
-[!DNL Experience Manager] の使用方法や技術的な問題に関して質問がある場合は、[[!DNL Experience Cloud]  サポートポータル](https://experienceleague.adobe.com/?support-solution=Experience+Manager&amp;lang=ja#support)の通常のサポートプロセスを通じて報告したり、[Adobe Experience Manager コミュニティ](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community)でディスカッションしたりする必要があります。
+[!DNL Experience Manager] の使用方法や技術的な問題に関して質問がある場合は、[[!DNL Experience Manager]  サポートポータル](https://experienceleague.adobe.com/?support-solution=Experience+Manager&amp;lang=ja#support)の通常のサポートプロセスを通じて報告したり、[Adobe Experience Manager コミュニティ](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community)でディスカッションしたりする必要があります。
 
-***[!DNL Experience Manager]ドキュメントへの投稿は、アドビのサポートに代わるものではありません。***&#x200B;サポート関連の質問に対する回答を求めるような投稿は拒否されます。
+***[!DNL Experience Manager]ドキュメントへの投稿は、Adobeカスタマーサ*** ポートの代わりとなるものではありません。サポート関連の質問に対する回答を求めるような投稿は拒否されます。
 
 ### 投稿は、影響を受けるドキュメントページを明確に参照する必要があります。
 
