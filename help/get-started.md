@@ -6,7 +6,7 @@ exl-id: 7917b2a0-8340-4d94-aa6f-30ce986fa752
 source-git-commit: f2c6ea9d31cc6eccf46216b52de254ca88ba1079
 workflow-type: tm+mt
 source-wordcount: '457'
-ht-degree: 73%
+ht-degree: 85%
 
 ---
 
@@ -18,13 +18,13 @@ ht-degree: 73%
 
 * **手順 1**：アセットを[アップロード](/help/add-delete.md)し[表示](/help/navigate-view.md)する。
 * **手順 2**：アセットを[検索](/help/search.md)し[ダウンロード](/help/manage-organize.md#download)する。
-* **手順3**: [アセットを管](/help/manage-organize.md) 理および整理します。
+* **手順 3**: [アセットを管](/help/manage-organize.md) 理および整理します。
 
-[!DNL Assets Essentials] を使用するには、[https://experience.adobe.com/#/assets](https://experience.adobe.com/#/assets) でログインします。ログイン時に、「`Company or School Account`」を選択します。 アクセス権を受け取るには、組織の管理者に問い合わせてください。
+[!DNL Assets Essentials] を使用するには、[https://experience.adobe.com/#/assets](https://experience.adobe.com/#/assets) でログインします。ログイン時に、`Company or School Account` を選択します。 アクセス権を受け取るには、組織の管理者に問い合わせてください。
 
 さらに、[ユーザーインターフェイスについて](/help/navigate-view.md)、[ユースケース一覧](#use-cases)、<!-- TBD: [supported file types](/help/supported-file-formats.md), -->[既知の問題](/help/release-notes.md#known-issues)も参考になります。
 
-## [!DNL Assets Essentials] へのアクセス権の取得  {#get-access}
+## [!DNL Assets Essentials] へのアクセス権の取得 {#get-access}
 
 アドビは、ソリューションをプロビジョニングし、組織が指名した人物を管理者として追加します。管理者は、[[!DNL Admin Console]](https://helpx.adobe.com/jp/enterprise/using/admin-console.html) を使用して、組織の様々なユーザーにアクセス権を付与できます。アクセスに関するリクエストについては、組織の管理者に問い合わせてください。
 
@@ -62,7 +62,7 @@ When logging in, after providing the credentials, you can be prompted to select 
 | アセットの編集 | <ul> <li>[Adobe Photoshop Express を使用したブラウザー内編集](/help/edit-images.md)</li> <li>[ソーシャルメディアプロファイルの切り抜き](/help/edit-images.md#crop-straighten-images)</li> <li>[バージョンの表示と管理](/help/manage-organize.md#view-versions)</li> <li>[使用方法 [!DNL Adobe Asset Link]](/help/integration.md#integrations)</ul></ul> |
 | リポジトリ内のアセットの検索 | <ul> <li>[特定のフォルダー内での検索](/help/search.md#refine-search-results)</li> <li>[保存済みの検索](/help/search.md#saved-search)</li> <li>[最近表示されたアセットの検索](/help/search.md)</li> <li>[フルテキスト検索](/help/search.md) |
 | アセットのダウンロード | <ul> <li> [アセットのプレビュー](/help/navigate-view.md#preview-assets) </li> <li> [アセットのダウンロード](/help/manage-organize.md#download) <li> [レンディションのダウンロード](/help/add-delete.md#renditions) </li></ul> |
-| メタデータ操作 | <ul> <li>[詳細なメタデータの表示](/help/metadata.md) </li> <li> [メタデータの更新](/help/metadata.md#update-metadata)</li> <li> [新しいメタデータフォームの作成](/help/metadata.md#metadata-forms) </li> </ul> |
+| メタデータ操作 | <ul> <li>[詳細なメタデータの表示](/help/metadata.md) </li> <li> [メタデータを更新](/help/metadata.md#update-metadata)</li> <li> [新しいメタデータフォームの作成](/help/metadata.md#metadata-forms) </li> </ul> |
 | 他の ソリューションとの統合 | <ul> <li>[アセットセレクターの使用： [!DNL Adobe Journey Optimizer]](/help/integration.md)</li> <li>[[!DNL Adobe Asset Link] （ [!DNL Creative Cloud]](/help/integration.md) 用）</li> <li>[との統合 [!DNL Adobe Workfront]](/help/integration.md)</li> </ul> |
 
 <!--TBD: Merge the below rows in the table when the use cases are documented/available.
@@ -79,10 +79,10 @@ When logging in, after providing the credentials, you can be prompted to select 
 
 ![ユーザーインターフェイスの「フィードバック」オプション](assets/feedback-panel.png)
 
-ドキュメントに関するフィードバックを提供するには、[!UICONTROL Edit this page] ![edit the page](assets/do-not-localize/edit-page.png)または[!UICONTROL Log an issue] ![GitHub issue](assets/do-not-localize/github-issue.png)を右側のサイドバーから作成をクリックします。 次のいずれかを実行できます。
+ドキュメントに関するフィードバックを提供するには、右側のサイドバーで[!UICONTROL ページ編集]アイコン（![ページの編集](assets/do-not-localize/edit-page.png)）または[!UICONTROL 問題登録]アイコン（![GitHub イシューの作成](assets/do-not-localize/github-issue.png)）をクリックします。次のいずれかを行うことができます。
 
-* コンテンツを更新し、GitHubプル要求を送信します。
-* GitHubでイシューまたはチケットを作成します。 イシューを作成する際に、自動的に入力された記事名を保持します。
+* コンテンツを更新し GitHub プルリクエストを送信する。
+* GitHub でイシューまたはチケットを作成する。イシューを作成する際は、自動入力された記事名をメモしておきます。
 
 >[!MORELIKETHIS]
 >

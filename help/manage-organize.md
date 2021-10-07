@@ -3,13 +3,13 @@ title: デジタルアセットの管理
 description: ' [!DNL Assets Essentials] 内のアセットを移動、削除、コピー、名前変更、更新、バージョン管理について説明します。'
 role: User,Leader
 contentOwner: AG
-source-git-commit: eda2ba0d271310d0e87f904dc7622583a80d002e
+exl-id: b01e98b9-0cc2-47c5-9f5b-79b8e6bef39f
+source-git-commit: cd7af0c946a042430e62528fa6aa19bdab139f67
 workflow-type: tm+mt
 source-wordcount: '614'
 ht-degree: 95%
 
 ---
-
 
 # アセットの管理 {#manage-assets}
 
@@ -27,9 +27,9 @@ ht-degree: 95%
 * ![削除アイコン](assets/do-not-localize/delete-icon.png) 選択したアセットまたはフォルダーを削除します。
 * ![チェックア](assets/do-not-localize/checkout-icon.png) ウトアイコン選択したアセットをチェックアウトします。
 * ![コピーアイコン](assets/do-not-localize/copy-icon.png) 選択したファイルまたはフォルダーをコピーします。
-* ![移動アイコン](assets/do-not-localize/move-icon.png) 選択したアセットまたはフォルダーをリポジトリー階層内の別の場所に移動します。
+* ![移動アイコン](assets/do-not-localize/move-icon.png) 選択したアセットまたはフォルダーをリポジトリ階層内の別の場所に移動します。
 * ![名前変更アイコン](assets/do-not-localize/rename-icon.png) 選択したアセットまたはフォルダーの名前を変更します。一意の名前を使用しないと、名前を変更しても警告が表示されて失敗します。その場合は、新しい名前でもう一度やり直すことができます。
-* ![タスクの割り当](assets/do-not-localize/review-delegate-icon.png) てアイコン他のユーザーへのタスクの割り当てにより、アセットで共同作業を行うことができます。
+* ![タスクの割り当](assets/do-not-localize/review-delegate-icon.png) てアイコン他のユーザーへのタスクの割り当てにより、アセットで共同作業を行います。
 
 アセットのサムネールにも同じオプションが表示されます。
 
@@ -47,7 +47,7 @@ ht-degree: 95%
 
 ## アセットのダウンロードと配布 {#download}
 
-1 つ以上のアセットまたはフォルダー、またはその両方を選択し、選択したものをローカルファイルシステムにダウンロードできます。アセットを編集して再度アップロードするか、[!DNL Assets Essentials] の外部にアセットを配布することができます。また、アセットのレンディション](/help/add-delete.md#renditions)を[ダウンロードすることもできます。
+1 つ以上のアセットまたはフォルダー、またはその両方を選択し、選択したものをローカルファイルシステムにダウンロードできます。アセットを編集して再度アップロードするか、[!DNL Assets Essentials] の外部にアセットを配布することができます。また、アセットのレンディション ](/help/add-delete.md#renditions) を [ ダウンロードすることもできます。
 
 ## アセットのバージョン管理 {#versions-of-assets}
 
@@ -68,7 +68,7 @@ TBD: query for engineering: How many versions are maintained. What happens when 
 
    *図：編集した画像をバージョンとして保存*
 
-* 既存のアセットのバージョンを開く。「**[!UICONTROL 新しいバージョン]**」をクリックし、アセットの新しいバージョンをリポジトリーにアップロードします。
+* 既存のアセットのバージョンを開く。「**[!UICONTROL 新しいバージョン]**」をクリックし、アセットの新しいバージョンをリポジトリにアップロードします。
 
    ![アセットの新しいバージョンをバージョン履歴からアップロードするオプション](assets/view-asset-versions2.png)
 
