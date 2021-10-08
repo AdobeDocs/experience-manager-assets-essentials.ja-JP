@@ -107,5 +107,5 @@ ht-degree: 100%
 >* [[!DNL Cloud Manager]  のヘルプ](https://experienceleague.adobe.com/docs/experience-manager-cloud-manager/using/introduction-to-cloud-manager.html?lang=ja)
 >* [Adobe Journey Optimizer のドキュメント](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home.html?lang=ja)
 >* [リリースノート](release-notes.md)
->*  [!DNL Assets Essentials] の基本 [!DNL Assets Essentials]](get-started.md)
+>* [[!DNL Assets Essentials] の基本](get-started.md)
 
