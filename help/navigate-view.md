@@ -3,10 +3,10 @@ title: '[!DNL Assets Essentials] ユーザーインターフェイス'
 description: ' [!DNL Assets Essentials] のユーザーインターフェイスとナビゲーションについて説明します。'
 role: User
 exl-id: 534a8084-88f7-410e-b872-719e47e62b10
-source-git-commit: cd7af0c946a042430e62528fa6aa19bdab139f67
-workflow-type: ht
-source-wordcount: '518'
-ht-degree: 100%
+source-git-commit: 94467e029615514942f429069c0eb7248f44bab5
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -91,11 +91,16 @@ ht-degree: 100%
 *K：より詳細なプレビュー。ズーム、全画面表示、その他のオプション。*
 *L：フォルダーレベルに戻らずに、現在のフォルダー内の前または次のアセットに進みます。*
 
+また、ビデオをプレビューすることもできます。
+
+![ビデオプレビュー](/help/assets/preview-video.png)
+
+アセットを明示的にプレビューする場合は、 [!DNL Assets Essentials] 最近表示したアセットとして表示します。
+
 <!-- TBD: Describe the options.
 
 Explicitly previewed assets are displayed as recently viewed assets. Give screenshot of this.
 Other use cases after previewing.
-
 -->
 
 >[!MORELIKETHIS]
