@@ -3,10 +3,10 @@ title: ' [!DNL Assets Essentials] の基本'
 description: ' [!DNL Assets Essentials] のアクセス方法、ログイン操作、サポートされているユースケース、既知の問題について説明します。'
 role: User, Leader
 exl-id: 7917b2a0-8340-4d94-aa6f-30ce986fa752
-source-git-commit: f2c6ea9d31cc6eccf46216b52de254ca88ba1079
-workflow-type: ht
-source-wordcount: '457'
-ht-degree: 100%
+source-git-commit: fdfbe04b41c6b164007591855c4dd37b6fe3dfa7
+workflow-type: tm+mt
+source-wordcount: '476'
+ht-degree: 96%
 
 ---
 
@@ -28,6 +28,8 @@ ht-degree: 100%
 
 アドビは、ソリューションをプロビジョニングし、組織が指名した人物を管理者として追加します。管理者は、[[!DNL Admin Console]](https://helpx.adobe.com/jp/enterprise/using/admin-console.html) を使用して、組織の様々なユーザーにアクセス権を付与できます。アクセスに関するリクエストについては、組織の管理者に問い合わせてください。
 
+ログイン時に、資格情報を入力した後 [!DNL Assets Essentials] アカウントの選択を求めるプロンプトが表示されます。 この場合、 `Company or School Account` をクリックして続行します。
+
 ## [!DNL Assets Essentials] の設定 {#configuration}
 
 環境設定を開くには、ユーザーインターフェイスの右上隅にあるアバターをクリックします。ソリューションの環境設定で、明るいテーマと暗いテーマを切り替えることができます。
@@ -37,18 +39,6 @@ ht-degree: 100%
 [!UICONTROL Experience Cloud の環境設定]を変更するには、「[!UICONTROL 環境設定]」をクリックします。
 
 ![暗いテーマと明るいテーマを切り替えるための環境設定](assets/theme-change.png)
-
-<!-- TBD: What can admins configure? What more can users configure? Any doc that describes Exp Cloud preferences? 
-Metadata forms is out of the scope of 6/17 GA. When the functionality is added, link to it from here. It is about configuring metadata UI. -->
-
-<!-- TBD: This section contains beta-specific video that will be updated post-GA.
-
-## Login experience {#login-experience}
-
-When logging in, after providing the credentials, you can be prompted to select an account. In this case, select `Company or School Account` to proceed.
-
-![Select an account to login](assets/do-not-localize/login-experience.gif)
--->
 
 ## [!DNL Assets Essentials] のユースケース {#use-cases}
 
