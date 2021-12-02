@@ -6,7 +6,7 @@ exl-id: 534a8084-88f7-410e-b872-719e47e62b10
 source-git-commit: fdfbe04b41c6b164007591855c4dd37b6fe3dfa7
 workflow-type: tm+mt
 source-wordcount: '539'
-ht-degree: 94%
+ht-degree: 97%
 
 ---
 
@@ -93,9 +93,9 @@ ht-degree: 94%
 
 また、ビデオをプレビューすることもできます。
 
-![ビデオプレビュー](/help/assets/preview-video.png)
+![ビデオのプレビュー](/help/assets/preview-video.png)
 
-アセットを明示的にプレビューする場合は、 [!DNL Assets Essentials] 最近表示したアセットとして表示します。
+アセットを明示的にプレビューすると、[!DNL Assets Essentials] には最近表示したアセットとして表示されます。
 
 <!-- TBD: Describe the options.
 
