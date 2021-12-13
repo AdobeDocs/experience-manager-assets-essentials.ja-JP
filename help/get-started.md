@@ -4,9 +4,9 @@ description: ' [!DNL Assets Essentials] のアクセス方法、ログイン操�
 role: User, Leader
 exl-id: 7917b2a0-8340-4d94-aa6f-30ce986fa752
 source-git-commit: fdfbe04b41c6b164007591855c4dd37b6fe3dfa7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '476'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 96%
 
 アドビは、ソリューションをプロビジョニングし、組織が指名した人物を管理者として追加します。管理者は、[[!DNL Admin Console]](https://helpx.adobe.com/jp/enterprise/using/admin-console.html) を使用して、組織の様々なユーザーにアクセス権を付与できます。アクセスに関するリクエストについては、組織の管理者に問い合わせてください。
 
-ログイン時に、資格情報を入力した後 [!DNL Assets Essentials] アカウントの選択を求めるプロンプトが表示されます。 この場合、 `Company or School Account` をクリックして続行します。
+ログイン時、資格情報を入力すると、[!DNL Assets Essentials] からアカウントを選択するように求められます。 この場合、`Company or School Account` をクリックして続行します。
 
 ## [!DNL Assets Essentials] の設定 {#configuration}
 
