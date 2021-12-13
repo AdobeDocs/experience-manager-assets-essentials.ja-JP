@@ -4,9 +4,9 @@ description: ' [!DNL Assets Essentials] のユーザーインターフェイス�
 role: User
 exl-id: 534a8084-88f7-410e-b872-719e47e62b10
 source-git-commit: fdfbe04b41c6b164007591855c4dd37b6fe3dfa7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '539'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 97%
 
 ![[!DNL Assets Essentials] ユーザーインターフェイス](assets/essentials-interface1.png)
 
-*図：ログイン後の最初の画面と主な機能の場所。*
+*図: ログイン後の最初の画面と主な機能の場所。*
     *A：左側のサイドバー。リポジトリーを参照したり、他のオプションにアクセスしたりできます。*
     *B：左側のサイドバーを表示したり折りたたんだりして、アセット表示領域を広げます。*
     *C：検索結果をフィルタリングします。*
