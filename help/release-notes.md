@@ -5,19 +5,19 @@ role: User,Leader,Admin,Architect,Developer
 contentOwner: AG
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
 source-git-commit: 0c849c92562f9102819aaea627f5945030b27a1e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '382'
-ht-degree: 55%
+ht-degree: 100%
 
 ---
 
 # [!DNL Assets Essentials] のリリースノート  {#release-notes}
 
-の現在のリリース [!DNL Assets Essentials] は 2021 年 12 月 16 日にリリースされました。 このリリースでは、
+[!DNL Assets Essentials] の最新リリースは 2021 年 8 月 16 日（PT）にリリースされました。このリリースでは、
 
-* Adobe：プロビジョニングプロセスの完了後、Assets Essentialsが自動的にデプロイされます。 管理者は、 [!DNL Cloud Manager] ユーザーインターフェイス。 この自動デプロイメントは、2022 年 1 月 6 日以降にプロビジョニングされた環境で使用できるようになります。
-* Assets Essentialsで動作するCreative Cloudプラグインの新しいバージョンが、AdobeExchange で利用できます。 [Adobe XD v 2.1.0 のAdobeアセットリンク](https://exchange.adobe.com/creativecloud/plugindetails.html/app/cc/61d229b9) および [Photoshop /InDesign/ Illustrator v 3.1.65 用のAdobeアセットリンク](https://exchange.adobe.com/creativecloud.details.106875.adobe-asset-link-cep.html).
-* バグ修正および製品の機能強化（以前の既知の問題を含む）（アップロード後に左側のナビゲーションツリーにフォルダーが正しく表示されるようになりました）<!-- CQ-4337638 -->、ドラッグ&amp;ドロップによるアップロードにより、ユーザーはドロップしてアップロードする際に現在のフォルダーまたは任意のサブフォルダーを選択できます<!-- CQ-4327753 -->) をクリックします。
+* Adobe は、プロビジョニングプロセスの完了後、自動的に Assets Essentials をデプロイします。管理者は、[!DNL Cloud Manager] ユーザーインターフェイスを使用して Assets Essentials をデプロイするために、追加の手順を実行する必要はありません。この自動デプロイメントは、2022 年 1 月 6 日以降にプロビジョニングされた環境で使用できるようになります。
+* Assets Essentials で動作する Creative Cloud プラグインの新しいバージョンを Adobe Exchange で利用できます。「[Adobe XD v 2.1.0 用の Adobe Asset Link](https://exchange.adobe.com/creativecloud/plugindetails.html/app/cc/61d229b9)」および「[Photoshop / InDesign / Illustrator v 3.1.65 用の Adobe Asset Link](https://exchange.adobe.com/creativecloud.details.106875.adobe-asset-link-cep.html)」を参照してください。
+* バグ修正および製品の機能強化。以前の既知の問題への対応含んでいます（アップロード後、左側のナビゲーションツリーにフォルダーが正しく表示されるようになり<!-- CQ-4337638 -->、ドラッグ＆ドロップでアップロードする際、現在のフォルダーまたは任意のサブフォルダーを選択できるようになりました<!-- CQ-4327753 -->）。
 
 このソリューションについて詳しくは、[ [!DNL Assets Essentials]](introduction.md) の概要を参照してください。この機能の使用を開始するには、[Assets Essentials の基本](/help/get-started.md)を参照してください。
 
@@ -25,7 +25,7 @@ ht-degree: 55%
 
 [!DNL Assets Essentials] ソリューションに関する既知の問題のリストは、継続的に改訂され、更新されています。
 
-* 個々のアセットは、システム内のどのサブフォルダーにもアップロードできません。 <!-- CQ-4337638 -->
+* 個々のアセットは、トップフォルダー（アセット）にアップロードすることはできず、システム内のサブフォルダーにのみアップロードできます。<!-- CQ-4337638 -->
 
 問題が発生した場合や機能強化のご要望については、サポートチームに[フィードバックを送付](#provide-feedback)してください。
 
@@ -33,9 +33,9 @@ ht-degree: 55%
 
 ### 2021.8.0 リリース {#august2021}
 
-[!DNL Assets Essentials] 2021.8.0 は、2021 年 8 月 30 日にリリースされ、以下の更新がおこなわれました。
+[!DNL Assets Essentials] 2021.8.0 は 2021 年 8 月 30 日（PT）にリリースされ、次の更新が行われました。
 
-* との統合 [!DNL Adobe Workfront] を [!DNL Workfront] ユーザーは、作業を管理するコンテキストでデジタルアセットを管理します。 詳しくは、[他のアドビソリューションとの統合](/help/integration.md)を参照してください。
+* [!DNL Adobe Workfront] との統合により、[!DNL Workfront] ユーザーは、自分の作業を管理する中で、自分のデジタルアセットを管理することができます。詳しくは、[他のアドビソリューションとの統合](/help/integration.md)を参照してください。
 
 ### 2021.7.0 リリース {#july2021}
 
