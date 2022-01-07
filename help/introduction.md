@@ -3,9 +3,9 @@ title: ' [!DNL Assets Essentials] の概要'
 description: Assets Essentials の概要とソリューション紹介
 role: User,Leader
 exl-id: 43ddf11c-36d3-4643-80c9-b7dd5d199450
-source-git-commit: cd7af0c946a042430e62528fa6aa19bdab139f67
-workflow-type: ht
-source-wordcount: '250'
+source-git-commit: ecc36da0de9e4e7075085251aacdaf92640311a6
+workflow-type: tm+mt
+source-wordcount: '233'
 ht-degree: 100%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 100%
 
 [!DNL Assets Essentials] は、シンプルなインターフェイスと、デジタルアセットの効率的な検索および検出を重視し、チーム間でのアセット利用、ガバナンス、ブランド一貫性を確保します。エンドユーザーエクスペリエンスは、スタンドアロンの Web ユーザーインターフェイスのほか、他のアドビソリューションに組み込まれたエクスペリエンスを通じて提供されます。
 
-管理者にとっては、設定と管理が簡素化されているので、価値創出までの時間が短縮されます。管理者はこのソリューションにすぐにアクセスでき、[!DNL Adobe Admin Console] で使い慣れた機能やユーザーの使用権限を操作できます。管理者は、ユーザーがソリューションを利用できるように、使いやすいデプロイメント手順を 1 回だけ実行する必要があります。[デプロイとユーザー管理](/help/deploy-administer.md)を参照してください。
+管理者にとっては、設定と管理が簡素化されているので、価値創出までの時間が短縮されます。管理者はこのソリューションにすぐにアクセスでき、[!DNL Adobe Admin Console] で使い慣れた機能やユーザーの使用権限を操作できます。[デプロイとユーザー管理](/help/deploy-administer.md)を参照してください。
 
 ユーザーにとっては、[!DNL Assets Essentials] でのデジタルアセットの管理は、次の 3 つの手順で簡単に行うことができます。[ [!DNL Assets Essentials]](/help/get-started.md) の基本についての説明を参照してください。
 
