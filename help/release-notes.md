@@ -4,9 +4,9 @@ description: ' [!DNL Assets Essentials] のリリースノートと既知の問�
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AG
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
-source-git-commit: 0c849c92562f9102819aaea627f5945030b27a1e
-workflow-type: ht
-source-wordcount: '382'
+source-git-commit: 01814dace83fec64851d7ccf97a0f4bb22519ee3
+workflow-type: tm+mt
+source-wordcount: '366'
 ht-degree: 100%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 100%
 
 [!DNL Assets Essentials] ソリューションに関する既知の問題のリストは、継続的に改訂され、更新されています。
 
-* 個々のアセットは、トップフォルダー（アセット）にアップロードすることはできず、システム内のサブフォルダーにのみアップロードできます。<!-- CQ-4337638 -->
+* なし
 
 問題が発生した場合や機能強化のご要望については、サポートチームに[フィードバックを送付](#provide-feedback)してください。
 
