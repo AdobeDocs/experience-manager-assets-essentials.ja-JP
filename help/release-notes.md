@@ -4,22 +4,26 @@ description: ' [!DNL Assets Essentials] のリリースノートと既知の問�
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AG
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
-source-git-commit: 01814dace83fec64851d7ccf97a0f4bb22519ee3
+source-git-commit: 73d5e66cfb2315f730329b5db9e6e648c1fe017d
 workflow-type: tm+mt
-source-wordcount: '366'
-ht-degree: 100%
+source-wordcount: '424'
+ht-degree: 80%
 
 ---
 
 # [!DNL Assets Essentials] のリリースノート  {#release-notes}
 
-[!DNL Assets Essentials] の最新リリースは 2021 年 8 月 16 日（PT）にリリースされました。このリリースでは、
+の現在のリリース [!DNL Assets Essentials] は 2022 年 1 月 27 日にリリースされました。 このリリースでは、
 
-* Adobe は、プロビジョニングプロセスの完了後、自動的に Assets Essentials をデプロイします。管理者は、[!DNL Cloud Manager] ユーザーインターフェイスを使用して Assets Essentials をデプロイするために、追加の手順を実行する必要はありません。この自動デプロイメントは、2022 年 1 月 6 日以降にプロビジョニングされた環境で使用できるようになります。
-* Assets Essentials で動作する Creative Cloud プラグインの新しいバージョンを Adobe Exchange で利用できます。「[Adobe XD v 2.1.0 用の Adobe Asset Link](https://exchange.adobe.com/creativecloud/plugindetails.html/app/cc/61d229b9)」および「[Photoshop / InDesign / Illustrator v 3.1.65 用の Adobe Asset Link](https://exchange.adobe.com/creativecloud.details.106875.adobe-asset-link-cep.html)」を参照してください。
-* バグ修正および製品の機能強化。以前の既知の問題への対応含んでいます（アップロード後、左側のナビゲーションツリーにフォルダーが正しく表示されるようになり<!-- CQ-4337638 -->、ドラッグ＆ドロップでアップロードする際、現在のフォルダーまたは任意のサブフォルダーを選択できるようになりました<!-- CQ-4327753 -->）。
+* [!DNL Assets Essentials] では、リンクを生成して、 [!DNL Assets Essentials] アプリケーション。 以下を定義できます。 <!-- CQ-4329575 -->
 
-このソリューションについて詳しくは、[ [!DNL Assets Essentials]](introduction.md) の概要を参照してください。この機能の使用を開始するには、[Assets Essentials の基本](/help/get-started.md)を参照してください。
+   * リンクの有効期限
+
+   * 受信者がリンクにアクセスした後でアセットをダウンロードできる場合。
+
+   リンクの受信者は、これらの設定に基づいて、アセットのプレビューまたはダウンロードを選択できます。
+
+* のパフォーマンスの向上 [!UICONTROL フォルダーを作成] 操作。 <!-- CQ-4338818 -->
 
 ## 既知の問題 {#known-issues}
 
@@ -30,6 +34,14 @@ ht-degree: 100%
 問題が発生した場合や機能強化のご要望については、サポートチームに[フィードバックを送付](#provide-feedback)してください。
 
 ## 過去のリリース {#past-release}
+
+### 2021.11.0 リリース {#november-2021}
+
+[!DNL Assets Essentials] は 2021 年 12 月 16 日にリリースされ、以下の更新がおこなわれました。
+
+* Adobe は、プロビジョニングプロセスの完了後、自動的に Assets Essentials をデプロイします。管理者は、[!DNL Cloud Manager] ユーザーインターフェイスを使用して Assets Essentials をデプロイするために、追加の手順を実行する必要はありません。この自動デプロイメントは、2022 年 1 月 6 日以降にプロビジョニングされた環境で使用できるようになります。
+* Assets Essentials で動作する Creative Cloud プラグインの新しいバージョンを Adobe Exchange で利用できます。「[Adobe XD v 2.1.0 用の Adobe Asset Link](https://exchange.adobe.com/creativecloud/plugindetails.html/app/cc/61d229b9)」および「[Photoshop / InDesign / Illustrator v 3.1.65 用の Adobe Asset Link](https://exchange.adobe.com/creativecloud.details.106875.adobe-asset-link-cep.html)」を参照してください。
+* バグ修正および製品の機能強化。以前の既知の問題への対応含んでいます（アップロード後、左側のナビゲーションツリーにフォルダーが正しく表示されるようになり<!-- CQ-4337638 -->、ドラッグ＆ドロップでアップロードする際、現在のフォルダーまたは任意のサブフォルダーを選択できるようになりました<!-- CQ-4327753 -->）。
 
 ### 2021.8.0 リリース {#august2021}
 
