@@ -4,24 +4,16 @@ description: ' [!DNL Assets Essentials] のリリースノートと既知の問�
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AG
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
-source-git-commit: a72c3399fabd37c561f3c51e51029810d038ae40
+source-git-commit: eb6822a1e813b6c7687ba3d797e4f43b3c1ef2a0
 workflow-type: tm+mt
-source-wordcount: '424'
-ht-degree: 80%
+source-wordcount: '364'
+ht-degree: 92%
 
 ---
 
 # [!DNL Assets Essentials] のリリースノート  {#release-notes}
 
-の現在のリリース [!DNL Assets Essentials] は 2022 年 2 月 3 日にリリースされました。 このリリースでは、
-
-* [!DNL Assets Essentials] では、リンクを生成して、 [!DNL Assets Essentials] アプリケーション。 以下を定義できます。 <!-- CQ-4329575 -->
-
-   * リンクの有効期限
-
-   * 受信者がリンクにアクセスした後でアセットをダウンロードできる場合。
-
-   リンクの受信者は、これらの設定に基づいて、アセットのプレビューまたはダウンロードを選択できます。
+の現在のリリース [!DNL Assets Essentials] は 2022 年 2 月 3 日にリリースされました。 このリリースでは、次の機能が提供されます。
 
 * のパフォーマンスの向上 [!UICONTROL フォルダーを作成] 操作。 <!-- CQ-4338818 -->
 
