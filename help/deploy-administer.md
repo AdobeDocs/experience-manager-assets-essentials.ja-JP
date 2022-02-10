@@ -4,9 +4,9 @@ description: ' [!DNL Assets Essentials] でのデプロイメントやユーザ�
 role: Admin
 exl-id: ef91126f-3aee-442b-b242-a6bf4034f3dc
 source-git-commit: cbf75aaf05a0f3d798edf4d508325b28d9ca0dcb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1070'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -14,30 +14,30 @@ ht-degree: 87%
 
 [!DNL Adobe Experience Manager Assets Essentials] は、アドビのお客様向けにアドビによってプロビジョニングされます。プロビジョニングの一環として、[!DNL Adobe Admin Console] でお客様の組織に [!DNL Assets Essentials] が追加されます。また、お客様は、デプロイメントツールとしての [!DNL Experience Manager Cloud Manager] や、[!DNL Assets Essentials] ソリューションに対するユーザーの使用権限を管理する [!DNL Admin Console] にアクセスできます。
 
-## Assets Essentialsの自動デプロイメント {#automatic-deployment-assets-essentials}
+## Assets Essentials の自動デプロイメント {#automatic-deployment-assets-essentials}
 
-Assets Essentialsソリューションのプロビジョニングが完了すると、管理者はAdobeから電子メールを受け取ります。 この電子メールには、歓迎メッセージと使用を開始するためのリンクが含まれています。さらに、Adobeは、Assets Essentialsのデプロイを自動的に開始するプロセスも開始します。 デプロイメントプロセスが完了するまでに 1 時間かかります。
+Assets Essentials ソリューションがプロビジョニングされると、管理者にアドビから電子メールが届きます。この電子メールには、歓迎メッセージと使用を開始するためのリンクが含まれています。さらに、アドビは、Assets Essentials を自動的にデプロイするプロセスを開始します。デプロイメントプロセスが完了するまでに 1 時間ほどかかります。
 
-電子メールに記載されたリンクから、[Admin Console](https://adminconsole.adobe.com) にアクセスしてログインします。複数の組織アカウントに管理者としてアクセスできる場合は、該当する組織を選択するか、上部のバーにある切り替えボタンを使用して組織を切り替えます。自動導入プロセスが完了したら、 [!DNL AEM Assets Essentials] が [!DNL Admin Console].
+電子メールに記載されたリンクから、[Admin Console](https://adminconsole.adobe.com) にアクセスしてログインします。複数の組織アカウントに管理者としてアクセスできる場合は、該当する組織を選択するか、上部のバーにある切り替えボタンを使用して組織を切り替えます。自動デプロイメントプロセスが完了すると、[!DNL AEM Assets Essentials] の製品カードが [!DNL Admin Console] に表示されます。
 
-![Assets Essentials Deployment](assets/assets-essentials-deployment.png)
+![Assets Essentials のデプロイメント](assets/assets-essentials-deployment.png)
 
-Assets Essentialsソリューションのデプロイメントが成功したら、管理者は次のタスクを実行する必要があります。
+Assets Essentials ソリューションのデプロイメントが成功したら、管理者は次のタスクを実行する必要があります。
 
 * 組織のメンバーの [!DNL Assets Essentials] に対する[ユーザーアクセスの管理](#add-users-to-essentials)
 * （オプション）[サービスステータスとログの確認](#view-logs)
 
 >[!NOTE]
 >
->Assets Essentialsが 2022 年 1 月 6 日より前にプロビジョニングされている場合は、 [Cloud Manager でのデプロイメント手順](#deploy-essentials) 組織メンバーのユーザーアクセスを管理する前に
+>Assets Essentials が 2022年1月6日（PT）より前にプロビジョニングされている場合は、組織メンバーのユーザーアクセスを管理する前に、[Cloud Manager でのデプロイメント手順](#deploy-essentials)を実行してください。
 
 
 ## ユーザー管理 {#add-users-to-essentials}
 
 管理者は、[!DNL Assets Essentials] にアクセスできるユーザーを管理します。管理者は、[!DNL Adobe Admin Console] を使用してユーザーアクセスを追加または削除します。[!DNL Assets Essentials] では、次の 2 種類のユーザーアクセスが利用可能です。
 
-* **[!DNL Assets Essentials]ユーザー**：完全なユーザーインターフェイスにアクセスできます。デジタルアセットのアップロード、整理、タグ付け、検索が可能です。
-* **[!DNL Assets Essentials]Consumer ユーザー**：[!DNL Adobe Journey Optimizer] 電子メールテンプレートエディターの埋め込みアセット選択エクスペリエンスにアクセスできます。詳しくは、[ [!DNL Journey Optimizer] での  [!DNL Assets Essentials]  使用](https://experienceleague.adobe.com/docs/journey-optimizer/using/create-messages/assets-essentials.html?lang=ja)を参照してください。
+* **[!DNL Assets Essentials] ユーザー**：完全なユーザーインターフェイスにアクセスできます。デジタルアセットのアップロード、整理、タグ付け、検索が可能です。
+* **[!DNL Assets Essentials] Consumer ユーザー**：[!DNL Adobe Journey Optimizer] 電子メールテンプレートエディターの埋め込みアセット選択エクスペリエンスにアクセスできます。詳しくは、[ [!DNL Journey Optimizer] での  [!DNL Assets Essentials]  使用](https://experienceleague.adobe.com/docs/journey-optimizer/using/create-messages/assets-essentials.html?lang=ja)を参照してください。
 
 [!DNL Admin Console] では、これら 2 つのアクセスタイプは 2 つの[!UICONTROL 製品プロファイル]で表されます。組織のメンバーを 2 つのプロファイルのいずれかに追加またはいずれかから削除するには、次の手順に従います。
 
@@ -79,7 +79,7 @@ Assets Essentialsソリューションのデプロイメントが成功したら
 
 >[!NOTE]
 >
->これらの手順は、Assets Essentialsが 2022 年 1 月 6 日より前にプロビジョニングされている場合にのみ実行してください。
+>Assets Essentials が 2022年1月6日（PT）より前にプロビジョニングされている場合にのみ、以下の手順を実行します。
 
 プロビジョニング後に [!DNL Admin Console] で [!DNL Assets Essentials] の使用権限が組織に追加されます。このソリューションをユーザーが使用できるようにするには、組織の管理者がソリューションをデプロイする必要があります。管理者は、[!DNL Cloud Manager] ユーザーインターフェイスを使用して 1 回限りのデプロイメントを行います。初期デプロイ後、サービスのメンテナンスと更新はアドビによって行われます。ソリューションがプロビジョニングされると、アドビから電子メールが管理者に届きます。この電子メールには、歓迎メッセージと使用を開始するためのリンクが含まれています。デプロイするには、次の手順に従います。
 
@@ -91,7 +91,7 @@ Assets Essentialsソリューションのデプロイメントが成功したら
 
    >[!NOTE]
    >
-   >次の **[!UICONTROL AEM Assets Essentials]** の代わりに製品セクションのカード **[!UICONTROL AEM Assets Essentials - Cloud Manager]** カードの場合、Assets Essentialsのデプロイメントは既に完了しています。 残りの手順はスキップできます。
+   >**[!UICONTROL AEM Assets Essentials - Cloud Manager]** カードではなく **[!UICONTROL AEM Assets Essentials]** カードが製品セクションに表示される場合、Assets Essentials のデプロイメントは既に完了しています。残りの手順はスキップできます。
 
 1. [!DNL Admin Console] で `AEM Assets Essentials - Cloud Manager` 製品プロファイルに自分自身を管理者として追加します。自分自身ではなく、組織の別のメンバーを追加することもできますし、複数の管理者を追加することもできます。
 
