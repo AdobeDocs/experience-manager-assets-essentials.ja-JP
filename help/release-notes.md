@@ -5,17 +5,17 @@ role: User,Leader,Admin,Architect,Developer
 contentOwner: AG
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
 source-git-commit: eb6822a1e813b6c7687ba3d797e4f43b3c1ef2a0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '364'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
 # [!DNL Assets Essentials] のリリースノート  {#release-notes}
 
-の現在のリリース [!DNL Assets Essentials] は 2022 年 2 月 3 日にリリースされました。 このリリースでは、次の機能が提供されます。
+[!DNL Assets Essentials] の最新リリースは 2022年2月3日（PT）にリリースされました。このリリースでは、次の機能が提供されます。
 
-* のパフォーマンスの向上 [!UICONTROL フォルダーを作成] 操作。 <!-- CQ-4338818 -->
+* 「[!UICONTROL フォルダーを作成]」操作のパフォーマンスの向上。<!-- CQ-4338818 -->
 
 ## 既知の問題 {#known-issues}
 
@@ -29,7 +29,7 @@ ht-degree: 92%
 
 ### 2021.11.0 リリース {#november-2021}
 
-[!DNL Assets Essentials] は 2021 年 12 月 16 日にリリースされ、以下の更新がおこなわれました。
+[!DNL Assets Essentials] は 2021年12月16日（PT）にリリースされ、次の更新が行われました。
 
 * Adobe は、プロビジョニングプロセスの完了後、自動的に Assets Essentials をデプロイします。管理者は、[!DNL Cloud Manager] ユーザーインターフェイスを使用して Assets Essentials をデプロイするために、追加の手順を実行する必要はありません。この自動デプロイメントは、2022 年 1 月 6 日以降にプロビジョニングされた環境で使用できるようになります。
 * Assets Essentials で動作する Creative Cloud プラグインの新しいバージョンを Adobe Exchange で利用できます。「[Adobe XD v 2.1.0 用の Adobe Asset Link](https://exchange.adobe.com/creativecloud/plugindetails.html/app/cc/61d229b9)」および「[Photoshop / InDesign / Illustrator v 3.1.65 用の Adobe Asset Link](https://exchange.adobe.com/creativecloud.details.106875.adobe-asset-link-cep.html)」を参照してください。
