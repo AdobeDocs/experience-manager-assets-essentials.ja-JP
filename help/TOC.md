@@ -8,10 +8,10 @@ user-guide-description: Assets Essentials は、他の Experience Cloud アプ�
 feature-set: Experience Manager Assets,Experience Manager
 feature: Asset Management
 role: User,Leader
-source-git-commit: eb6822a1e813b6c7687ba3d797e4f43b3c1ef2a0
-workflow-type: ht
-source-wordcount: '64'
-ht-degree: 100%
+source-git-commit: be84c4c7a5e2f3220cde54f1d01007e9dacf183a
+workflow-type: tm+mt
+source-wordcount: '77'
+ht-degree: 85%
 
 ---
 
@@ -21,6 +21,9 @@ ht-degree: 100%
 + [ソリューションの概要](introduction.md)
 + [リリースノート](release-notes.md)
 + [デプロイとユーザーの追加](deploy-administer.md)
++ フォルダーアクセスの管理{#folder-access}
+   + [フォルダー権限の管理](manage-permissions.md)
+   + [権限管理のベストプラクティス](permission-management-best-practices.md)
 + [ [!DNL Assets Essentials] の基本](get-started.md)
 + [サポートされているファイルタイプとユースケース](supported-file-formats.md)
 + [アセットの表示](navigate-view.md)
@@ -29,4 +32,5 @@ ht-degree: 100%
 + [アセット管理タスク](manage-organize.md)
 + [画像の編集](edit-images.md)
 + [アセットメタデータの管理](metadata.md)
++ [アセットの共有](share-links-for-assets.md)
 + [他のソリューションとの統合](integration.md)

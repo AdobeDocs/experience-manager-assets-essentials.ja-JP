@@ -4,18 +4,27 @@ description: ' [!DNL Assets Essentials] のリリースノートと既知の問�
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AG
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
-source-git-commit: eb6822a1e813b6c7687ba3d797e4f43b3c1ef2a0
-workflow-type: ht
-source-wordcount: '364'
-ht-degree: 100%
+source-git-commit: 211233202b667f9d25713491c8ae59e002139777
+workflow-type: tm+mt
+source-wordcount: '549'
+ht-degree: 65%
 
 ---
 
 # [!DNL Assets Essentials] のリリースノート  {#release-notes}
 
-[!DNL Assets Essentials] の最新リリースは 2022年2月3日（PT）にリリースされました。このリリースでは、次の機能が提供されます。
+の現在のリリース [!DNL Assets Essentials] は 2022 年 3 月 3 日にリリースされました。 このリリースでは、次の機能が提供されます。
 
-* 「[!UICONTROL フォルダーを作成]」操作のパフォーマンスの向上。<!-- CQ-4338818 -->
+* [!DNL Assets Essentials] 次に、 [リンクを生成し、外部の関係者とアセットを共有する](share-links-for-assets.md)（にアクセスできない） [!DNL Assets Essentials] アプリケーション。 リンクの有効期限を定義し、電子メールやメッセージングサービスなどの好みの通信方法を使用して、他のユーザーとリンクを共有できます。 リンクの受信者は、アセットをプレビューし、ダウンロードできます。
+
+* この [!DNL Assets Essentials] 次を含む [管理者製品プロファイル](deploy-administer.md#add-users-to-essentials) 既存の通常および消費者のユーザー製品プロファイルに加えて、Admin Consoleに関する情報。 管理者は、他のユーザーを管理者製品プロファイルに割り当てることができるようになりました。
+
+* Assets Essentialsでは、管理者が次の操作を実行できるようになりました。 [リポジトリで使用可能なフォルダのアクセスレベルを管理します](manage-permissions.md). 管理者は、ユーザーグループを作成し、それらのグループに権限を割り当てて、アクセスレベルを管理できます。 また、フォルダーレベルでユーザーグループに権限管理権限を委任することもできます。
+
+* お客様のご意見に基づく機能強化およびバグ修正。
+
+さらに、 [!DNL Adobe Asset Link] Creative Cloud(Photoshop、IllustratorおよびInDesign) 用の拡張機能がリリースされました。 [新しいバージョン 3.2.0](https://exchange.adobe.com/creativecloud.details.106875.adobe-asset-link-cep.html)パネルの起動時間とダウンロード速度のパフォーマンスが向上しました。
+
 
 ## 既知の問題 {#known-issues}
 
@@ -26,6 +35,12 @@ ht-degree: 100%
 問題が発生した場合や機能強化のご要望については、サポートチームに[フィードバックを送付](#provide-feedback)してください。
 
 ## 過去のリリース {#past-release}
+
+### 2022.1.0 リリース {#january-2022}
+
+[!DNL Assets Essentials] は 2022 年 2 月 3 日にリリースされ、以下の更新がおこなわれました。
+
+* 「[!UICONTROL フォルダーを作成]」操作のパフォーマンスの向上。<!-- CQ-4338818 -->
 
 ### 2021.11.0 リリース {#november-2021}
 
