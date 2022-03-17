@@ -1,7 +1,8 @@
 ---
 title: AEM Assets Essentials のフォルダーに対する権限の管理方法
 description: Assets Essentialsでは、管理者は、リポジトリで使用可能なフォルダーのアクセスレベルを管理できます。 ユーザーグループを作成し、それらのグループに権限を割り当てて、アクセスレベルを管理します。 管理者は、フォルダーレベルでユーザーグループに権限管理権限を委任することもできます。
-source-git-commit: 0567ef9d10880750f88d83ee506d9b95e9432a93
+exl-id: 5ef01dbc-87c0-4013-9367-5da3774f4f20
+source-git-commit: 800ebc5040dcd4b6ed4178314b0627cbde7ddeaf
 workflow-type: tm+mt
 source-wordcount: '1580'
 ht-degree: 4%
@@ -42,7 +43,7 @@ Assets Essentialsアプリケーションの管理者を追加して、他のユ
 
 ユーザーグループを作成し、それらのグループに権限を割り当てて、Assets Essentialsリポジトリのフォルダーアクセスレベルを管理します。 その後、ユーザーをユーザーグループに割り当てることができます。
 
-![グループおよび製品プロファイルへのユーザーの追加](assets/user-groups-product-profiles.png)
+![グループおよび製品プロファイルへのユーザーの追加](assets/user-groups-product-profiles-updated.png)
 
 ユーザーグループ (1) および [Assets Essentials製品プロファイルのユーザー (2)](#add-admin-users). ただし、ユーザーグループをAssets Essentials製品プロファイル (3) に直接追加することはできません。
 
