@@ -2,7 +2,7 @@
 title: AEM Assets Essentials のフォルダーに対する権限の管理方法
 description: Assets Essentialsでは、管理者は、リポジトリで使用可能なフォルダーのアクセスレベルを管理できます。 ユーザーグループを作成し、それらのグループに権限を割り当てて、アクセスレベルを管理します。 管理者は、フォルダーレベルでユーザーグループに権限管理権限を委任することもできます。
 exl-id: 5ef01dbc-87c0-4013-9367-5da3774f4f20
-source-git-commit: 800ebc5040dcd4b6ed4178314b0627cbde7ddeaf
+source-git-commit: 68bfd7cb55b38e12ee0f5b8f12449c7137e02e90
 workflow-type: tm+mt
 source-wordcount: '1580'
 ht-degree: 4%
@@ -99,7 +99,7 @@ Assets Essentialsアプリケーションにログオンできる、認証済み
 
 Assets Essentialsは権限の継承を使用し、子フォルダー内の親フォルダーに設定されている権限を継承できます。 例えば、親フォルダーに `Can View` 権限 `All Authenticated Users` グループと子フォルダーに `Can Edit` 権限 `Marketing` ユーザーグループに属している場合は、認証済みのすべてのユーザーが子フォルダーと `Marketing` 子フォルダーの編集権限を持つユーザーグループ。 この `Marketing` ユーザーグループには、子フォルダー (Marketing) の下のフォルダーのさらなるレベルに対する編集権限があります。
 
-![権限の割り当て](assets/permissions-inheritance.png)
+![権限の割り当て](assets/permissions-inheritance-updated.png)
 
 >[!NOTE]
 >
