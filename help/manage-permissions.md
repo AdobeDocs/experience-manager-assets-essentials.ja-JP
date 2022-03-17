@@ -2,7 +2,7 @@
 title: AEM Assets Essentials のフォルダーに対する権限の管理方法
 description: Assets Essentialsでは、管理者は、リポジトリで使用可能なフォルダーのアクセスレベルを管理できます。 ユーザーグループを作成し、それらのグループに権限を割り当てて、アクセスレベルを管理します。 管理者は、フォルダーレベルでユーザーグループに権限管理権限を委任することもできます。
 exl-id: 5ef01dbc-87c0-4013-9367-5da3774f4f20
-source-git-commit: 68bfd7cb55b38e12ee0f5b8f12449c7137e02e90
+source-git-commit: 98879f59bd1bb5725f51f91bfa638f2de6759e9a
 workflow-type: tm+mt
 source-wordcount: '1580'
 ht-degree: 4%
@@ -15,7 +15,7 @@ Assets Essentialsでは、管理者は、リポジトリで使用可能なフォ
 
 次のデータフロー図は、Assets Essentialsリポジトリで使用可能なフォルダーに対する権限を設定および管理するために実行する一連のタスクを示しています。
 
-![アセット選択時のツールバーオプション](assets/permissions-management.png)
+![アセット選択時のツールバーオプション](assets/permissions-management-updated.png)
 
 ## フォルダーの権限を管理する前に {#before-managing-permissions}
 
@@ -93,7 +93,7 @@ Assets Essentialsアプリケーションにログオンできる、認証済み
 
 の編集権限を `Marketing` 組織のマーケティング部門のみにフォルダを追加し、他のユーザーに対する権限を表示し、割り当てます。 `Can View` スーパーグループに対する権限 `All Authenticated Users` および `Can Edit` サブグループに対する権限 `Marketing`.
 
-![権限の割り当て](assets/permissions-management-groups.png)
+![権限の割り当て](assets/permissions-management-groups-updated.png)
 
 **権限の継承**
 
@@ -183,7 +183,7 @@ Assets Essentialsリポジトリ全体の権限を編集するには：
 * 法務チーム
 
 次の図に、各ユーザーグループに割り当てられるフォルダー階層と権限を示します。
-![権限の割り当て](assets/use-case-permissions-mamagement.png)
+![権限の割り当て](assets/use-case-permissions-management.png)
 
 フォルダー階層内のすべてのユーザーグループのアクセスレベルは次のとおりです。
 
