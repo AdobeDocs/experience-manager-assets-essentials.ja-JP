@@ -7,7 +7,7 @@ exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
 source-git-commit: 4cced7aba92fd0f041842e5ef78d02f0a4f7ffe0
 workflow-type: tm+mt
 source-wordcount: '549'
-ht-degree: 65%
+ht-degree: 98%
 
 ---
 
@@ -15,15 +15,15 @@ ht-degree: 65%
 
 の現在のリリース [!DNL Assets Essentials] は 2022 年 3 月 09 日にリリースされました。 このリリースでは、次の機能が提供されます。
 
-* [!DNL Assets Essentials] 次に、 [リンクを生成し、外部の関係者とアセットを共有する](share-links-for-assets.md)（にアクセスできない） [!DNL Assets Essentials] アプリケーション。 リンクの有効期限を定義し、電子メールやメッセージングサービスなどの好みの通信方法を使用して、他のユーザーとリンクを共有できます。 リンクの受信者は、アセットをプレビューし、ダウンロードできます。
+* [!DNL Assets Essentials] では、[!DNL Assets Essentials] アプリケーションへのアクセス権を持たない[外部の関係者とリンクを生成し、アセットを共有](share-links-for-assets.md)できるようになりました。リンクの有効期限を定義し、電子メールやメッセージングサービスなどの好みの通信方法を使用して、他のユーザーとリンクを共有できます。 リンクの受信者は、アセットをプレビューし、ダウンロードできます。
 
-* この [!DNL Assets Essentials] 次を含む [管理者製品プロファイル](deploy-administer.md#add-users-to-essentials) 既存の通常および消費者のユーザー製品プロファイルに加えて、Admin Consoleに関する情報。 管理者は、他のユーザーを管理者製品プロファイルに割り当てることができるようになりました。
+* [!DNL Assets Essentials] では、既存の通常および消費者ユーザー製品プロファイルに加えて、Admin Console の[管理者製品プロファイル](deploy-administer.md#add-users-to-essentials)を構成できるようになりました。管理者は、他のユーザーを管理者製品プロファイルに割り当てることができるようになりました。
 
-* Assets Essentialsでは、管理者が次の操作を実行できるようになりました。 [リポジトリで使用可能なフォルダのアクセスレベルを管理します](manage-permissions.md). 管理者は、ユーザーグループを作成し、それらのグループに権限を割り当てて、アクセスレベルを管理できます。 また、フォルダーレベルでユーザーグループに権限管理権限を委任することもできます。
+* Assets Essentials では、管理者が[リポジトリで使用可能なフォルダーのアクセスレベルを管理](manage-permissions.md)できるようになりました。管理者は、ユーザーグループを作成し、それらのグループに権限を割り当てて、アクセスレベルを管理できます。また、フォルダーレベルでユーザーグループに権限管理の権限をデリゲートすることもできます。
 
-* お客様のご意見に基づく機能強化およびバグ修正。
+* 顧客のフィードバックに基づく機能強化およびバグ修正。
 
-さらに、 [!DNL Adobe Asset Link] Creative Cloud(Photoshop、IllustratorおよびInDesign) 用の拡張機能がリリースされました。 [新しいバージョン 3.2](https://exchange.adobe.com/creativecloud.details.106875.adobe-asset-link-cep.html)パネルの起動時間とダウンロード速度のパフォーマンスが向上しました。
+さらに、Creative Cloud 用の [!DNL Adobe Asset Link] 拡張機能（Photoshop、Illustrator および InDesign）では、パネルの起動時間とダウンロード速度のパフォーマンスが向上した[新しいバージョン 3.2](https://exchange.adobe.com/creativecloud.details.106875.adobe-asset-link-cep.html) をリリースしました。
 
 
 ## 既知の問題 {#known-issues}
@@ -38,7 +38,7 @@ ht-degree: 65%
 
 ### 2022.1.0 リリース {#january-2022}
 
-[!DNL Assets Essentials] は 2022 年 2 月 3 日にリリースされ、以下の更新がおこなわれました。
+[!DNL Assets Essentials] は 2022年3月3日（PT）にリリースされ、次の更新が行われました。
 
 * 「[!UICONTROL フォルダーを作成]」操作のパフォーマンスの向上。<!-- CQ-4338818 -->
 
