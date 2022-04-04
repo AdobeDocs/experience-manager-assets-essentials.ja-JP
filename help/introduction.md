@@ -3,10 +3,10 @@ title: ' [!DNL Assets Essentials] の概要'
 description: Assets Essentials の概要とソリューション紹介
 role: User,Leader
 exl-id: 43ddf11c-36d3-4643-80c9-b7dd5d199450
-source-git-commit: ecc36da0de9e4e7075085251aacdaf92640311a6
-workflow-type: ht
-source-wordcount: '233'
-ht-degree: 100%
+source-git-commit: c95717e9898ade023d785b9d0191f4bc20f10a39
+workflow-type: tm+mt
+source-wordcount: '243'
+ht-degree: 90%
 
 ---
 
@@ -18,7 +18,15 @@ ht-degree: 100%
 
 アドビでは、デジタルアセットを最大限に活用するための堅牢なデジタルアセット管理（DAM）ソリューションを提供しています。アドビでは、Adobe Experience Manager 製品ラインの一部として、デジタルアセットを保存、管理、検出するための新しい SaaS ソリューションを提供しています。このソリューションは、他のアドビソリューションとネイティブに統合されています。
 
-[!DNL Experience Manager Assets Essentials] は [!DNL Adobe Experience Manager Assets] の新しい軽量版です。[!DNL Assets Essentials] では、シンプルで一貫性のあるユーザーインターフェイスにより、統一されたアセット管理およびコラボレーション機能を提供します。これにより、より多くのクリエイティブチームやマーケティングチームがデジタルアセットを保存、検出および配布できるようになります。現在、[!DNL Assets Essentials] は、[[!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home.html?lang=ja) を使用しているお客様がそのソリューションの一部として利用できます。
+[!DNL Experience Manager Assets Essentials] は [!DNL Adobe Experience Manager Assets] の新しい軽量版です。[!DNL Assets Essentials] では、シンプルで一貫性のあるユーザーインターフェイスにより、統一されたアセット管理およびコラボレーション機能を提供します。これにより、より多くのクリエイティブチームやマーケティングチームがデジタルアセットを保存、検出および配布できるようになります。現在、 [!DNL Assets Essentials] experience は次のソリューションと統合できます。
+
+* Creative Cloud エンタープライズ版
+
+* Adobe Journey Optimizer
+
+* Adobe Workfront
+
+詳しくは、 [他のAdobe・ソリューションとの統合](integration.md).
 
 [!DNL Assets Essentials] は、シンプルなインターフェイスと、デジタルアセットの効率的な検索および検出を重視し、チーム間でのアセット利用、ガバナンス、ブランド一貫性を確保します。エンドユーザーエクスペリエンスは、スタンドアロンの Web ユーザーインターフェイスのほか、他のアドビソリューションに組み込まれたエクスペリエンスを通じて提供されます。
 
