@@ -4,10 +4,10 @@ description: ' [!DNL Assets Essentials] 内のアセットを移動、削除、�
 role: User,Leader
 contentOwner: AG
 exl-id: b01e98b9-0cc2-47c5-9f5b-79b8e6bef39f
-source-git-commit: cd7af0c946a042430e62528fa6aa19bdab139f67
-workflow-type: ht
-source-wordcount: '614'
-ht-degree: 100%
+source-git-commit: e8bae7cb2b424fe6956247398398e86f559db67f
+workflow-type: tm+mt
+source-wordcount: '838'
+ht-degree: 79%
 
 ---
 
@@ -83,3 +83,65 @@ TBD: query for engineering: How many versions are maintained. What happens when 
 ![アセットのバージョンの表示](assets/view-asset-versions1.png)
 
 *図：アセットのバージョンを表示、以前のバージョンに戻す、別の新しいバージョンをアップロード*
+
+## アセットステータスの管理 {#manage-asset-status}
+
+**必要な権限：**  `Can Edit`, `Owner`またはアセットに対する管理者権限。
+
+Assets Essentialsでは、リポジトリーで使用可能なアセットのステータスを設定できます。 デジタルアセットのダウンストリーム消費をより適切に管理および管理するためのアセットステータスを設定します。
+
+アセットに対して次のステータスを設定できます。
+
+* 承認
+
+* 却下
+
+* ステータスなし
+
+### アセットステータスの設定 {#set-asset-status}
+
+アセットのステータスを設定するには：
+
+1. アセットを選択し、 **[!UICONTROL 詳細]** 」と入力します。
+
+1. 内 **[!UICONTROL 基本]** 」タブで、 **[!UICONTROL ステータス]** ドロップダウンリスト。 可能な値は、「承認済み」、「却下」、「ステータスなし」（デフォルト）です。
+
+   >[!VIDEO](https://video.tv.adobe.com/v/342495)
+
+<!--
+
+### Set asset expiration date {#set-asset-expiration-date}
+
+To set asset expiration date:
+
+1. Select the asset, and click **[!UICONTROL Details]** in the toolbar.
+
+1. In the **[!UICONTROL Basic]** tab, set the expiration date for the asset using the  **[!UICONTROL Expiration date]** field.
+
+The `Expired` asset card indicator overrides the `Approved` or `Rejected` indicator set for an asset.
+
+-->
+
+また、アセットのステータスに基づいてアセットをフィルタリングすることもできます。詳しくは、 [Assets Essentialsでのアセットの検索](search.md).
+
+## アセットステータスフィールドを含めるためのメタデータフォームのカスタマイズ {#customize-asset-status-metadata-form}
+
+**必要な権限：** 管理者
+
+Assets Essentials には、多数の標準メタデータフィールドがデフォルトで用意されています。組織には、追加のメタデータニーズがあり、ビジネス固有のメタデータを追加するために、さらに多くのメタデータフィールドが必要です。メタデータフォームを使用すると、ビジネスごとにアセットの[!UICONTROL 詳細] ページにカスタムメタデータフィールドを追加できます。ビジネス固有のメタデータにより、アセットのガバナンスと検出が向上します。
+
+メタデータフォームにメタデータフィールドを追加する方法について詳しくは、 [メタデータForms](metadata.md##metadata-forms).
+
+**アセットステータスメタデータフィールドをフォームに追加する**
+
+アセットステータスメタデータフィールドをフォームに追加するには、 **[!UICONTROL アセットステータス]** 左側のレールからフォームにコンポーネントを追加します。 mapping プロパティは自動的に事前入力されます。 フォームを保存して、変更を確定します。
+
+<!--
+
+**Add Expiration Date metadata field to the form**
+
+To add Expiration Date metadata field to the form,  drag **[!UICONTROL Date]** component from the left rail to the form. Specify **Expiration Date** as the label and `pur:expirationDate` as the mapping property. Save the form to confirm the changes.
+
+-->
+
+

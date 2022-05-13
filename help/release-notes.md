@@ -2,18 +2,52 @@
 title: リリースノート
 description: ' [!DNL Assets Essentials] のリリースノートと既知の問題'
 role: User,Leader,Admin,Architect,Developer
-contentOwner: AG
+contentOwner: AK
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
-source-git-commit: 4cced7aba92fd0f041842e5ef78d02f0a4f7ffe0
-workflow-type: ht
-source-wordcount: '549'
-ht-degree: 100%
+source-git-commit: 7c4bc88e2110ff1dd7442af303bdd2c586ba5a6f
+workflow-type: tm+mt
+source-wordcount: '786'
+ht-degree: 72%
 
 ---
 
 # [!DNL Assets Essentials] のリリースノート  {#release-notes}
 
-[!DNL Assets Essentials] の最新リリースは 2022年3月9日（PT）にリリースされました。このリリースでは、次の機能が提供されます。
+の現在のリリース [!DNL Assets Essentials] は 2022 年 5 月 13 日にリリースされました。 このリリースでは、次の機能が提供されます。
+
+* [!DNL Assets Essentials] がサポートされるようになりました [コレクションの作成](manage-collections.md). コレクションは、Experience Manager Assets Essentials 内のアセットのセットです。 コレクションを使用して、ユーザー間でアセットを共有します。フォルダーとは異なり、1 つのコレクションに異なる複数の場所のアセットを含めることができます。
+
+* また、 [カスタムフィルターの追加](search.md#custom-filters) をユーザーインターフェイスに追加します。 その後、標準フィルターに加えて、これらのカスタムフィルターを適用し、検索結果を絞り込むことができます。
+
+* Assets Essentialsで次の操作を実行できます。 [ステータスを設定](manage-organize.md#set-asset-status) リポジトリで使用可能なアセットの デジタルアセットのダウンストリーム消費をより適切に管理および管理するためのアセットステータスを設定します。
+
+* 顧客のフィードバックに基づく機能強化およびバグ修正。
+
+## Chrome の匿名モード {#incognito-mode}
+
+このリリースでは、UI 配信とAssets Essentialsの特定の機能（アセットと画像編集に関するコメント）のパフォーマンスを最適化しています。これは、ブラウザーのローカルストレージとサードパーティ cookie が有効になっているかどうかに依存します。 Chrome Web ブラウザーの匿名モードは、デフォルトでサードパーティ cookie をブロックします。ユーザーは、すべての機能に引き続きアクセスするための多くのオプションを利用できます。
+
+* ユーザーがブラウザーセッションを分離する必要がある場合、匿名モードではなく Chrome プロファイルを使用します
+
+* をオフにする `Block third-party cookies` Chrome の匿名モード画面で
+
+## 既知の問題 {#known-issues}
+
+[!DNL Assets Essentials] ソリューションに関する既知の問題のリストは、継続的に改訂され、更新されています。
+
+* アセットをフィルタリングするには、 `No Status` アセットのステータス。
+
+* を使用してアセットを参照または検索することはできません。 `Expired` ステータス。 ディープリンクまたは URL を使用したアセットへのアクセスのみ可能です。
+
+* Assets Essentialsは非公開コレクションの作成をサポートしていません。
+
+問題が発生した場合や機能強化のご要望については、サポートチームに[フィードバックを送付](#provide-feedback)してください。
+
+## 過去のリリース {#past-release}
+
+### 2022.2.0 {#march-2022}
+
+[!DNL Assets Essentials] は 2022 年 3 月 10 日にリリースされ、次の更新がおこなわれました。
 
 * [!DNL Assets Essentials] では、[!DNL Assets Essentials] アプリケーションへのアクセス権を持たない[外部の関係者とリンクを生成し、アセットを共有](share-links-for-assets.md)できるようになりました。リンクの有効期限を定義し、電子メールやメッセージングサービスなどの好みの通信方法を使用して、他のユーザーとリンクを共有できます。リンクの受信者は、アセットをプレビューし、ダウンロードできます。
 
@@ -25,16 +59,6 @@ ht-degree: 100%
 
 さらに、Creative Cloud 用の [!DNL Adobe Asset Link] 拡張機能（Photoshop、Illustrator および InDesign）では、パネルの起動時間とダウンロード速度のパフォーマンスが向上した[新しいバージョン 3.2](https://exchange.adobe.com/creativecloud.details.106875.adobe-asset-link-cep.html) をリリースしました。
 
-
-## 既知の問題 {#known-issues}
-
-[!DNL Assets Essentials] ソリューションに関する既知の問題のリストは、継続的に改訂され、更新されています。
-
-* なし
-
-問題が発生した場合や機能強化のご要望については、サポートチームに[フィードバックを送付](#provide-feedback)してください。
-
-## 過去のリリース {#past-release}
 
 ### 2022.1.0 リリース {#january-2022}
 
