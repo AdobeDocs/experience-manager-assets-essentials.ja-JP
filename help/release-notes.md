@@ -4,10 +4,10 @@ description: ' [!DNL Assets Essentials] のリリースノートと既知の問�
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AK
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
-source-git-commit: 7c4bc88e2110ff1dd7442af303bdd2c586ba5a6f
+source-git-commit: 4fcac20c15ebabcafe851ce207bd937c8a7f6b03
 workflow-type: tm+mt
-source-wordcount: '786'
-ht-degree: 72%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -36,8 +36,6 @@ ht-degree: 72%
 [!DNL Assets Essentials] ソリューションに関する既知の問題のリストは、継続的に改訂され、更新されています。
 
 * アセットをフィルタリングするには、 `No Status` アセットのステータス。
-
-* を使用してアセットを参照または検索することはできません。 `Expired` ステータス。 ディープリンクまたは URL を使用したアセットへのアクセスのみ可能です。
 
 * Assets Essentialsは非公開コレクションの作成をサポートしていません。
 
