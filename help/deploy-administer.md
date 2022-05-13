@@ -3,16 +3,18 @@ title: ユーザーの管理
 description: ' [!DNL Assets Essentials] でのデプロイメントやユーザー管理など、管理に関するユースケース'
 role: Admin
 exl-id: ef91126f-3aee-442b-b242-a6bf4034f3dc
-source-git-commit: fb4ca5b3ab85f77cc1013c2d4743530f5d48e96d
-workflow-type: ht
-source-wordcount: '1129'
-ht-degree: 100%
+source-git-commit: 552dcf43677ac2a95864666faab9938534f70d40
+workflow-type: tm+mt
+source-wordcount: '1139'
+ht-degree: 99%
 
 ---
 
 # [!DNL Assets Essentials] の管理とユーザーの追加 {#administer}
 
 [!DNL Adobe Experience Manager Assets Essentials] は、アドビのお客様向けにアドビによってプロビジョニングされます。プロビジョニングの一環として、[!DNL Adobe Admin Console] でお客様の組織に [!DNL Assets Essentials] が追加されます。管理者は [!DNL Admin Console] を使用して [!DNL Assets Essentials] ソリューションのユーザー権利を管理し、[!DNL Assets Essentials] で権限とメタデータフォームを設定するアプリケーション管理者を割り当てます。
+
+ジャーニーベースのエクスペリエンスでAssets Essentialsを管理するには、 [リンク](adminster-aem-assets-essentials.md).
 
 ## Assets Essentials の自動デプロイメント {#automatic-deployment-assets-essentials}
 
