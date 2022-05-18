@@ -1,13 +1,13 @@
 ---
 title: Assets EssentialsとAdobe Workfrontの統合
 description: Assets EssentialsをAdobe Workfrontアプリケーションと統合して、Workfrontアプリケーション内のAssets Essentialsリポジトリにアクセスできるようにします。
-source-git-commit: 7d49060ba2e02bd9c5caf9753ef56b5feed5b3df
+exl-id: 47c2963d-57f0-463e-8d5b-5e5af9928f77
+source-git-commit: 507d5de0fad337f5c84dab28bc396dbfa7c5afe1
 workflow-type: tm+mt
-source-wordcount: '616'
+source-wordcount: '619'
 ht-degree: 19%
 
 ---
-
 
 # Assets EssentialsとAdobe Workfrontの統合 {#integrate-assets-essentials-workfront}
 
@@ -66,7 +66,7 @@ Workfrontユーザーを次のAssets Essentials製品プロファイルのいず
 
 ## Experience Manager Assets Essentials 統合の設定 {#configure-assets-essentials-integration}
 
-Admin Consoleを使用してWorkfrontおよびAssets Essentials製品プロファイルにユーザーを追加すると、次のことができます。 [Experience Manager Assets Essentials 統合の設定](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&amp;topicId=Content%2FDocuments%2FAdobe_Workfront_for_Experience_Manager_Assets_Essentials%2F_workfront-for-aem-asset-essentials.htm).
+Admin Consoleを使用してWorkfrontおよびAssets Essentials製品プロファイルにユーザーを追加すると、次のことができます。 [Adobe WorkfrontとのExperience Manager Assets Essentials 統合の設定](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&amp;topicId=Content%2FDocuments%2FAdobe_Workfront_for_Experience_Manager_Assets_Essentials%2F_workfront-for-aem-asset-essentials.htm).
 
 統合を設定すると、次の操作を実行できます。
 
