@@ -2,10 +2,10 @@
 title: Assets EssentialsとAdobe Workfrontの統合
 description: Assets EssentialsをAdobe Workfrontアプリケーションと統合して、Workfrontアプリケーション内のAssets Essentialsリポジトリにアクセスできるようにします。
 exl-id: 47c2963d-57f0-463e-8d5b-5e5af9928f77
-source-git-commit: 507d5de0fad337f5c84dab28bc396dbfa7c5afe1
+source-git-commit: 1bb5f1aa1bb03b38964f13f40dc2d2d675a0480f
 workflow-type: tm+mt
-source-wordcount: '619'
-ht-degree: 19%
+source-wordcount: '634'
+ht-degree: 18%
 
 ---
 
@@ -61,6 +61,8 @@ Workfrontユーザーを次のAssets Essentials製品プロファイルのいず
 
 * **[!DNL Assets Essentials]ユーザー** 完全なAssets Essentialsユーザーインターフェイスにアクセスできます。 これらのユーザーは、Assets Essentialsアプリケーションでデジタルアセットをアップロード、整理、タグ付け、検索できます。 また、ユーザーは、 [!DNL Adobe Workfront] アプリケーション。
 * **[!DNL Assets Essentials]消費者ユーザー**:の埋め込みアセット選択エクスペリエンスにアクセスできる [!DNL Adobe Workfront] アプリケーション。
+
+また、 **[!DNL Assets Essentials]管理者** アプリケーションへの管理者アクセスを提供する製品プロファイル。
 
 ユーザーをAssets Essentials製品プロファイルに割り当てる方法について詳しくは、 [ユーザーをAssets Essentials製品プロファイルに割り当てる](adminster-aem-assets-essentials.md#add-users-to-product-profiles).
 
