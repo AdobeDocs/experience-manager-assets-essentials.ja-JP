@@ -1,10 +1,11 @@
 ---
 title: コレクションの管理
 description: コレクションは、Experience Manager Assets Essentials 内のアセットのセットです。 コレクションを使用して、ユーザー間でアセットを共有します。
-source-git-commit: 6e86dc11e953423c156c3c06cb20c1700afdd59b
+exl-id: 33c889f5-c989-4772-9591-db62f50e5c80
+source-git-commit: 02f28c00b387fbcac4cd917fab7763124fdd5d70
 workflow-type: tm+mt
-source-wordcount: '473'
-ht-degree: 27%
+source-wordcount: '520'
+ht-degree: 25%
 
 ---
 
@@ -125,3 +126,11 @@ Click **[!UICONTROL Collections]** in the left rail and use the Search box to sp
 1. 削除するコレクションを選択します。
 
 1. 「**[!UICONTROL 削除]**」をクリックします。
+
+## 次の手順 {#next-steps}
+
+* 次を使用して製品に関するフィードバックを提供： [!UICONTROL フィードバック] Assets Essentialsユーザーインターフェイスで使用できるオプション
+
+* 次を使用してドキュメントのフィードバックを提供： [!UICONTROL このページを編集] ![ページの編集](assets/do-not-localize/edit-page.png) または [!UICONTROL 問題のログ] ![GitHub イシューの作成](assets/do-not-localize/github-issue.png) 右側のサイドバーで利用可能
+
+* 連絡先 [カスタマーケア](https://experienceleague.adobe.com/?support-solution=General&amp;lang=ja#support)

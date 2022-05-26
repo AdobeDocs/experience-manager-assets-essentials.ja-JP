@@ -3,10 +3,10 @@ title: ' [!DNL Assets Essentials] でのアセットの検索と検出'
 description: ' [!DNL Assets Essentials] でのアセットの検索と検出について説明します。'
 role: User
 exl-id: be9597a3-056c-436c-a09e-15a03567c85a
-source-git-commit: 0420b0836affe453cced6789ea4a7c56660e9f0a
+source-git-commit: 02f28c00b387fbcac4cd917fab7763124fdd5d70
 workflow-type: tm+mt
-source-wordcount: '686'
-ht-degree: 57%
+source-wordcount: '749'
+ht-degree: 53%
 
 ---
 
@@ -122,3 +122,13 @@ What about temporarily hiding an asset (suspending search on it) from the search
 
 When userA is searching and userB add an asset that matches search results, will the asset display in search as soon as userA refreshes the page? Assuming indexing is near real-time. May not be so for bulk uploads.
 -->
+
+## 次の手順 {#next-steps}
+
+* [Assets Essentialsでアセットを検索するビデオを見る](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/basics/using.html)
+
+* 次を使用して製品に関するフィードバックを提供： [!UICONTROL フィードバック] Assets Essentialsユーザーインターフェイスで使用できるオプション
+
+* 次を使用してドキュメントのフィードバックを提供： [!UICONTROL このページを編集] ![ページの編集](assets/do-not-localize/edit-page.png) または [!UICONTROL 問題のログ] ![GitHub イシューの作成](assets/do-not-localize/github-issue.png) 右側のサイドバーで利用可能
+
+* 連絡先 [カスタマーケア](https://experienceleague.adobe.com/?support-solution=General&amp;lang=ja#support)

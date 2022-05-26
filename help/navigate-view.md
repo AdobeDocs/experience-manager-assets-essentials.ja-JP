@@ -3,10 +3,10 @@ title: 「[!DNL Assets Essentials] ユーザーインターフェイス」
 description: ' [!DNL Assets Essentials] のユーザーインターフェイスとナビゲーションについて説明します。'
 role: User
 exl-id: 534a8084-88f7-410e-b872-719e47e62b10
-source-git-commit: 0a0f520b0c023120995b3af327661212604fac0d
-workflow-type: ht
-source-wordcount: '539'
-ht-degree: 100%
+source-git-commit: 02f28c00b387fbcac4cd917fab7763124fdd5d70
+workflow-type: tm+mt
+source-wordcount: '586'
+ht-degree: 93%
 
 ---
 
@@ -102,6 +102,14 @@ ht-degree: 100%
 Explicitly previewed assets are displayed as recently viewed assets. Give screenshot of this.
 Other use cases after previewing.
 -->
+
+## 次の手順 {#next-steps}
+
+* 次を使用して製品に関するフィードバックを提供： [!UICONTROL フィードバック] Assets Essentialsユーザーインターフェイスで使用できるオプション
+
+* 次を使用してドキュメントのフィードバックを提供： [!UICONTROL このページを編集] ![ページの編集](assets/do-not-localize/edit-page.png) または [!UICONTROL 問題のログ] ![GitHub イシューの作成](assets/do-not-localize/github-issue.png) 右側のサイドバーで利用可能
+
+* 連絡先 [カスタマーケア](https://experienceleague.adobe.com/?support-solution=General&amp;lang=ja#support)
 
 >[!MORELIKETHIS]
 >

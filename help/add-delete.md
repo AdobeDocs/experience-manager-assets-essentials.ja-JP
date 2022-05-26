@@ -2,13 +2,13 @@
 title: リポジトリへのアセットのアップロード
 description: ' [!DNL Assets Essentials] へのアセットのアップロード、アップロードステータスの表示、アップロードの問題の解決について説明します。'
 role: User
-source-git-commit: 5bae37e18ac587aaacaa004e5ec02775888d7f9a
-workflow-type: ht
-source-wordcount: '747'
-ht-degree: 100%
+exl-id: a85a4455-4456-48af-aee9-f05300677605
+source-git-commit: 02f28c00b387fbcac4cd917fab7763124fdd5d70
+workflow-type: tm+mt
+source-wordcount: '810'
+ht-degree: 93%
 
 ---
-
 
 # アセットのアップロード {#add-assets}
 
@@ -95,3 +95,13 @@ ht-degree: 100%
    *図：アセットタイルまたはフォルダータイルでファイルやフォルダーに使用できるアクション*
 
 * アセットまたはフォルダーを選択し、ツールバーの&#x200B;**[!UICONTROL 削除]**&#x200B;アイコン（![削除アイコン](assets/do-not-localize/delete-icon.png)）をクリックします。
+
+## 次の手順 {#next-steps}
+
+* [ビデオを見て、Assets Essentialsでアセットをアップロードする](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/basics/creating.html)
+
+* 次を使用して製品に関するフィードバックを提供： [!UICONTROL フィードバック] Assets Essentialsユーザーインターフェイスで使用できるオプション
+
+* 次を使用してドキュメントのフィードバックを提供： [!UICONTROL このページを編集] ![ページの編集](assets/do-not-localize/edit-page.png) または [!UICONTROL 問題のログ] ![GitHub イシューの作成](assets/do-not-localize/github-issue.png) 右側のサイドバーで利用可能
+
+* 連絡先 [カスタマーケア](https://experienceleague.adobe.com/?support-solution=General&amp;lang=ja#support)

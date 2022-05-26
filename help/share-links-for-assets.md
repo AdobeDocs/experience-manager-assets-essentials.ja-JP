@@ -1,13 +1,13 @@
 ---
 title: アセットへのリンクの共有方法
 description: リンクを生成し、 [!DNL Assets Essentials]  アプリケーションへのアクセス権を持たない他のユーザーとアセットを共有します。
-source-git-commit: 6c922bac00b2b1aa514c5408a56da514466d4483
-workflow-type: ht
-source-wordcount: '355'
-ht-degree: 100%
+exl-id: 6e05b06c-7436-40e3-acee-c8b1ed218f9e
+source-git-commit: 02f28c00b387fbcac4cd917fab7763124fdd5d70
+workflow-type: tm+mt
+source-wordcount: '420'
+ht-degree: 86%
 
 ---
-
 
 # アセットへのリンクの共有 {#share-links-assets}
 
@@ -43,3 +43,12 @@ ht-degree: 100%
 
 ![共有アセットのプレビュー](assets/preview-shared-assets.png)
 
+## 次の手順 {#next-steps}
+
+* [Assets Essentialsでアセットのリンクを共有するビデオを見る](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/basics/link-sharing.html)
+
+* 次を使用して製品に関するフィードバックを提供： [!UICONTROL フィードバック] Assets Essentialsユーザーインターフェイスで使用できるオプション
+
+* 次を使用してドキュメントのフィードバックを提供： [!UICONTROL このページを編集] ![ページの編集](assets/do-not-localize/edit-page.png) または [!UICONTROL 問題のログ] ![GitHub イシューの作成](assets/do-not-localize/github-issue.png) 右側のサイドバーで利用可能
+
+* 連絡先 [カスタマーケア](https://experienceleague.adobe.com/?support-solution=General&amp;lang=ja#support)

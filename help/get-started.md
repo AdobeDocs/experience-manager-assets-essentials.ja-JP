@@ -3,10 +3,10 @@ title: ' [!DNL Assets Essentials] の基本'
 description: ' [!DNL Assets Essentials] のアクセス方法、ログイン操作、サポートされているユースケース、既知の問題について説明します。'
 role: User, Leader
 exl-id: 7917b2a0-8340-4d94-aa6f-30ce986fa752
-source-git-commit: fdfbe04b41c6b164007591855c4dd37b6fe3dfa7
-workflow-type: ht
-source-wordcount: '476'
-ht-degree: 100%
+source-git-commit: 02f28c00b387fbcac4cd917fab7763124fdd5d70
+workflow-type: tm+mt
+source-wordcount: '432'
+ht-degree: 87%
 
 ---
 
@@ -55,6 +55,17 @@ ht-degree: 100%
 | メタデータ操作 | <ul> <li>[詳細なメタデータの表示](/help/metadata.md) </li> <li> [メタデータを更新](/help/metadata.md#update-metadata)</li> <li> [新しいメタデータフォームの作成](/help/metadata.md#metadata-forms) </li> </ul> |
 | 他のソリューションとの統合 | <ul> <li>[アセットセレクターの使用： [!DNL Adobe Journey Optimizer]](/help/integration.md)</li> <li>[[!DNL Adobe Asset Link] （ [!DNL Creative Cloud]](/help/integration.md) 用）</li> <li>[他のソリューションとの統合： [!DNL Adobe Workfront]](/help/integration.md)</li> </ul> |
 
+## 次の手順 {#next-steps}
+
+* [ビデオを見てAssets Essentialsの基本を学ぶ](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/getting-started.html)
+
+* 次を使用して製品に関するフィードバックを提供： [!UICONTROL フィードバック] Assets Essentialsユーザーインターフェイスで使用できるオプション
+
+* 次を使用してドキュメントのフィードバックを提供： [!UICONTROL このページを編集] ![ページの編集](assets/do-not-localize/edit-page.png) または [!UICONTROL 問題のログ] ![GitHub イシューの作成](assets/do-not-localize/github-issue.png) 右側のサイドバーで利用可能
+
+* 連絡先 [カスタマーケア](https://experienceleague.adobe.com/?support-solution=General&amp;lang=ja#support)
+
+
 <!--TBD: Merge the below rows in the table when the use cases are documented/available.
 
 | How do I delete assets? | <ul> <li>[Delete assets](/help/manage-organize.md)</li> <li>Recover deleted assets</li> <li>Permanently delete assets</li> </ul> |
@@ -63,16 +74,20 @@ ht-degree: 100%
 
 -->
 
-## ![フィードバックアイコン](assets/do-not-localize/feedback-icon.png) 製品に関するフィードバックの提供 {#provide-feedback}
+<!-- 
 
-アドビは、ソリューションに関するフィードバックを歓迎します。作業中のアプリケーションを切り替えずにフィードバックを提供するには、ユーザーインターフェイスで「[!UICONTROL フィードバック]」オプションを使用します。問題についてのスクリーンショットやビデオ録画などのファイルを添付することもできます。
+## ![feedback icon](assets/do-not-localize/feedback-icon.png) Provide product feedback {#provide-feedback}
 
-![ユーザーインターフェイスの「フィードバック」オプション](assets/feedback-panel.png)
+Adobe welcomes feedback about the solution. To provide feedback without even switching your working application, use the [!UICONTROL Feedback] option in the user interface. It also lets you attach files such as screenshots or video recording of an issue.
 
-ドキュメントに関するフィードバックを提供するには、右側のサイドバーで[!UICONTROL ページ編集]アイコン（![ページの編集](assets/do-not-localize/edit-page.png)）または[!UICONTROL 問題登録]アイコン（![GitHub イシューの作成](assets/do-not-localize/github-issue.png)）をクリックします。次のいずれかを行うことができます。
+  ![feedback option in the interface](assets/feedback-panel.png)
 
-* コンテンツを更新し GitHub プルリクエストを送信する。
-* GitHub でイシューまたはチケットを作成する。イシューを作成する際は、自動入力された記事名をメモしておきます。
+To provide feedback for documentation, click [!UICONTROL Edit this page] ![edit the page](assets/do-not-localize/edit-page.png) or [!UICONTROL Log an issue] ![create a GitHub issue](assets/do-not-localize/github-issue.png) from the right sidebar. You can do one of the following: 
+
+* Make the content updates and submit a GitHub pull request.
+* Create an issue or ticket in GitHub. Retain the automatically populated article name when creating an issue.
+
+-->
 
 >[!MORELIKETHIS]
 >

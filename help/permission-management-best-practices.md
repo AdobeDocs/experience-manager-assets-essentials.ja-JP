@@ -1,10 +1,11 @@
 ---
 title: フォルダー権限を効果的に管理する方法
 description: 効果的な権限管理のベストプラクティス
-source-git-commit: fe716385939d18aa23d01dac5fe5f041541d2b31
-workflow-type: ht
-source-wordcount: '398'
-ht-degree: 100%
+exl-id: 06b06f0b-3806-44ce-abc4-c1449a93dd29
+source-git-commit: 02f28c00b387fbcac4cd917fab7763124fdd5d70
+workflow-type: tm+mt
+source-wordcount: '445'
+ht-degree: 91%
 
 ---
 
@@ -63,3 +64,10 @@ Assets Essentials リポジトリでフォルダー構造を作成する計画�
 
 効率的でシンプルなフォルダー構造を実現する方法の例については、[フォルダーに対する権限の管理](manage-permissions.md##manage-permissions-folders)を参照してください。
 
+## 次の手順 {#next-steps}
+
+* 次を使用して製品に関するフィードバックを提供： [!UICONTROL フィードバック] Assets Essentialsユーザーインターフェイスで使用できるオプション
+
+* 次を使用してドキュメントのフィードバックを提供： [!UICONTROL このページを編集] ![ページの編集](assets/do-not-localize/edit-page.png) または [!UICONTROL 問題のログ] ![GitHub イシューの作成](assets/do-not-localize/github-issue.png) 右側のサイドバーで利用可能
+
+* 連絡先 [カスタマーケア](https://experienceleague.adobe.com/?support-solution=General&amp;lang=ja#support)

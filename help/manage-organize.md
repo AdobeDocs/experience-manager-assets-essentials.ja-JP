@@ -4,10 +4,10 @@ description: ' [!DNL Assets Essentials] 内のアセットを移動、削除、�
 role: User,Leader
 contentOwner: AG
 exl-id: b01e98b9-0cc2-47c5-9f5b-79b8e6bef39f
-source-git-commit: e8bae7cb2b424fe6956247398398e86f559db67f
+source-git-commit: 02f28c00b387fbcac4cd917fab7763124fdd5d70
 workflow-type: tm+mt
-source-wordcount: '838'
-ht-degree: 79%
+source-wordcount: '901'
+ht-degree: 74%
 
 ---
 
@@ -143,5 +143,17 @@ Assets Essentials には、多数の標準メタデータフィールドがデ�
 To add Expiration Date metadata field to the form,  drag **[!UICONTROL Date]** component from the left rail to the form. Specify **Expiration Date** as the label and `pur:expirationDate` as the mapping property. Save the form to confirm the changes.
 
 -->
+
+## 次の手順 {#next-steps}
+
+* [Assets Essentialsでのアセット管理に関するビデオを視聴する](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/basics/managing.html)
+
+* 次を使用して製品に関するフィードバックを提供： [!UICONTROL フィードバック] Assets Essentialsユーザーインターフェイスで使用できるオプション
+
+* 次を使用してドキュメントのフィードバックを提供： [!UICONTROL このページを編集] ![ページの編集](assets/do-not-localize/edit-page.png) または [!UICONTROL 問題のログ] ![GitHub イシューの作成](assets/do-not-localize/github-issue.png) 右側のサイドバーで利用可能
+
+* 連絡先 [カスタマーケア](https://experienceleague.adobe.com/?support-solution=General&amp;lang=ja#support)
+
+
 
 

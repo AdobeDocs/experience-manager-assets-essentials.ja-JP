@@ -2,10 +2,10 @@
 title: AEM Assets Essentials のフォルダーに対する権限の管理方法
 description: Assets Essentials では、管理者は、リポジトリで使用可能なフォルダーのアクセスレベルを管理できます。ユーザーグループを作成し、それらのグループに権限を割り当てて、アクセスレベルを管理します。管理者は、フォルダーレベルでユーザーグループに権限管理の権限をデリゲートすることもできます。
 exl-id: 5ef01dbc-87c0-4013-9367-5da3774f4f20
-source-git-commit: c5cb27f3f660935487bb214088b4300475ef5fce
+source-git-commit: 02f28c00b387fbcac4cd917fab7763124fdd5d70
 workflow-type: tm+mt
-source-wordcount: '1580'
-ht-degree: 100%
+source-wordcount: '1643'
+ht-degree: 96%
 
 ---
 
@@ -202,3 +202,13 @@ Assets Essentials リポジトリ全体の権限を編集するには：
 * /projects/project-x：すべてのユーザーが、フォルダーとそのサブフォルダーを表示できます。プロジェクトマネージャーチームのユーザーグループには編集権限があり、フォルダーとそのサブフォルダーに対する権限を管理できます（所有者権限）。プロジェクト X チームのユーザーグループには、編集権限があります。
 
 * /legal：`All Authenticated Users` グループの `Deny Access` 権限に基づいて、どのユーザーもフォルダーにアクセスできません。法務チームのユーザーグループには、編集権限があります。
+
+## 次の手順 {#next-steps}
+
+* [Assets Essentialsでの権限の管理に関するビデオを視聴する](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/configuring/permissions-management.html)
+
+* 次を使用して製品に関するフィードバックを提供： [!UICONTROL フィードバック] Assets Essentialsユーザーインターフェイスで使用できるオプション
+
+* 次を使用してドキュメントのフィードバックを提供： [!UICONTROL このページを編集] ![ページの編集](assets/do-not-localize/edit-page.png) または [!UICONTROL 問題のログ] ![GitHub イシューの作成](assets/do-not-localize/github-issue.png) 右側のサイドバーで利用可能
+
+* 連絡先 [カスタマーケア](https://experienceleague.adobe.com/?support-solution=General&amp;lang=ja#support)

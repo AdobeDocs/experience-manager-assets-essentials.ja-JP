@@ -3,10 +3,10 @@ title: ユーザーの管理
 description: ' [!DNL Assets Essentials] でのデプロイメントやユーザー管理など、管理に関するユースケース'
 role: Admin
 exl-id: ef91126f-3aee-442b-b242-a6bf4034f3dc
-source-git-commit: 552dcf43677ac2a95864666faab9938534f70d40
+source-git-commit: 59f6165fd7576736ff75369c2805c15ce3ae9af0
 workflow-type: tm+mt
-source-wordcount: '1139'
-ht-degree: 99%
+source-wordcount: '1201'
+ht-degree: 94%
 
 ---
 
@@ -125,6 +125,18 @@ Assets Essentials ソリューションのデプロイメントが成功した�
    ![環境の準備：[!DNL Cloud Manager]](assets/cloudmanager-manage-access-essentials.png)
 
    *図：使用する準備ができた [!DNL Cloud Manager] 内の環境*
+
+## 次の手順 {#next-steps}
+
+* [ビデオを見てAssets Essentialsをデプロイする](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/provisioning.html?lang=en)
+
+* 次を使用して製品に関するフィードバックを提供： [!UICONTROL フィードバック] Assets Essentialsユーザーインターフェイスで使用できるオプション
+
+* 次を使用してドキュメントのフィードバックを提供： [!UICONTROL このページを編集] ![ページの編集](assets/do-not-localize/edit-page.png) または [!UICONTROL 問題のログ] ![GitHub イシューの作成](assets/do-not-localize/github-issue.png) 右側のサイドバーで利用可能
+
+* 連絡先 [カスタマーケア](https://experienceleague.adobe.com/?support-solution=General&amp;lang=ja#support)
+
+
 
 >[!MORELIKETHIS]
 >
