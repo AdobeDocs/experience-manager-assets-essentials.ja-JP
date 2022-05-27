@@ -6,38 +6,38 @@ contentOwner: AK
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
 source-git-commit: 4fcac20c15ebabcafe851ce207bd937c8a7f6b03
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '761'
+ht-degree: 100%
 
 ---
 
-# [!DNL Assets Essentials] のリリースノート  {#release-notes}
+# [!DNL Assets Essentials] のリリースノート {#release-notes}
 
-の現在のリリース [!DNL Assets Essentials] は 2022 年 5 月 13 日にリリースされました。 このリリースでは、次の機能が提供されます。
+[!DNL Assets Essentials] の最新リリースは 2022年5月12日（PT）にリリースされました。このリリースでは、次の機能が提供されます。
 
-* [!DNL Assets Essentials] がサポートされるようになりました [コレクションの作成](manage-collections.md). コレクションは、Experience Manager Assets Essentials 内のアセットのセットです。 コレクションを使用して、ユーザー間でアセットを共有します。フォルダーとは異なり、1 つのコレクションに異なる複数の場所のアセットを含めることができます。
+* [!DNL Assets Essentials] で、[コレクションの作成](manage-collections.md)がサポートされるようになりました。コレクションとは、Experience Manager Assets Essentials 内の一連のアセットのことです。コレクションを使用して、ユーザー間でアセットを共有します。フォルダーとは異なり、1 つのコレクションに異なる複数の場所のアセットを含めることができます。
 
-* また、 [カスタムフィルターの追加](search.md#custom-filters) をユーザーインターフェイスに追加します。 その後、標準フィルターに加えて、これらのカスタムフィルターを適用し、検索結果を絞り込むことができます。
+* また、Assets Essentials で、ユーザーインターフェイスに[カスタムフィルターを追加](search.md#custom-filters)できるようになりました。標準フィルターに加えて、カスタムフィルターを適用し、検索結果を絞り込むことができます。
 
-* Assets Essentialsで次の操作を実行できます。 [ステータスを設定](manage-organize.md#set-asset-status) リポジトリで使用可能なアセットの デジタルアセットのダウンストリーム消費をより適切に管理および管理するためのアセットステータスを設定します。
+* Assets Essentials で、リポジトリで使用可能なアセットの[ステータスを設定](manage-organize.md#set-asset-status)できるようになりました。デジタルアセットのダウンストリーム使用をより適切に制御および管理するためのアセットステータスを設定します。
 
 * 顧客のフィードバックに基づく機能強化およびバグ修正。
 
-## Chrome の匿名モード {#incognito-mode}
+## Chrome のシークレットモード {#incognito-mode}
 
-このリリースでは、UI 配信とAssets Essentialsの特定の機能（アセットと画像編集に関するコメント）のパフォーマンスを最適化しています。これは、ブラウザーのローカルストレージとサードパーティ cookie が有効になっているかどうかに依存します。 Chrome Web ブラウザーの匿名モードは、デフォルトでサードパーティ cookie をブロックします。ユーザーは、すべての機能に引き続きアクセスするための多くのオプションを利用できます。
+このリリースでは、UI 配信と Assets Essentials の特定の機能（アセットと画像編集に関するコメント）のパフォーマンスを最適化しています。これは、ブラウザーのローカルストレージとサードパーティ cookie が有効かどうかに依存します。Chrome web ブラウザーのシークレットモードは、デフォルトでサードパーティ cookie をブロックします。ユーザーは、すべての機能に引き続きアクセスするための多くのオプションを利用できます。
 
-* ユーザーがブラウザーセッションを分離する必要がある場合、匿名モードではなく Chrome プロファイルを使用します
+* ブラウザーセッションを分離する必要がある場合、シークレットモードではなく Chrome プロファイルを使用する
 
-* をオフにする `Block third-party cookies` Chrome の匿名モード画面で
+* Chrome のシークレットモード画面で `Block third-party cookies` をオフにする
 
 ## 既知の問題 {#known-issues}
 
 [!DNL Assets Essentials] ソリューションに関する既知の問題のリストは、継続的に改訂され、更新されています。
 
-* アセットをフィルタリングするには、 `No Status` アセットのステータス。
+* `No Status` アセットステータスを使用してアセットをフィルタリングすることはできません。
 
-* Assets Essentialsは非公開コレクションの作成をサポートしていません。
+* Assets Essentials はプライベートコレクションの作成をサポートしていません。
 
 問題が発生した場合や機能強化のご要望については、サポートチームに[フィードバックを送付](#provide-feedback)してください。
 
@@ -45,7 +45,7 @@ ht-degree: 0%
 
 ### 2022.2.0 {#march-2022}
 
-[!DNL Assets Essentials] は 2022 年 3 月 10 日にリリースされ、次の更新がおこなわれました。
+[!DNL Assets Essentials] は 2022年3月9日（PT）にリリースされ、次の更新が行われました。
 
 * [!DNL Assets Essentials] では、[!DNL Assets Essentials] アプリケーションへのアクセス権を持たない[外部の関係者とリンクを生成し、アセットを共有](share-links-for-assets.md)できるようになりました。リンクの有効期限を定義し、電子メールやメッセージングサービスなどの好みの通信方法を使用して、他のユーザーとリンクを共有できます。リンクの受信者は、アセットをプレビューし、ダウンロードできます。
 
@@ -60,7 +60,7 @@ ht-degree: 0%
 
 ### 2022.1.0 リリース {#january-2022}
 
-[!DNL Assets Essentials] は 2022年3月3日（PT）にリリースされ、次の更新が行われました。
+[!DNL Assets Essentials] は 2022年2月3日（PT）にリリースされ、次の更新が行われました。
 
 * 「[!UICONTROL フォルダーを作成]」操作のパフォーマンスの向上。<!-- CQ-4338818 -->
 
