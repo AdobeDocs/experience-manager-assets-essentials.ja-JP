@@ -3,10 +3,10 @@ title: ' [!DNL Assets Essentials] でのアセットの検索と検出'
 description: ' [!DNL Assets Essentials] でのアセットの検索と検出について説明します。'
 role: User
 exl-id: be9597a3-056c-436c-a09e-15a03567c85a
-source-git-commit: 02f28c00b387fbcac4cd917fab7763124fdd5d70
+source-git-commit: 378aa0ee62ad814bdf598dfcf21f8b2775c83b84
 workflow-type: tm+mt
 source-wordcount: '749'
-ht-degree: 92%
+ht-degree: 91%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 92%
 
 *図：検索したアセットを様々なパラメーターに基づいてフィルタリング*
 
-* アセットステータス：`Approved` または `Rejected` アセットステータスを使用した検索結果のフィルタリング。
+* アセットステータス：検索結果のフィルタリングに、 `Approved`, `Rejected`または `No Status` アセットのステータス。
 
 * ファイルタイプ：サポートされているファイルタイプ（`Images`、`Documents`、`Videos`）で検索結果をフィルタリングします。
 * MIME タイプ：サポートされている 1 つ以上のファイル形式でフィルタリングします。<!-- TBD:  [supported file formats](/help/supported-file-formats.md). -->
