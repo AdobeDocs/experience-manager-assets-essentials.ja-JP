@@ -4,10 +4,10 @@ description: ' [!DNL Assets Essentials] 内のアセットを移動、削除、�
 role: User,Leader
 contentOwner: AG
 exl-id: b01e98b9-0cc2-47c5-9f5b-79b8e6bef39f
-source-git-commit: 02f28c00b387fbcac4cd917fab7763124fdd5d70
+source-git-commit: 05c9903d1225cd7875cc42ffe9ed7bd98aa1b757
 workflow-type: tm+mt
-source-wordcount: '901'
-ht-degree: 93%
+source-wordcount: '992'
+ht-degree: 86%
 
 ---
 
@@ -108,19 +108,16 @@ Assets Essentials では、リポジトリで使用可能なアセットのス�
 
    >[!VIDEO](https://video.tv.adobe.com/v/342495)
 
-<!--
 
-### Set asset expiration date {#set-asset-expiration-date}
+### アセットの有効期限を設定 {#set-asset-expiration-date}
 
-To set asset expiration date:
+アセットの有効期限を設定するには：
 
-1. Select the asset, and click **[!UICONTROL Details]** in the toolbar.
+1. アセットを選択し、ツールバーの「**[!UICONTROL 詳細]**」をクリックします。
 
-1. In the **[!UICONTROL Basic]** tab, set the expiration date for the asset using the  **[!UICONTROL Expiration date]** field.
+1. 内 **[!UICONTROL 基本]** 」タブで、  **[!UICONTROL 有効期限]** フィールドに入力します。
 
-The `Expired` asset card indicator overrides the `Approved` or `Rejected` indicator set for an asset.
-
--->
+この `Expired` アセットカードインジケーターが `Approved` または `Rejected` アセットのインジケーターセット。
 
 アセットのステータスに基づいてアセットをフィルタリングすることもできます。詳しくは、[Assets Essentials でのアセットの検索](search.md)を参照してください。
 
@@ -136,13 +133,9 @@ Assets Essentials には、多数の標準メタデータフィールドがデ�
 
 アセットステータスメタデータフィールドをフォームに追加するには、左側のパネルから、**[!UICONTROL アセットステータス]**&#x200B;コンポーネントをドラッグします。マッピングプロパティは自動的に事前入力されます。フォームを保存して、変更を確定します。
 
-<!--
+**有効期限メタデータフィールドをフォームに追加する**
 
-**Add Expiration Date metadata field to the form**
-
-To add Expiration Date metadata field to the form,  drag **[!UICONTROL Date]** component from the left rail to the form. Specify **Expiration Date** as the label and `pur:expirationDate` as the mapping property. Save the form to confirm the changes.
-
--->
+有効期限メタデータフィールドをフォームに追加するには、 **[!UICONTROL 日付]** 左側のレールからフォームにコンポーネントを追加します。 指定 **有効期限** ラベルとして `pur:expirationDate` を mapping プロパティとして追加します。 フォームを保存して、変更を確定します。
 
 ## 次の手順 {#next-steps}
 
