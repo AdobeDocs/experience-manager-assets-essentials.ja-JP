@@ -5,9 +5,9 @@ role: User,Leader,Admin,Architect,Developer
 contentOwner: AG
 exl-id: bc44e98d-446e-41ff-b5b4-9dc324834630
 source-git-commit: 02f28c00b387fbcac4cd917fab7763124fdd5d70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '355'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -40,13 +40,13 @@ ht-degree: 88%
 
 | アセットタイプ | [参照](/help/navigate-view.md) | コピー | [アップロード](/help/add-delete.md) | 作成 | [削除](/help/add-delete.md#delete-assets) | 詳細 | 画像のズーム | [最近表示された項目](/help/navigate-view.md) |
 |-------------------|----------|----------|----------|----------|----------|-------------------|------------|-----------------|
-| ラスター画像 | ✓ | ✓ | ✓ | - | ✓ | ✓ | ✓ | ✓ |
-| RAWファイル | ✓ | ✓ | ✓ | - | ✓ | ✓ | ✓ | ✓ |
-| フォルダー | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | - | - |
-| MP4 ビデオ | ✓ | ✓ | ✓ | - | ✓ | ✓ ‡ | - | ✓ |
-| PDF | ✓ | ✓ | ✓ | - | ✓ | ✓ | - | ✓ |
-| PSD、AI、INDD | ✓ | ✓ | ✓ | - | ✓ | ✓ ‡ | - | ✓ |
-| その他のバイナリファイル | ✓ | ✓ | ✓ | - | ✓ | ✓ | - | ✓ |
+| ラスター画像 | ✓ | ✓ | ✓ | − | ✓ | ✓ | ✓ | ✓ |
+| RAWファイル | ✓ | ✓ | ✓ | − | ✓ | ✓ | ✓ | ✓ |
+| フォルダー | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | − | − |
+| MP4 ビデオ | ✓ | ✓ | ✓ | − | ✓ | ✓ ‡ | − | ✓ |
+| PDF | ✓ | ✓ | ✓ | − | ✓ | ✓ | − | ✓ |
+| PSD、AI、INDD | ✓ | ✓ | ✓ | − | ✓ | ✓ ‡ | − | ✓ |
+| その他のバイナリファイル | ✓ | ✓ | ✓ | − | ✓ | ✓ | − | ✓ |
 
 <!-- Hiding CC Libraries (considered beta) as per PM feedback.
 | CC Libraries  | &#10003; | &minus;  | &#10003; | &#10003; | &#10003; | &#10003; | &minus;    | &minus;         |
@@ -57,13 +57,13 @@ ht-degree: 88%
 | アセットタイプ | [ダウンロード](/help/manage-organize.md#download) | ドラッグ＆ドロップ | [画像エディター](/help/edit-images.md) | [検索](/help/search.md) | [スマートタグ](/help/metadata.md#tags) | [名前の変更](/help/manage-organize.md) | [バージョン](/help/manage-organize.md#versions-of-assets) |
 |---------------|----------|---------------|--------------|----------|------------|----------|----------|
 | ラスター画像 | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
-| RAWファイル | ✓ | ✓ | - | ✓ | ✓ | ✓ | ✓ | ✓ |
-| フォルダー | ✓ | ✓ | - | ✓ | - | ✓ | ✓ |
-| ビデオ | ✓ | ✓ | - | ✓ | ✓ | ✓ | ✓ |
-| CC ライブラリ | - | - | - | - | - | ✓ | ✓ |
-| PDF | ✓ | ✓ | - | ✓ | ✓ | ✓ | ✓ |
-| PSD、AI、INDD | ✓ | ✓ | - | ✓ | ✓ | ✓ | ✓ |
-| その他のバイナリファイル | ✓ | ✓ | - | ✓ | - | ✓ | ✓ |
+| RAWファイル | ✓ | ✓ | − | ✓ | ✓ | ✓ | ✓ | ✓ |
+| フォルダー | ✓ | ✓ | − | ✓ | − | ✓ | ✓ |
+| ビデオ | ✓ | ✓ | − | ✓ | ✓ | ✓ | ✓ |
+| CC ライブラリ | − | − | − | − | − | ✓ | ✓ |
+| PDF | ✓ | ✓ | − | ✓ | ✓ | ✓ | ✓ |
+| PSD、AI、INDD | ✓ | ✓ | − | ✓ | ✓ | ✓ | ✓ |
+| その他のバイナリファイル | ✓ | ✓ | − | ✓ | − | ✓ | ✓ |
 
 
 ## アセットの確認と共同作業 {#support-to-review-collaborate}
@@ -72,12 +72,12 @@ ht-degree: 88%
 |---------------|----------|----------|-------------------------|
 | ラスター画像 | ✓ | ✓ | ✓ |
 | RAWファイル | ✓ | ✓ | ✓ |
-| フォルダー | - | - | - |
-| ビデオ | - | ✓ | ✓ |
-| CC ライブラリ | - | - | - |
-| PDF | - | ✓ | ✓ |
-| PSD、AI、INDD | - | ✓ | ✓ |
-| その他のバイナリファイル | - | ✓ | ✓ |
+| フォルダー | − | − | − |
+| ビデオ | − | ✓ | ✓ |
+| CC ライブラリ | − | − | − |
+| PDF | − | ✓ | ✓ |
+| PSD、AI、INDD | − | ✓ | ✓ |
+| その他のバイナリファイル | − | ✓ | ✓ |
 
 ## その他のアセット管理タスク {#support-to-manage-assets}
 
@@ -85,12 +85,12 @@ ht-degree: 88%
 |---------------|-------------------|------------|----------|----------|----------|
 | ラスター画像 | ✓ | ✓ | ✓ | ✓ | ✓ |
 | RAWファイル | ✓ | ✓ | ✓ | ✓ | ✓ |
-| フォルダー | ✓ | - | ✓ | ✓ | ✓ |
-| ビデオ | ✓ | - | ✓ | ✓ | ✓ |
-| CC ライブラリ | ✓ | - | - | - | - |
-| PDF | ✓ | - | ✓ | ✓ | ✓ |
-| PSD、AI、INDD | ✓ | - | ✓ | ✓ | ✓ |
-| その他のバイナリファイル | ✓ | - | ✓ | ✓ | ✓ |
+| フォルダー | ✓ | − | ✓ | ✓ | ✓ |
+| ビデオ | ✓ | − | ✓ | ✓ | ✓ |
+| CC ライブラリ | ✓ | − | − | − | − |
+| PDF | ✓ | − | ✓ | ✓ | ✓ |
+| PSD、AI、INDD | ✓ | − | ✓ | ✓ | ✓ |
+| その他のバイナリファイル | ✓ | − | ✓ | ✓ | ✓ |
 
 [!DNL Adobe Asset Link] のユーザーは、サポート対象の [!DNL Adobe Creative Cloud] デスクトップアプリケーションから [!DNL Assets Essentials] リポジトリにファイルをアップロードしてチェックイン（新しいバージョンをアップロード）できます。
 
@@ -113,8 +113,8 @@ ht-degree: 88%
 
 ## 次の手順 {#next-steps}
 
-* 次を使用して製品に関するフィードバックを提供： [!UICONTROL フィードバック] Assets Essentialsユーザーインターフェイスで使用できるオプション
+* Assets Essentials ユーザーインターフェイスの「[!UICONTROL フィードバック]」オプションを使用して製品に関するフィードバックを提供する
 
-* 次を使用してドキュメントのフィードバックを提供： [!UICONTROL このページを編集] ![ページの編集](assets/do-not-localize/edit-page.png) または [!UICONTROL 問題のログ] ![GitHub イシューの作成](assets/do-not-localize/github-issue.png) 右側のサイドバーで利用可能
+* 右側のサイドバーにある「[!UICONTROL このページを編集]」（![ページを編集](assets/do-not-localize/edit-page.png)）または「[!UICONTROL 問題を記録]」（![GitHub イシューを作成](assets/do-not-localize/github-issue.png)）を使用してドキュメントに関するフィードバックを提供する
 
-* 連絡先 [カスタマーケア](https://experienceleague.adobe.com/?support-solution=General&amp;lang=ja#support)
+* [カスタマーケア](https://experienceleague.adobe.com/?support-solution=General&amp;lang=ja#support)に問い合わせる
