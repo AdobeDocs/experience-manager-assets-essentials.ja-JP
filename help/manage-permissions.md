@@ -3,9 +3,9 @@ title: AEM Assets Essentials のフォルダーに対する権限の管理方法
 description: Assets Essentials では、管理者は、リポジトリで使用可能なフォルダーのアクセスレベルを管理できます。ユーザーグループを作成し、それらのグループに権限を割り当てて、アクセスレベルを管理します。管理者は、フォルダーレベルでユーザーグループに権限管理の権限をデリゲートすることもできます。
 exl-id: 5ef01dbc-87c0-4013-9367-5da3774f4f20
 source-git-commit: 02f28c00b387fbcac4cd917fab7763124fdd5d70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1643'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -205,10 +205,10 @@ Assets Essentials リポジトリ全体の権限を編集するには：
 
 ## 次の手順 {#next-steps}
 
-* [Assets Essentialsでの権限の管理に関するビデオを視聴する](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/configuring/permissions-management.html)
+* [ビデオを視聴して Assets Essentials での権限の管理を学ぶ](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/configuring/permissions-management.html?lang=ja)
 
-* 次を使用して製品に関するフィードバックを提供： [!UICONTROL フィードバック] Assets Essentialsユーザーインターフェイスで使用できるオプション
+* Assets Essentials ユーザーインターフェイスの「[!UICONTROL フィードバック]」オプションを使用して製品に関するフィードバックを提供する
 
-* 次を使用してドキュメントのフィードバックを提供： [!UICONTROL このページを編集] ![ページの編集](assets/do-not-localize/edit-page.png) または [!UICONTROL 問題のログ] ![GitHub イシューの作成](assets/do-not-localize/github-issue.png) 右側のサイドバーで利用可能
+* 右側のサイドバーにある「[!UICONTROL このページを編集]」（![ページを編集](assets/do-not-localize/edit-page.png)）または「[!UICONTROL 問題を記録]」（![GitHub イシューを作成](assets/do-not-localize/github-issue.png)）を使用してドキュメントに関するフィードバックを提供する
 
-* 連絡先 [カスタマーケア](https://experienceleague.adobe.com/?support-solution=General&amp;lang=ja#support)
+* [カスタマーケア](https://experienceleague.adobe.com/?support-solution=General&amp;lang=ja#support)に問い合わせる
