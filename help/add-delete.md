@@ -4,9 +4,9 @@ description: ' [!DNL Assets Essentials] へのアセットのアップロード�
 role: User
 exl-id: a85a4455-4456-48af-aee9-f05300677605
 source-git-commit: 02f28c00b387fbcac4cd917fab7763124fdd5d70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '810'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -98,10 +98,10 @@ ht-degree: 93%
 
 ## 次の手順 {#next-steps}
 
-* [ビデオを見て、Assets Essentialsでアセットをアップロードする](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/basics/creating.html)
+* [ビデオを視聴して Assets Essentials へのアセットのアップロードを学ぶ](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/basics/creating.html?lang=ja)
 
-* 次を使用して製品に関するフィードバックを提供： [!UICONTROL フィードバック] Assets Essentialsユーザーインターフェイスで使用できるオプション
+* Assets Essentials ユーザーインターフェイスの「[!UICONTROL フィードバック]」オプションを使用して製品に関するフィードバックを提供する
 
-* 次を使用してドキュメントのフィードバックを提供： [!UICONTROL このページを編集] ![ページの編集](assets/do-not-localize/edit-page.png) または [!UICONTROL 問題のログ] ![GitHub イシューの作成](assets/do-not-localize/github-issue.png) 右側のサイドバーで利用可能
+* 右側のサイドバーにある「[!UICONTROL このページを編集]」（![ページを編集](assets/do-not-localize/edit-page.png)）または「[!UICONTROL 問題を記録]」（![GitHub イシューを作成](assets/do-not-localize/github-issue.png)）を使用してドキュメントに関するフィードバックを提供する
 
-* 連絡先 [カスタマーケア](https://experienceleague.adobe.com/?support-solution=General&amp;lang=ja#support)
+* [カスタマーケア](https://experienceleague.adobe.com/?support-solution=General&amp;lang=ja#support)に問い合わせる
