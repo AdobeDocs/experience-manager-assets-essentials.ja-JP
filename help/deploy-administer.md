@@ -4,9 +4,9 @@ description: ' [!DNL Assets Essentials] でのデプロイメントやユーザ�
 role: Admin
 exl-id: ef91126f-3aee-442b-b242-a6bf4034f3dc
 source-git-commit: 59f6165fd7576736ff75369c2805c15ce3ae9af0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1201'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 94%
 
 [!DNL Adobe Experience Manager Assets Essentials] は、アドビのお客様向けにアドビによってプロビジョニングされます。プロビジョニングの一環として、[!DNL Adobe Admin Console] でお客様の組織に [!DNL Assets Essentials] が追加されます。管理者は [!DNL Admin Console] を使用して [!DNL Assets Essentials] ソリューションのユーザー権利を管理し、[!DNL Assets Essentials] で権限とメタデータフォームを設定するアプリケーション管理者を割り当てます。
 
-ジャーニーベースのエクスペリエンスでAssets Essentialsを管理するには、 [リンク](adminster-aem-assets-essentials.md).
+ジャーニーベースのエクスペリエンスで Assets Essentials を管理するには、この[リンク](adminster-aem-assets-essentials.md)をクリックします。
 
 ## Assets Essentials の自動デプロイメント {#automatic-deployment-assets-essentials}
 
@@ -128,13 +128,13 @@ Assets Essentials ソリューションのデプロイメントが成功した�
 
 ## 次の手順 {#next-steps}
 
-* [ビデオを見てAssets Essentialsをデプロイする](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/provisioning.html?lang=en)
+* [ビデオを視聴して Assets Essentials のデプロイを学ぶ](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/provisioning.html?lang=ja)
 
-* 次を使用して製品に関するフィードバックを提供： [!UICONTROL フィードバック] Assets Essentialsユーザーインターフェイスで使用できるオプション
+* Assets Essentials ユーザーインターフェイスの「[!UICONTROL フィードバック]」オプションを使用して製品に関するフィードバックを提供する
 
-* 次を使用してドキュメントのフィードバックを提供： [!UICONTROL このページを編集] ![ページの編集](assets/do-not-localize/edit-page.png) または [!UICONTROL 問題のログ] ![GitHub イシューの作成](assets/do-not-localize/github-issue.png) 右側のサイドバーで利用可能
+* 右側のサイドバーにある「[!UICONTROL このページを編集]」（![ページを編集](assets/do-not-localize/edit-page.png)）または「[!UICONTROL 問題を記録]」（![GitHub イシューを作成](assets/do-not-localize/github-issue.png)）を使用してドキュメントに関するフィードバックを提供する
 
-* 連絡先 [カスタマーケア](https://experienceleague.adobe.com/?support-solution=General&amp;lang=ja#support)
+* [カスタマーケア](https://experienceleague.adobe.com/?support-solution=General&amp;lang=ja#support)に問い合わせる
 
 
 
