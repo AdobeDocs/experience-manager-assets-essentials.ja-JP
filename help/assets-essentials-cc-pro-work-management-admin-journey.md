@@ -1,77 +1,77 @@
 ---
-title: Work Management Solutions を使用したCreative CloudPro 用のAssets Essentialsの設定
-description: 'このチュートリアルでは、Assets EssentialsアプリケーションをCreative CloudのデスクトップアプリケーションやAdobe Workfrontアプリケーションと統合できるようにする管理者ジャーニーを紹介します。 Creative Cloudのデスクトップアプリケーションには、Adobe Photoshop、Adobe Illustrator、Adobe InDesign、Adobe XDが含まれます。 '
-source-git-commit: f4e56fc6bb76eeb2770b18be88b7da1a1829069c
-workflow-type: tm+mt
+title: Assets Essentials と Creative Cloud Pro および作業管理ソリューションの連携のセットアップ
+description: このチュートリアルでは、Assets Essentials アプリケーションを Creative Cloud デスクトップアプリケーションおよび Adobe Workfront アプリケーションと統合できるようにする管理者ジャーニーを紹介します。Creative Cloud デスクトップアプリケーションには、Adobe Photoshop、Adobe Illustrator、Adobe InDesign および Adobe XD が含まれます。
+exl-id: a5e9e0c3-35ec-41de-9656-f4f0f88946c7
+source-git-commit: a40b608ec72691c10dfbf7dff518a2cfc87d6552
+workflow-type: ht
 source-wordcount: '900'
-ht-degree: 19%
+ht-degree: 100%
 
 ---
 
-
-# Assets Essentials for Work Management Solutions とCreative CloudPro {#creative-cloud-enterprise-user-journeys}
+# Assets Essentials と Creative Cloud Pro および作業管理ソリューションの連携  {#creative-cloud-enterprise-user-journeys}
 
 ![暗いテーマと明るいテーマを切り替えるための環境設定](assets/cce-next-banner-landing-page.png)
 
 ## はじめに {#introduction}
 
-Work Management Solutions を使用するCreative CloudPro は、クリエイティブ、コンテンツ、作業管理ツールを統合し、クリエイティブなコンテンツを作成する能力を高め、ビジネス目標を迅速に達成します。 このソリューションには、次のコンポーネントが含まれます。
+Creative Cloud Pro エンタープライズ版と作業管理ソリューションを併用すると、クリエイティブツール、コンテンツツールおよび作業管理ツールを統合して、クリエイティブコンテンツの作成能力を高め、ビジネス目標を迅速に達成することができます。このソリューションには、次のコンポーネントが含まれています。
 
-* Creative CloudPro
+* Creative Cloud Pro
 
 * Adobe Workfront
 
 * Experience Manager Assets Essentials
 
-このチュートリアルでは、Assets EssentialsアプリケーションをCreative CloudのデスクトップアプリケーションやAdobe Workfrontアプリケーションと統合できるようにする管理者ジャーニーを紹介します。 Creative Cloudのデスクトップアプリケーションには、Adobe Photoshop、Adobe Illustrator、Adobe InDesign、Adobe XDが含まれます。
+このチュートリアルでは、Assets Essentials アプリケーションを Creative Cloud デスクトップアプリケーションおよび Adobe Workfront アプリケーションと統合できるようにする管理者ジャーニーを紹介します。Creative Cloud デスクトップアプリケーションには、Adobe Photoshop、Adobe Illustrator、Adobe InDesign および Adobe XD が含まれます。
 
 ## デプロイメントタイプ {#deployment-types}
 
-ソリューションは、Creative CloudとAdobe Experience Cloudの両方のアプリケーションとサービスで構成されているので、会社の 1 つまたは 2 つのAdobeAdmin Consoleにデプロイされる場合があります。
+ソリューションは Creative Cloud と Adobe Experience Cloud から提供されるアプリケーションおよびサービスで構成されているので、会社の 1 つまたは 2 つの Adobe Admin Console にデプロイされる場合があります。
 
-2 つの設定にデプロイする場合は、Admin Consoleの追加手順が必要です。
+2 つの Admin Console にデプロイする場合は、さらに次の設定手順が必要です。
 
-* Creative Cloudサービスとアプリケーション (Enterprise Pro のCreative Cloudとオプションモジュール ) は、 [Adobe Admin ConsoleのCreative Cloudデプロイメント](https://chl-author-preview.corp.adobe.com/content/help/en/enterprise/admin-guide.html).
+* Creative Cloud サービスおよびアプリケーション（Creative Cloud エンタープライズ版 Pro とオプションモジュール）は、[Creative Cloud デプロイメントの Adobe Admin Console](https://helpx.adobe.com/jp/enterprise/admin-guide.html) で管理されます。
 
-* Adobe WorkfrontとAdobe Experience Manager Assets Essentialsは、 [Adobe Admin Console forExperience Cloudソリューション](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html).
+* Adobe Workfront および Adobe Experience Manager Assets Essentials は、[Experience Cloud ソリューションの Adobe Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html?lang=ja) で管理されます。
 
-Creative CloudとAssets Essentialsアプリケーションを統合するには、Admin ConsoleでCreative Cloudに使用できるユーザーが、Experience CloudにAdmin Consoleして使用できるようにする必要があります。 ユーザーをExperience CloudAdmin Consoleで使用できるようにするには、ディレクトリを作成して、 [ディレクトリ信頼](https://helpx.adobe.com/enterprise/using/set-up-identity.html#directory-trusting) 2 つの管理コンソール間。
+Creative Cloud と Assets Essentials のアプリケーションを統合するには、Creative Cloud の Admin Console で使用できるユーザーを、Experience Cloud の Admin Console でも使用できるようにする必要があります。ユーザーを Experience Cloud Admin Console で使用できるようにするには、2 つの Admin Console 間で[ディレクトリトラスト](https://helpx.adobe.com/jp/enterprise/using/set-up-identity.html#directory-trusting)を確立するためのディレクトリを作成します。
 
 ![Creative Cloud ユーザー](assets/creative-cloud-users.svg)
 
-図に示すように、Creative Cloudユーザーは、2 つのコンソール間の信頼関係に基づいて、Experience CloudAdmin Consoleで自動的に使用可能になります。 その後、ユーザーをAssets Essentials製品プロファイルに追加できます。 その結果、Creative CloudユーザーはAssets Essentialsリポジトリとやり取りできるAdobeAsset Link アプリケーションにアクセスできます。 詳しくは、 [Assets EssentialsとCreative Cloudアプリケーションの統合](integrate-assets-essentials-creative-cloud.md).
+図に示すように、Creative Cloud ユーザーは、2 つのコンソール間の信頼関係に基づいて、Experience Cloud Admin Console で自動的に使用可能になります。その後、Assets Essentials 製品プロファイルにユーザーを追加できます。その結果、Creative Cloud ユーザーは Assets Essentials リポジトリとやり取りできる Adobe Asset Link アプリケーションにアクセスできます。詳しくは、[Assets Essentials と Creative Cloud アプリケーションの統合](integrate-assets-essentials-creative-cloud.md)を参照してください。
 
-## Experience Managerドキュメントジャーニー {#documentation-journeys}
+## Experience Manager ドキュメントジャーニー {#documentation-journeys}
 
-ドキュメントジャーニーは、Assets Essentialsを初めて使用する読者が、最初から最後までビジネス上の問題を理解し、解決するのに役立つナレーションを提供し、前のトピックやAssets Essentialsの知識を最小限に抑えながら、様々な複雑なトピックや機能を結び付けます。
+ドキュメントジャーニーでは、Assets Essentials を初めて使用する可能性のある読者が、最小限の事前トピックまたは Assets Essentials の知識を前提として、ビジネス上の問題を包括的に理解し解決するのに役立つ物語を提供することにより、多くの異なる、おそらく複雑なトピックと機能を結び付けます。
 
-ドキュメントジャーニーは、Adobeの最新の調査、Adobeコンサルタントによる実証済みの実装経験、お客様のプロジェクトからのフィードバックに基づく、ベストプラクティスの原則に基づいて設計されています。
+ドキュメントジャーニーは、アドビの最新の調査、アドビコンサルタントの実績ある実装経験および顧客プロジェクトからのフィードバックに基づいて、ベストプラクティス原則を軸に設計されています。
 
 ## 前提条件
 
-* [Adobe Admin Consoleへのアクセス (Experience Cloudソリューション )](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html)
+* [Experience Cloud ソリューションの Adobe Admin Console へのアクセス](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html?lang=ja)
 
-* [Adobe Admin Consoleへのアクセス (Creative Cloud向け )](https://helpx.adobe.com/enterprise/admin-guide.html)
+* [Creative Cloud エンタープライズ版デプロイメントの Adobe Admin Console へのアクセス](https://helpx.adobe.com/jp/enterprise/admin-guide.html)
 
 ## Experience Manager Assets Essentials の管理 {#administer-assets-essentials}
 
 ![暗いテーマと明るいテーマを切り替えるための環境設定](assets/cce-assets.png)
 
-Adobe Experience Manager Assets Essentialsは、Adobe Experience Manager Assets の新しい軽量エディションです。 Assets Essentialsは、シンプルで一貫性のあるユーザーインターフェイスを備え、統合されたアセット管理とコラボレーションを実現します。 これにより、より多くのクリエイティブチームやマーケティングチームがデジタルアセットを保存、検出および配布できるようになります。
+Adobe Experience Manager Assets Essentials は、Adobe Experience Manager Assets の新しい軽量版です。 Assets Essentials では、シンプルで一貫性のあるユーザーインターフェイスにより、統一されたアセット管理とコラボレーションを提供します。使いやすいので、より多くのクリエイティブチームやマーケティングチームがデジタルアセットを保存、検出および配布できるようになります。
 
-Adobe Experience Manager Assets Essentialsは、お客様向けにAdobeによってプロビジョニングされます。 プロビジョニングの一環として、Assets EssentialsがAdobe Admin Consoleの顧客の組織に追加されます。
+Adobe Experience Manager Assets Essentials は、アドビがお客様向けにプロビジョニングします。プロビジョニングの一環として、Assets Essentials が Adobe Admin Console のお客様の組織に追加されます。
 
-管理者は、Admin Consoleを使用してAssets Essentials製品に対するユーザーの使用権限を管理します。
+管理者は、Admin Console を使用して Assets Essentials 製品に対するユーザーの使用権限を管理します。
 
-* ユーザーグループを追加
+* ユーザーグループの追加
 
-* ユーザーグループにユーザーを追加
+* ユーザーグループへのユーザーの追加
 
-* Assets Essentials製品プロファイルへのユーザーの追加
+* Assets Essentials 製品プロファイルへのユーザーの追加
 
-Admin Consoleでユーザーの使用権限を管理した後、管理者はAssets Essentialsアプリケーションを使用して次のことをおこなうことができます。
+Admin Console でユーザーの使用権限を管理したら、管理者は Assets Essentials アプリケーションを使用して以下を行えます。
 
-* 組織のニーズに最適なフォルダー構造を作成する
+* 組織のニーズを最適にサポートするフォルダー構造の作成
 
 * フォルダー構造に対する権限の管理
 
@@ -79,42 +79,40 @@ Admin Consoleでユーザーの使用権限を管理した後、管理者はAsse
 
 [! [ガイドを参照](https://helpx.adobe.com/content/dam/help/en/marketing-cloud/how-to/digital-foundation/_jcr_content/main-pars/image_1250343773/see-the-guide-sm.png)](adminster-aem-assets-essentials.md)
 
-## Creative CloudアプリケーションとExperience Manager Assets Essentials の統合 {#administer-creative-cloud-applications}
+## Creative Cloud アプリケーションと Experience Manager Assets Essentials の統合 {#administer-creative-cloud-applications}
 
 ![暗いテーマと明るいテーマを切り替えるための環境設定](assets/cce-creative-cloud.png)
 
-[AdobeAsset Link のアプリ内パネル](https://www.adobe.com/jp/creativecloud/business/enterprise/adobe-asset-link.html) クリエイティブプロフェッショナルが [!DNL Assets Essentials] サポート対象内からのリポジトリ [!DNL Adobe Creative Cloud] デスクトップアプリケーション このパネルは、[!DNL Adobe Photoshop]、[!DNL Adobe Illustrator]、[!DNL Adobe InDesign] および [!DNL Adobe XD] で使用できます。これにより、アセットへのアクセスが効率化され、その結果、コンテンツベロシティ（コンテンツ創出速度）が向上します。
+[Adobe Asset Link のアプリ内パネル](https://www.adobe.com/jp/creativecloud/business/enterprise/adobe-asset-link.html)を使用すると、クリエイティブプロフェッショナルは、サポートされている [!DNL Adobe Creative Cloud] デスクトップアプリ内から [!DNL Assets Essentials] リポジトリに接続できます。このパネルは、[!DNL Adobe Photoshop]、[!DNL Adobe Illustrator]、[!DNL Adobe InDesign] および [!DNL Adobe XD] で使用できます。これにより、アセットへのアクセスが効率化され、その結果、コンテンツベロシティ（コンテンツ創出速度）が向上します。
 
-このチュートリアルでは、 [!DNL Adobe Photoshop], [!DNL Adobe Illustrator], [!DNL Adobe InDesign]、および [!DNL Adobe XD] Experience Manager Assets Essentials のアプリケーション
+このチュートリアルでは、[!DNL Adobe Photoshop]、[!DNL Adobe Illustrator]、[!DNL Adobe InDesign] および [!DNL Adobe XD] アプリケーションを Experience Manager Assets Essentials と統合する方法について説明します。
 
-ゴール:
+目標：
 
-* ディレクトリとExperience CloudのCreative CloudAdmin Console
+* Creative Cloud と Experience Cloud の Admin Console 間のディレクトリトラストの作成
 
-* Assets Essentials製品プロファイルへのCreative Cloudユーザーの追加
+* Assets Essentials 製品プロファイルへの Creative Cloud ユーザーの追加
 
-* AdobeAsset Link のインストール
+* Adobe Asset Link のインストール
 
 * Adobe Asset Link の使用
 
 [! [ガイドを参照](https://helpx.adobe.com/content/dam/help/en/marketing-cloud/how-to/digital-foundation/_jcr_content/main-pars/image_1250343773/see-the-guide-sm.png)](integrate-assets-essentials-creative-cloud.md)
 
-## Adobe WorkfrontとExperience Manager Assets Essentials の統合 {#administer-adobe-workfront}
+## Adobe Workfront と Experience Manager Assets Essentials の統合 {#administer-adobe-workfront}
 
 ![暗いテーマと明るいテーマを切り替えるための環境設定](assets/cce-workfront.png)
 
-[[!DNL Adobe Workfront]](https://www.workfront.com/) は作業管理アプリケーションで、作業のライフサイクル全体を一元的に管理するのに役立ちます。次の間のネイティブ統合： [!DNL Adobe Workfront] および [!DNL Assets Essentials] 組織は、業務とアセット管理を本質的に結び付けることで、コンテンツの速度と市場投入までの時間を改善できます。 ユーザーは、自分の作業を管理するという観点で、同じソリューション内の必要なドキュメントや画像にアクセスできます。
+[[!DNL Adobe Workfront]](https://www.workfront.com/) は作業管理アプリケーションで、作業のライフサイクル全体を一元的に管理するのに役立ちます。[!DNL Adobe Workfront] と [!DNL Assets Essentials] のネイティブ統合により、組織は、作業とアセット管理を本質的に関連付けることで、コンテンツベロシティを向上させ市場投入までの時間を短縮することができます。ユーザーは、自分の作業を管理するという観点で、同じソリューション内の必要なドキュメントや画像にアクセスできます。
 
-このチュートリアルでは、Adobe Workfrontの管理とExperience Manager Assets Essentials との統合について説明します。
+このチュートリアルでは、Adobe Workfront の管理と Experience Manager Assets Essentials との統合について説明します。
 
-ゴール:
+目標：
 
-* Workfront製品プロファイルへのユーザーの追加
+* Workfront 製品プロファイルへのユーザーの追加
 
-* Assets Essentials製品プロファイルへのユーザーの追加
+* Assets Essentials 製品プロファイルへのユーザーの追加
 
 * Experience Manager Assets Essentials 統合の設定
 
 [! [ガイドを参照](https://helpx.adobe.com/content/dam/help/en/marketing-cloud/how-to/digital-foundation/_jcr_content/main-pars/image_1250343773/see-the-guide-sm.png)](integrate-assets-essentials-workfront.md)
-
-
