@@ -6,7 +6,7 @@ exl-id: 43ddf11c-36d3-4643-80c9-b7dd5d199450
 source-git-commit: 0e41008adfb713f0a40c65433adeac53c195a2ac
 workflow-type: tm+mt
 source-wordcount: '640'
-ht-degree: 2%
+ht-degree: 9%
 
 ---
 
@@ -86,11 +86,11 @@ Assets Essentialsをすぐに使い始めて、様々なチームの主要なデ
 
 ## 次の手順 {#next-steps}
 
-* 次を使用して製品に関するフィードバックを提供： [!UICONTROL フィードバック] Assets Essentialsユーザーインターフェイスで使用できるオプション
+* Assets Essentials ユーザーインターフェイスの「[!UICONTROL フィードバック]」オプションを使用して製品に関するフィードバックを提供する
 
-* 次を使用してドキュメントのフィードバックを提供： [!UICONTROL このページを編集] ![ページの編集](assets/do-not-localize/edit-page.png) または [!UICONTROL 問題のログ] ![GitHub イシューの作成](assets/do-not-localize/github-issue.png) 右側のサイドバーで利用可能
+* 右側のサイドバーにある「[!UICONTROL このページを編集]」（![ページを編集](assets/do-not-localize/edit-page.png)）または「[!UICONTROL 問題を記録] 」（![GitHub イシューを作成](assets/do-not-localize/github-issue.png)）を使用してドキュメントに関するフィードバックを提供する
 
-* 連絡先 [カスタマーケア](https://experienceleague.adobe.com/?support-solution=General&amp;lang=ja#support)
+* [カスタマーケア](https://experienceleague.adobe.com/?support-solution=General&amp;lang=ja#support)に問い合わせる
 
 
 >[!MORELIKETHIS]
