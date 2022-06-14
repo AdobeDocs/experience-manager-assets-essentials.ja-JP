@@ -1,88 +1,88 @@
 ---
-title: Assets EssentialsとCreative Cloudアプリケーションの統合
-description: Assets EssentialsをCreative Cloudアプリケーションと統合して、アプリ内パネルでAdobeアセットリンクを使用してに接続できるようにします。 [!DNL Assets Essentials] サポート対象内からのリポジトリ [!DNL Adobe Creative Cloud] デスクトップアプリケーション。
-source-git-commit: f4e56fc6bb76eeb2770b18be88b7da1a1829069c
-workflow-type: tm+mt
+title: Assets Essentials と Creative Cloud アプリケーションの統合
+description: Assets Essentials を Creative Cloud アプリケーションと統合して、Adobe Asset Link のアプリ内パネルを使用して、サポート対象の [!DNL Adobe Creative Cloud] デスクトップアプリケーション内から [!DNL Assets Essentials] リポジトリに接続できるようにします。
+exl-id: 611fd958-3fd3-4c46-bee9-8b866b7dc208
+source-git-commit: a40b608ec72691c10dfbf7dff518a2cfc87d6552
+workflow-type: ht
 source-wordcount: '854'
-ht-degree: 5%
+ht-degree: 100%
 
 ---
 
-
-# Assets EssentialsとCreative Cloudアプリケーションの統合 {#integrate-assets-essentials-creative-cloud-applications}
+# Assets Essentials と Creative Cloud アプリケーションの統合 {#integrate-assets-essentials-creative-cloud-applications}
 
 ![暗いテーマと明るいテーマを切り替えるための環境設定](assets/cce-creative-cloud.png)
 
-## 今までの話
+## これまでの説明内容
 
-後 [Experience Manager Assets Essentials の設定](adminster-aem-assets-essentials.md) このチュートリアルでは、エクスペリエンスに基づいてを構築し、Creative CloudアプリケーションをAssets Essentialsと統合できます。
+このチュートリアルで [Experience Manager Assets Essentials を設定](adminster-aem-assets-essentials.md)したら、エクスペリエンスに基づいて、Creative Cloud アプリケーションを Assets Essentials と統合できます。
 
 ## 目的
 
-* **対象ユーザ**:Creative Cloud管理者
+* **対象読者**：Creative Cloud 管理者
 
-* **目的**:Assets EssentialsをCreative Cloudアプリケーションと統合して、クリエイティブユーザーがアプリ内パネルでAdobeアセットリンクを使用して、に接続できるようにします。 [!DNL Assets Essentials] サポート対象内からのリポジトリ [!DNL Adobe Creative Cloud] デスクトップアプリケーション。
+* **目的**：Assets Essentials を Creative Cloud アプリケーションと統合して、クリエイティブユーザーが Adobe Asset Link のアプリ内パネルを使用して、サポート対象の [!DNL Adobe Creative Cloud] デスクトップアプリケーション内から [!DNL Assets Essentials] リポジトリに接続できるようにします。
 
 ## 概要
 
-[AdobeAsset Link のアプリ内パネル](https://www.adobe.com/jp/creativecloud/business/enterprise/adobe-asset-link.html) クリエイティブプロフェッショナルが [!DNL Assets Essentials] サポート対象内からのリポジトリ [!DNL Adobe Creative Cloud] デスクトップアプリケーション このパネルは、[!DNL Adobe Photoshop]、[!DNL Adobe Illustrator]、[!DNL Adobe InDesign] および [!DNL Adobe XD] で使用できます。これにより、アセットへのアクセスが合理化され、コンテンツの速度が向上します。
+[Adobe Asset Link のアプリ内パネル](https://www.adobe.com/jp/creativecloud/business/enterprise/adobe-asset-link.html)を使用すると、クリエイティブプロフェッショナルは、サポート対象の [!DNL Adobe Creative Cloud] デスクトップアプリケーション内から [!DNL Assets Essentials] リポジトリに接続できます。このパネルは、[!DNL Adobe Photoshop]、[!DNL Adobe Illustrator]、[!DNL Adobe InDesign] および [!DNL Adobe XD] で使用できます。これにより、アセットへのアクセスが効率化され、結果としてコンテンツベロシティ（コンテンツ創出速度）が向上します。
 
-Creative Cloudアプリケーションのユーザーは、AdobeアプリケーションをExperience Manager Assets Essentials リポジトリーと統合する場合にのみ、Creative Cloudアプリケーション Asset Link のアプリ内パネルを使用できます。
+Creative Cloud アプリケーションのユーザーは、Creative Cloud アプリケーションを Experience Manager Assets Essentials リポジトリと統合した場合にのみ、Adobe Asset Link のアプリ内パネルを使用できます。
 
-Assets EssentialsをCreative Cloudアプリケーションと統合するには、次のタスクを実行します。
+Assets Essentials を Creative Cloud アプリケーションと統合するには、次のタスクを実行します。
 
-* [ディレクトリとCreative Cloudの間のExperience Cloud信頼を作成](#directory-trusting-cc-assets-essentials-consoles)
+* [Creative Cloud と Experience Cloud の Admin Console 間のディレクトリトラストの作成](#directory-trusting-cc-assets-essentials-consoles)
 
-* [Assets Essentials製品プロファイルへのCreative Cloudユーザーの追加](#add-cc-users-assets-essentials-product-profiles)
+* [Assets Essentials 製品プロファイルへの Creative Cloud ユーザーの追加](#add-cc-users-assets-essentials-product-profiles)
 
-* [AdobeAsset Link のインストール](#install-asset-link)
+* [Adobe Asset Link のインストール](#install-asset-link)
 
 * [Adobe Asset Link の使用](#use-asset-link)
 
-## ディレクトリとExperience CloudのCreative CloudAdmin Console {#directory-trusting-cc-assets-essentials-consoles}
+## Creative Cloud と Experience Cloud の Admin Console 間のディレクトリトラストの作成 {#directory-trusting-cc-assets-essentials-consoles}
 
-Creative CloudがAssets Essentials(Experience Cloudソリューション ) とは別のAdobe管理コンソールにデプロイされている場合、2 つのコンソール間に信頼関係を追加する必要があります。
+Creative Cloud が Assets Essentials（Experience Cloud ソリューション）の Adobe Admin Console とは別の Admin Console にデプロイされている場合は、2 つのコンソール間に信頼関係を追加する必要があります。
 
-Creative CloudとAssets Essentialsアプリケーションを統合するには、Admin ConsoleでCreative Cloudに使用できるユーザーが、Experience CloudにAdmin Consoleして使用できるようにする必要があります。 Creative CloudとAssets Essentialsが別々のAdmin Consoleにデプロイされている場合、これを有効にするには、それらの間の信頼関係が必要です。
+Creative Cloud と Assets Essentials のアプリケーションを統合するには、Creative Cloud の Admin Console で使用できるユーザーを、Experience Cloud の Admin Console でも使用できるようにする必要があります。Creative Cloud と Assets Essentials が別々の Admin Console にデプロイされている場合、これを可能にするには、両者間の信頼関係が必要です。
 
-Experience CloudAdmin Consoleで、 **[!UICONTROL 設定]** また、 **[!UICONTROL ディレクトリ]** タブを使用して、設定するディレクトリを作成します。 [ディレクトリ信頼](https://helpx.adobe.com/enterprise/using/set-up-identity.html#directory-trusting) 2 つのAdmin Consoleの
+Experience Cloud Admin Console で「**[!UICONTROL 設定]**」をクリックし、「**[!UICONTROL ディレクトリ]**」タブを使用して、2 つの Admin Console 間に[ディレクトリトラスト](https://helpx.adobe.com/jp/enterprise/using/set-up-identity.html#directory-trusting)を確立するためのディレクトリを作成します。
 
-## Assets Essentials製品プロファイルへのCreative Cloudユーザーの追加 {#add-cc-users-assets-essentials-product-profiles}
+## Assets Essentials 製品プロファイルへの Creative Cloud ユーザーの追加 {#add-cc-users-assets-essentials-product-profiles}
 
-Creative CloudのAdmin ConsoleとExperience CloudのAdmin Consoleの間でディレクトリ信頼を確立した後、Creative Cloudユーザーを **[!DNL Assets Essentials]ユーザー** 下の製品プロファイル [!DNL Assets Essentials] 製品カード (Experience CloudAdmin Console) これにより、Creative Cloudユーザーは、Asset Link プラグインパネルからAssets Essentialsにアクセスできます。さらに、web ブラウザーを使用してデジタルアセットをアップロード、整理、タグ付けおよび検索するための、Assets Essentials web ユーザーインターフェイス全体へのアクセス権もユーザーに付与されます。
+Creative Cloud の Admin Console と Experience Cloud の Admin Console の間にディレクトリトラストを確立したら、Experience Cloud Admin Console の [!DNL Assets Essentials] 製品カードで Creative Cloud ユーザーを **[!DNL Assets Essentials]ユーザー**&#x200B;製品プロファイルに割り当てます。これで、Creative Cloud ユーザーは、Adobe Asset Link プラグインパネルから Assets Essentials にアクセスできるようになります。さらに、web ブラウザーを使用してデジタルアセットをアップロード、整理、タグ付けおよび検索するための、Assets Essentials web ユーザーインターフェイス全体へのアクセス権もユーザーに付与されます。
 
-その他のAssets Essentials製品プロファイル — **[!DNL Assets Essentials]管理者** および **[!DNL Assets Essentials]消費者ユーザー**  — は、様々なユーザーの使用権限 ( アプリケーション管理者およびExperience Cloudの統合を介してAssets Essentialsにアクセスするユーザー ) に使用されます。
+他の Assets Essentials 製品プロファイル（**[!DNL Assets Essentials]管理者**&#x200B;および **[!DNL Assets Essentials]消費者ユーザー**）は、別のユーザー使用権限（Experience Cloud 統合を通じて Assets Essentials にアクセスするアプリケーション管理者およびユーザー）に使用されます。
 
-ユーザーをAssets Essentials製品プロファイルに割り当てる方法について詳しくは、 [ユーザーをAssets Essentials製品プロファイルに割り当てる](adminster-aem-assets-essentials.md#add-users-to-product-profiles).
+ユーザーを Assets Essentials 製品プロファイルに割り当てる方法について詳しくは、[Assets Essentials 製品プロファイルへのユーザーの割り当て](adminster-aem-assets-essentials.md#add-users-to-product-profiles)を参照してください。
 
-## AdobeAsset Link のインストール {#install-asset-link}
+## Adobe Asset Link のインストール {#install-asset-link}
 
-[!DNL Adobe Asset Link] プラグインは、次の 2 つの方法でクリエイティブユーザーにインストールして提供できます。
+[!DNL Adobe Asset Link] プラグインは、次の 2 とおりの方法でインストールしてクリエイティブユーザーから利用できます。
 
-* クリエイティブユーザーは、自分の [!DNL Creative Cloud Desktop] アプリ
-* Creative Cloud管理者は、Admin Console内のCreative Cloudパッケージに Asset Link プラグインを追加できます
+* クリエイティブユーザーが自分の [!DNL Creative Cloud Desktop] アプリケーションからプラグインをインストールできます
+* Creative Cloud 管理者が Admin Console で Creative Cloud パッケージに Asset Link プラグインを追加できます
 
-選択肢は組織の IT ポリシーによって異なります。
+どちらを選択するかは組織の IT ポリシーによって異なります。
 
-**を使用したインストール [!DNL Creative Cloud Desktop] アプリ** が記述されている [ここ](https://helpx.adobe.com/creative-cloud/kb/installingextensionsandaddons.html). 2 つのプラグインが使用可能で、でホストされています。 [Adobe交換](https://exchange.adobe.com/) marketplace に表示される値を、Creative Cloudアプリケーションに応じて次に示します。
+**[!DNL Creative Cloud Desktop] アプリケーションを使用したインストール**&#x200B;については、[こちら](https://helpx.adobe.com/jp/creative-cloud/kb/installingextensionsandaddons.html)を参照してください。Creative Cloud アプリケーションによっては、2 つのプラグインが使用可能で、[Adobe Exchange](https://exchange.adobe.com/) Marketplace でホストされています。
 
-* の場合 [!DNL Adobe Photoshop], [!DNL Adobe Illustrator]、および [!DNL Adobe InDesign]: [Adobeアセットリンク CEP](https://exchange.adobe.com/creativecloud.details.106875.adobe-asset-link-cep.html)
-* の場合 [!DNL Adobe XD]: [Adobeアセットリンク](https://exchange.adobe.com/creativecloud/plugindetails.html/app/cc/61d229b9)
+* [!DNL Adobe Photoshop]、[!DNL Adobe Illustrator] および [!DNL Adobe InDesign] の場合：[Adobe Asset Link CEP](https://exchange.adobe.com/creativecloud.details.106875.adobe-asset-link-cep.html)
+* [!DNL Adobe XD] の場合：[Adobe Asset Link](https://exchange.adobe.com/creativecloud/plugindetails.html/app/cc/61d229b9)
 
-**インストールパッケージを使用したCreative Cloud** は、Creative Cloud管理者がAdmin Consoleでおこないます。デプロイメントパッケージの構築時に Asset Link プラグインを含めることでおこなわれ、後でユーザーのマシンにデプロイできます。 管理されるプラグインの選択画面で、を検索します。 **Adobeアセットリンク** 内 **主なビジネスプラグイン** 」セクションに入力します。 詳しくは、 [Admin Console](https://helpx.adobe.com/enterprise/using/package-apps-admin-console.html).
+**Creative Cloud パッケージを使用したインストール**&#x200B;は、Creative Cloud 管理者が Admin Console でデプロイメントパッケージのビルド時に Asset Link プラグインを組み込むことで行います。このパッケージは後でユーザーのマシンにデプロイできます。管理されているプラグインを選択画面の「**注目のビジネスプラグイン**」セクションで、**Adobe Asset Link** を検索します。詳しくは、[Admin Console でのアプリのパッケージ化](https://helpx.adobe.com/jp/enterprise/using/package-apps-admin-console.html)を参照してください。
 
 ## Adobe Asset Link の使用 {#use-asset-link}
 
-クリエイティブユーザーは、AdobeアセットリンクをPhotoshop、Illustrator、InDesign、XDと共に使用できるようになりました。 パネルをInDesignまたはIllustratorで開くには、Windows/拡張機能/Adobeアセットリンクに移動します。 Photoshopで、Window/Extensions (legacy)/Extensions Asset Link に移動します。
+クリエイティブユーザーは、Adobe Asset Link を Photoshop、Illustrator、InDesign または XD で使用できるようになりました。パネルを InDesign または Illustrator で開くには、ウィンドウ／エクステンション／Adobe Asset Link に移動します。 Photoshop では、ウィンドウ／エクステンション（従来）／Adobe Asset Link に移動します。
 
-Adobe XD用のAdobeAsset Link の設定方法について詳しくは、 [ここ](https://helpx.adobe.com/jp/enterprise/using/adobe-asset-link-for-xd.html).
+Adobe XD 用に Adobe Asset Link を設定する方法については、[ここ](https://helpx.adobe.com/jp/enterprise/using/adobe-asset-link-for-xd.html)をクリックしてください。
 
 >[!NOTE]
 >
->Apple Silicon/M1 ハードウェアを使用する場合、Adobe Photoshopは、CEP 拡張テクノロジーを使用して構築されているので、クリエイティブユーザーがAdobeAsset Link パネルに確実にアクセスできるように、Rosetta 互換モードで開始する必要があります。 詳しくは、 [Photoshop for Apple Silicon](https://helpx.adobe.com/photoshop/kb/photoshop-for-apple-silicon.html).
+>Apple シリコン／M1 ハードウェアを使用する場合は、クリエイティブユーザーが Adobe Asset Link パネルに確実にアクセスできるように、Adobe Photoshop を Rosetta 互換モードで起動する必要があります。パネルが CEP エクステンションテクノロジーを使用してビルドされているからです。詳しくは、[Apple Silicon での Photoshop の使用](https://helpx.adobe.com/jp/photoshop/kb/photoshop-for-apple-silicon.html)を参照してください。
 
 
-Adobeアセットリンクを使用して、Assets Essentialsリポジトリに保存されたアセットを操作および変更します。 次のような様々なタスクを実行できます。
+Adobe Asset Link を使用して、Assets Essentials リポジトリに保存されているアセットを操作および変更します。次のような様々なタスクを実行できます。
 
 * アセットの検索と参照
 
@@ -90,14 +90,14 @@ Adobeアセットリンクを使用して、Assets Essentialsリポジトリに�
 
 * アセットの並べ替えとフィルタリング
 
-* アセットの配置、ダウンロード、ドラッグ
+* アセットの配置、ダウンロードおよびドラッグ
 
 * アセットのチェックアウトとチェックイン
 
-* バージョン履歴とファイルの詳細を表示
+* バージョン履歴とファイル詳細の表示
 
-これらのタスクの実行方法については、 [アセットアセットリンクを使用したAdobeの管理](https://helpx.adobe.com/in/enterprise/using/manage-assets-using-adobe-asset-link.html).
+これらのタスクの実行方法については、[Adobe Asset Link を使用したアセットの管理](https://helpx.adobe.com/jp/enterprise/using/manage-assets-using-adobe-asset-link.html)を参照してください。
 
-## 次の手順
+## 次のステップ
 
-これで、Creative CloudアプリケーションがAssets Essentials、 [Adobe WorkfrontとExperience Manager Assets Essentials の統合](integrate-assets-essentials-workfront.md).
+これで、Creative Cloud アプリケーションと Assets Essentials の統合が完了したので、[Adobe Workfront と Experience Manager Assets Essentials の統合](integrate-assets-essentials-workfront.md)を行います。
