@@ -77,7 +77,7 @@ Admin Console でユーザーの使用権限を管理したら、管理者は As
 
 * メタデータフォームの設定
 
-[! [ガイドを参照](https://helpx.adobe.com/content/dam/help/en/marketing-cloud/how-to/digital-foundation/_jcr_content/main-pars/image_1250343773/see-the-guide-sm.png)](adminster-aem-assets-essentials.md)
+[![ガイドを参照](https://helpx.adobe.com/content/dam/help/en/marketing-cloud/how-to/digital-foundation/_jcr_content/main-pars/image_1250343773/see-the-guide-sm.png)](adminster-aem-assets-essentials.md)
 
 ## Creative Cloud アプリケーションと Experience Manager Assets Essentials の統合 {#administer-creative-cloud-applications}
 
@@ -97,7 +97,7 @@ Admin Console でユーザーの使用権限を管理したら、管理者は As
 
 * Adobe Asset Link の使用
 
-[! [ガイドを参照](https://helpx.adobe.com/content/dam/help/en/marketing-cloud/how-to/digital-foundation/_jcr_content/main-pars/image_1250343773/see-the-guide-sm.png)](integrate-assets-essentials-creative-cloud.md)
+[![ガイドを参照](https://helpx.adobe.com/content/dam/help/en/marketing-cloud/how-to/digital-foundation/_jcr_content/main-pars/image_1250343773/see-the-guide-sm.png)](integrate-assets-essentials-creative-cloud.md)
 
 ## Adobe Workfront と Experience Manager Assets Essentials の統合 {#administer-adobe-workfront}
 
@@ -115,4 +115,4 @@ Admin Console でユーザーの使用権限を管理したら、管理者は As
 
 * Experience Manager Assets Essentials 統合の設定
 
-[! [ガイドを参照](https://helpx.adobe.com/content/dam/help/en/marketing-cloud/how-to/digital-foundation/_jcr_content/main-pars/image_1250343773/see-the-guide-sm.png)](integrate-assets-essentials-workfront.md)
+[![ガイドを参照](https://helpx.adobe.com/content/dam/help/en/marketing-cloud/how-to/digital-foundation/_jcr_content/main-pars/image_1250343773/see-the-guide-sm.png)](integrate-assets-essentials-workfront.md)
