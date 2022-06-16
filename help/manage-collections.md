@@ -2,7 +2,7 @@
 title: コレクションの管理
 description: コレクションとは、Experience Manager Assets Essentials 内の一連のアセットのことです。コレクションを使用して、ユーザー間でアセットを共有します。
 exl-id: 33c889f5-c989-4772-9591-db62f50e5c80
-source-git-commit: 88dd604492ffd5be305fe2f54edae1f158247e26
+source-git-commit: 466f64018a37f553c0ad0cfaa2dc98b1e84b9be1
 workflow-type: tm+mt
 source-wordcount: '524'
 ht-degree: 91%
@@ -33,7 +33,7 @@ You can share collections with various users that are assigned different levels 
 
 * [コレクションのメタデータの表示と編集](#view-edit-collection-metadata)
 
-* [コレクション要素のダウンロード](#download-collection-elements)
+* [コレクションのダウンロード](#download-collection)
 
 * [コレクションの削除](#delete-collection)
 
