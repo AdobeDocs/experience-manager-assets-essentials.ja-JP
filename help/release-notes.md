@@ -4,14 +4,67 @@ description: ' [!DNL Assets Essentials] のリリースノートと既知の問�
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AK
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
-source-git-commit: 4fcac20c15ebabcafe851ce207bd937c8a7f6b03
-workflow-type: ht
-source-wordcount: '761'
-ht-degree: 100%
+source-git-commit: 7c6293bb99d5be8084e6998da966bb89be9c714e
+workflow-type: tm+mt
+source-wordcount: '889'
+ht-degree: 86%
 
 ---
 
 # [!DNL Assets Essentials] のリリースノート {#release-notes}
+
+の現在のリリース [!DNL Assets Essentials] は 2022 年 6 月 16 日にリリースされました。
+
+このリリースでは、次の機能が提供されます。
+
+**Asset Status の強化**
+
+* Assets Essentialsで、 [アセットの有効期限の設定](manage-organize.md#set-asset-status). また、 [アセットのフィルタリング](search.md#refine-search-results) 基準 `Expired` アセットのステータスと有効期限の日付範囲。
+
+* ごみ箱に入っているすべてのアセットのアセットステータスインジケーターを表示できるようになりました。 その結果、アセットのステータスに基づいてアセットを復元するかどうかを決定できます。
+
+**検索フィルターの機能強化**
+
+* Assets Essentialsで、 [アセットのフィルタリング](search.md#refine-search-results) の使用 `No Status` アセットのステータス。
+
+<!--
+
+* Assets Essentials now supports [using a wildcard operator (*) while using custom filters](search.md#custom-filters) to enable Assets Essentials to display assets in the results that partially match the search criteria.
+
+-->
+
+**コレクションの強化**
+
+<!--
+
+* Assets Essentials now enables you to [create Private collections](manage-collections.md#create-collection).
+
+-->
+
+* Assets Essentialsは、 [コレクションのダウンロード](manage-collections.md).
+
+* コレクションの「説明メタデータ」フィールドを編集できるようになりました。
+
+**ドキュメントの機能強化**
+
+* 新しいバージョンの [Assets Essentialsの概要ドキュメント](introduction.md) が利用できるようになりました。
+
+**お客様のフィードバックに基づく改善点**
+
+* 顧客のフィードバックに基づく機能強化およびバグ修正。
+
+
+## 既知の問題 {#known-issues}
+
+[!DNL Assets Essentials] ソリューションに関する既知の問題のリストは、継続的に改訂され、更新されています。
+
+* Assets Essentials はプライベートコレクションの作成をサポートしていません。
+
+問題が発生した場合や機能強化のご要望については、サポートチームに[フィードバックを送付](#provide-feedback)してください。
+
+## 過去のリリース {#past-release}
+
+### 2022.4.0 {#april-2022}
 
 [!DNL Assets Essentials] の最新リリースは 2022年5月12日（PT）にリリースされました。このリリースでは、次の機能が提供されます。
 
@@ -23,25 +76,13 @@ ht-degree: 100%
 
 * 顧客のフィードバックに基づく機能強化およびバグ修正。
 
-## Chrome のシークレットモード {#incognito-mode}
+#### Chrome のシークレットモード {#incognito-mode}
 
 このリリースでは、UI 配信と Assets Essentials の特定の機能（アセットと画像編集に関するコメント）のパフォーマンスを最適化しています。これは、ブラウザーのローカルストレージとサードパーティ cookie が有効かどうかに依存します。Chrome web ブラウザーのシークレットモードは、デフォルトでサードパーティ cookie をブロックします。ユーザーは、すべての機能に引き続きアクセスするための多くのオプションを利用できます。
 
 * ブラウザーセッションを分離する必要がある場合、シークレットモードではなく Chrome プロファイルを使用する
 
 * Chrome のシークレットモード画面で `Block third-party cookies` をオフにする
-
-## 既知の問題 {#known-issues}
-
-[!DNL Assets Essentials] ソリューションに関する既知の問題のリストは、継続的に改訂され、更新されています。
-
-* `No Status` アセットステータスを使用してアセットをフィルタリングすることはできません。
-
-* Assets Essentials はプライベートコレクションの作成をサポートしていません。
-
-問題が発生した場合や機能強化のご要望については、サポートチームに[フィードバックを送付](#provide-feedback)してください。
-
-## 過去のリリース {#past-release}
 
 ### 2022.2.0 {#march-2022}
 
