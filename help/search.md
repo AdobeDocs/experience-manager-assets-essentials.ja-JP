@@ -3,10 +3,10 @@ title: ' [!DNL Assets Essentials] でのアセットの検索と検出'
 description: ' [!DNL Assets Essentials] でのアセットの検索と検出について説明します。'
 role: User
 exl-id: be9597a3-056c-436c-a09e-15a03567c85a
-source-git-commit: 8fe62d7073b313da9a5ca4c365636933d44d24c4
+source-git-commit: cfe72bb73493c84dc57a0438817e3868d8a1ed14
 workflow-type: tm+mt
-source-wordcount: '774'
-ht-degree: 84%
+source-wordcount: '802'
+ht-degree: 90%
 
 ---
 
@@ -37,8 +37,12 @@ ht-degree: 84%
 * ファイルタイプ：サポートされているファイルタイプ（`Images`、`Documents`、`Videos`）で検索結果をフィルタリングします。
 * MIME タイプ：サポートされている 1 つ以上のファイル形式でフィルタリングします。<!-- TBD:  [supported file formats](/help/supported-file-formats.md). -->
 * 画像サイズ：画像をフィルタリングするための最小サイズと最大サイズのどちらか一方または両方を指定します。サイズはピクセル単位で指定され、画像のファイルサイズではありません。
-* 作成日：アセットの作成日（メタデータで指定されたもの）。標準の日付形式は `yyyy-mm-dd` です。
+* 作成日：メタデータで指定されたアセットの作成日。 標準の日付形式は `yyyy-mm-dd` です。
 * 変更日：アセットの最終変更日。標準の日付形式は `yyyy-mm-dd` です。
+
+* 有効期限：検索結果を `Expired` アセットのステータス。 また、アセットの有効期限を指定して、検索結果をさらにフィルタリングすることもできます。
+
+* カスタムフィルター： [カスタムフィルターの追加](#custom-filters) をAssets Essentialsユーザーインターフェイスに追加します。 標準フィルターに加えてカスタムフィルターを適用し、検索結果を絞り込みます。
 
 検索したアセットを、`Name`、`Relevancy`、`Size`、`Modified`、`Created` の昇順または降順に並べ替えることができます。
 
@@ -58,11 +62,11 @@ Assets Essentials が提供するカスタムフィルターは次のとおり�
      </tr>
      <tr>
       <td>タイトル</td>
-      <td>アセットタイトルを使用してアセットをフィルタリングします。ワイルドカード演算子 (*) を使用すると、Assets Essentialsで、検索条件に部分的に一致する結果のアセットを表示できます。 例えば、 <b>ma*</b> 検索条件として、Assets Essentialsでは、マーケット、マーケティング、マン、マンチェスターなどのタイトルを持つアセットが結果に表示されます。</td>
+      <td>アセットタイトルを使用してアセットをフィルタリングします。大文字と小文字を区別する検索条件で指定するタイトルは、結果に表示されるアセットの正確なタイトルと一致する必要があります。</td>
      </tr>
      <tr>
       <td>名前</td>
-      <td>アセットファイル名を使用してアセットをフィルタリングします。ワイルドカード演算子 (*) を使用すると、Assets Essentialsで、検索条件に部分的に一致する結果のアセットを表示できます。</td>
+      <td>アセットファイル名を使用してアセットをフィルタリングします。大文字と小文字を区別する検索条件で指定する名前は、結果に表示されるアセットの正確なファイル名と一致する必要があります。</td>
      </tr>
      <tr>
       <td>アセットサイズ</td>
@@ -70,10 +74,19 @@ Assets Essentials が提供するカスタムフィルターは次のとおり�
      </tr>
      <tr>
       <td>予測されるタグ</td>
-      <td>アセットスマートタグを使用してアセットをフィルタリングします。ワイルドカード演算子 (*) を使用すると、Assets Essentialsで、検索条件に部分的に一致する結果のアセットを表示できます。 検索条件では、複数のスマートタグをコンマで区切って指定できます。</td>
+      <td>アセットスマートタグを使用してアセットをフィルタリングします。大文字と小文字を区別する検索条件で指定するスマートタグ名は、結果に表示されるアセットの正確なスマートタグ名と一致する必要があります。検索条件に複数のスマートタグを指定することはできません。</td>
      </tr>    
     </tbody>
    </table>
+
+<!--
+   You can use a wildcard operator (*) to enable Assets Essentials to display assets in the results that partially match the search criteria. For example, if you define <b>ma*</b> as the search criteria, Assets Essentials displays assets with title, such as, market, marketing, man, manchester, and so on in the results.
+
+   You can use a wildcard operator (*) to enable Assets Essentials to display assets in the results that partially match the search criteria.
+
+   You can use a wildcard operator (*) to enable Assets Essentials to display assets in the results that partially match the search criteria. You can specify multiple smart tags separated by a comma in the search criteria.
+
+   -->
 
 ### カスタムフィルターの追加 {#add-custom-filters}
 
