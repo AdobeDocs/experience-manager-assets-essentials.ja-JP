@@ -6,7 +6,7 @@ exl-id: be9597a3-056c-436c-a09e-15a03567c85a
 source-git-commit: cfe72bb73493c84dc57a0438817e3868d8a1ed14
 workflow-type: tm+mt
 source-wordcount: '802'
-ht-degree: 90%
+ht-degree: 91%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 90%
 
 *図：検索したアセットを様々なパラメーターに基づいてフィルタリング*
 
-* アセットステータス：検索結果のフィルタリングに、 `Approved`, `Rejected`または `No Status` アセットのステータス。
+* アセットステータス：`Approved`、`Rejected`、または `No Status` アセットステータスを使用した検索結果のフィルタリング。
 
 * ファイルタイプ：サポートされているファイルタイプ（`Images`、`Documents`、`Videos`）で検索結果をフィルタリングします。
 * MIME タイプ：サポートされている 1 つ以上のファイル形式でフィルタリングします。<!-- TBD:  [supported file formats](/help/supported-file-formats.md). -->
