@@ -4,9 +4,9 @@ description: ' [!DNL Assets Essentials] でのアセットの検索と検出に�
 role: User
 exl-id: be9597a3-056c-436c-a09e-15a03567c85a
 source-git-commit: cfe72bb73493c84dc57a0438817e3868d8a1ed14
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '802'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -37,14 +37,14 @@ ht-degree: 91%
 * ファイルタイプ：サポートされているファイルタイプ（`Images`、`Documents`、`Videos`）で検索結果をフィルタリングします。
 * MIME タイプ：サポートされている 1 つ以上のファイル形式でフィルタリングします。<!-- TBD:  [supported file formats](/help/supported-file-formats.md). -->
 * 画像サイズ：画像をフィルタリングするための最小サイズと最大サイズのどちらか一方または両方を指定します。サイズはピクセル単位で指定され、画像のファイルサイズではありません。
-* 作成日：メタデータで指定されたアセットの作成日。 標準の日付形式は `yyyy-mm-dd` です。
+* 作成日：アセットの作成日（メタデータで指定されたもの）。標準の日付形式は `yyyy-mm-dd` です。
 * 変更日：アセットの最終変更日。標準の日付形式は `yyyy-mm-dd` です。
 
-* 有効期限：検索結果を `Expired` アセットのステータス。 また、アセットの有効期限を指定して、検索結果をさらにフィルタリングすることもできます。
+* 有効期限：アセットの `Expired` ステータスに基づいて検索結果をフィルタリングできます。また、アセットの有効期限の日付範囲を指定して、検索結果をさらにフィルタリングすることもできます。
 
-* カスタムフィルター： [カスタムフィルターの追加](#custom-filters) をAssets Essentialsユーザーインターフェイスに追加します。 標準フィルターに加えてカスタムフィルターを適用し、検索結果を絞り込みます。
+* カスタムフィルター：Assets Essentials ユーザーインターフェイスに[カスタムフィルターを追加](#custom-filters)できます。 標準フィルターに加えて、カスタムフィルターを適用し、検索結果を絞り込むことができます。
 
-検索したアセットを、`Name`、`Relevancy`、`Size`、`Modified`、`Created` の昇順または降順に並べ替えることができます。
+検索したアセットを、`Name`、`Relevancy`、`Size`、`Modified` および `Created` の昇順または降順に並べ替えることができます。
 
 ## カスタムフィルターの管理 {#custom-filters}
 
