@@ -5,27 +5,27 @@ role: User,Leader,Admin,Architect,Developer
 contentOwner: AK
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
 source-git-commit: 7c6293bb99d5be8084e6998da966bb89be9c714e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '889'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
 # [!DNL Assets Essentials] のリリースノート {#release-notes}
 
-の現在のリリース [!DNL Assets Essentials] は 2022 年 6 月 16 日にリリースされました。
+[!DNL Assets Essentials] の最新リリースは 2022年6月16日（PT）にリリースされます。
 
-このリリースでは、次の機能が提供されます。
+このリリースの特長は次のとおりです。
 
-**Asset Status の強化**
+**アセットステータスの機能強化**
 
-* Assets Essentialsで、 [アセットの有効期限の設定](manage-organize.md#set-asset-status). また、 [アセットのフィルタリング](search.md#refine-search-results) 基準 `Expired` アセットのステータスと有効期限の日付範囲。
+* Assets Essentials で[アセットの有効期限の設定](manage-organize.md#set-asset-status)が可能になりました。さらに、アセットの `Expired` ステータスと有効期限の日付範囲を基に、[アセットをフィルタリング](search.md#refine-search-results)できます。
 
-* ごみ箱に入っているすべてのアセットのアセットステータスインジケーターを表示できるようになりました。 その結果、アセットのステータスに基づいてアセットを復元するかどうかを決定できます。
+* ごみ箱に入っているすべてのアセットのアセットステータスインジケーターを表示できるようになりました。 これにより、アセットのステータスに基づいてアセットを復元するかどうかを決定できます。
 
 **検索フィルターの機能強化**
 
-* Assets Essentialsで、 [アセットのフィルタリング](search.md#refine-search-results) の使用 `No Status` アセットのステータス。
+* Assets Essentials では、アセットの `No Status` ステータスを使用して[アセットをフィルタリング](search.md#refine-search-results)できるようになりました。
 
 <!--
 
@@ -33,7 +33,7 @@ ht-degree: 86%
 
 -->
 
-**コレクションの強化**
+**コレクションの機能強化**
 
 <!--
 
@@ -41,17 +41,17 @@ ht-degree: 86%
 
 -->
 
-* Assets Essentialsは、 [コレクションのダウンロード](manage-collections.md).
+* Assets Essentials では、[コレクションのダウンロード](manage-collections.md)をサポートするようになりました。
 
-* コレクションの「説明メタデータ」フィールドを編集できるようになりました。
+* コレクションの「説明」メタデータフィールドを編集できるようになりました。
 
-**ドキュメントの機能強化**
+**ドキュメントの改善**
 
-* 新しいバージョンの [Assets Essentialsの概要ドキュメント](introduction.md) が利用できるようになりました。
+* [Assets Essentials 概要ドキュメント](introduction.md)の新しいバージョンが利用できるようになりました。
 
-**お客様のフィードバックに基づく改善点**
+**お客様からのフィードバックに基づく改善**
 
-* 顧客のフィードバックに基づく機能強化およびバグ修正。
+* お客様からのフィードバックに基づく機能強化およびバグ修正。
 
 
 ## 既知の問題 {#known-issues}
