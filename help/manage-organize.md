@@ -5,9 +5,9 @@ role: User,Leader
 contentOwner: AG
 exl-id: b01e98b9-0cc2-47c5-9f5b-79b8e6bef39f
 source-git-commit: cfe72bb73493c84dc57a0438817e3868d8a1ed14
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1036'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -111,7 +111,7 @@ Assets Essentials では、リポジトリで使用可能なアセットのス�
 
 ### アセットの有効期限を設定 {#set-asset-expiration-date}
 
-Assets Essentialsでは、リポジトリーで使用可能なアセットに有効期限日を設定することもできます。 その後、 [検索結果のフィルタリング](search.md#refine-search-results) に基づく `Expired` アセットのステータス。 また、アセットの有効期限を指定して、検索結果をさらにフィルタリングすることもできます。
+また、Assets Essentials では、リポジトリにあるアセットの有効期限を設定することもできます。その後、アセットの `Expired` ステータスに基づいて[検索結果をフィルタリング](search.md#refine-search-results)できます。また、アセットの有効期限の日付範囲を指定して、検索結果をさらにフィルタリングすることもできます。
 
 アセットの有効期限を設定するには：
 
