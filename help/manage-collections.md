@@ -3,9 +3,9 @@ title: コレクションの管理
 description: コレクションとは、Experience Manager Assets Essentials 内の一連のアセットのことです。コレクションを使用して、ユーザー間でアセットを共有します。
 exl-id: 33c889f5-c989-4772-9591-db62f50e5c80
 source-git-commit: 466f64018a37f553c0ad0cfaa2dc98b1e84b9be1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '524'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -47,7 +47,7 @@ You can share collections with various users that are assigned different levels 
 
 1. 「**[!UICONTROL 保存]**」をクリックして、コレクションを作成します。
 
-![コレクションを作成](assets/create-collection.png)
+![コレクションの作成](assets/create-collection.png)
 
 <!--
 
@@ -113,27 +113,27 @@ Click **[!UICONTROL Collections]** in the left rail and use the Search box to sp
 1. 「**[!UICONTROL 基本]**」タブを使用して、コレクションのメタデータを表示します。
 1. 必要に応じてメタデータのフィールドを変更します。「[!UICONTROL タイトル]」、「[!UICONTROL 説明]」および「[!UICONTROL 作成者]」フィールドを変更できます。
 
-![コレクションのメタデータ](assets/collection-metadata.png)
+![コレクションメタデータ](assets/collection-metadata.png)
 
 ## コレクションのリンクの共有 {#share-collection-links}
 
 [!DNL Assets Essentials] を使用すると、リンクを生成して、[!DNL Assets Essentials] アプリケーションに対するアクセス権を持たない外部の関係者と、コレクションやコレクション内のアセットを共有できます。リンクの有効期限を定義し、電子メールやメッセージングサービスなどの好みの通信方法を使用して、他のユーザーとリンクを共有できます。リンクの受信者は、アセットをプレビューし、ダウンロードできます。
 
-![アセットのリンクを共有](assets/share-link-collections.png)
+![アセットのリンクの共有](assets/share-link-collections.png)
 
-外部の関係者とコレクションのリンクを共有する方法について詳しくは、[アセットのリンクを共有](share-links-for-assets.md)を参照してください。
+外部の関係者とコレクションのリンクを共有する方法について詳しくは、[アセットのリンクの共有](share-links-for-assets.md)を参照してください。
 
 ## コレクションのダウンロード {#download-collection}
 
 コレクションをダウンロードするには：
 
-1. 左側のパネルから、「**[!UICONTROL コレクション]**」をクリックします。
+1. 左側のパネルで「**[!UICONTROL コレクション]**」をクリックします。
 
-1. ダウンロードするコレクションを選択し、 **[!UICONTROL ダウンロード]**.
+1. ダウンロードするコレクションを選択し、「**[!UICONTROL ダウンロード]**」をクリックします。
 
-1. の [!UICONTROL アセットのダウンロード] ダイアログボックスで、 **[!UICONTROL OK]**.
+1. [!UICONTROL アセットのダウンロード]ダイアログボックスで、「**[!UICONTROL OK]**」をクリックします。
 
-コレクションは、ローカルマシンに.ZIP ファイルとしてダウンロードされます。
+コレクションは、ローカルマシン上に .ZIP ファイルとしてダウンロードされます。
 
 ## コレクションの削除 {#delete-collection}
 
