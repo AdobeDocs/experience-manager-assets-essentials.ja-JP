@@ -2,10 +2,10 @@
 title: コレクションの管理
 description: コレクションとは、Experience Manager Assets Essentials 内の一連のアセットのことです。コレクションを使用して、ユーザー間でアセットを共有します。
 exl-id: 33c889f5-c989-4772-9591-db62f50e5c80
-source-git-commit: f273e1e3c8a290e0beee0423da00c63013062c43
+source-git-commit: 096906eded35dc0a8c231534204bfc672c2430b7
 workflow-type: tm+mt
 source-wordcount: '686'
-ht-degree: 76%
+ht-degree: 75%
 
 ---
 
@@ -47,7 +47,7 @@ You can share collections with various users that are assigned different levels 
 
 1. 非公開コレクションまたは公開コレクションを作成する必要がある場合に選択します。 公開コレクションは、すべてのユーザーが表示および編集できます。 ただし、管理者権限を持つ作成者およびユーザーは、非公開コレクションを使用できます。
 
-1. 「**[!UICONTROL 保存]**」をクリックして、コレクションを作成します。
+1. クリック **[!UICONTROL 作成]** コレクションを作成します。
 
 ![コレクションの作成](assets/create-collection.png)
 
