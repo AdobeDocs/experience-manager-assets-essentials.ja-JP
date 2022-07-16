@@ -4,14 +4,58 @@ description: ' [!DNL Assets Essentials] のリリースノートと既知の問�
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AK
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
-source-git-commit: 7c6293bb99d5be8084e6998da966bb89be9c714e
-workflow-type: ht
-source-wordcount: '889'
-ht-degree: 100%
+source-git-commit: f273e1e3c8a290e0beee0423da00c63013062c43
+workflow-type: tm+mt
+source-wordcount: '1117'
+ht-degree: 82%
 
 ---
 
 # [!DNL Assets Essentials] のリリースノート {#release-notes}
+
+の現在のリリース [!DNL Assets Essentials] は 2022 年 7 月 14 日にリリースされました。
+
+このリリースの特長は次のとおりです。
+
+**スマートコレクション**
+
+検索結果をスマートコレクションとして保存して、コレクションのコンテンツを動的に更新します。 Assets Essentialsリポジトリに追加されたアセットが、 [スマートコレクションの作成](manage-collections.md#create-smart-collection)に設定すると、スマートコレクションのコンテンツは自動的に更新されます。
+
+**通知**
+
+Assets Essentials通知を使用すると、 [リポジトリー内の使用可能なアセットまたはフォルダーに対して実行される操作を監視します。](manage-notifications.md). 通知を送信するコンテンツを選択し、購読する必要があります。 また、通知を送信するカテゴリを設定することもできます。
+
+**レポート**
+
+アセットレポートを使用すると、管理者はAdobe Experience Manager Assets Essentials内のユーザーアクティビティを評価できます。 レポートとライブ統計ダッシュボードは、デプロイメントで使用可能なアセットとのユーザーのやり取りに関する有用な情報を提供します。 [レポートの情報を使用して重要な成功指標を導き出し、企業やお客様における Assets の採用状況を測定することができます。](manage-reports.md)
+
+アセットダウンロードレポートとライブ統計ダッシュボードモジュールを表示して、ダウンロードされているアセットとダウンロードの頻度を確認します。
+
+**お客様からのフィードバックに基づく改善**
+
+お客様からのフィードバックに基づく機能強化およびバグ修正。
+
+
+## 既知の問題 {#known-issues}
+
+[!DNL Assets Essentials] ソリューションに関する既知の問題のリストは、継続的に改訂され、更新されています。
+
+<!--
+
+* Assets Essentials does not support creating Private collections.
+
+-->
+
+
+* Assets Essentialsはスマートコレクションの編集をサポートしていません。
+
+* 非公開コレクションは、作成者および管理者権限を持つユーザーが使用できます。 管理者は、コレクションへのアクセス権を他のユーザーに委任することはできません。
+
+問題が発生した場合や機能強化のご要望については、サポートチームに[フィードバックを送付](#provide-feedback)してください。
+
+## 過去のリリース {#past-release}
+
+### 2022.5.0 {#may-2022}
 
 [!DNL Assets Essentials] の最新リリースは 2022年6月16日（PT）にリリースされます。
 
@@ -52,17 +96,6 @@ ht-degree: 100%
 **お客様からのフィードバックに基づく改善**
 
 * お客様からのフィードバックに基づく機能強化およびバグ修正。
-
-
-## 既知の問題 {#known-issues}
-
-[!DNL Assets Essentials] ソリューションに関する既知の問題のリストは、継続的に改訂され、更新されています。
-
-* Assets Essentials はプライベートコレクションの作成をサポートしていません。
-
-問題が発生した場合や機能強化のご要望については、サポートチームに[フィードバックを送付](#provide-feedback)してください。
-
-## 過去のリリース {#past-release}
 
 ### 2022.4.0 {#april-2022}
 

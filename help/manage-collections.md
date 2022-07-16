@@ -2,10 +2,10 @@
 title: コレクションの管理
 description: コレクションとは、Experience Manager Assets Essentials 内の一連のアセットのことです。コレクションを使用して、ユーザー間でアセットを共有します。
 exl-id: 33c889f5-c989-4772-9591-db62f50e5c80
-source-git-commit: 466f64018a37f553c0ad0cfaa2dc98b1e84b9be1
-workflow-type: ht
-source-wordcount: '524'
-ht-degree: 100%
+source-git-commit: f273e1e3c8a290e0beee0423da00c63013062c43
+workflow-type: tm+mt
+source-wordcount: '686'
+ht-degree: 76%
 
 ---
 
@@ -45,15 +45,15 @@ You can share collections with various users that are assigned different levels 
 
 1. コレクションのタイトルと、オプションで説明を指定します。
 
+1. 非公開コレクションまたは公開コレクションを作成する必要がある場合に選択します。 公開コレクションは、すべてのユーザーが表示および編集できます。 ただし、管理者権限を持つ作成者およびユーザーは、非公開コレクションを使用できます。
+
 1. 「**[!UICONTROL 保存]**」をクリックして、コレクションを作成します。
 
 ![コレクションの作成](assets/create-collection.png)
 
 <!--
-
-1. Select if you need to a create a Private collection or a Public collection.
-
-   A Public collection is available for viewing and editing to all users. However, if you are a non-administrator user, a Private collection is available for viewing and editing only to users with the appropriate [permissions](#manage-collection-access). 
+   
+   for viewing and editing only to users with the appropriate [permissions](#manage-collection-access).
 
 -->
 
@@ -70,6 +70,25 @@ You can share collections with various users that are assigned different levels 
 1. 「**[!UICONTROL 追加]**」をクリックして、選択したコレクションにアセットを追加します。
 
 コレクションにアセットを追加する場合は、左側のパネルから、「**[!UICONTROL コレクション]**」をクリックし、アセットを追加するコレクションをクリックして、「**[!UICONTROL コレクションに追加]**」をクリック、アセットを選択して「**[!UICONTROL 選択]**」をクリックすることもできます。
+
+## スマートコレクションの作成 {#create-smart-collection}
+
+検索結果をスマートコレクションとして保存して、コレクションのコンテンツを動的に更新します。 スマートコレクションの作成時に定義した検索条件に適合するアセットがAssets Essentialsリポジトリに追加されている場合、スマートコレクションのコンテンツは自動的に更新されます。
+
+スマートコレクションを作成するには：
+
+1. クリック **[!UICONTROL フィルター]** および [検索条件の定義](search.md##refine-search-results).
+
+1. クリック **[!UICONTROL 名前を付けて保存]** 次に、 **[!UICONTROL スマートコレクション]**.
+
+1. の [!UICONTROL スマートコレクションを作成] ダイアログボックスで、スマートコレクションのタイトルと説明を指定します。
+
+1. 選択 **[!UICONTROL 公開コレクション]** （すべてのユーザーがコレクションにアクセスする必要がある場合）。 選択 **[!UICONTROL 非公開コレクション]** コレクションにアクセスするのに限られたユーザーグループが必要な場合。
+
+1. クリック **[!UICONTROL 作成]** をクリックして、スマートコレクションを作成します。
+
+![スマートコレクションの作成](assets/create-smart-collection.png)
+
 
 ## コレクションからのアセットの削除 {#remove-assets-from-collection}
 
