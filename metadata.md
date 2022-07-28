@@ -3,11 +3,11 @@ cloud: Experience Cloud
 solution: Experience Manager, Experience Manager Assets
 product: adobe experience manager
 type: Documentation
-git-repo: https://git.corp.adobe.com/AdobeDocs/experience-manager-assets-essentials.ja-JP
+git-repo: https://github.com/AdobeDocs/experience-manager-assets-essentials.ja-JP
 mini-toc-levels: 1
 index: true
 source-git-commit: bd544f8afe112d5a95d5a3266f8d74bff4ef04c8
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '95'
 ht-degree: 100%
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 # 内部使用メタデータ
 
-metadata.md ファイルには、リポジトリー内にあるユーザーガイドの TOC.md ファイルにパススルーされる、リポジトリーレベルのメタデータが含まれています。任意のユーザーガイドの metadata.md コンテンツを変更するには、任意の TOC.md ファイル内で行います。
+metadata.md ファイルには、リポジトリ内にあるユーザーガイドの TOC.md ファイルにパススルーされる、リポジトリレベルのメタデータが含まれています。任意のユーザーガイドの metadata.md コンテンツを変更するには、任意の TOC.md ファイル内で行います。
 
 | メタデータ | 機能 |
 |--- |--- |
