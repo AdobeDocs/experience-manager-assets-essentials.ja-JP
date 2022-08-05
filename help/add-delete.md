@@ -3,10 +3,10 @@ title: リポジトリへのアセットのアップロード
 description: ' [!DNL Assets Essentials] へのアセットのアップロード、アップロードステータスの表示、アップロードの問題の解決について説明します。'
 role: User
 exl-id: a85a4455-4456-48af-aee9-f05300677605
-source-git-commit: 02f28c00b387fbcac4cd917fab7763124fdd5d70
-workflow-type: ht
-source-wordcount: '810'
-ht-degree: 100%
+source-git-commit: 80cb4ba5bc56658a4ae8d162f4ae5f2ae3d822a0
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -32,9 +32,9 @@ ht-degree: 100%
 
 *図：選択したアセットをアップロードする前にキューにアセットを追加またはキューからアセットを削除可能*
 
->[!CAUTION]
+>[!TIP]
 >
->ファイル名に空白文字を含まないアセットを使用します。そうでないアセットに対しては、コメントへの返信は機能しません。
+>フォルダー構造をAssets Essentialsにアップロードする場合、フォルダー構造を持つ.ZIP ファイルを作成する必要はありませんが、フォルダー構造を直接アップロードできます。 Assets Essentialsにアップロードされた.ZIP ファイルは 1 つの ZIP アセットとして保存され、アップロード後に自動的には抽出されません。
 
 ## アップロードの進行状況とステータスの表示 {#upload-progress}
 
@@ -102,6 +102,6 @@ ht-degree: 100%
 
 * Assets Essentials ユーザーインターフェイスの「[!UICONTROL フィードバック]」オプションを使用して製品に関するフィードバックを提供する
 
-* 右側のサイドバーにある「[!UICONTROL このページを編集]」（![ページを編集](assets/do-not-localize/edit-page.png)）または「[!UICONTROL 問題を記録]」（![GitHub イシューを作成](assets/do-not-localize/github-issue.png)）を使用してドキュメントに関するフィードバックを提供する
+* 右側のサイドバーにある「[!UICONTROL このページを編集]」（![ページを編集](assets/do-not-localize/edit-page.png)）または「[!UICONTROL 問題を記録] 」（![GitHub イシューを作成](assets/do-not-localize/github-issue.png)）を使用してドキュメントに関するフィードバックを提供する
 
 * [カスタマーケア](https://experienceleague.adobe.com/?support-solution=General&amp;lang=ja#support)に問い合わせる
