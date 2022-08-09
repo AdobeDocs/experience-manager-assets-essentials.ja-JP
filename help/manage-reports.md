@@ -1,25 +1,25 @@
 ---
 title: Assets Essentials でのレポートの管理
-description: Assets Essentialsの「レポート」セクションのデータにアクセスして、製品と機能の使用状況を評価し、主要な成功指標に関するインサイトを得ます。
+description: Assets Essentials の「レポート」セクションのデータにアクセスして、製品と機能の使用状況を評価し、主要な成功指標に関するインサイトを導き出します。
 exl-id: c7155459-05d9-4a95-a91f-a1fa6ae9d9a4
 source-git-commit: e445cd77c6d57281cbf2442a849b249f3da1a4ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '491'
-ht-degree: 71%
+ht-degree: 100%
 
 ---
 
 # レポートの管理 {#manage-reports}
 
-アセットレポートを使用すると、管理者はAdobe Experience Manager Assets Essentials環境のアクティビティを視覚的に確認できます。 このデータは、ユーザーがコンテンツや製品とどのようにやり取りするかに関する有用な情報を提供します。
+アセットレポートを使用すると、管理者は Adobe Experience Manager Assets Essentials 環境のアクティビティを視覚的に確認できます。このデータは、ユーザーがコンテンツや製品とどのようにやり取りするかについての有用な情報を提供します。
 
 ## レポートへのアクセス {#access-reports}
 
-に割り当てられているすべてのユーザー [Assets Essentials Administrators 製品プロファイル](deploy-administer.md) では、「ライブ統計」ダッシュボードにアクセスし、Assets Essentialsでユーザー定義のレポートを作成できます。
+[Assets Essentials 管理者製品プロファイル](deploy-administer.md)に割り当てられているユーザーはすべて、Assets Essentials でライブ統計ダッシュボードにアクセスして、ユーザー定義のレポートを作成できます。
 
 ## ライブ統計の表示 {#view-live-statistics}
 
-Assets Essentialsを使用すると、Assets Essentials環境のリアルタイムデータを「ライブ統計」ダッシュボードで表示できます。 過去 30 日間または過去 12 ヶ月間のリアルタイムイベント指標を表示できます。
+Assets Essentials を使用すると、Assets Essentials 環境のリアルタイムデータをライブ統計ダッシュボードで表示できます。過去 30 日間または過去 12 か月間のリアルタイムイベント指標を表示できます。
 
 ![アセット選択時のツールバーオプション](assets/asset-reports-live-statistics.png)
 
@@ -56,7 +56,7 @@ Assets Essentialsを使用すると、Assets Essentials環境のリアルタイ�
       <td>アセットのタイトル。</td>
      </tr>
      <tr>
-      <td>パス</td>
+      <td>パス </td>
       <td>Assets Essentials でアセットを使用できるフォルダーパス。</td>
      </tr>
      <tr>
@@ -98,9 +98,9 @@ Assets Essentialsを使用すると、Assets Essentials環境のリアルタイ�
     </tbody>
    </table>
 
-## 既存のレポートを表示 {#view-report-list}
+## 既存のレポートの表示 {#view-report-list}
 
-後 [レポートの作成](#create-report)を使用すると、既存のレポートのリストを表示し、それらを CSV 形式でダウンロードまたは削除するように選択できます。
+[レポートを作成](#create-report)した後、既存のレポートのリストを表示して、CSV 形式でダウンロードしたり削除したりできます。
 
 レポートのリストを表示するには、**[!UICONTROL 設定]**／**[!UICONTROL レポート]**&#x200B;に移動します。
 
