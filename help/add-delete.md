@@ -4,9 +4,9 @@ description: ' [!DNL Assets Essentials] へのアセットのアップロード�
 role: User
 exl-id: a85a4455-4456-48af-aee9-f05300677605
 source-git-commit: 80cb4ba5bc56658a4ae8d162f4ae5f2ae3d822a0
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '839'
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->フォルダー構造をAssets Essentialsにアップロードする場合、フォルダー構造を持つ.ZIP ファイルを作成する必要はありませんが、フォルダー構造を直接アップロードできます。 Assets Essentialsにアップロードされた.ZIP ファイルは 1 つの ZIP アセットとして保存され、アップロード後に自動的には抽出されません。
+>フォルダー構造を Assets Essentials にアップロードする場合、フォルダー構造を含んだ .ZIP ファイルを作成する必要はなく、フォルダー構造を直接アップロードできます。Assets Essentials にアップロードされた .ZIP ファイルは 1 つの ZIP アセットとして保存され、アップロード後に自動的には抽出されません。
 
 ## アップロードの進行状況とステータスの表示 {#upload-progress}
 
