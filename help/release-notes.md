@@ -4,10 +4,10 @@ description: ' [!DNL Assets Essentials] のリリースノートと既知の問�
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AK
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
-source-git-commit: 2b1b6d3503f8c96ac250d4b0ff7dd5b7c2b81d64
+source-git-commit: b118b841cbca05edc5b67d86ea87abfd09dcd452
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1269'
+ht-degree: 86%
 
 ---
 
@@ -57,7 +57,7 @@ Assets Essentials now also enables you to view real-time storage account data fo
 
 問題が発生した場合や機能強化のご要望については、サポートチームに[フィードバックを送付](#provide-feedback)してください。
 
-## 過去のリリース {#past-release}
+## 過去のリリース {#past-releases}
 
 ### 2022.6.0 {#june-2022}
 
@@ -185,7 +185,7 @@ Assets Essentials 通知を使用すると、[リポジトリで使用可能な�
 
 ### 2021.6.0 リリース {#june2021}
 
-[!DNL Assets Essentials] の最初のリリースは 2021年6月21日（PT）に公開され、軽量のアセット管理機能を提供しています。次の主要機能と CRUD（作成、読み取り、更新、削除）操作をサポートしています。
+[!DNL Assets Essentials] の最初のリリースは 2021年6月21日（PT）に公開され、軽量のアセット管理機能を提供しています。主な機能と CRUD（作成、読み取り、更新、削除）操作に対応しています。
 
 * アセット（ネストしたフォルダーを含む）のアップロードと追加。アセットとバージョンのプレビュー。
 * フルテキスト検索、詳細検索フィルター、迅速にアセットを検出できる保存済みの検索。
