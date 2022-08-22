@@ -2,10 +2,10 @@
 title: Assets Essentials でのレポートの管理
 description: Assets Essentials の「レポート」セクションのデータにアクセスして、製品と機能の使用状況を評価し、主要な成功指標に関するインサイトを導き出します。
 exl-id: c7155459-05d9-4a95-a91f-a1fa6ae9d9a4
-source-git-commit: e445cd77c6d57281cbf2442a849b249f3da1a4ee
-workflow-type: ht
-source-wordcount: '491'
-ht-degree: 100%
+source-git-commit: cd57eda1f15ea349f810b3ce0086d3e3b92ddb19
+workflow-type: tm+mt
+source-wordcount: '712'
+ht-degree: 83%
 
 ---
 
@@ -21,17 +21,29 @@ ht-degree: 100%
 
 Assets Essentials を使用すると、Assets Essentials 環境のリアルタイムデータをライブ統計ダッシュボードで表示できます。過去 30 日間または過去 12 か月間のリアルタイムイベント指標を表示できます。
 
-![アセット選択時のツールバーオプション](assets/asset-reports-live-statistics.png)
+![アセット選択時のツールバーオプション](assets/assets-essentials-live-statistics.png)
 
-**[!UICONTROL 設定]**／**[!UICONTROL ライブ統計]**&#x200B;に移動して、自動生成されたダウンロードデータを表示します。
+に移動します。 **[!UICONTROL 設定]** > **[!UICONTROL ライブ統計]** 次の自動生成されたグラフを表示するには：
 
-## レポートの作成 {#create-report}
+* **ダウンロード**:過去 30 日間または 12 ヶ月間にAssets Essentials環境からダウンロードされたアセットの数は、折れ線グラフで表されます。
 
-レポートを作成するには：
+* **アップロード**:過去 30 日間または 12 ヶ月間にAssets Essentials環境にアップロードされたアセットの数は、折れ線グラフで表されます。
+
+<!--
+
+* **Storage usage**: The storage usage, in gigabytes (GB), for the Assets Essentials environment, for the last 30 days or 12 months represented using a bar chart.
+
+-->
+
+## ダウンロードレポートの作成 {#create-download-report}
+
+ダウンロードレポートを作成するには：
 
 1. **[!UICONTROL 設定]**／**[!UICONTROL レポート]**&#x200B;に移動して、「**[!UICONTROL レポートを作成]**」をクリックします。
 
-1. 「[!UICONTROL 設定]」タブで、レポートのタイトルと説明（オプション）を指定します。
+1. 内 [!UICONTROL 設定] タブで、レポートのタイプを次のように指定します。 **[!UICONTROL ダウンロード]**.
+
+1. レポートのタイトルと説明（オプション）を指定します。
 
 1. 「**[!UICONTROL フォルダーパスを選択]**」フィールドを使用して、レポートを実行するアセットを含むフォルダーパスを選択します。
 
@@ -60,7 +72,7 @@ Assets Essentials を使用すると、Assets Essentials 環境のリアルタ�
       <td>Assets Essentials でアセットを使用できるフォルダーパス。</td>
      </tr>
      <tr>
-      <td>タイプ</td>
+      <td>MIME Type</td>
       <td>アセットの MIME タイプ。</td>
      </tr>
      <tr>
@@ -95,6 +107,69 @@ Assets Essentials を使用すると、Assets Essentials 環境のリアルタ�
       <td>ユーザー名によりダウンロード</td>
       <td>アセットをダウンロードしたユーザーの名前。</td>
      </tr>           
+    </tbody>
+   </table>
+
+## アップロードレポートの作成 {#create-upload-report}
+
+アップロードレポートを作成するには：
+
+1. **[!UICONTROL 設定]**／**[!UICONTROL レポート]**&#x200B;に移動して、「**[!UICONTROL レポートを作成]**」をクリックします。
+
+1. 内 [!UICONTROL 設定] タブで、レポートのタイプを次のように指定します。 **[!UICONTROL アップロード]**.
+
+1. レポートのタイトルと説明（オプション）を指定します。
+
+1. 「**[!UICONTROL フォルダーパスを選択]**」フィールドを使用して、レポートを実行するアセットを含むフォルダーパスを選択します。
+
+1. レポートの日付間隔を選択します。
+
+1. 「[!UICONTROL 列]」タブで、レポートに表示する列名を選択します。
+
+1. 「**[!UICONTROL 作成]**」をクリックします。
+
+   ![レポートをアップロード](assets/upload-reports-config.png)
+
+次の表に、レポートに追加できるすべての列の使用方法を示します。
+
+<table>
+    <tbody>
+     <tr>
+      <th><strong>列名</strong></th>
+      <th><strong>説明</strong></th>
+     </tr>
+     <tr>
+      <td>タイトル</td>
+      <td>アセットのタイトル。</td>
+     </tr>
+     <tr>
+      <td>パス </td>
+      <td>Assets Essentials でアセットを使用できるフォルダーパス。</td>
+     </tr>
+     <tr>
+      <td>MIME タイプ</td>
+      <td>アセットの MIME タイプ。</td>
+     </tr>
+     <tr>
+      <td>サイズ</td>
+      <td>アセットのサイズ。</td>
+     </tr>
+     <tr>
+      <td>作成者</td>
+      <td>アセットの作成者。</td>
+     </tr>
+     <tr>
+      <td>作成日時</td>
+      <td>アセットが Assets Essentials にアップロードされた日付。</td>
+     </tr>
+     <tr>
+      <td>変更日</td>
+      <td>アセットの最終変更日付。</td>
+     </tr>
+     <tr>
+      <td>期限切れ</td>
+      <td>アセットの有効期限切れステータス。</td>
+     </tr>              
     </tbody>
    </table>
 

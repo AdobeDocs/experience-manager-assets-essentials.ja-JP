@@ -4,32 +4,38 @@ description: ' [!DNL Assets Essentials] のリリースノートと既知の問�
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AK
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
-source-git-commit: f273e1e3c8a290e0beee0423da00c63013062c43
-workflow-type: ht
-source-wordcount: '1117'
-ht-degree: 100%
+source-git-commit: b44ded8b1678e9b7c1c5eda3f350072e51b52f32
+workflow-type: tm+mt
+source-wordcount: '1269'
+ht-degree: 87%
 
 ---
 
 # [!DNL Assets Essentials] のリリースノート {#release-notes}
 
-[!DNL Assets Essentials] の最新リリースは 2022年7月14日にリリースされました。
+Assets Essentialsの現在のリリースは 2022 年 8 月 16 日にリリースされました。
 
 このリリースの特長は次のとおりです。
 
-**スマートコレクション**
+**コレクションの通知**
 
-検索結果をスマートコレクションとして保存して、コレクションのコンテンツを動的に更新します。[スマートコレクションの作成](manage-collections.md#create-smart-collection)時に定義した検索条件に適合するアセットが Assets Essentials リポジトリに追加されている場合、スマートコレクションのコンテンツは自動的に更新されます。
+Assets Essentials通知を使用して、リポジトリ内の使用可能なコレクションで実行された操作を監視できるようになりました。 通知を送信するコレクションを選択し、購読する必要があります。 また、コレクションに対して実行される削除、リンクの共有、移動、名前の変更、更新など、通知の送信操作を設定することもできます。
 
-**通知**
+**スマートコレクションを編集**
 
-Assets Essentials 通知を使用すると、[リポジトリで使用可能なアセットやフォルダーで実行した操作を監視できます](manage-notifications.md)。通知を送信するコンテンツを選択し、購読する必要があります。また、通知を受け取るカテゴリを設定することもできます。
+Assets Essentialsでは、スマートコレクションの作成時に使用する検索条件を編集することもできます。  新しい検索条件を保存して、コレクションのコンテンツを動的に更新します。
 
-**レポート**
+<!--
 
-アセットレポートを使用すると、管理者は Adobe Experience Manager Assets Essentials 内のユーザーアクティビティを評価できます。レポートとライブ統計ダッシュボードでは、ユーザーがデプロイメントで利用可能なアセットをどのように操作するかについての有用な情報を提供します。[レポートの情報を使用して](manage-reports.md)重要な成功指標を導き出し、自社やお客様の Assets の採用状況を測定することができます。
+**View live statistics for storage account**
 
-アセットダウンロードレポートとライブ統計ダッシュボードモジュールを表示して、ダウンロードされているアセットとダウンロードの頻度を確認します。
+Assets Essentials now also enables you to view real-time storage account data for your Assets Essentials environment with the Live Statistics dashboard. You can view real-time event metrics for the last 30 days or for the last 12 months.
+
+-->
+
+**アップロードレポートを表示**
+
+アセットレポートで、管理者がAdobe Experience Manager Assets Essentialsデプロイメントにアップロードされたアセットを表示できるようになりました。 管理者は、既に、Assets Essentialsデプロイメントからダウンロードしたアセットのレポートを生成できます。 このデータは、ユーザーがコンテンツや製品とどのようにやり取りするかについての有用な情報を提供します。
 
 **お客様からのフィードバックに基づく改善**
 
@@ -47,17 +53,35 @@ Assets Essentials 通知を使用すると、[リポジトリで使用可能な�
 -->
 
 
-* Assets Essentials はスマートコレクションの編集をサポートしていません。
-
 * 非公開コレクションは、作成者および管理者権限を持つユーザーが使用できます。管理者は、コレクションへのアクセス権を他のユーザーに委任することはできません。
 
 問題が発生した場合や機能強化のご要望については、サポートチームに[フィードバックを送付](#provide-feedback)してください。
 
 ## 過去のリリース {#past-release}
 
+### 2022.6.0 {#june-2022}
+
+の 6 月リリース [!DNL Assets Essentials] は 2022 年 7 月 14 日にリリースされました。
+
+このリリースの特長は次のとおりです。
+
+**スマートコレクション**
+
+検索結果をスマートコレクションとして保存して、コレクションのコンテンツを動的に更新します。[スマートコレクションの作成](manage-collections.md#create-smart-collection)時に定義した検索条件に適合するアセットが Assets Essentials リポジトリに追加されている場合、スマートコレクションのコンテンツは自動的に更新されます。
+
+**通知**
+
+Assets Essentials 通知を使用すると、[リポジトリで使用可能なアセットやフォルダーで実行した操作を監視できます](manage-notifications.md)。通知を送信するコンテンツを選択し、購読する必要があります。また、通知を受け取るカテゴリを設定することもできます。
+
+**レポート**
+
+アセットレポートを使用すると、管理者は Adobe Experience Manager Assets Essentials 内のユーザーアクティビティを評価できます。レポートとライブ統計ダッシュボードでは、ユーザーがデプロイメントで利用可能なアセットをどのように操作するかについての有用な情報を提供します。[レポートの情報を使用して](manage-reports.md)重要な成功指標を導き出し、自社やお客様の Assets の採用状況を測定することができます。
+
+アセットダウンロードレポートとライブ統計ダッシュボードモジュールを表示して、ダウンロードされているアセットとダウンロードの頻度を確認します。
+
 ### 2022.5.0 {#may-2022}
 
-[!DNL Assets Essentials] の最新リリースは 2022年6月16日（PT）にリリースされます。
+の 5 月リリース [!DNL Assets Essentials] は 2022 年 6 月 16 日にリリースされました。
 
 このリリースの特長は次のとおりです。
 
