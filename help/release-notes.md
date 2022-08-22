@@ -4,16 +4,16 @@ description: ' [!DNL Assets Essentials] のリリースノートと既知の問�
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AK
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
-source-git-commit: b44ded8b1678e9b7c1c5eda3f350072e51b52f32
+source-git-commit: 2b1b6d3503f8c96ac250d4b0ff7dd5b7c2b81d64
 workflow-type: tm+mt
-source-wordcount: '1269'
-ht-degree: 87%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # [!DNL Assets Essentials] のリリースノート {#release-notes}
 
-Assets Essentialsの現在のリリースは 2022 年 8 月 16 日にリリースされました。
+Assets Essentialsの現在のリリースは 2022 年 8 月 23 日にリリースされました。
 
 このリリースの特長は次のとおりです。
 
