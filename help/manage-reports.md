@@ -3,9 +3,9 @@ title: Assets Essentials でのレポートの管理
 description: Assets Essentials の「レポート」セクションのデータにアクセスして、製品と機能の使用状況を評価し、主要な成功指標に関するインサイトを導き出します。
 exl-id: c7155459-05d9-4a95-a91f-a1fa6ae9d9a4
 source-git-commit: cd57eda1f15ea349f810b3ce0086d3e3b92ddb19
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '712'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -23,11 +23,11 @@ Assets Essentials を使用すると、Assets Essentials 環境のリアルタ�
 
 ![アセット選択時のツールバーオプション](assets/assets-essentials-live-statistics.png)
 
-に移動します。 **[!UICONTROL 設定]** > **[!UICONTROL ライブ統計]** 次の自動生成されたグラフを表示するには：
+**[!UICONTROL 設定]**／**[!UICONTROL ライブ統計]**&#x200B;に移動して、自動生成されたチャートを表示します。
 
-* **ダウンロード**:過去 30 日間または 12 ヶ月間にAssets Essentials環境からダウンロードされたアセットの数は、折れ線グラフで表されます。
+* **ダウンロード**：過去 30 日間または 12 か月間に Assets Essentials 環境からダウンロードされたアセットの数は、折れ線グラフで表されます。
 
-* **アップロード**:過去 30 日間または 12 ヶ月間にAssets Essentials環境にアップロードされたアセットの数は、折れ線グラフで表されます。
+* **アップロード**：過去 30 日間または 12 ヶ月間に Assets Essentials 環境にアップロードされたアセットの数は、折れ線グラフで表されます。
 
 <!--
 
@@ -41,9 +41,9 @@ Assets Essentials を使用すると、Assets Essentials 環境のリアルタ�
 
 1. **[!UICONTROL 設定]**／**[!UICONTROL レポート]**&#x200B;に移動して、「**[!UICONTROL レポートを作成]**」をクリックします。
 
-1. 内 [!UICONTROL 設定] タブで、レポートのタイプを次のように指定します。 **[!UICONTROL ダウンロード]**.
+1. 「[!UICONTROL 設定]」タブで、レポートタイプを&#x200B;**[!UICONTROL ダウンロード]**&#x200B;に指定します。
 
-1. レポートのタイトルと説明（オプション）を指定します。
+1. レポートのタイトルとオプションの説明を指定します。
 
 1. 「**[!UICONTROL フォルダーパスを選択]**」フィールドを使用して、レポートを実行するアセットを含むフォルダーパスを選択します。
 
@@ -72,7 +72,7 @@ Assets Essentials を使用すると、Assets Essentials 環境のリアルタ�
       <td>Assets Essentials でアセットを使用できるフォルダーパス。</td>
      </tr>
      <tr>
-      <td>MIME Type</td>
+      <td>MIME タイプ</td>
       <td>アセットの MIME タイプ。</td>
      </tr>
      <tr>
@@ -116,9 +116,9 @@ Assets Essentials を使用すると、Assets Essentials 環境のリアルタ�
 
 1. **[!UICONTROL 設定]**／**[!UICONTROL レポート]**&#x200B;に移動して、「**[!UICONTROL レポートを作成]**」をクリックします。
 
-1. 内 [!UICONTROL 設定] タブで、レポートのタイプを次のように指定します。 **[!UICONTROL アップロード]**.
+1. 「[!UICONTROL 設定]」タブで、レポートタイプを&#x200B;**[!UICONTROL アップロード]**&#x200B;として指定します。
 
-1. レポートのタイトルと説明（オプション）を指定します。
+1. レポートのタイトルとオプションの説明を指定します。
 
 1. 「**[!UICONTROL フォルダーパスを選択]**」フィールドを使用して、レポートを実行するアセットを含むフォルダーパスを選択します。
 
