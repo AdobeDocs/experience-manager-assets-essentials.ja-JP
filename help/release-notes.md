@@ -7,23 +7,23 @@ exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
 source-git-commit: b118b841cbca05edc5b67d86ea87abfd09dcd452
 workflow-type: tm+mt
 source-wordcount: '1269'
-ht-degree: 86%
+ht-degree: 98%
 
 ---
 
 # [!DNL Assets Essentials] のリリースノート {#release-notes}
 
-Assets Essentialsの現在のリリースは 2022 年 8 月 23 日にリリースされました。
+ Assets Essentials の最新リリースは 2022年8月22日（PT）にリリースされました。
 
 このリリースの特長は次のとおりです。
 
 **コレクションの通知**
 
-Assets Essentials通知を使用して、リポジトリ内の使用可能なコレクションで実行された操作を監視できるようになりました。 通知を送信するコレクションを選択し、購読する必要があります。 また、コレクションに対して実行される削除、リンクの共有、移動、名前の変更、更新など、通知の送信操作を設定することもできます。
+Assets Essentials 通知を使用すると、リポジトリで使用可能なコレクションで実行した操作を監視できます。通知を送信するコレクションを選択し、購読する必要があります。また、コレクションに対して実行される削除、リンクの共有、移動、名前の変更、更新など、通知の送信する操作を設定できます。
 
 **スマートコレクションを編集**
 
-Assets Essentialsでは、スマートコレクションの作成時に使用する検索条件を編集することもできます。  新しい検索条件を保存して、コレクションのコンテンツを動的に更新します。
+Assets Essentials では、スマートコレクションの作成時に使用する検索条件を編集する機能も提供するようになりました。新しい検索条件を保存して、コレクションのコンテンツを動的に更新します。
 
 <!--
 
@@ -33,9 +33,9 @@ Assets Essentials now also enables you to view real-time storage account data fo
 
 -->
 
-**アップロードレポートを表示**
+**アップロードレポートの表示**
 
-アセットレポートで、管理者がAdobe Experience Manager Assets Essentialsデプロイメントにアップロードされたアセットを表示できるようになりました。 管理者は、既に、Assets Essentialsデプロイメントからダウンロードしたアセットのレポートを生成できます。 このデータは、ユーザーがコンテンツや製品とどのようにやり取りするかについての有用な情報を提供します。
+アセットレポートで、管理者が Adobe Experience Manager Assets Essentials デプロイメントにアップロードされたアセットを表示できるようになりました。管理者は、既に Assets Essentials デプロイメントからダウンロードしたアセットのレポートを生成できます。このデータは、ユーザーがコンテンツや製品とどのようにやり取りするかについての有用な情報を提供します。
 
 **お客様からのフィードバックに基づく改善**
 
@@ -61,7 +61,7 @@ Assets Essentials now also enables you to view real-time storage account data fo
 
 ### 2022.6.0 {#june-2022}
 
-の 6 月リリース [!DNL Assets Essentials] は 2022 年 7 月 14 日にリリースされました。
+[!DNL Assets Essentials] の 6月リリースは 2022年7月14日（PT）にリリースされました。
 
 このリリースの特長は次のとおりです。
 
@@ -81,7 +81,7 @@ Assets Essentials 通知を使用すると、[リポジトリで使用可能な�
 
 ### 2022.5.0 {#may-2022}
 
-の 5 月リリース [!DNL Assets Essentials] は 2022 年 6 月 16 日にリリースされました。
+[!DNL Assets Essentials] の5月リリースは 2022年6月16日（PT）にリリースされました。
 
 このリリースの特長は次のとおりです。
 
