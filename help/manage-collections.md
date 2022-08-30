@@ -3,9 +3,9 @@ title: コレクションの管理
 description: コレクションとは、Experience Manager Assets Essentials 内の一連のアセットのことです。コレクションを使用して、ユーザー間でアセットを共有します。
 exl-id: 33c889f5-c989-4772-9591-db62f50e5c80
 source-git-commit: cd57eda1f15ea349f810b3ce0086d3e3b92ddb19
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '752'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ You can share collections with various users that are assigned different levels 
 
 * [スマートコレクションを作成](#create-smart-collection)
 
-* [スマートコレクションの編集](#edit-smart-collection)
+* [スマートコレクションを編集](#edit-smart-collection)
 
 * [コレクションからのアセットの削除](#remove-assets-from-collection)
 
@@ -89,7 +89,7 @@ You can share collections with various users that are assigned different levels 
 
 1. 「**[!UICONTROL 名前を付けて保存]**」をクリックして、その後「**[!UICONTROL スマートコレクション]**」を選択します。
 
-   ![スマートコレクションを作成](assets/create-smart-collection.png)
+   ![スマートコレクションの作成](assets/create-smart-collection.png)
 
 1. [!UICONTROL スマートコレクションを作成]ダイアログボックスで、スマートコレクションのタイトルと説明を指定します。
 
@@ -97,15 +97,15 @@ You can share collections with various users that are assigned different levels 
 
 1. 「**[!UICONTROL 作成]**」をクリックして、スマートコレクションを作成します。
 
-### スマートコレクションの編集 {#edit-smart-collection}
+### スマートコレクションを編集 {#edit-smart-collection}
 
 スマートコレクションを編集するには：
 
-1. クリック **[!UICONTROL コレクション]** 左側のレールで、編集するコレクションの名前をダブルクリックします。
+1. 左側のパネルで「**[!UICONTROL コレクション]**」をクリックし、編集するコレクションの名前をダブルクリックします。
 
 1. 「**[!UICONTROL スマートコレクションを編集]**」をクリックします。
 
-1. の [!UICONTROL スマートコレクションフィルターの編集] ダイアログボックス [検索条件を更新する](search.md##refine-search-results) スマートコレクション用。
+1. [!UICONTROL スマートコレクションフィルターを編集]ダイアログボックスで、スマートコレクションの[検索条件を更新](search.md##refine-search-results)します。
 
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
