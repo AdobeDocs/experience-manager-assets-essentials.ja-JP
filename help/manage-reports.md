@@ -3,9 +3,9 @@ title: Assets Essentials でのレポートの管理
 description: Assets Essentials の「レポート」セクションのデータにアクセスして、製品と機能の使用状況を評価し、主要な成功指標に関するインサイトを導き出します。
 exl-id: c7155459-05d9-4a95-a91f-a1fa6ae9d9a4
 source-git-commit: 9879dd2fd28c949727e85c3a54e07ea7c1a50c82
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '736'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ Assets Essentials を使用すると、Assets Essentials 環境のリアルタ�
 
 * **アップロード**：過去 30 日間または 12 ヶ月間に Assets Essentials 環境にアップロードされたアセットの数は、折れ線グラフで表されます。
 
-* **ストレージ使用量**:Assets Essentials環境の過去 30 日間または 12 か月間のストレージ使用量 (GB) を棒グラフで表したもの。
+* **ストレージ使用量**：過去 30 日間または 12 か月間の Assets Essentials 環境のストレージ使用量（GB）は、棒グラフで表されます。
 
 ## ダウンロードレポートの作成 {#create-download-report}
 
