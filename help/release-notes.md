@@ -7,7 +7,7 @@ exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
 source-git-commit: 9879dd2fd28c949727e85c3a54e07ea7c1a50c82
 workflow-type: tm+mt
 source-wordcount: '1312'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -25,9 +25,9 @@ Assets Essentials 通知を使用すると、リポジトリで使用可能な�
 
 Assets Essentials では、スマートコレクションの作成時に使用する検索条件を編集する機能も提供するようになりました。新しい検索条件を保存して、コレクションのコンテンツを動的に更新します。
 
-**ストレージアカウントのライブ統計を表示**
+**ストレージアカウントのライブ統計の表示**
 
-また、Assets Essentialsでは、Assets Essentials環境のリアルタイムストレージアカウントデータを、Live Statistics ダッシュボードで表示できるようになりました。 過去 30 日間または過去 12 ヶ月間のリアルタイムイベント指標を表示できます。
+Assets Essentials を使用すると、Assets Essentials 環境のリアルタイムのストレージアカウントデータをライブ統計ダッシュボードでも表示できるようになりました。過去 30 日間または過去 12 か月間のリアルタイムイベント指標を表示できます。
 
 **アップロードレポートの表示**
 
