@@ -9,8 +9,8 @@ feature-set: Experience Manager Assets,Experience Manager
 feature: Assets Essentials
 role: User,Leader
 solution: Experience Manager
-source-git-commit: 511b7904eca972e76f55e574c7c364dd88fb1721
-workflow-type: ht
+source-git-commit: 1d7055f95e051dd0dd8790a0e655344d99f8f24d
+workflow-type: tm+mt
 source-wordcount: '131'
 ht-degree: 100%
 
@@ -22,7 +22,7 @@ ht-degree: 100%
 + [ソリューションの概要](introduction.md)
 + [リリースノート](release-notes.md)
 + Assets Essentials の基本を学ぶ（管理者向け）{#get-started-admins}
-   + [デプロイとユーザーの追加](deploy-administer.md)
+   + [ の管理とユーザーの追加](deploy-administer.md)
    + フォルダーアクセスの管理{#folder-access}
       + [フォルダー権限の管理](manage-permissions.md)
       + [権限管理のベストプラクティス](permission-management-best-practices.md)

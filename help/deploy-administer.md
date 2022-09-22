@@ -3,128 +3,154 @@ title: ユーザーの管理
 description: ' [!DNL Assets Essentials] でのデプロイメントやユーザー管理など、管理に関するユースケース'
 role: Admin
 exl-id: ef91126f-3aee-442b-b242-a6bf4034f3dc
-source-git-commit: 59f6165fd7576736ff75369c2805c15ce3ae9af0
-workflow-type: ht
-source-wordcount: '1201'
-ht-degree: 100%
+source-git-commit: 9818d06d8da806190c61aadeecd50a7c65b31cbe
+workflow-type: tm+mt
+source-wordcount: '1331'
+ht-degree: 82%
 
 ---
 
 # [!DNL Assets Essentials] の管理とユーザーの追加 {#administer}
 
-[!DNL Adobe Experience Manager Assets Essentials] は、アドビのお客様向けにアドビによってプロビジョニングされます。プロビジョニングの一環として、[!DNL Adobe Admin Console] でお客様の組織に [!DNL Assets Essentials] が追加されます。管理者は [!DNL Admin Console] を使用して [!DNL Assets Essentials] ソリューションのユーザー権利を管理し、[!DNL Assets Essentials] で権限とメタデータフォームを設定するアプリケーション管理者を割り当てます。
+[!DNL Adobe Experience Manager Assets Essentials] は、アドビのお客様向けにアドビによってプロビジョニングされます。プロビジョニングの一環として、[!DNL Adobe Admin Console] でお客様の組織に [!DNL Assets Essentials] が追加されます。管理者は [!DNL Admin Console] を使用して [!DNL Assets Essentials] ソリューションに対するユーザーの使用権限を管理し、[!DNL Assets Essentials] に権限とメタデータフォームをセットアップするアプリケーション管理者を割り当てます。
 
-ジャーニーベースのエクスペリエンスで Assets Essentials を管理するには、この[リンク](adminster-aem-assets-essentials.md)をクリックします。
 
-## Assets Essentials の自動デプロイメント {#automatic-deployment-assets-essentials}
+次のデータフロー図は、Assets Essentials の設定と管理を行うために管理者が実行する必要があるタスクのシーケンスを示しています。
+
+![Assets Essentialsをデプロイ](assets/deploy-assets-essentials.svg)
+
+## Admin Console へのアクセス {#access-admin-console}
 
 Assets Essentials ソリューションがプロビジョニングされると、管理者にアドビから電子メールが届きます。この電子メールには、歓迎メッセージと使用を開始するためのリンクが含まれています。さらに、アドビは、Assets Essentials を自動的にデプロイするプロセスを開始します。デプロイメントプロセスが完了するまでに 1 時間ほどかかります。
 
-電子メールに記載されたリンクから、[Admin Console](https://adminconsole.adobe.com) にアクセスしてログインします。複数の組織アカウントに管理者としてアクセスできる場合は、該当する組織を選択するか、上部のバーにある切り替えボタンを使用して組織を切り替えます。自動デプロイメントプロセスが完了すると、[!DNL AEM Assets Essentials] の製品カードが [!DNL Admin Console] に表示されます。
+電子メールに記載されたリンクから、[Admin Console](https://adminconsole.adobe.com) にアクセスしてログインします。複数の組織アカウントに管理者としてアクセスできる場合は、該当する組織を選択するか、[組織セレクター](https://helpx.adobe.com/jp/enterprise/using/admin-console.html)を使用してその組織に切り替えます。自動デプロイメントプロセスが完了すると、[!DNL AEM Assets Essentials] の製品カードが [!DNL Admin Console] に表示されます。
 
-![Assets Essentials のデプロイメント](assets/assets-essentials-deployment.png)
+Admin Consoleを使用して、次のユーザー権限付与タスクを実行します。
 
-Assets Essentials ソリューションのデプロイメントが成功したら、管理者は次のタスクを実行する必要があります。
+* [Assets Essentialsアプリケーション管理者の作成](#create-assets-essentials-administrator)
 
-* ソリューションの[ユーザーグループ、フォルダー構造の設定、権限の割り当て](manage-permissions.md)を行います。[ベストプラクティス](permission-management-best-practices.md)に従って、簡単で効果的な権限の設定を行います。
-* 組織のメンバーの [!DNL Assets Essentials] に対する[ユーザーアクセスの管理](#add-users-to-essentials)
-* （オプション）[サービスステータスとログの確認](#view-logs)
+* [ユーザーグループの追加](#add-user-groups)
 
->[!NOTE]
->
->Assets Essentials が 2022年1月6日（PT）より前にプロビジョニングされている場合は、組織メンバーのユーザーアクセスを管理する前に、[Cloud Manager でのデプロイメント手順](#deploy-essentials)を実行してください。
+* [製品プロファイルへのユーザーグループの追加](#add-users-to-product-profiles)
 
+![Assets Essentials のデプロイメント](assets/admin-console-cards.png)
 
-## ユーザー管理 {#add-users-to-essentials}
+### Assets Essentialsアプリケーション管理者の作成 {#create-assets-essentials-administrator}
 
-管理者は、[!DNL Assets Essentials] にアクセスできるユーザーを管理します。管理者は、[!DNL Adobe Admin Console] を使用してユーザーアクセスを追加または削除します。[!DNL Assets Essentials] では、次の 2 種類のユーザーアクセスが利用可能です。
+Admin Consoleー管理者は、フォルダー構造の作成、アセットのアップロード、権限の設定、メタデータフォームの設定、公開コレクションの作成などのタスクを管理するために、Assets Essentialsアプリケーション管理者を追加する必要があります。 ユーザーまたはユーザーグループをAssets Essentialsアプリケーション管理者プロファイルに割り当てる方法について詳しくは、 [製品プロファイルへのユーザーの追加](#add-users-to-product-profiles).
 
-* **[!DNL Assets Essentials]管理者**&#x200B;アプリケーションに管理者アクセス権を持っています。このグループのアプリケーション管理者は、すべてのエンドユーザー機能に加えて、アプリケーションリポジトリ全体の任意のフォルダーおよびグループ／ユーザーに対する権限を管理できます。
-* **[!DNL Assets Essentials] ユーザー**：完全なユーザーインターフェイスにアクセスできます。デジタルアセットのアップロード、整理、タグ付け、検索が可能です。
-* **[!DNL Assets Essentials] Consumer ユーザー**：[!DNL Adobe Journey Optimizer] 電子メールテンプレートエディターの埋め込みアセット選択エクスペリエンスにアクセスできます。詳しくは、[ [!DNL Journey Optimizer] での  [!DNL Assets Essentials]  使用](https://experienceleague.adobe.com/docs/journey-optimizer/using/create-messages/assets-essentials.html?lang=ja)を参照してください。
+### ユーザーグループの追加 {#add-user-groups}
 
-[!DNL Admin Console] では、これら 3 つのアクセスタイプは 3 つの[!UICONTROL 製品プロファイル]で表されます。組織のメンバーを 2 つのプロファイルのいずれかに追加またはいずれかから削除するには、次の手順に従います。
+ユーザーグループを作成し、そのユーザーグループにユーザーを割り当てます。これらのユーザーグループは、Assets Essentials アプリケーションで、フォルダーに対する権限を設定するために使用できます。
 
-1. 組織の [!DNL Admin Console] にアクセスし、上部のバーで「**[!UICONTROL 製品]**」をクリックし、「**[!UICONTROL AEM Assets Essentials]**」をクリックして、[!DNL Assets Essentials] 環境をクリックします。[!DNL Assets Essentials] には、管理者、通常ユーザー、消費者ユーザー用のアクセスを表す 3 つの製品プロファイルがあります。
-
-   ![3 種類のユーザーに対する 3 つのプロファイル](assets/admin-console-admin-profile.png)
-   <!-- Need to update screenshot to include 3 profiles -->
-
-   *図：3 種類のユーザーの追加に使用できる 3 つのプロファイル*
-
-1. ユーザーをグループに追加するには、該当するグループをクリックし、「**[!UICONTROL ユーザーを追加]**」を選択し、ユーザーの詳細を入力して、「**[!UICONTROL 保存]**」をクリックします。ユーザーを追加すると、使用を開始するための招待メールがそのユーザーに届きます。招待メールは、[!DNL Admin Console] の製品プロファイル設定で無効にすることができます。
-
-   ![ユーザーの追加：[!DNL Assets Essentials]](assets/adminconsole-add-user.png)
-
-   *図：[!DNL Admin Console] から [!DNL Assets Essentials] へのユーザーの追加*
-
-1. ユーザーをグループから削除するには、該当するグループをクリックし、既存のユーザーを選択して、「**[!UICONTROL ユーザーを削除]**」を選択します。
-
->[!TIP]
->
->[!DNL Admin Console] では、CSV ファイルを使用してユーザーを一括で管理できます。詳しくは、[[!DNL Admin Console]  のドキュメント](https://helpx.adobe.com/jp/enterprise/using/accounts.html)を参照してください。
-
-## サービスステータスとアクセスログの確認 {#view-logs}
-
-プロビジョニング後、管理者は [!DNL Assets Essentials] を 1 回だけデプロイします。初期デプロイ後、サービスのメンテナンスと更新はアドビによって行われます。管理者は、[!DNL Cloud Manager] ユーザーインターフェイスを使用して、サービスステータスを確認したり、最近のアクセスログをダウンロードしたりできます。
-
-1. ユーザーから問題が報告された場合は、**[!UICONTROL プログラムの概要]**&#x200B;インターフェイスで [!DNL Assets Essentials] のサービスステータスを確認します。ソリューションの通常動作時のステータスは「`Running`」です。その他のステータスが [!DNL Cloud Manager] に表示された場合は、[!DNL Admin Console] のサポートセクションでサポートチケットを作成します。
-
-   ![[!DNL Assets Essentials] のステータス：[!DNL Cloud Manager]](assets/cloudmanager-manage-access-essentials.png)
-
-   *図：[!DNL Cloud Manager] での [!DNL Assets Essentials] の通常ステータスは「`Running`」です。*
-
-1. 最近のアクセスログをダウンロードするには、![オプションアイコン](assets/do-not-localize/options-ellipses-icon.png) アイコンをクリックし、「**[!UICONTROL ログをダウンロード]**」を選択して、画面の指示に従います。ログを使用して HTTPS アクセスリクエストを監査できます。
-
-   ![アクセスログをダウンロードするためのオプション](assets/cloudmanager-download-logs.png)
-
-   *図：アクセスログをダウンロードするためのオプション*
-
-## [!DNL Assets Essentials] のデプロイ {#deploy-essentials}
+ユーザーグループの管理方法については、[ユーザーグループの管理](https://helpx.adobe.com/jp/enterprise/using/user-groups.html)の `Create user groups` および `Edit user groups` を参照してください。 
 
 >[!NOTE]
 >
->Assets Essentials が 2022年1月6日（PT）より前にプロビジョニングされている場合にのみ、以下の手順を実行します。
+>Admin Console が、Azure や Google コネクタ、ユーザー同期ツール、User Management Rest API など、ユーザー／グループの割り当てを管理する外部システムを活用するように設定されている場合、グループとユーザーの割り当ては自動的に設定されます。詳しくは、[Adobe Admin Consoleユーザー](https://helpx.adobe.com/jp/enterprise/using/users.html)を参照してください。
 
-プロビジョニング後に [!DNL Admin Console] で [!DNL Assets Essentials] の使用権限が組織に追加されます。このソリューションをユーザーが使用できるようにするには、組織の管理者がソリューションをデプロイする必要があります。管理者は、[!DNL Cloud Manager] ユーザーインターフェイスを使用して 1 回限りのデプロイメントを行います。初期デプロイ後、サービスのメンテナンスと更新はアドビによって行われます。ソリューションがプロビジョニングされると、アドビから電子メールが管理者に届きます。この電子メールには、歓迎メッセージと使用を開始するためのリンクが含まれています。デプロイするには、次の手順に従います。
+ユーザーグループへのユーザーの追加を管理する方法については、[ユーザーグループの管理](https://helpx.adobe.com/jp/enterprise/using/user-groups.html#add-users-to-groups)の `Add users to groups` を参照してください。
 
-1. 電子メールに記載されたリンクから、[Admin Console](https://adminconsole.adobe.com) にアクセスしてログインします。複数の組織アカウントに管理者としてアクセスできる場合は、該当する組織を選択するか、上部のバーにある切り替えボタンを使用して組織を切り替えます。[!DNL Assets Essentials] の製品カードが [!DNL Admin Console] に表示されます。
+### 製品プロファイルへのユーザーグループの追加 {#add-users-to-product-profiles}
 
-   ![[!DNL Assets Essentials] カード：[!DNL Admin Console]](assets/essentials-in-admin-console.png)
+製品プロファイルにユーザーグループを追加して、Assets Essentialsアプリケーションにアクセスできるようにします。
 
-   *図：[!DNL Admin Console] の [!DNL Assets Essentials] カード*
+製品プロファイルにユーザーグループを追加するには：
+
+1. 組織の [Admin Console](https://adminconsole.adobe.com) にアクセスし、上部のバーで「**[!UICONTROL 製品]**」をクリックしたあと、「**[!UICONTROL AEM Assets Essentials]**」をクリックし、次に [!DNL Assets Essentials] のインスタンスをクリックします。インスタンスの名前は、以下のスクリーンショットに示す名前とは異なる可能性があります。
+   >[!NOTE]
+   >
+   >[!DNL Cloud Manager] インスタンスは、サービスステータスの確認やサービスログへのアクセスなど、特別な管理にのみ使用するもので、製品へのユーザーの追加には使用できません。
+
+   ![Admin Console 管理プロファイル](assets/assets-essentials-instance.png)
+
+   [!DNL Assets Essentials] には、管理者、通常のユーザーおよび消費者ユーザー用のアクセスを表す 3 つの製品プロファイルがあります。
+
+   * **[!DNL Assets Essentials]管理者**&#x200B;アプリケーションに管理者アクセス権を持っています。このグループのアプリケーション管理者は、すべてのエンドユーザー機能に加えて、アプリケーションリポジトリ全体の任意のフォルダーおよびグループ／ユーザーに対する権限を管理できます。
+
+   * **[!DNL Assets Essentials] ユーザー**：完全なユーザーインターフェイスにアクセスできます。デジタルアセットのアップロード、整理、タグ付け、検索が可能です。
+
+   * **[!DNL Assets Essentials] Consumer ユーザー**：[!DNL Adobe Journey Optimizer] 電子メールテンプレートエディターの埋め込みアセット選択エクスペリエンスにアクセスできます。詳しくは、[ [!DNL Journey Optimizer] での  [!DNL Assets Essentials]  使用](https://experienceleague.adobe.com/docs/journey-optimizer/using/create-messages/assets-essentials.html?lang=ja)を参照してください。
+
+   ![Admin Console 管理プロファイル](assets/admin-console-admin-profile.png)
+
+1. 製品にユーザーグループを追加するには、3 つのAssets Essentials製品プロファイルのいずれかをクリックし、 **[!UICONTROL ユーザーを追加]**&#x200B;をクリックし、ユーザーグループの詳細を入力して、 **[!UICONTROL 保存]**.
+
+   ![ユーザー管理プロファイルの追加](assets/add-users-admin-profile.png)
+
+   ユーザーを追加すると、使用を開始するための招待メールがそのユーザーに届きます。招待メールは、[!DNL Admin Console] の製品プロファイル設定で無効にすることができます。
 
    >[!NOTE]
    >
-   >**[!UICONTROL AEM Assets Essentials - Cloud Manager]** カードではなく **[!UICONTROL AEM Assets Essentials]** カードが製品セクションに表示される場合、Assets Essentials のデプロイメントは既に完了しています。残りの手順はスキップできます。
+   >ユーザーが Assets Essentials アプリケーションで管理タスクを実行するには、Admin Console で管理者の Assets Essentials 製品プロファイルにユーザーを追加する必要があります。これらのタスクには、[フォルダー構造の作成](#create-folder-structure)、[フォルダーの権限の管理](#manage-permissions-for-folders)、[メタデータフォームの設定](#metadata-forms)などがあります。　　
 
-1. [!DNL Admin Console] で `AEM Assets Essentials - Cloud Manager` 製品プロファイルに自分自身を管理者として追加します。自分自身ではなく、組織の別のメンバーを追加することもできますし、複数の管理者を追加することもできます。
+## Assets Essentialsアプリケーションにアクセス {#access-assets-essentials-application}
 
-1. 「[!UICONTROL 製品プロファイルを選択]」で ![追加アイコン](assets/do-not-localize/add-icon.svg) アイコンをクリックしたあと、**[!UICONTROL 製品プロファイル]**&#x200B;として「[!UICONTROL デプロイメントマネージャー - Assets Essentials]」を選択します。この手順で追加されたユーザーが、[!DNL Cloud Manager] へのアクセス情報を記載した電子メールをアドビから受け取り、デプロイメントを行うことができます。
+ユーザーの使用権限をAdmin Consoleで実行した後、Assets Essentialsアプリケーションにアクセスして、次のタスクを実行できます。
 
-   ![管理者の追加と製品プロファイルの選択：[!DNL Admin Console]](assets/adminconsole-user1.png)
+* [フォルダー構造の作成](#create-folder-structure)
 
-   *図：[!DNL Admin Console] での管理者の追加と製品プロファイルの選択*
+* [アセットのアップロード](#upload-assets)
 
-1. [!DNL Cloud Manager] にアクセスするには、[!DNL Cloud Manager] へのアクセス情報が記載された電子メール内のリンクをクリックします。または、ブラウザーで [https://experience.adobe.com/#/cloud-manager/](https://experience.adobe.com/#/cloud-manager/) にアクセスします。
+* [フォルダーの権限の管理](#manage-permissions-for-folders)
 
-1. Cloud Manager のユーザーインターフェイスで、右上隅の「**[!UICONTROL プログラムの追加]**」をクリックします。
+* [メタデータフォームの設定](#metadata-forms)
 
-1. 任意の名前を指定して、オプションで画像（[!DNL Cloud Manager] 内のプログラムを表す）をアップロードし、「**[!UICONTROL 作成]**」をクリックします。[!DNL Cloud Manager] でのプログラムのセットアップに数分かかります。
+* [公開コレクションを作成](#create-public-collections)
 
-1. プログラムの準備が整ったら、タイルの上にポインターを置き、![環境を追加アイコン](assets/do-not-localize/add-environment-icon.png) アイコンをクリックします。
+### フォルダー構造を作成 {#create-folder-structure}
 
-1. [!DNL Assets Essentials] サービスを組織に追加するには、「**[!UICONTROL 環境を追加]**」をクリックし、名前とデプロイメント領域を選択して、「**[!UICONTROL 保存]**」をクリックします。デプロイメント領域を後で変更することはできません。[!DNL Assets Essentials] のデプロイメント領域を、[!DNL Assets Essentials] の使用対象となる他のソリューションのデプロイメント領域と一致させるようにしてください。両者を一致させることにより、デジタルアセットへのネットワークアクセスを可能な限り速くし、待ち時間を可能な限り短くすることができます。
+次の方法を使用して、Assets Essentials リポジトリにフォルダー構造を作成できます。
 
-   ![環境の追加：[!DNL Cloud Manager]](assets/cloudmanager-add-environment-for-essentials.png)
+* ツールバーにある「**[!UICONTROL フォルダーを作成]**」オプションをクリックし、空のフォルダーを作成します。
 
-   *図：[!DNL Assets Essentials] の使用を開始するための環境を [!DNL Cloud Manager] で追加*
+* ツールバーにある「**[!UICONTROL アセットを追加]**」オプションをクリックし、[ローカルマシンで使用可能なフォルダー構造をアップロード](add-delete.md)します。
 
-1. 数分後、環境が正常に作成されたら、[!DNL Admin Console] にアクセスし、組織のユーザーを [!DNL Assets Essentials] ソリューションに追加できます。![オプションアイコン](assets/do-not-localize/options-ellipses-icon.png) アイコンをクリックし、「**[!UICONTROL アクセスを管理]**」オプションを選択します。
+組織のビジネス目標に適したフォルダー構造を作成します。既存のフォルダー構造を Assets Essentials リポジトリにアップロードする場合は、構造を確認する必要があります。詳しくは、 [効果的な権限管理のためのフォルダー構造のベストプラクティス](permission-management-best-practices.md##folder-structure-assets-essentials).
 
-   ![環境の準備：[!DNL Cloud Manager]](assets/cloudmanager-manage-access-essentials.png)
+組織で使用できるフォルダー構造タイプには様々なものがあります。一般的なフォルダー構造の例を以下に示します。
 
-   *図：使用する準備ができた [!DNL Cloud Manager] 内の環境*
+![典型的な フォルダー構造](assets/folder-structure.svg)
+
+>[!NOTE]
+>
+>これらのタスクを管理する（特に権限の管理）には、ユーザーにアプリケーション管理権限が必要です。[管理者の Assets Essentials 製品プロファイル](#add-users-to-product-profiles)に、この権限を追加する必要があります。
+
+### アセットのアップロード {#upload-assets}
+
+操作対象となる新しいアセットを追加するには、ローカルファイルシステムからアセットをアップロードします。ユーザーインターフェイス上でアセットまたはフォルダーをドラッグし、画面に表示される指示に従うか、 **[!UICONTROL アセットを追加]** オプションを使用して、いくつかのファイルをアップロードダイアログに追加します。 [!DNL Assets Essentials] は強力なフルテキスト検索機能を提供しますが、フォルダーを使用してアセットを適切に整理することもできます。詳しくは、 [アセットのアップロード](add-delete.md).
+
+![ファイルおよびフォルダーのアップロード](assets/upload-assets.png)
+
+### フォルダーの権限の管理 {#manage-permissions-for-folders}
+
+Assets Essentials では、管理者は、リポジトリで使用可能なフォルダーのアクセスレベルを管理できます。管理者は、ユーザーグループを作成し、それらのグループに権限を割り当てて、アクセスレベルを管理できます。また、権限管理の権限をフォルダーレベルでユーザーグループにデリゲートすることもできます。
+
+>[!VIDEO](https://video.tv.adobe.com/v/341104)
+
+詳しくは、[フォルダーの権限の管理](manage-permissions.md)を参照してください。
+
+### メタデータフォームの設定 (オプション) {#metadata-forms}
+
+Assets Essentials には、多数の標準メタデータフィールドがデフォルトで用意されています。組織には、追加のメタデータニーズがあり、ビジネス固有のメタデータを追加するために、さらに多くのメタデータフィールドが必要です。メタデータフォームを使用すると、ビジネスごとにアセットの[!UICONTROL 詳細]ページにカスタムメタデータフィールドを追加できます。ビジネス固有のメタデータにより、アセットのガバナンスと検出が向上します。フォームは、ゼロから作成することも、既存のフォームを再利用することもできます。
+
+各種アセット（様々な MIME タイプ）のメタデータフォームを設定できます。ファイルの MIME タイプと同じフォーム名を使用します。Essentials は、アップロードされたアセットの MIME タイプをフォームの名前と自動的に照合し、フォームフィールドに基づいて、アップロードされたアセットのメタデータを更新します。
+
+例えば、`PDF` または `pdf` という名前のメタデータフォームが存在する場合、アップロードされた PDF ドキュメントには、そのフォームで定義されたメタデータフィールドが含まれています。
+
+詳しくは、 [メタデータフォーム](metadata.md#metadata-forms).
+
+>[!VIDEO](https://video.tv.adobe.com/v/341275)
+
+メタデータフォームについて詳しくは、[Assets Essentials のメタデータフォーム](metadata.md#metadata-forms)を参照してください。
+
+### 公開コレクションの作成（オプション） {#create-public-collections}
+
+コレクションとは、Experience Manager Assets Essentials 内の一連のアセットのことです。コレクションを使用して、ユーザー間でアセットを共有します。
+
+フォルダーとは異なり、1 つのコレクションに異なる複数の場所のアセットを含めることができます。1 人のユーザーと複数のコレクションを共有できます。各コレクションには、アセットへの参照が含まれます。アセットの参照整合性はコレクション間で維持されます。詳しくは、 [コレクションの管理](manage-collections.md).
+
+![コレクション](assets/collections.png)
 
 ## 次の手順 {#next-steps}
 
@@ -132,7 +158,7 @@ Assets Essentials ソリューションのデプロイメントが成功した�
 
 * Assets Essentials ユーザーインターフェイスの「[!UICONTROL フィードバック]」オプションを使用して製品に関するフィードバックを提供する
 
-* 右側のサイドバーにある「[!UICONTROL このページを編集]」（![ページを編集](assets/do-not-localize/edit-page.png)）または「[!UICONTROL 問題を記録]」（![GitHub イシューを作成](assets/do-not-localize/github-issue.png)）を使用してドキュメントに関するフィードバックを提供する
+* 右側のサイドバーにある「[!UICONTROL このページを編集]」（![ページを編集](assets/do-not-localize/edit-page.png)）または「[!UICONTROL 問題を記録] 」（![GitHub イシューを作成](assets/do-not-localize/github-issue.png)）を使用してドキュメントに関するフィードバックを提供する
 
 * [カスタマーケア](https://experienceleague.adobe.com/?support-solution=General&amp;lang=ja#support)に問い合わせる
 
@@ -140,7 +166,7 @@ Assets Essentials ソリューションのデプロイメントが成功した�
 
 >[!MORELIKETHIS]
 >
->* [[!DNL Admin Console]  のヘルプ](https://helpx.adobe.com/jp/enterprise/using/admin-console.html)
+>* [[!DNL Admin Console]  のヘルプ](https://helpx.adobe.com/enterprise/using/admin-console.html)
 >* [[!DNL Cloud Manager]  のヘルプ](https://experienceleague.adobe.com/docs/experience-manager-cloud-manager/using/introduction-to-cloud-manager.html?lang=ja)
 >* [Adobe Journey Optimizer のドキュメント](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home.html?lang=ja)
 >* [リリースノート](release-notes.md)
