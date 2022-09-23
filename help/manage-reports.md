@@ -2,10 +2,10 @@
 title: Assets Essentials でのレポートの管理
 description: Assets Essentials の「レポート」セクションのデータにアクセスして、製品と機能の使用状況を評価し、主要な成功指標に関するインサイトを導き出します。
 exl-id: c7155459-05d9-4a95-a91f-a1fa6ae9d9a4
-source-git-commit: 9879dd2fd28c949727e85c3a54e07ea7c1a50c82
-workflow-type: ht
-source-wordcount: '736'
-ht-degree: 100%
+source-git-commit: 95001cb7b1d37807fcd1fed0e26333cca15bbfbd
+workflow-type: tm+mt
+source-wordcount: '755'
+ht-degree: 93%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 ## レポートへのアクセス {#access-reports}
 
-[Assets Essentials 管理者製品プロファイル](deploy-administer.md)に割り当てられているユーザーはすべて、Assets Essentials でライブ統計ダッシュボードにアクセスして、ユーザー定義のレポートを作成できます。
+に割り当てられているすべてのユーザー [Assets Essentials Administrators 製品プロファイル](deploy-administer.md) は、「ライブ統計」ダッシュボードにアクセスしたり、Assets Essentialsでユーザー定義のレポートを作成したりできます。
 
 ## ライブ統計の表示 {#view-live-statistics}
 
@@ -44,6 +44,9 @@ Assets Essentials を使用すると、Assets Essentials 環境のリアルタ�
 1. 「**[!UICONTROL フォルダーパスを選択]**」フィールドを使用して、レポートを実行するアセットを含むフォルダーパスを選択します。
 
 1. レポートの日付間隔を選択します。
+   >[!NOTE]
+   >
+   > Assets Essentialsは、すべてのローカルタイムゾーンを協定世界時 (UTC) に変換します。
 
 1. 「[!UICONTROL 列]」タブで、レポートに表示する列名を選択します。
 
@@ -73,7 +76,7 @@ Assets Essentials を使用すると、Assets Essentials 環境のリアルタ�
      </tr>
      <tr>
       <td>サイズ</td>
-      <td>アセットのサイズ。</td>
+      <td>アセットのサイズ（バイト単位）。</td>
      </tr>
      <tr>
       <td>ダウンロードしたユーザー</td>
@@ -171,7 +174,7 @@ Assets Essentials を使用すると、Assets Essentials 環境のリアルタ�
 
 ## 既存のレポートの表示 {#view-report-list}
 
-[レポートを作成](#create-report)した後、既存のレポートのリストを表示して、CSV 形式でダウンロードしたり削除したりできます。
+[レポートを作成](#create-download-report)した後、既存のレポートのリストを表示して、CSV 形式でダウンロードしたり削除したりできます。
 
 レポートのリストを表示するには、**[!UICONTROL 設定]**／**[!UICONTROL レポート]**&#x200B;に移動します。
 
@@ -190,7 +193,7 @@ Assets Essentials を使用すると、Assets Essentials 環境のリアルタ�
 
 1. レポートを選択し、「**[!UICONTROL CSV をダウンロード]**」をクリックします。
 
-選択したレポートが CSV 形式でダウンロードされます。CSV レポートに表示される列は、[レポートの作成](#create-report)時に選択する列に依存します。
+選択したレポートが CSV 形式でダウンロードされます。CSV レポートに表示される列は、[レポートの作成](#create-download-report)時に選択する列に依存します。
 
 ## レポートの削除 {#delete-report}
 
@@ -199,3 +202,5 @@ Assets Essentials を使用すると、Assets Essentials 環境のリアルタ�
 1. **[!UICONTROL 設定]**／**[!UICONTROL レポート]**&#x200B;に移動します。
 
 1. レポートを選択し、「**[!UICONTROL 削除]**」をクリックします。
+
+1. クリック **[!UICONTROL 削除]** 再び確認します。

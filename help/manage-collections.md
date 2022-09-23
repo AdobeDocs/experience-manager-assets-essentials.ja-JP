@@ -2,16 +2,16 @@
 title: コレクションの管理
 description: コレクションとは、Experience Manager Assets Essentials 内の一連のアセットのことです。コレクションを使用して、ユーザー間でアセットを共有します。
 exl-id: 33c889f5-c989-4772-9591-db62f50e5c80
-source-git-commit: cd57eda1f15ea349f810b3ce0086d3e3b92ddb19
-workflow-type: ht
-source-wordcount: '752'
-ht-degree: 100%
+source-git-commit: 95001cb7b1d37807fcd1fed0e26333cca15bbfbd
+workflow-type: tm+mt
+source-wordcount: '769'
+ht-degree: 87%
 
 ---
 
 # コレクションの管理 {#manage-collections}
 
-コレクションとは、Experience Manager Assets Essentials 内の一連のアセットのことです。コレクションを使用して、ユーザー間でアセットを共有します。
+コレクションとは、Adobe Experience Manager Assets Essentials内のアセット、フォルダーまたはその他のコレクションのセットです。 コレクションを使用して、ユーザー間でアセットを共有します。
 
 フォルダーとは異なり、1 つのコレクションに異なる複数の場所のアセットを含めることができます。
 
@@ -29,11 +29,11 @@ You can share collections with various users that are assigned different levels 
 
 * [コレクションへのアセットの追加](#add-assets-to-collection)
 
+* [コレクションからのアセットの削除](#remove-assets-from-collection)
+
 * [スマートコレクションを作成](#create-smart-collection)
 
 * [スマートコレクションを編集](#edit-smart-collection)
-
-* [コレクションからのアセットの削除](#remove-assets-from-collection)
 
 * [コレクションのメタデータの表示と編集](#view-edit-collection-metadata)
 
@@ -67,7 +67,7 @@ You can share collections with various users that are assigned different levels 
 
 コレクションにアセットを追加する手順は次のとおりです。
 
-1. 左側のパネルから、「**[!UICONTROL アセット]**」をクリックし、アセットを選択します。
+1. クリック **[!UICONTROL Assets]** 左側のレールで、コレクションに追加する必要のあるアセットを選択します。
 
 1. 「**[!UICONTROL コレクションに追加]**」をクリックします。
 
@@ -77,9 +77,19 @@ You can share collections with various users that are assigned different levels 
 
 コレクションにアセットを追加する場合は、左側のパネルから、「**[!UICONTROL コレクション]**」をクリックし、アセットを追加するコレクションをクリックして、「**[!UICONTROL コレクションに追加]**」をクリック、アセットを選択して「**[!UICONTROL 選択]**」をクリックすることもできます。
 
+## コレクションからのアセットの削除 {#remove-assets-from-collection}
+
+コレクションからアセットを削除する手順は次のとおりです。
+
+1. 左側のパネルから、「**[!UICONTROL コレクション]**」をクリックして、コレクションのリストを表示します。
+
+1. コレクションをクリックし、コレクションから削除する必要がある項目を選択します。
+
+1. 「**[!UICONTROL 削除]**」をクリックします。
+
 ## スマートコレクションの管理 {#manage-smart-collection}
 
-検索結果をスマートコレクションとして保存して、コレクションのコンテンツを動的に更新します。スマートコレクションの作成時に定義した検索条件に適合するアセットが Assets Essentials リポジトリに追加されている場合、スマートコレクションのコンテンツは自動的に更新されます。
+検索結果をスマートコレクションとして保存して、コレクションのコンテンツを動的に更新します。スマートコレクションの作成時に定義した検索条件に適合するアセットがAssets Essentialsリポジトリに追加されている場合、スマートコレクションを開くと、スマートコレクションの内容が自動的に更新されます。
 
 ### スマートコレクションを作成 {#create-smart-collection}
 
@@ -108,16 +118,6 @@ You can share collections with various users that are assigned different levels 
 1. [!UICONTROL スマートコレクションフィルターを編集]ダイアログボックスで、スマートコレクションの[検索条件を更新](search.md##refine-search-results)します。
 
 1. 「**[!UICONTROL 保存]**」をクリックします。
-
-## コレクションからのアセットの削除 {#remove-assets-from-collection}
-
-コレクションからアセットを削除する手順は次のとおりです。
-
-1. 左側のパネルから、「**[!UICONTROL コレクション]**」をクリックして、コレクションのリストを表示します。
-
-1. コレクションをクリックし、コレクションから削除する必要があるアセットを選択します。
-
-1. 「**[!UICONTROL 削除]**」をクリックします。
 
 <!--
 
@@ -149,7 +149,7 @@ Click **[!UICONTROL Collections]** in the left rail and use the Search box to sp
 
 1. 左側のパネルから、「**[!UICONTROL コレクション]**」をクリックし、コレクションを選択して「**[!UICONTROL 詳細]**」をクリックします。
 1. 「**[!UICONTROL 基本]**」タブを使用して、コレクションのメタデータを表示します。
-1. 必要に応じてメタデータのフィールドを変更します。「[!UICONTROL タイトル]」、「[!UICONTROL 説明]」および「[!UICONTROL 作成者]」フィールドを変更できます。
+1. 必要に応じてメタデータのフィールドを変更します。次の項目を変更できます。 [!UICONTROL タイトル] および [!UICONTROL 説明] フィールド。
 
 ![コレクションメタデータ](assets/collection-metadata.png)
 
