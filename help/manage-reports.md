@@ -3,9 +3,9 @@ title: Assets Essentials でのレポートの管理
 description: Assets Essentials の「レポート」セクションのデータにアクセスして、製品と機能の使用状況を評価し、主要な成功指標に関するインサイトを導き出します。
 exl-id: c7155459-05d9-4a95-a91f-a1fa6ae9d9a4
 source-git-commit: 95001cb7b1d37807fcd1fed0e26333cca15bbfbd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '755'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 93%
 
 ## レポートへのアクセス {#access-reports}
 
-に割り当てられているすべてのユーザー [Assets Essentials Administrators 製品プロファイル](deploy-administer.md) は、「ライブ統計」ダッシュボードにアクセスしたり、Assets Essentialsでユーザー定義のレポートを作成したりできます。
+[Assets Essentials 管理者製品プロファイル](deploy-administer.md)に割り当てられているユーザーはすべて、Assets Essentials でライブ統計ダッシュボードにアクセスしたり、ユーザー定義のレポートを作成したりできます。
 
 ## ライブ統計の表示 {#view-live-statistics}
 
@@ -46,7 +46,7 @@ Assets Essentials を使用すると、Assets Essentials 環境のリアルタ�
 1. レポートの日付間隔を選択します。
    >[!NOTE]
    >
-   > Assets Essentialsは、すべてのローカルタイムゾーンを協定世界時 (UTC) に変換します。
+   > Assets Essentials は、すべてのローカルタイムゾーンを協定世界時（UTC）に変換します。
 
 1. 「[!UICONTROL 列]」タブで、レポートに表示する列名を選択します。
 
@@ -203,4 +203,4 @@ Assets Essentials を使用すると、Assets Essentials 環境のリアルタ�
 
 1. レポートを選択し、「**[!UICONTROL 削除]**」をクリックします。
 
-1. クリック **[!UICONTROL 削除]** 再び確認します。
+1. もう一度「**[!UICONTROL 削除]**」をクリックして確認します。
