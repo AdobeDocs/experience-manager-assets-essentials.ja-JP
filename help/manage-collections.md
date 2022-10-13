@@ -3,15 +3,15 @@ title: コレクションの管理
 description: コレクションとは、Experience Manager Assets Essentials 内の一連のアセットのことです。コレクションを使用して、ユーザー間でアセットを共有します。
 exl-id: 33c889f5-c989-4772-9591-db62f50e5c80
 source-git-commit: 95001cb7b1d37807fcd1fed0e26333cca15bbfbd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '769'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
 # コレクションの管理 {#manage-collections}
 
-コレクションとは、Adobe Experience Manager Assets Essentials内のアセット、フォルダーまたはその他のコレクションのセットです。 コレクションを使用して、ユーザー間でアセットを共有します。
+コレクションとは、Adobe Experience Manager Assets Essentials 内のアセット、フォルダーまたはその他のコレクションのセットです。 コレクションを使用して、ユーザー間でアセットを共有します。
 
 フォルダーとは異なり、1 つのコレクションに異なる複数の場所のアセットを含めることができます。
 
@@ -67,7 +67,7 @@ You can share collections with various users that are assigned different levels 
 
 コレクションにアセットを追加する手順は次のとおりです。
 
-1. クリック **[!UICONTROL Assets]** 左側のレールで、コレクションに追加する必要のあるアセットを選択します。
+1. 左側のパネルで「**[!UICONTROL Assets]**」をクリックし、コレクションに追加する必要のあるアセットを選択します。
 
 1. 「**[!UICONTROL コレクションに追加]**」をクリックします。
 
@@ -89,7 +89,7 @@ You can share collections with various users that are assigned different levels 
 
 ## スマートコレクションの管理 {#manage-smart-collection}
 
-検索結果をスマートコレクションとして保存して、コレクションのコンテンツを動的に更新します。スマートコレクションの作成時に定義した検索条件に適合するアセットがAssets Essentialsリポジトリに追加されている場合、スマートコレクションを開くと、スマートコレクションの内容が自動的に更新されます。
+検索結果をスマートコレクションとして保存して、コレクションのコンテンツを動的に更新します。スマートコレクションの作成時に定義した検索条件に適合するアセットが Assets Essentials リポジトリに追加されている場合、スマートコレクションを開くと、スマートコレクションのコンテンツが自動的に更新されます。
 
 ### スマートコレクションを作成 {#create-smart-collection}
 
@@ -149,7 +149,7 @@ Click **[!UICONTROL Collections]** in the left rail and use the Search box to sp
 
 1. 左側のパネルから、「**[!UICONTROL コレクション]**」をクリックし、コレクションを選択して「**[!UICONTROL 詳細]**」をクリックします。
 1. 「**[!UICONTROL 基本]**」タブを使用して、コレクションのメタデータを表示します。
-1. 必要に応じてメタデータのフィールドを変更します。次の項目を変更できます。 [!UICONTROL タイトル] および [!UICONTROL 説明] フィールド。
+1. 必要に応じてメタデータのフィールドを変更します。「[!UICONTROL タイトル]」および「[!UICONTROL 説明]」フィールドを変更できます。
 
 ![コレクションメタデータ](assets/collection-metadata.png)
 
