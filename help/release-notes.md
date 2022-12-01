@@ -4,16 +4,68 @@ description: ' [!DNL Assets Essentials] のリリースノートと既知の問�
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AK
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
-source-git-commit: 9879dd2fd28c949727e85c3a54e07ea7c1a50c82
+source-git-commit: fbbd982e36f2b0d126c01f71afed8da984320523
 workflow-type: tm+mt
-source-wordcount: '1312'
-ht-degree: 100%
+source-wordcount: '1401'
+ht-degree: 94%
 
 ---
 
 # [!DNL Assets Essentials] のリリースノート {#release-notes}
 
- Assets Essentials の最新リリースは 2022年8月22日（PT）にリリースされました。
+Assets Essentialsの現在のリリースは 2022 年 11 月 17 日にリリースされました。
+
+このリリースの特長は次のとおりです。
+
+**ドキュメントビューアを使用したDocument Cloudのプレビュー**
+
+Assets Essentialsで、サポートされる他の形式のドキュメントをアップロードし、付属のDocument Cloudビューアを使用してプレビューできるようになりました。 サポートされる形式の種類には、TXT、RTF、DOC、DOCX、PPT、PPTX、XLS、XLSX が含まれます。
+
+<!--
+
+**View Smart Tags moderation reports**
+
+Asset reporting now provides administrators with visibility into the Smart Tags promoted or deleted for an asset. You can specify a folder path and the report lists the Smart Tags promoted or deleted for all assets available at the folder path.
+
+-->
+
+<!--
+**Read-only access to large number of users**
+
+Assets Essentials allows administrators to provide read-only access to a large number of users for selected assets or folders in the repository. 
+You can easily synchronize the user groups available on the external identity management of an organization with Adobe Admin Console and then manage permissions in Admin Console and Assets Essentials to provide the users with read-only access for selected assets or folders.
+
+-->
+
+
+**新しい「メタデータを保存」オプション**
+
+Assets Essentialsユーザーインターフェイスで新しい「メタデータを保存」オプションを使用して、メタデータガバナンスを改善できました。
+
+**お客様からのフィードバックに基づく改善**
+
+お客様からのフィードバックに基づく機能強化およびバグ修正。
+
+## 既知の問題 {#known-issues}
+
+[!DNL Assets Essentials] ソリューションに関する既知の問題のリストは、継続的に改訂され、更新されています。
+
+<!--
+
+* Assets Essentials does not support creating Private collections.
+
+-->
+
+
+* 非公開コレクションは、作成者および管理者権限を持つユーザーが使用できます。管理者は、コレクションへのアクセス権を他のユーザーに委任することはできません。
+
+問題が発生した場合や機能強化のご要望については、サポートチームに[フィードバックを送付](#provide-feedback)してください。
+
+## 過去のリリース {#past-releases}
+
+### 2022.8.0 {#august-2022}
+
+の 8 月リリース [!DNL Assets Essentials] は 2022 年 8 月 23 日にリリースされました。
 
 このリリースの特長は次のとおりです。
 
@@ -36,24 +88,6 @@ Assets Essentials を使用すると、Assets Essentials 環境のリアルタ�
 **お客様からのフィードバックに基づく改善**
 
 お客様からのフィードバックに基づく機能強化およびバグ修正。
-
-
-## 既知の問題 {#known-issues}
-
-[!DNL Assets Essentials] ソリューションに関する既知の問題のリストは、継続的に改訂され、更新されています。
-
-<!--
-
-* Assets Essentials does not support creating Private collections.
-
--->
-
-
-* 非公開コレクションは、作成者および管理者権限を持つユーザーが使用できます。管理者は、コレクションへのアクセス権を他のユーザーに委任することはできません。
-
-問題が発生した場合や機能強化のご要望については、サポートチームに[フィードバックを送付](#provide-feedback)してください。
-
-## 過去のリリース {#past-releases}
 
 ### 2022.6.0 {#june-2022}
 
