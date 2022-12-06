@@ -9,10 +9,10 @@ feature-set: Experience Manager Assets,Experience Manager
 feature: Assets Essentials
 role: User,Leader
 solution: Experience Manager
-source-git-commit: 1d7055f95e051dd0dd8790a0e655344d99f8f24d
-workflow-type: ht
-source-wordcount: '131'
-ht-degree: 100%
+source-git-commit: 73a425d494b00650e917a98a35fd53e23cb2a4f1
+workflow-type: tm+mt
+source-wordcount: '121'
+ht-degree: 91%
 
 ---
 
@@ -26,11 +26,7 @@ ht-degree: 100%
    + フォルダーアクセスの管理{#folder-access}
       + [フォルダー権限の管理](manage-permissions.md)
       + [権限管理のベストプラクティス](permission-management-best-practices.md)
-   + Assets Essentials と Creative Cloud Pro および作業管理ソリューションの連携の管理者向けジャーニー{#admin-journey}
-      + [管理者向けジャーニーの概要](assets-essentials-cc-pro-work-management-admin-journey.md)
-      + [Experience Manager Assets Essentials の管理](adminster-aem-assets-essentials.md)
-      + [Assets Essentials と Creative Cloud アプリケーションの統合](integrate-assets-essentials-creative-cloud.md)
-      + [Assets Essentials と Adobe Workfront の統合](integrate-assets-essentials-workfront.md)
+   + [Assets Essentials と Creative Cloud Pro および作業管理ソリューションの連携の管理者向けジャーニー](assets-essentials-cc-pro-work-management-admin-journey.md)
 + [ [!DNL Assets Essentials] の基本](get-started.md)
 + [サポートされているファイルタイプとユースケース](supported-file-formats.md)
 + [アセットの表示](navigate-view.md)
@@ -43,5 +39,8 @@ ht-degree: 100%
 + [コレクションの管理](manage-collections.md)
 + [通知の管理](manage-notifications.md)
 + [レポートの管理](manage-reports.md)
-+ [他のソリューションとの統合](integration.md)
++ 他のソリューションとの統合 {#integration-with-other-solutions}
+   + [概要](integration.md)
+   + [Enterprise 用Creative Cloudとの統合](integrate-with-creative-cloud.md)
+   + [Adobe Workfrontとの統合](integrate-with-workfront.md)
 + [ビデオ](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/overview.html?lang=ja)

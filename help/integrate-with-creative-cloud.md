@@ -1,29 +1,14 @@
 ---
 title: Assets Essentials と Creative Cloud アプリケーションの統合
 description: Assets Essentials を Creative Cloud アプリケーションと統合して、Adobe Asset Link のアプリ内パネルを使用して、サポート対象の [!DNL Adobe Creative Cloud] デスクトップアプリケーション内から [!DNL Assets Essentials] リポジトリに接続できるようにします。
-exl-id: 611fd958-3fd3-4c46-bee9-8b866b7dc208
-source-git-commit: 268b7eb82b15b658207f24750eeae085ce5bb3d4
+source-git-commit: 44b8b8f3c734bd80e9d86177d607d897e696e4ed
 workflow-type: tm+mt
-source-wordcount: '854'
-ht-degree: 96%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Assets Essentials と Creative Cloud アプリケーションの統合 {#integrate-assets-essentials-creative-cloud-applications}
-
-![暗いテーマと明るいテーマを切り替えるための環境設定](assets/cce-creative-cloud.png)
-
-## これまでの説明内容
-
-このチュートリアルで [Experience Manager Assets Essentials を設定](adminster-aem-assets-essentials.md)したら、エクスペリエンスに基づいて、Creative Cloud アプリケーションを Assets Essentials と統合できます。
-
-## 目的
-
-* **対象読者**：Creative Cloud 管理者
-
-* **目的**：Assets Essentials を Creative Cloud アプリケーションと統合して、クリエイティブユーザーが Adobe Asset Link のアプリ内パネルを使用して、サポート対象の [!DNL Adobe Creative Cloud] デスクトップアプリケーション内から [!DNL Assets Essentials] リポジトリに接続できるようにします。
-
-## 概要
 
 [Adobe Asset Link のアプリ内パネル](https://www.adobe.com/jp/creativecloud/business/enterprise/adobe-asset-link.html)を使用すると、クリエイティブプロフェッショナルは、サポート対象の [!DNL Adobe Creative Cloud] デスクトップアプリケーション内から [!DNL Assets Essentials] リポジトリに接続できます。このパネルは、[!DNL Adobe Photoshop]、[!DNL Adobe Illustrator]、[!DNL Adobe InDesign] および [!DNL Adobe XD] で使用できます。これにより、アセットへのアクセスが効率化され、結果としてコンテンツベロシティ（コンテンツ創出速度）が向上します。
 
@@ -53,7 +38,7 @@ Creative Cloud の Admin Console と Experience Cloud の Admin Console の間�
 
 他の Assets Essentials 製品プロファイル（**[!DNL Assets Essentials]管理者**&#x200B;および **[!DNL Assets Essentials]消費者ユーザー**）は、別のユーザー使用権限（Experience Cloud 統合を通じて Assets Essentials にアクセスするアプリケーション管理者およびユーザー）に使用されます。
 
-ユーザーを Assets Essentials 製品プロファイルに割り当てる方法について詳しくは、[Assets Essentials 製品プロファイルへのユーザーの割り当て](adminster-aem-assets-essentials.md#add-users-to-product-profiles)を参照してください。
+ユーザーを Assets Essentials 製品プロファイルに割り当てる方法について詳しくは、[Assets Essentials 製品プロファイルへのユーザーの割り当て](deploy-administer.md#add-users-to-product-profiles)を参照してください。
 
 ## Adobe Asset Link のインストール {#install-asset-link}
 
@@ -97,7 +82,3 @@ Adobe Asset Link を使用して、Assets Essentials リポジトリに保存さ
 * バージョン履歴とファイル詳細の表示
 
 これらのタスクの実行方法については、[Adobe Asset Link を使用したアセットの管理](https://helpx.adobe.com/jp/enterprise/using/manage-assets-using-adobe-asset-link.html)を参照してください。
-
-## 次のステップ
-
-これで、Creative Cloud アプリケーションと Assets Essentials の統合が完了したので、[Adobe Workfront と Experience Manager Assets Essentials の統合](integrate-assets-essentials-workfront.md)を行います。

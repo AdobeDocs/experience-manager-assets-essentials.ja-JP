@@ -2,10 +2,10 @@
 title: Assets Essentials と Creative Cloud Pro および作業管理ソリューションの連携のセットアップ
 description: このチュートリアルでは、Assets Essentials アプリケーションを Creative Cloud デスクトップアプリケーションおよび Adobe Workfront アプリケーションと統合できるようにする管理者ジャーニーを紹介します。Creative Cloud デスクトップアプリケーションには、Adobe Photoshop、Adobe Illustrator、Adobe InDesign および Adobe XD が含まれます。
 exl-id: a5e9e0c3-35ec-41de-9656-f4f0f88946c7
-source-git-commit: a40b608ec72691c10dfbf7dff518a2cfc87d6552
-workflow-type: ht
-source-wordcount: '900'
-ht-degree: 100%
+source-git-commit: 8920080944981fc1a990136af46c9258c5e8627c
+workflow-type: tm+mt
+source-wordcount: '941'
+ht-degree: 97%
 
 ---
 
@@ -39,17 +39,17 @@ Creative Cloud と Assets Essentials のアプリケーションを統合する�
 
 ![Creative Cloud ユーザー](assets/creative-cloud-users.svg)
 
-図に示すように、Creative Cloud ユーザーは、2 つのコンソール間の信頼関係に基づいて、Experience Cloud Admin Console で自動的に使用可能になります。その後、Assets Essentials 製品プロファイルにユーザーを追加できます。その結果、Creative Cloud ユーザーは Assets Essentials リポジトリとやり取りできる Adobe Asset Link アプリケーションにアクセスできます。詳しくは、[Assets Essentials と Creative Cloud アプリケーションの統合](integrate-assets-essentials-creative-cloud.md)を参照してください。
+図に示すように、Creative Cloud ユーザーは、2 つのコンソール間の信頼関係に基づいて、Experience Cloud Admin Console で自動的に使用可能になります。その後、Assets Essentials 製品プロファイルにユーザーを追加できます。その結果、Creative Cloud ユーザーは Assets Essentials リポジトリとやり取りできる Adobe Asset Link アプリケーションにアクセスできます。詳しくは、[Assets Essentials と Creative Cloud アプリケーションの統合](integrate-with-creative-cloud.md)を参照してください。
 
 ## Experience Manager ドキュメントジャーニー {#documentation-journeys}
 
 ドキュメントジャーニーでは、Assets Essentials を初めて使用する可能性のある読者が、最小限の事前トピックまたは Assets Essentials の知識を前提として、ビジネス上の問題を包括的に理解し解決するのに役立つ物語を提供することにより、多くの異なる、おそらく複雑なトピックと機能を結び付けます。
 
-ドキュメントジャーニーは、アドビの最新の調査、アドビコンサルタントの実績ある実装経験および顧客プロジェクトからのフィードバックに基づいて、ベストプラクティス原則を軸に設計されています。
+ドキュメントジャーニーは、アドビの最新の調査、アドビのコンサルタントによる実装実績、顧客プロジェクトからのフィードバックなどに基づいて、ベストプラクティス原則を軸に設計されています。
 
 ## 前提条件
 
-* [Experience Cloud ソリューションの Adobe Admin Console へのアクセス](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html?lang=ja)
+* [Experience Cloud ソリューションの Adobe Admin Console へのアクセス](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html)
 
 * [Creative Cloud エンタープライズ版デプロイメントの Adobe Admin Console へのアクセス](https://helpx.adobe.com/jp/enterprise/admin-guide.html)
 
@@ -59,7 +59,7 @@ Creative Cloud と Assets Essentials のアプリケーションを統合する�
 
 Adobe Experience Manager Assets Essentials は、Adobe Experience Manager Assets の新しい軽量版です。 Assets Essentials では、シンプルで一貫性のあるユーザーインターフェイスにより、統一されたアセット管理とコラボレーションを提供します。使いやすいので、より多くのクリエイティブチームやマーケティングチームがデジタルアセットを保存、検出および配布できるようになります。
 
-Adobe Experience Manager Assets Essentials は、アドビがお客様向けにプロビジョニングします。プロビジョニングの一環として、Assets Essentials が Adobe Admin Console のお客様の組織に追加されます。
+Adobe Experience Manager Assets Essentials は、アドビがお客様向けにプロビジョニングします。プロビジョニングの一環として、Assets EssentialsがAdobe Admin Consoleの顧客の組織に追加されます。
 
 管理者は、Admin Console を使用して Assets Essentials 製品に対するユーザーの使用権限を管理します。
 
@@ -77,7 +77,9 @@ Admin Console でユーザーの使用権限を管理したら、管理者は As
 
 * メタデータフォームの設定
 
-[![ガイドを参照](https://helpx.adobe.com/content/dam/help/en/marketing-cloud/how-to/digital-foundation/_jcr_content/main-pars/image_1250343773/see-the-guide-sm.png)](adminster-aem-assets-essentials.md)
+[![ガイドを参照してください](https://helpx.adobe.com/content/dam/help/en/marketing-cloud/how-to/digital-foundation/_jcr_content/main-pars/image_1250343773/see-the-guide-sm.png)](deploy-administer.md)
+
+Assets Essentials アプリケーションを設定および管理したので、[Creative Cloud アプリケーションを Experience Manager Assets Essentials アプリケーションと統合します](integrate-with-creative-cloud.md)。
 
 ## Creative Cloud アプリケーションと Experience Manager Assets Essentials の統合 {#administer-creative-cloud-applications}
 
@@ -97,7 +99,9 @@ Admin Console でユーザーの使用権限を管理したら、管理者は As
 
 * Adobe Asset Link の使用
 
-[![ガイドを参照](https://helpx.adobe.com/content/dam/help/en/marketing-cloud/how-to/digital-foundation/_jcr_content/main-pars/image_1250343773/see-the-guide-sm.png)](integrate-assets-essentials-creative-cloud.md)
+[![ガイドを参照してください](https://helpx.adobe.com/content/dam/help/en/marketing-cloud/how-to/digital-foundation/_jcr_content/main-pars/image_1250343773/see-the-guide-sm.png)](integrate-with-creative-cloud.md)
+
+これで、Creative Cloud アプリケーションと Assets Essentials の統合が完了したので、[Adobe Workfront と Experience Manager Assets Essentials の統合](integrate-with-workfront.md)を行います。
 
 ## Adobe Workfront と Experience Manager Assets Essentials の統合 {#administer-adobe-workfront}
 
@@ -115,4 +119,4 @@ Admin Console でユーザーの使用権限を管理したら、管理者は As
 
 * Experience Manager Assets Essentials 統合の設定
 
-[![ガイドを参照](https://helpx.adobe.com/content/dam/help/en/marketing-cloud/how-to/digital-foundation/_jcr_content/main-pars/image_1250343773/see-the-guide-sm.png)](integrate-assets-essentials-workfront.md)
+[![ガイドを参照してください](https://helpx.adobe.com/content/dam/help/en/marketing-cloud/how-to/digital-foundation/_jcr_content/main-pars/image_1250343773/see-the-guide-sm.png)](integrate-with-workfront.md)
