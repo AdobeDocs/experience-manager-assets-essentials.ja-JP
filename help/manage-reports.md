@@ -2,10 +2,10 @@
 title: Assets Essentials でのレポートの管理
 description: Assets Essentials の「レポート」セクションのデータにアクセスして、製品と機能の使用状況を評価し、主要な成功指標に関するインサイトを導き出します。
 exl-id: c7155459-05d9-4a95-a91f-a1fa6ae9d9a4
-source-git-commit: 95001cb7b1d37807fcd1fed0e26333cca15bbfbd
-workflow-type: ht
-source-wordcount: '755'
-ht-degree: 100%
+source-git-commit: 368b27c4f1f14ff6209c4e45ff288be192809c0e
+workflow-type: tm+mt
+source-wordcount: '759'
+ht-degree: 97%
 
 ---
 
@@ -23,7 +23,7 @@ Assets Essentials を使用すると、Assets Essentials 環境のリアルタ�
 
 ![アセット選択時のツールバーオプション](assets/assets-essentials-live-statistics.png)
 
-**[!UICONTROL 設定]**／**[!UICONTROL ライブ統計]**&#x200B;に移動して、自動生成されたチャートを表示します。
+クリック **[!UICONTROL ライブ統計]** 左側のナビゲーションパネルで、以下の自動生成されたグラフを表示できます。
 
 * **ダウンロード**：過去 30 日間または 12 か月間に Assets Essentials 環境からダウンロードされたアセットの数は、折れ線グラフで表されます。
 

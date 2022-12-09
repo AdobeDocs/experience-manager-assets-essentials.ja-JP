@@ -2,9 +2,9 @@
 title: コレクションの管理
 description: コレクションとは、Experience Manager Assets Essentials 内の一連のアセットのことです。コレクションを使用して、ユーザー間でアセットを共有します。
 exl-id: 33c889f5-c989-4772-9591-db62f50e5c80
-source-git-commit: 95001cb7b1d37807fcd1fed0e26333cca15bbfbd
-workflow-type: ht
-source-wordcount: '769'
+source-git-commit: 368b27c4f1f14ff6209c4e45ff288be192809c0e
+workflow-type: tm+mt
+source-wordcount: '737'
 ht-degree: 100%
 
 ---
@@ -74,8 +74,6 @@ You can share collections with various users that are assigned different levels 
 1. [!UICONTROL コレクション]ダイアログボックスで、選択したアセットを追加するコレクションを選択します。
 
 1. 「**[!UICONTROL 追加]**」をクリックして、選択したコレクションにアセットを追加します。
-
-コレクションにアセットを追加する場合は、左側のパネルから、「**[!UICONTROL コレクション]**」をクリックし、アセットを追加するコレクションをクリックして、「**[!UICONTROL コレクションに追加]**」をクリック、アセットを選択して「**[!UICONTROL 選択]**」をクリックすることもできます。
 
 ## コレクションからのアセットの削除 {#remove-assets-from-collection}
 
