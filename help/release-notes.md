@@ -5,21 +5,21 @@ role: User,Leader,Admin,Architect,Developer
 contentOwner: AK
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
 source-git-commit: fbbd982e36f2b0d126c01f71afed8da984320523
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1401'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
 # [!DNL Assets Essentials] のリリースノート {#release-notes}
 
-Assets Essentialsの現在のリリースは 2022 年 11 月 17 日にリリースされました。
+ Assets Essentials の最新リリースは 2022年11月17日（PT）にリリースされました。
 
 このリリースの特長は次のとおりです。
 
-**ドキュメントビューアを使用したDocument Cloudのプレビュー**
+**Document Cloud ビューアを使用したドキュメントのプレビュー**
 
-Assets Essentialsで、サポートされる他の形式のドキュメントをアップロードし、付属のDocument Cloudビューアを使用してプレビューできるようになりました。 サポートされる形式の種類には、TXT、RTF、DOC、DOCX、PPT、PPTX、XLS、XLSX が含まれます。
+Assets Essentials では、サポートされている他の形式タイプのドキュメントをアップロードして、組み込まれている Document Cloud ビューアを使用してプレビューできるようになりました。サポートされている形式タイプには、TXT、RTF、DOC、DOCX、PPT、PPTX、XLS および XLSX が含まれます。
 
 <!--
 
@@ -40,7 +40,7 @@ You can easily synchronize the user groups available on the external identity ma
 
 **新しい「メタデータを保存」オプション**
 
-Assets Essentialsユーザーインターフェイスで新しい「メタデータを保存」オプションを使用して、メタデータガバナンスを改善できました。
+Assets Essentials ユーザーインターフェイスで新しい「メタデータを保存」オプションが 使用できるようになり、メタデータのガバナンスが強化されました。
 
 **お客様からのフィードバックに基づく改善**
 
@@ -65,7 +65,7 @@ Assets Essentialsユーザーインターフェイスで新しい「メタデー
 
 ### 2022.8.0 {#august-2022}
 
-の 8 月リリース [!DNL Assets Essentials] は 2022 年 8 月 23 日にリリースされました。
+[!DNL Assets Essentials] の 8月リリースは 2022年8月22日（PT）にリリースされました。
 
 このリリースの特長は次のとおりです。
 
