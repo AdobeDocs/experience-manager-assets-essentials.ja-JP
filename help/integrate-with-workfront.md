@@ -1,8 +1,9 @@
 ---
 title: Assets Essentials と Adobe Workfront の統合
 description: Assets Essentials を Adobe Workfront アプリケーションと統合して、Workfront アプリケーション内で Assets Essentials リポジトリにアクセスできるようにします。
-source-git-commit: 8920080944981fc1a990136af46c9258c5e8627c
-workflow-type: tm+mt
+exl-id: 9605fa3a-d454-48b5-9f84-b384eb1ad493
+source-git-commit: 6194a778133842d40c4ef2bc257eec8a34b0a481
+workflow-type: ht
 source-wordcount: '569'
 ht-degree: 100%
 
