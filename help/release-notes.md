@@ -4,10 +4,10 @@ description: ' [!DNL Assets Essentials] のリリースノートと既知の問�
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AK
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
-source-git-commit: fbbd982e36f2b0d126c01f71afed8da984320523
-workflow-type: ht
-source-wordcount: '1401'
-ht-degree: 100%
+source-git-commit: 2a19ab3dd9c3d15916cfb93083a23569005a86b6
+workflow-type: tm+mt
+source-wordcount: '1471'
+ht-degree: 95%
 
 ---
 
@@ -45,6 +45,16 @@ Assets Essentials ユーザーインターフェイスで新しい「メタデ�
 **お客様からのフィードバックに基づく改善**
 
 お客様からのフィードバックに基づく機能強化およびバグ修正。
+
+**AdobeAsset Link バージョン 3.3**
+
+[Adobeアセットリンク](https://helpx.adobe.com/jp/enterprise/using/adobe-asset-link.html) バージョン 3.3 は 2022 年 12 月 14 日にリリースされ、次の機能が含まれます。
+
+* のサポート [Creative Cloud（チーム向け）](https://www.adobe.com/creativecloud/business/teams.html) 支援に加えて [Creative Cloud](https://www.adobe.com/creativecloud/business/enterprise.html) 前
+
+* 最新のAdobe InDesign、Photoshop、Illustrator 2023 アプリケーションのサポート。
+
+* プロキシサーバーを使用する環境でのAdobeAsset Link CEP Plugin の使用に対するサポート。
 
 ## 既知の問題 {#known-issues}
 
