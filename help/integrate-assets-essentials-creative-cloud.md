@@ -3,9 +3,9 @@ title: Assets Essentials と Creative Cloud アプリケーションの統合
 description: Assets Essentials を Creative Cloud アプリケーションと統合して、Adobe Asset Link のアプリ内パネルを使用して、サポート対象の [!DNL Adobe Creative Cloud] デスクトップアプリケーション内から [!DNL Assets Essentials] リポジトリに接続できるようにします。
 exl-id: 611fd958-3fd3-4c46-bee9-8b866b7dc208
 source-git-commit: 268b7eb82b15b658207f24750eeae085ce5bb3d4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '854'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ Assets Essentials を Creative Cloud アプリケーションと統合するに�
 
 ## Creative Cloud と Experience Cloud の Admin Console 間のディレクトリトラストの作成 {#directory-trusting-cc-assets-essentials-consoles}
 
-Creative CloudがAssets Essentials(Experience Cloudソリューション ) とは別のAdobe Admin Consoleにデプロイされている場合は、2 つのコンソール間に信頼関係を追加する必要があります。
+Creative Cloud が Assets Essentials（Experience Cloud ソリューション）の Adobe Admin Console とは別の Admin Console にデプロイされている場合は、2 つのコンソール間に信頼関係を追加する必要があります。
 
 Creative Cloud と Assets Essentials のアプリケーションを統合するには、Creative Cloud の Admin Console で使用できるユーザーを、Experience Cloud の Admin Console でも使用できるようにする必要があります。Creative Cloud と Assets Essentials が別々の Admin Console にデプロイされている場合、これを可能にするには、両者間の信頼関係が必要です。
 
