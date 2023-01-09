@@ -3,9 +3,9 @@ title: ユーザーの管理
 description: ' [!DNL Assets Essentials] でのデプロイメントやユーザー管理など、管理に関するユースケース'
 role: Admin
 exl-id: ef91126f-3aee-442b-b242-a6bf4034f3dc
-source-git-commit: 940f3155a8310ace2768cdfee152c62e99ea2526
+source-git-commit: c7b863aa81337293454199e72f705e53f05a5130
 workflow-type: tm+mt
-source-wordcount: '1343'
+source-wordcount: '1344'
 ht-degree: 92%
 
 ---
@@ -37,7 +37,7 @@ Admin Console を使用して、次のユーザーの使用権限タスクを実
 
 ### Assets Essentials アプリケーション管理者の作成 {#create-assets-essentials-administrator}
 
-Admin Console管理者は、Assets Essentials管理者製品プロファイルをユーザーグループではなくユーザーに追加する必要があります。 その後、Assets Essentialsアプリケーション管理者は、フォルダー構造の作成、アセットのアップロード、権限の設定、メタデータフォームの設定、公開コレクションの作成などのタスクを管理できます。 ユーザーをAssets Essentialsアプリケーション管理者プロファイルに割り当てる方法について詳しくは、 [製品プロファイルへのユーザーの追加](#add-users-to-product-profiles).
+Admin Console管理者は、Assets Essentials管理者製品プロファイルをユーザーグループではなくユーザーに追加する必要があります。 その後、Assets Essentialsアプリケーション管理者は、フォルダー構造の作成、アセットのアップロード、権限の設定、メタデータフォームの設定、公開コレクションの作成などのタスクを管理できます。 Assets Essentialsアプリケーション管理者プロファイルをユーザーに割り当てる方法について詳しくは、 [製品プロファイルのユーザーグループへの追加](#add-product-profiles-to-user-groups).
 
 ### ユーザーグループの追加 {#add-user-groups}
 
