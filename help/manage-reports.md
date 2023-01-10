@@ -3,8 +3,8 @@ title: Assets Essentials でのレポートの管理
 description: Assets Essentials の「レポート」セクションのデータにアクセスして、製品と機能の使用状況を評価し、主要な成功指標に関するインサイトを導き出します。
 exl-id: c7155459-05d9-4a95-a91f-a1fa6ae9d9a4
 source-git-commit: b37e633518513023dd947157d4a7a9297590ccd3
-workflow-type: tm+mt
-source-wordcount: '735'
+workflow-type: ht
+source-wordcount: '0'
 ht-degree: 100%
 
 ---
