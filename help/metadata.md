@@ -4,10 +4,10 @@ description: ' [!DNL Assets Essentials] におけるアセットのメタデー�
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AG
 exl-id: cfc105d1-41fc-4418-9905-b2a28a348682
-source-git-commit: 9a29e1a9403a9790a3e6aa50b222fa7a6bfd66ec
+source-git-commit: b264c9cdff39f75dce31976add8621a33bc72e4b
 workflow-type: tm+mt
-source-wordcount: '1203'
-ht-degree: 99%
+source-wordcount: '1262'
+ht-degree: 97%
 
 ---
 
@@ -57,7 +57,13 @@ ht-degree: 99%
 
 アップロードされたすべてのアセットに [!DNL Assets Essentials] で自動的に追加されたタグを、「[!UICONTROL スマートタグ]」セクションから削除することもできます。
 
-## メタデータフォーム {#metadata-forms}
+## メタデータForms {#metadata-forms}
+
+>[!CONTEXTUALHELP]
+>id="assets_metadata_forms"
+>title="メタデータForms"
+>abstract="Experience Manager Assetsには、デフォルトで多数の標準メタデータフィールドが用意されています。 組織には、追加のメタデータニーズがあり、ビジネス固有のメタデータを追加するために、さらに多くのメタデータフィールドが必要です。メタデータフォームを使用すると、ビジネスごとにアセットの詳細ページにカスタムメタデータフィールドを追加できます。ビジネス固有のメタデータにより、アセットのガバナンスと検出が向上します。"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/metadata.html#metadata-forms" text="詳細情報"
 
 Assets Essentials には、多数の標準メタデータフィールドがデフォルトで用意されています。組織には、追加のメタデータニーズがあり、ビジネス固有のメタデータを追加するために、さらに多くのメタデータフィールドが必要です。メタデータフォームを使用すると、ビジネスごとにアセットの[!UICONTROL 詳細]ページにカスタムメタデータフィールドを追加できます。ビジネス固有のメタデータにより、アセットのガバナンスと検出が向上します。フォームは、ゼロから作成することも、既存のフォームを再利用することもできます。
 
