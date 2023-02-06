@@ -4,16 +4,62 @@ description: ' [!DNL Assets Essentials] のリリースノートと既知の問�
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AK
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
-source-git-commit: 2a19ab3dd9c3d15916cfb93083a23569005a86b6
-workflow-type: ht
-source-wordcount: '1471'
-ht-degree: 100%
+source-git-commit: a085ac1c5bdd4ff6d83b8d80b334f55b3995fc96
+workflow-type: tm+mt
+source-wordcount: '1690'
+ht-degree: 87%
 
 ---
 
 # [!DNL Assets Essentials] のリリースノート {#release-notes}
 
- Assets Essentials の最新リリースは 2022年11月17日（PT）にリリースされました。
+Assets Essentialsの現在のリリースは 2023 年 1 月 27 日にリリースされました。
+
+このリリースの特長は次のとおりです。
+
+**設定可能なウィジェットを含む My Workspace**
+
+Assets には、カスタマイズされたワークスペースが用意され、Assets ユーザーインターフェイスの主要な領域にすばやくアクセスし、最も関連性の高い情報に簡単にアクセスできるワンストップソリューションとして機能します。 これらのオプションにすばやくアクセスできるので、プロジェクトのコンテンツ速度と効率が向上します。
+
+マイワークスペースには、今後の新機能、インサイト、タスクおよびコンテンツ用のウィジェットが含まれています。 環境設定に基づいて、ワークスペースでのこれらのウィジェットの表示方法を設定できます。
+
+**専用タスク管理 UI**
+
+Assets Essentialsでは、現在割り当てられているタスクのリストを、自分が作成し、既に一元化された場所で、新しい **[!UICONTROL タスク]** オプションは、左側のナビゲーションウィンドウで使用できます。 また、承認または却下するタスクを選択したり、タスクの詳細を開いて承認、却下、編集または削除するタスクを選択したりして、適切なアクションを実行できます。
+
+![Workspace のタスク](assets/tasks-workspace.png)
+
+**アセットを共有するための自動生成リンク**
+
+Assets Essentialsユーザーインターフェイスを使用してアセットを共有するよう選択するとすぐに、Assets Essentialsが自動的にリンクを生成するようになりました。 生成されたリンクは、有効期限を変更した場合でも有効です。
+
+![Workspace のタスク](assets/share-asset.png)
+
+
+**お客様からのフィードバックに基づく改善**
+
+お客様からのフィードバックに基づく機能強化およびバグ修正。
+
+## 既知の問題 {#known-issues}
+
+[!DNL Assets Essentials] ソリューションに関する既知の問題のリストは、継続的に改訂され、更新されています。
+
+<!--
+
+* Assets Essentials does not support creating Private collections.
+
+-->
+
+
+* 非公開コレクションは、作成者および管理者権限を持つユーザーが使用できます。管理者は、コレクションへのアクセス権を他のユーザーに委任することはできません。
+
+問題が発生した場合や機能強化のご要望については、サポートチームに[フィードバックを送付](#provide-feedback)してください。
+
+## 過去のリリース {#past-releases}
+
+### 2022.11.0 {#november-2022}
+
+11 月リリースの [!DNL Assets Essentials] は 2022 年 11 月 17 日にリリースされました。
 
 このリリースの特長は次のとおりです。
 
@@ -55,23 +101,6 @@ Assets Essentials ユーザーインターフェイスで新しい「メタデ�
 * 最新の Adobe InDesign、Photoshop、Illustrator 2023 アプリケーションのサポート。
 
 * プロキシサーバー環境での Adobe Asset Link CEP プラグインの使用に対するサポート。
-
-## 既知の問題 {#known-issues}
-
-[!DNL Assets Essentials] ソリューションに関する既知の問題のリストは、継続的に改訂され、更新されています。
-
-<!--
-
-* Assets Essentials does not support creating Private collections.
-
--->
-
-
-* 非公開コレクションは、作成者および管理者権限を持つユーザーが使用できます。管理者は、コレクションへのアクセス権を他のユーザーに委任することはできません。
-
-問題が発生した場合や機能強化のご要望については、サポートチームに[フィードバックを送付](#provide-feedback)してください。
-
-## 過去のリリース {#past-releases}
 
 ### 2022.8.0 {#august-2022}
 
@@ -185,7 +214,7 @@ Assets Essentials 通知を使用すると、[リポジトリで使用可能な�
 
 [!DNL Assets Essentials] は 2022年3月9日（PT）にリリースされ、次の更新が行われました。
 
-* [!DNL Assets Essentials] では、[!DNL Assets Essentials] アプリケーションへのアクセス権を持たない[外部の関係者とリンクを生成し、アセットを共有](share-links-for-assets.md)できるようになりました。リンクの有効期限を定義し、電子メールやメッセージングサービスなどの好みの通信方法を使用して、他のユーザーとリンクを共有できます。リンクの受信者は、アセットをプレビューし、ダウンロードできます。
+* [!DNL Assets Essentials] では、[!DNL Assets Essentials] アプリケーションへのアクセス権を持たない[外部の関係者とリンクを生成し、アセットを共有](share-links-for-assets.md)できるようになりました。リンクの有効期限を定義し、メールやメッセージングサービスなどの好みの通信方法を使用して、他のユーザーとリンクを共有できます。リンクの受信者は、アセットをプレビューし、ダウンロードできます。
 
 * [!DNL Assets Essentials] では、既存の通常および消費者ユーザー製品プロファイルに加えて、Admin Console の[管理者製品プロファイル](deploy-administer.md#add-users-to-essentials)を構成できるようになりました。管理者は、他のユーザーを管理者製品プロファイルに割り当てることができるようになりました。
 

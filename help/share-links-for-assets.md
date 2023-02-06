@@ -2,16 +2,16 @@
 title: アセットへのリンクの共有方法
 description: リンクを生成し、 [!DNL Assets Essentials]  アプリケーションへのアクセス権を持たない他のユーザーとアセットを共有します。
 exl-id: 6e05b06c-7436-40e3-acee-c8b1ed218f9e
-source-git-commit: 02f28c00b387fbcac4cd917fab7763124fdd5d70
-workflow-type: ht
-source-wordcount: '420'
-ht-degree: 100%
+source-git-commit: 79039f96a4aa44bb81923ec909766969f81e1a3f
+workflow-type: tm+mt
+source-wordcount: '407'
+ht-degree: 98%
 
 ---
 
 # アセットへのリンクの共有 {#share-links-assets}
 
-[!DNL Assets Essentials] を使用すると、[!DNL Assets Essentials] アプリケーションに対するアクセス権を持たない外部の関係者と、リンクを生成してアセットを共有できます。リンクの有効期限を定義し、電子メールやメッセージングサービスなどの好みの通信方法を使用して、他のユーザーとリンクを共有できます。 リンクの受信者は、アセットをプレビューし、ダウンロードできます。
+[!DNL Assets Essentials] を使用すると、[!DNL Assets Essentials] アプリケーションに対するアクセス権を持たない外部の関係者と、リンクを生成してアセットを共有できます。リンクの有効期限を定義し、メールやメッセージングサービスなどの好みの通信方法を使用して、他のユーザーとリンクを共有できます。 リンクの受信者は、アセットをプレビューし、ダウンロードできます。
 
 ## アセットのリンクを生成 {#generate-link-for-assets}
 
@@ -21,9 +21,7 @@ ht-degree: 100%
 
 1. 調整したい場合は、カレンダーアイコンをクリックし、「**[!UICONTROL 有効期限]**」フィールドを使用してリンクの有効期限を定義します。 また、`yyyy-mm-dd` 形式で日付を直接指定することもできます。デフォルトでは、リンクの有効期限は共有日から 2 週間に設定されています。
 
-1. 「**[!UICONTROL リンクを生成]**」をクリックします。
-
-1. 「**[!UICONTROL リンクをコピー]**」をクリックして、リンクをコピーします。 「**[!UICONTROL リンクを共有]**」フィールドからリンクをコピーすることもできます。
+1. リンクを **[!UICONTROL リンクを共有]** フィールドに入力します。
 
    ![切り抜きと角度補正のオプション](assets/share-asset-link.png)
 
@@ -49,6 +47,6 @@ ht-degree: 100%
 
 * Assets Essentials ユーザーインターフェイスの「[!UICONTROL フィードバック]」オプションを使用して製品に関するフィードバックを提供する
 
-* 右側のサイドバーにある「[!UICONTROL このページを編集]」（![ページを編集](assets/do-not-localize/edit-page.png)）または「[!UICONTROL 問題を記録]」（![GitHub イシューを作成](assets/do-not-localize/github-issue.png)）を使用してドキュメントに関するフィードバックを提供する
+* 右側のサイドバーにある「[!UICONTROL このページを編集]」（![ページを編集](assets/do-not-localize/edit-page.png)）または「[!UICONTROL 問題を記録] 」（![GitHub イシューを作成](assets/do-not-localize/github-issue.png)）を使用してドキュメントに関するフィードバックを提供する
 
 * [カスタマーケア](https://experienceleague.adobe.com/?support-solution=General&amp;lang=ja#support)に問い合わせる

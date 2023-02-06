@@ -2,10 +2,10 @@
 title: Assets Essentials でのレポートの管理
 description: Assets Essentials の「レポート」セクションのデータにアクセスして、製品と機能の使用状況を評価し、主要な成功指標に関するインサイトを導き出します。
 exl-id: c7155459-05d9-4a95-a91f-a1fa6ae9d9a4
-source-git-commit: b37e633518513023dd947157d4a7a9297590ccd3
-workflow-type: ht
-source-wordcount: '0'
-ht-degree: 100%
+source-git-commit: ec9cdf0d206aa59d67b8ac96504b590a2db19663
+workflow-type: tm+mt
+source-wordcount: '731'
+ht-degree: 92%
 
 ---
 
@@ -15,15 +15,15 @@ ht-degree: 100%
 
 ## レポートへのアクセス {#access-reports}
 
-[Assets Essentials 管理者製品プロファイル](deploy-administer.md)に割り当てられているユーザーはすべて、Assets Essentials でライブ統計ダッシュボードにアクセスしたり、ユーザー定義のレポートを作成したりできます。
+に割り当てられているすべてのユーザー [Assets Essentials Administrators 製品プロファイル](deploy-administer.md) Assets Essentialsで Insights ダッシュボードにアクセスしたり、ユーザー定義のレポートを作成したりできます。
 
-## ライブ統計の表示 {#view-live-statistics}
+## インサイトを表示 {#view-live-statistics}
 
-Assets Essentials を使用すると、Assets Essentials 環境のリアルタイムデータをライブ統計ダッシュボードで表示できます。過去 30 日間または過去 12 か月間のリアルタイムイベント指標を表示できます。
+Assets Essentialsを使用すると、インサイトダッシュボードを使用して、Assets Essentials環境のリアルタイムデータを表示できます。 過去 30 日間または過去 12 か月間のリアルタイムイベント指標を表示できます。
 
 ![アセット選択時のツールバーオプション](assets/assets-essentials-live-statistics.png)
 
-左側のナビゲーションパネルにある「**[!UICONTROL ライブ統計]**」をクリックすると、自動生成された以下のグラフを表示できます。
+クリック **[!UICONTROL インサイト]** 左側のナビゲーションパネルで、以下の自動生成されたグラフを表示できます。
 
 * **ダウンロード**：過去 30 日間または 12 か月間に Assets Essentials 環境からダウンロードされたアセットの数は、折れ線グラフで表されます。
 
@@ -84,7 +84,7 @@ Assets Essentials を使用すると、Assets Essentials 環境のリアルタ�
      </tr>
      <tr>
       <td>ダウンロードしたユーザー</td>
-      <td>アセットをダウンロードしたユーザーの電子メール ID。</td>
+      <td>アセットをダウンロードしたユーザーのメール ID。</td>
      </tr>
      <tr>
       <td>ダウンロード日</td>
@@ -182,7 +182,7 @@ Assets Essentials を使用すると、Assets Essentials 環境のリアルタ�
 
 レポートのリストを表示するには、**[!UICONTROL 設定]**／**[!UICONTROL レポート]**&#x200B;に移動します。
 
-各レポートには、レポートのタイトル、レポートのタイプ、レポートの作成時に指定した説明、レポートのステータス、レポートの作成者の電子メール ID、レポートの作成日が表示されます。
+各レポートには、レポートのタイトル、レポートのタイプ、レポートの作成時に指定した説明、レポートのステータス、レポートの作成者のメール ID、レポートの作成日が表示されます。
 
 レポートの `Completed ` ステータスは、レポートのダウンロード準備ができたことを表します。
 
