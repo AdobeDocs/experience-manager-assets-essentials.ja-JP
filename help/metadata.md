@@ -4,9 +4,9 @@ description: ' [!DNL Assets Essentials] におけるアセットのメタデー�
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AG
 exl-id: cfc105d1-41fc-4418-9905-b2a28a348682
-source-git-commit: 274028a1fb224b045c047e63539a9b96b1cc4357
+source-git-commit: 260eb904240652d174cc29bacfe92b03699305d0
 workflow-type: tm+mt
-source-wordcount: '1251'
+source-wordcount: '1252'
 ht-degree: 95%
 
 ---
@@ -57,7 +57,7 @@ ht-degree: 95%
 
 アップロードされたすべてのアセットに [!DNL Assets Essentials] で自動的に追加されたタグを、「[!UICONTROL スマートタグ]」セクションから削除することもできます。
 
-## メタデータForms {#metadata-forms}
+## メタデータフォームの設定 {#metadata-forms}
 
 >[!CONTEXTUALHELP]
 >id="assets_metadata_forms"
