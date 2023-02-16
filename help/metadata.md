@@ -7,7 +7,7 @@ exl-id: cfc105d1-41fc-4418-9905-b2a28a348682
 source-git-commit: fecbd1b05cc91148f41c576f4569f1799df6095e
 workflow-type: tm+mt
 source-wordcount: '1252'
-ht-degree: 95%
+ht-degree: 96%
 
 ---
 
@@ -101,7 +101,7 @@ MIME サブタイプ／MIME タイプ／`default` フォーム／標準フォー
 1. オプションで、タブと、各タブで必要なコンポーネントを追加します。
 1. フォームが完成したら、「**[!UICONTROL 保存]**」をクリックします。
 
-手順のシーケンスを見るには、このビデオをご覧ください。
+手順のシーケンスを表示するには、このビデオをご覧ください。
 
 >[!VIDEO](https://video.tv.adobe.com/v/341275)
 
