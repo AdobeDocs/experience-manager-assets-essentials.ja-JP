@@ -3,9 +3,9 @@ title: アセットへのリンクの共有方法
 description: リンクを生成し、 [!DNL Assets Essentials]  アプリケーションへのアクセス権を持たない他のユーザーとアセットを共有します。
 exl-id: 6e05b06c-7436-40e3-acee-c8b1ed218f9e
 source-git-commit: 79039f96a4aa44bb81923ec909766969f81e1a3f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '407'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 98%
 
 1. 調整したい場合は、カレンダーアイコンをクリックし、「**[!UICONTROL 有効期限]**」フィールドを使用してリンクの有効期限を定義します。 また、`yyyy-mm-dd` 形式で日付を直接指定することもできます。デフォルトでは、リンクの有効期限は共有日から 2 週間に設定されています。
 
-1. リンクを **[!UICONTROL リンクを共有]** フィールドに入力します。
+1. 「**[!UICONTROL リンクを共有]**」フィールドからリンクをコピーします。
 
    ![切り抜きと角度補正のオプション](assets/share-asset-link.png)
 
