@@ -11,8 +11,8 @@ role: User,Leader
 solution: Experience Manager
 source-git-commit: a085ac1c5bdd4ff6d83b8d80b334f55b3995fc96
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '123'
+ht-degree: 100%
 
 ---
 
@@ -22,9 +22,9 @@ ht-degree: 0%
 + [ソリューションの概要](introduction.md)
 + [リリースノート](release-notes.md)
 + [マイワークスペース](my-workspace.md)
-+ Assets Essentials の基本を学ぶ（管理者向け）{#get-started-admins}
++ Assets Essentials の基本を学ぶ（管理者向け） {#get-started-admins}
    + [ユーザーの管理と追加](deploy-administer.md)
-   + フォルダーアクセスの管理{#folder-access}
+   + フォルダーアクセスの管理 {#folder-access}
       + [フォルダー権限の管理](manage-permissions.md)
       + [権限管理のベストプラクティス](permission-management-best-practices.md)
    + [Creative Cloud Pro 向け Assets Essentials と作業管理ソリューションの連携の管理者向けジャーニー](assets-essentials-cc-pro-work-management-admin-journey.md)
@@ -40,7 +40,7 @@ ht-degree: 0%
 + [コレクションの管理](manage-collections.md)
 + [通知の管理](manage-notifications.md)
 + [レポートの管理](manage-reports.md)
-+ 他のソリューションとの統合 {#integration-with-other-solutions}
++ 他のソリューションとの統合  {#integration-with-other-solutions}
    + [概要](integration.md)
    + [Creative Cloud エンタープライズ版との統合](integrate-with-creative-cloud.md)
    + [Adobe Workfront との統合](integrate-with-workfront.md)
