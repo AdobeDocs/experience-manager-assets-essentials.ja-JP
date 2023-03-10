@@ -2,14 +2,19 @@
 title: Assets Essentials でのレポートの管理
 description: Assets Essentials の「レポート」セクションのデータにアクセスして、製品と機能の使用状況を評価し、主要な成功指標に関するインサイトを導き出します。
 exl-id: c7155459-05d9-4a95-a91f-a1fa6ae9d9a4
-source-git-commit: ec9cdf0d206aa59d67b8ac96504b590a2db19663
-workflow-type: ht
-source-wordcount: '731'
-ht-degree: 100%
+source-git-commit: b222e03a8eca0837ca647740baed7d77afe96ed3
+workflow-type: tm+mt
+source-wordcount: '781'
+ht-degree: 97%
 
 ---
 
 # レポートの管理 {#manage-reports}
+
+>[!CONTEXTUALHELP]
+>id="assets_reports"
+>title="レポート"
+>abstract="アセットレポートを使用すると、管理者は Adobe Experience Manager Assets Essentials 環境のアクティビティを視覚的に確認できます。このデータは、ユーザーがコンテンツや製品とどのようにやり取りするかについての有用な情報を提供します。製品プロファイル管理者に割り当てられたすべてのユーザーは、インサイトダッシュボードにアクセスしたり、ユーザー定義のレポートを作成したりできます。"
 
 アセットレポートを使用すると、管理者は Adobe Experience Manager Assets Essentials 環境のアクティビティを視覚的に確認できます。このデータは、ユーザーがコンテンツや製品とどのようにやり取りするかについての有用な情報を提供します。
 
