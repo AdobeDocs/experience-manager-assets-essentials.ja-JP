@@ -3,9 +3,9 @@ title: ユーザーの管理
 description: ' [!DNL Assets Essentials] でのデプロイメントやユーザー管理など、管理に関するユースケース'
 role: Admin
 exl-id: ef91126f-3aee-442b-b242-a6bf4034f3dc
-source-git-commit: c7b863aa81337293454199e72f705e53f05a5130
-workflow-type: ht
-source-wordcount: '1344'
+source-git-commit: 07537aea39140f649d17353430a505c36e971aea
+workflow-type: tm+mt
+source-wordcount: '1329'
 ht-degree: 100%
 
 ---
@@ -21,9 +21,9 @@ ht-degree: 100%
 
 ## Admin Console へのアクセス {#access-admin-console}
 
-Assets Essentials ソリューションがプロビジョニングされると、管理者にアドビから電子メールが届きます。この電子メールには、歓迎メッセージと使用を開始するためのリンクが含まれています。さらに、アドビは、Assets Essentials を自動的にデプロイするプロセスを開始します。デプロイメントプロセスが完了するまでに 1 時間ほどかかります。
+Assets Essentials ソリューションがプロビジョニングされると、管理者にアドビからメールが届きます。このメールには、歓迎メッセージと使用を開始するためのリンクが含まれています。さらに、アドビは、Assets Essentials を自動的にデプロイするプロセスを開始します。デプロイメントプロセスが完了するまでに 1 時間ほどかかります。
 
-電子メールに記載されたリンクから、[Admin Console](https://adminconsole.adobe.com) にアクセスしてログインします。複数の組織アカウントに管理者としてアクセスできる場合は、該当する組織を選択するか、[組織セレクター](https://helpx.adobe.com/jp/enterprise/using/admin-console.html)を使用してその組織に切り替えます。自動デプロイメントプロセスが完了すると、[!DNL AEM Assets Essentials] の製品カードが [!DNL Admin Console] に表示されます。
+メールに記載されたリンクから、[Admin Console](https://adminconsole.adobe.com) にアクセスしてログインします。複数の組織アカウントに管理者としてアクセスできる場合は、該当する組織を選択するか、[組織セレクター](https://helpx.adobe.com/jp/enterprise/using/admin-console.html)を使用してその組織に切り替えます。自動デプロイメントプロセスが完了すると、[!DNL AEM Assets Essentials] の製品カードが [!DNL Admin Console] に表示されます。
 
 Admin Console を使用して、次のユーザーの使用権限タスクを実行します。
 
@@ -70,7 +70,7 @@ Assets Essentials アプリケーションにアクセスできるように、�
 
    * **[!DNL Assets Essentials] ユーザー**：完全なユーザーインターフェイスにアクセスできます。デジタルアセットのアップロード、整理、タグ付け、検索が可能です。
 
-   * **[!DNL Assets Essentials] Consumer ユーザー**：[!DNL Adobe Journey Optimizer] 電子メールテンプレートエディターの埋め込みアセット選択エクスペリエンスにアクセスできます。詳しくは、[ [!DNL Journey Optimizer] での  [!DNL Assets Essentials]  使用](https://experienceleague.adobe.com/docs/journey-optimizer/using/create-messages/assets-essentials.html?lang=ja)を参照してください。
+   * **[!DNL Assets Essentials]Consumer ユーザー**：[!DNL Adobe Journey Optimizer] メールテンプレートエディターの埋め込みアセット選択エクスペリエンスにアクセスできます。詳しくは、[ [!DNL Journey Optimizer] での  [!DNL Assets Essentials]  使用](https://experienceleague.adobe.com/docs/journey-optimizer/using/create-messages/assets-essentials.html?lang=ja)を参照してください。
 
    ![Admin Console 管理プロファイル](assets/admin-console-admin-profile.png)
 
@@ -154,7 +154,7 @@ Assets Essentials には、多数の標準メタデータフィールドがデ�
 
 ## 次の手順 {#next-steps}
 
-* [ビデオを視聴して Assets Essentials のデプロイを学ぶ](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/provisioning.html?lang=ja)
+<!-- THIS URL IS A 404 ERROR; NO REDIRECT WAS PUT IN PLACE * [Watch a video to deploy Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/provisioning.html?lang=en) -->
 
 * Assets Essentials ユーザーインターフェイスの「[!UICONTROL フィードバック]」オプションを使用して製品に関するフィードバックを提供する
 
