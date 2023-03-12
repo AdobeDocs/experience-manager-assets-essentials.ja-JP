@@ -4,22 +4,18 @@ description: ' [!DNL Assets Essentials] のリリースノートと既知の問�
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AK
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
-source-git-commit: 71760e20e7c3984f7099474e3b17db5e7d83496a
+source-git-commit: 9192ca1e72c79ef0f2c6d2b4d1e5a71e991abafb
 workflow-type: tm+mt
-source-wordcount: '1737'
-ht-degree: 96%
+source-wordcount: '1695'
+ht-degree: 98%
 
 ---
 
 # [!DNL Assets Essentials] のリリースノート {#release-notes}
 
-Assets Essentialsの現在のリリースは 2023 年 3 月 09 日にリリースされました。
+Assets Essentialsの現在のリリースは 2023 年 1 月 27 日にリリースされました。
 
-最近の 2 つの製品リリースには、次の新機能が含まれています。
-
-**アセットメタデータの一括編集**
-
-メタデータの一括更新を使用すると、複数のアセットに対して、共通のメタデータの更新を同時に実行できます。 レコードを個別に更新する必要がなくなり、検索、フォルダー、コレクションを通じてアクセスするアセットにプロパティをすばやく適用できます。
+このリリースの機能のリストには、次が含まれます。
 
 **設定可能なウィジェットを使用したマイワークスペース**
 
