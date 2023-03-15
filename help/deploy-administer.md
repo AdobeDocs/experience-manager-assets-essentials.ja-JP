@@ -3,10 +3,10 @@ title: ユーザーの管理
 description: ' [!DNL Assets Essentials] でのデプロイメントやユーザー管理など、管理に関するユースケース'
 role: Admin
 exl-id: ef91126f-3aee-442b-b242-a6bf4034f3dc
-source-git-commit: 07537aea39140f649d17353430a505c36e971aea
-workflow-type: ht
-source-wordcount: '0'
-ht-degree: 100%
+source-git-commit: 989d4b2105636b03bef8b8aa5e653c3800845f69
+workflow-type: tm+mt
+source-wordcount: '1342'
+ht-degree: 97%
 
 ---
 
@@ -70,7 +70,8 @@ Assets Essentials アプリケーションにアクセスできるように、�
 
    * **[!DNL Assets Essentials] ユーザー**：完全なユーザーインターフェイスにアクセスできます。デジタルアセットのアップロード、整理、タグ付け、検索が可能です。
 
-   * **[!DNL Assets Essentials]Consumer ユーザー**：[!DNL Adobe Journey Optimizer] メールテンプレートエディターの埋め込みアセット選択エクスペリエンスにアクセスできます。詳しくは、[ [!DNL Journey Optimizer] での  [!DNL Assets Essentials]  使用](https://experienceleague.adobe.com/docs/journey-optimizer/using/create-messages/assets-essentials.html?lang=ja)を参照してください。
+   * **[!DNL Assets Essentials]消費者ユーザー** は、Assets Essentialsで検索、プレビューおよびダウンロード操作を実行できます。 また、Adobe Journey Optimizerでアセットを検索して選択したり、Workfront内で使用するアセットを検索して選択したりすることもできます。
+詳しくは、 [他のソリューションとの統合](integration.md).
 
    ![Admin Console 管理プロファイル](assets/admin-console-admin-profile.png)
 
