@@ -3,10 +3,10 @@ title: 「[!DNL Assets Essentials] ユーザーインターフェイス」
 description: ' [!DNL Assets Essentials] のユーザーインターフェイスとナビゲーションについて説明します。'
 role: User
 exl-id: 534a8084-88f7-410e-b872-719e47e62b10
-source-git-commit: 02f28c00b387fbcac4cd917fab7763124fdd5d70
-workflow-type: ht
-source-wordcount: '586'
-ht-degree: 100%
+source-git-commit: b627c20ee9be9be79bb0325b55543ae9e2935b9a
+workflow-type: tm+mt
+source-wordcount: '616'
+ht-degree: 95%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 100%
 
 * **アセット**：アクセス可能なすべてのフォルダーのリストがツリー表示されます。
 * **最近表示された項目**：最近プレビューしたアセットのリスト。[!DNL Assets Essentials] は、プレビューしたアセットのみを表示します。リポジトリーファイルまたはフォルダーを参照する際にスクロールして通過したアセットは表示されません。
-* **ごみ箱**：
+* **ごみ箱**： ルートから削除されたアセットのリスト **[!UICONTROL Assets]** フォルダー。 ごみ箱フォルダ内のアセットを選択して、元の場所に復元するか、完全に削除することができます。
 
 <!-- TBD: Not sure if we want to publish these right now. CC Libs are beta as per Greg.
 * **Libraries**: Access to [!DNL Adobe Creative Cloud Team] (CCT) Libraries view. This view is visible only if the user is entitled to CCT Libraries.
@@ -107,7 +107,7 @@ Other use cases after previewing.
 
 * Assets Essentials ユーザーインターフェイスの「[!UICONTROL フィードバック]」オプションを使用して製品に関するフィードバックを提供する
 
-* 右側のサイドバーにある「[!UICONTROL このページを編集]」（![ページを編集](assets/do-not-localize/edit-page.png)）または「[!UICONTROL 問題を記録]」（![GitHub イシューを作成](assets/do-not-localize/github-issue.png)）を使用してドキュメントに関するフィードバックを提供する
+* 右側のサイドバーにある「[!UICONTROL このページを編集]」（![ページを編集](assets/do-not-localize/edit-page.png)）または「[!UICONTROL 問題を記録] 」（![GitHub イシューを作成](assets/do-not-localize/github-issue.png)）を使用してドキュメントに関するフィードバックを提供する
 
 * [カスタマーケア](https://experienceleague.adobe.com/?support-solution=General&amp;lang=ja#support)に問い合わせる
 
