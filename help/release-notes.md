@@ -5,9 +5,9 @@ role: User,Leader,Admin,Architect,Developer
 contentOwner: AK
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
 source-git-commit: f06e3a5db2c91e6778ea196fdc69293d1b2732e5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1695'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -200,7 +200,7 @@ Assets Essentials 通知を使用すると、[リポジトリで使用可能な�
 
 * Assets Essentials で、リポジトリで使用可能なアセットの[ステータスを設定](manage-organize.md#set-asset-status)できるようになりました。デジタルアセットのダウンストリーム使用をより適切に制御および管理するためのアセットステータスを設定します。
 
-* 顧客のフィードバックに基づく機能強化およびバグ修正。
+* お客様からのフィードバックに基づく機能強化およびバグ修正。
 
 #### Chrome のシークレットモード {#incognito-mode}
 
@@ -220,7 +220,7 @@ Assets Essentials 通知を使用すると、[リポジトリで使用可能な�
 
 * Assets Essentials では、管理者が[リポジトリで使用可能なフォルダーのアクセスレベルを管理](manage-permissions.md)できるようになりました。管理者は、ユーザーグループを作成し、それらのグループに権限を割り当てて、アクセスレベルを管理できます。また、フォルダーレベルでユーザーグループに権限管理の権限をデリゲートすることもできます。
 
-* 顧客のフィードバックに基づく機能強化およびバグ修正。
+* お客様からのフィードバックに基づく機能強化およびバグ修正。
 
 さらに、Creative Cloud 用の [!DNL Adobe Asset Link] 拡張機能（Photoshop、Illustrator および InDesign）では、パネルの起動時間とダウンロード速度のパフォーマンスが向上した[新しいバージョン 3.2](https://exchange.adobe.com/creativecloud.details.106875.adobe-asset-link-cep.html) をリリースしました。
 
