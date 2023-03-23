@@ -6,7 +6,7 @@ exl-id: be9597a3-056c-436c-a09e-15a03567c85a
 source-git-commit: f63cbffbbc6acc37a1a08f28cbdc4cee7f66d883
 workflow-type: tm+mt
 source-wordcount: '897'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -127,7 +127,7 @@ Assets Essentials が提供するカスタムフィルターは次のとおり�
 
 また、アセットのメタデータやタイプに関する特定の条件に基づいて検索結果をフィルタリングすることもできます。特定のフィルターを頻繁に使用する場合、[!DNL Assets Essentials] では、検索性を向上させるために、検索パラメーターを保存できます。その場合、保存済みの検索を選択し、1 回クリックするだけで検索してフィルターを適用することができます。
 
-保存済みの検索結果を作成するには、アセットを検索し、1 つ以上のフィルターを適用して、 **[!UICONTROL 名前を付けて保存]** > **[!UICONTROL 保存済みの検索結果]** 内 [!UICONTROL フィルター] パネル。 また、 **[!UICONTROL 名前を付けて保存]** を選択し、 **[!UICONTROL スマートコレクション]** 結果をスマートコレクションとして保存します。 詳しくは、 [スマートコレクションの作成](manage-collections.md#create-a-smart-collection) を参照してください。
+保存した検索条件を作成するには、アセットを検索し、1 つ以上のフィルターを適用して、[!UICONTROL フィルター]パネルの&#x200B;**[!UICONTROL 別名で保存]**／**[!UICONTROL 保存した検索条件]**&#x200B;をクリックします。また、「**[!UICONTROL 別名で保存]**」をクリックし、「**[!UICONTROL スマートコレクション]**」を選択して、結果をスマートコレクションとして保存することもできます。詳しくは、[スマートコレクションの作成](manage-collections.md#create-a-smart-collection)を参照してください。
 
 ![スマートコレクションの作成](assets/create-smart-collection.png)
 
