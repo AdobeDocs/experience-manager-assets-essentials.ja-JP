@@ -1,19 +1,19 @@
 ---
-title: 「Assets Essentialsのセキュリティの概要」
-description: Assets Essentialsのセキュリティの概要
+title: 「Assets Essentials のセキュリティの概要」
+description: Assets Essentials のセキュリティの概要
 mini-toc-levels: 1
 source-git-commit: 895f178384f653729a5625db4782d3c134cf3309
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '129'
+ht-degree: 100%
 
 ---
 
-# Assets Essentialsのセキュリティの概要 {#security-overview}
+# Assets Essentials のセキュリティの概要 {#security-overview}
 
-Assets Essential のセキュリティに対するプロアクティブなアプローチと厳しい手順は、Assets Essentialsソリューションとお客様の機密データのセキュリティを保護するのに役立ちます。 悪意のあるアクティビティに先立ち、顧客データのセキュリティを確保できるよう、デジタルエクスペリエンスのセキュリティが継続的に監視されます。
+Assets Essential のセキュリティに対する積極的なアプローチと厳格な手順は、Assets Essentials ソリューションとお客様の機密データのセキュリティを保護するのに役立ちます。悪意のあるアクティビティに先立ち、顧客データのセキュリティを確保できるよう、デジタルエクスペリエンスのセキュリティが継続的に監視されます。
 
-参照： [Assets Essentials Security](https://www.adobe.com/content/dam/cc/en/trust-center/ungated/whitepapers/experience-cloud/adobe-experience-manager-assets-essentials-security-overview.pdf) セキュリティの詳細に関する概要に関するホワイトペーパー。
+セキュリティの概要について詳しくは、[Assets Essentials のセキュリティ](https://www.adobe.com/content/dam/cc/en/trust-center/ungated/whitepapers/experience-cloud/adobe-experience-manager-assets-essentials-security-overview.pdf)ホワイトペーパーを参照してください。
 
 ## 次の手順 {#next-steps}
 
