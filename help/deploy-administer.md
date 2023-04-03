@@ -4,9 +4,9 @@ description: ' [!DNL Assets Essentials] でのデプロイメントやユーザ�
 role: Admin
 exl-id: ef91126f-3aee-442b-b242-a6bf4034f3dc
 source-git-commit: 989d4b2105636b03bef8b8aa5e653c3800845f69
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1342'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -70,8 +70,8 @@ Assets Essentials アプリケーションにアクセスできるように、�
 
    * **[!DNL Assets Essentials] ユーザー**：完全なユーザーインターフェイスにアクセスできます。デジタルアセットのアップロード、整理、タグ付け、検索が可能です。
 
-   * **[!DNL Assets Essentials]消費者ユーザー** は、Assets Essentialsで検索、プレビューおよびダウンロード操作を実行できます。 また、Adobe Journey Optimizerでアセットを検索して選択したり、Workfront内で使用するアセットを検索して選択したりすることもできます。
-詳しくは、 [他のソリューションとの統合](integration.md).
+   * **[!DNL Assets Essentials]消費者ユーザー**は、Assets Essentials で検索、プレビューおよびダウンロード操作を実行できます。また、Adobe Journey Optimizer でアセットを検索して選択したり、Workfront 内で使用するアセットを検索して選択したりすることもできます。
+詳しくは、[他のソリューションとの統合](integration.md)を参照してください。
 
    ![Admin Console 管理プロファイル](assets/admin-console-admin-profile.png)
 
