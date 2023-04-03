@@ -4,9 +4,9 @@ description: ' [!DNL Assets Essentials] のユーザーインターフェイス�
 role: User
 exl-id: 534a8084-88f7-410e-b872-719e47e62b10
 source-git-commit: b627c20ee9be9be79bb0325b55543ae9e2935b9a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '616'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 95%
 
 * **アセット**：アクセス可能なすべてのフォルダーのリストがツリー表示されます。
 * **最近表示された項目**：最近プレビューしたアセットのリスト。[!DNL Assets Essentials] は、プレビューしたアセットのみを表示します。リポジトリーファイルまたはフォルダーを参照する際にスクロールして通過したアセットは表示されません。
-* **ごみ箱**： ルートから削除されたアセットのリスト **[!UICONTROL Assets]** フォルダー。 ごみ箱フォルダ内のアセットを選択して、元の場所に復元するか、完全に削除することができます。
+* **ごみ箱**：ルートの **[!UICONTROL Assets]** フォルダーから削除されたアセットをリストします。ごみ箱フォルダー内のアセットを選択して、元の場所に復元したり、完全に削除したりできます。
 
 <!-- TBD: Not sure if we want to publish these right now. CC Libs are beta as per Greg.
 * **Libraries**: Access to [!DNL Adobe Creative Cloud Team] (CCT) Libraries view. This view is visible only if the user is entitled to CCT Libraries.
