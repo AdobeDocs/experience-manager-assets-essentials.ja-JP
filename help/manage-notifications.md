@@ -2,14 +2,14 @@
 title: 通知の管理
 description: Assets Essentials 通知を使用して、リポジトリで使用可能なアセットやフォルダーで実行した操作を監視します。
 exl-id: 5c0039a2-caa2-4b55-b963-0e7e9e542c47
-source-git-commit: 95001cb7b1d37807fcd1fed0e26333cca15bbfbd
-workflow-type: ht
-source-wordcount: '614'
-ht-degree: 100%
+source-git-commit: c48ec7f5bfa1e449f461e73c5f3b725d52d9b1d1
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
-# 通知の管理 {#manage-notifications}
+# アセット、フォルダー、コレクションの監視 {#watch-assets-folders}
 
 Assets Essentials 通知を使用すると、リポジトリで使用可能なアセット、フォルダーまたはコレクションで実行された操作を監視できます。通知を送信するコンテンツを選択し、購読する必要があります。また、通知を受け取るカテゴリを設定することもできます。
 
