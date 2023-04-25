@@ -9,10 +9,10 @@ feature-set: Experience Manager Assets,Experience Manager
 feature: Assets Essentials
 role: User,Leader
 solution: Experience Manager
-source-git-commit: 55f24357266d2f063d1aaf92777fae32c7b127bd
-workflow-type: ht
-source-wordcount: '124'
-ht-degree: 100%
+source-git-commit: 7acef27127f5659ad2aa5da69f7032da1280e1eb
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -39,9 +39,9 @@ ht-degree: 100%
 + [アセットメタデータの管理](metadata.md)
 + [アセットの共有](share-links-for-assets.md)
 + [コレクションの管理](manage-collections.md)
-+ [通知の管理](manage-notifications.md)
++ [アセット、フォルダー、コレクションの監視](manage-notifications.md)
 + [レポートの管理](manage-reports.md)
-+ 他のソリューションとの統合  {#integration-with-other-solutions}
++ 他のソリューションとの統合 {#integration-with-other-solutions}
    + [概要](integration.md)
    + [Creative Cloud エンタープライズ版との統合](integrate-with-creative-cloud.md)
    + [Adobe Workfront との統合](integrate-with-workfront.md)
