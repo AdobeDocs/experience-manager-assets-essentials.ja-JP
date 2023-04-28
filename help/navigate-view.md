@@ -3,10 +3,10 @@ title: 「[!DNL Assets Essentials] ユーザーインターフェイス」
 description: ' [!DNL Assets Essentials] のユーザーインターフェイスとナビゲーションについて説明します。'
 role: User
 exl-id: 534a8084-88f7-410e-b872-719e47e62b10
-source-git-commit: b627c20ee9be9be79bb0325b55543ae9e2935b9a
-workflow-type: ht
-source-wordcount: '616'
-ht-degree: 100%
+source-git-commit: 3cc4d8ea48b0b2c8014572fce7609ee39f5868e4
+workflow-type: tm+mt
+source-wordcount: '902'
+ht-degree: 63%
 
 ---
 
@@ -22,19 +22,17 @@ ht-degree: 100%
 
 [!DNL Assets Essentials] にログインすると、次のインターフェイスが表示されます。
 
-<!-- TBD: Update this screenshot. Remove top bar. Remove 2 labels from top bar. -->
+![[!DNL Assets Essentials] ユーザーインターフェイス](assets/essentials-interface.png)
 
-![[!DNL Assets Essentials] ユーザーインターフェイス](assets/essentials-interface1.png)
-
-*図: ログイン後の最初の画面と主な機能の場所。*
-    *A：左側のサイドバー。リポジトリーを参照したり、他のオプションにアクセスしたりできます。*
-    *B：左側のサイドバーを表示したり折りたたんだりして、アセット表示領域を広げます。*
-    *C：検索結果をフィルタリングします。*
-    *D：検索ボックス。*
-    *E：アセットを並べ替えるオプション。*
-    *F：製品に関するフィードバックを提供します。*
-    *G：ユーザーの環境設定を編集したり、ログアウトしたります。*
-    *H：ビューを切り替えます。*
+    *回答：左側のサイドバーを使用してリポジトリを参照し、他のいくつかのオプションにアクセスできます。*
+    *B:左側のサイドバーを表示または折りたたんで、アセット表示領域を拡大する*
+    *C:検索結果のフィルタリング*
+    *D:選択したフォルダーのすべてのコンテンツを選択*
+    *E:アセットを並べ替えるオプション*
+    *F:検索ボックス*
+    *G:次を使用してファイルをアップロードまたはドラッグ&amp;ドロップ `Add Assets` ボタン*
+    *H:新しいフォルダーを作成*
+    *I:異なるビュー間の切り替え*
 
 <!-- TBD: Need an embedded video here with narration. It has to be hosted on MPC to be embeddable. -->
 
@@ -42,9 +40,15 @@ ht-degree: 100%
 
 メインユーザーインターフェイスまたは左側のサイドバーからフォルダーを参照できます。参照時には、このインターフェイスを使用してアセットのサムネールを表示し、リポジトリーを視覚的に参照したり、アセットの詳細を表示して目的のアセットをすばやく見つけたりできます。左側のサイドバーで使用できるオプションは次のとおりです。
 
-* **アセット**：アクセス可能なすべてのフォルダーのリストがツリー表示されます。
+* [マイワークスペース](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/my-workspace.html?lang=en):Assets には、Assets ユーザーインターフェイスの主要な領域に便利にアクセスできるウィジェットと、最も関連性の高い情報を提供する、カスタマイズ可能なワークスペースが含まれるようになりました。 このページは、作業項目の概要を示し、主要なワークフローにすばやくアクセスできるワンストップソリューションとして機能します。これらのオプションにより簡単にアクセスできるので、効率とコンテンツ速度が向上します。
+* [タスク](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/my-workspace.html?lang=en):自分に割り当てられたタスクを以下で表示できます。 **自分のタスク** タブをクリックします。 一方、ユーザーが作成したタスクは、以下の場所に表示されます。 **割り当てられたタスク** タブをクリックします。 また、実行するタスクは、 **完了したタスク** タブをクリックします。
+* [アセット](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-organize.html?lang=en)：アクセス可能なすべてのフォルダーのリストがツリー表示されます。
 * **最近表示された項目**：最近プレビューしたアセットのリスト。[!DNL Assets Essentials] は、プレビューしたアセットのみを表示します。リポジトリーファイルまたはフォルダーを参照する際にスクロールして通過したアセットは表示されません。
-* **ごみ箱**：ルートの **[!UICONTROL Assets]** フォルダーから削除されたアセットをリストします。ごみ箱フォルダー内のアセットを選択して、元の場所に復元したり、完全に削除したりできます。
+* [コレクション](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-collections.html?lang=ja):コレクションとは、Adobe Experience Manager Assets Essentials内のアセット、フォルダーまたはその他のコレクションのセットです。 コレクションを使用して、ユーザー間でアセットを共有します。フォルダーとは異なり、1 つのコレクションに異なる複数の場所のアセットを含めることができます。1 人のユーザーと複数のコレクションを共有できます。各コレクションには、アセットへの参照が含まれます。アセットの参照整合性はコレクション間で維持されます。
+
+* [インサイト](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-reports.html?lang=en#view-live-statistics):In [!DNL Assets Essentials]を使用すると、ダッシュボードでリアルタイムのインサイトを表示できます。 Assets Essentials を使用すると、Assets Essentials 環境のリアルタイムデータをインサイトダッシュボードで表示できます。過去 30 日間または過去 12 か月間のリアルタイムイベント指標を表示できます。
+* **ごみ箱**:ルートから削除されたアセットのリスト **[!UICONTROL Assets]** フォルダー。 ごみ箱フォルダー内のアセットを選択して、元の場所に復元したり、完全に削除したりできます。
+* **設定**:Assets Essentialsの様々なオプションは、 **設定**（メタデータフォーム、レポート、分類管理など）。
 
 <!-- TBD: Not sure if we want to publish these right now. CC Libs are beta as per Greg.
 * **Libraries**: Access to [!DNL Adobe Creative Cloud Team] (CCT) Libraries view. This view is visible only if the user is entitled to CCT Libraries.
@@ -76,20 +80,25 @@ ht-degree: 100%
 
 アセットをプレビューするには、目的のアセットを選択し、上部のツールバーで[!UICONTROL 詳細]アイコン（![詳細アイコン](assets/do-not-localize/edit-in-icon.png)）をクリックします。アセットを表示できるだけでなく、詳細なメタデータを表示したり、その他のアクションを実行したりできます。
 
-![アセットのプレビュー](assets/preview-asset.png)
+![アセットのプレビュー](assets/preview-asset-2.png)
 
-*A：リポジトリー内の現在のフォルダーまたは現在の検索結果に戻ります。*
-*B：プレビューしているファイルの名前と形式。*
-*C：基本メタデータ。*
-*D：詳細メタデータ。*
-*E：キーワードとスマートタグ。*
-*F：アセットのプレビューとメタデータ情報の参照。*
-*G：コメントと注釈。*
-*H：バージョンの表示と管理。*
-*I：画像のレンディションの表示。*
-*J：画像の編集。*
-*K：より詳細なプレビュー。ズーム、全画面表示、その他のオプション。*
-*L：フォルダーレベルに戻らずに、現在のフォルダー内の前または次のアセットに進みます。*
+*回答：現在のフォルダーまたはリポジトリ内の現在の検索結果に戻る*
+*B:プレビューしているファイルの名前と形式*
+*C:タスクを割り当て*
+*D:アセットをダウンロード*
+*E:アセットのプレビューとメタデータ情報の確認*
+*D:詳細メタデータ*
+*E:キーワードとスマートタグ*
+*F:コメントと注釈*
+*G:選択したアセットに関連するタスクを表示*
+*H:バージョンの表示と管理*
+*I:画像のレンディションの表示*
+*J:画像を編集*
+*K:基本メタデータ*
+*L:詳細メタデータ*
+*M:キーワードとスマートタグ*
+*N:より詳細にプレビューします。 ズーム、フルスクリーン、その他のオプション*
+*O:現在のフォルダー内の前または次のアセットに進み、フォルダーに戻りません。*
 
 また、ビデオをプレビューすることもできます。
 
