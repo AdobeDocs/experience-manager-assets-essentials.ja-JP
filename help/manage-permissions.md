@@ -2,17 +2,17 @@
 title: AEM Assets Essentials のフォルダーに対する権限の管理方法
 description: Assets Essentials では、管理者は、リポジトリで使用可能なフォルダーのアクセスレベルを管理できます。ユーザーグループを作成し、それらのグループに権限を割り当てて、アクセスレベルを管理します。管理者は、フォルダーレベルでユーザーグループに権限管理の権限をデリゲートすることもできます。
 exl-id: 5ef01dbc-87c0-4013-9367-5da3774f4f20
-source-git-commit: 5ebfa8080b59bee3b7cf4c25056a778c821003f1
+source-git-commit: 14048cd4c40c4d942d43a2ed955d09c71d72b684
 workflow-type: tm+mt
-source-wordcount: '1691'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # フォルダーの権限の管理 {#manage-permissions}
 
 >[!CONTEXTUALHELP]
->id="assets_workspace"
+>id="assets_permissions_folders"
 >title="権限の管理"
 >abstract="[!DNL Assets Essentials] では、管理者は、リポジトリで使用可能なフォルダーのアクセスレベルを管理できます。管理者は、ユーザーグループを作成し、それらのグループに権限を割り当てて、アクセスレベルを管理できます。また、フォルダーレベルでユーザーグループに権限管理の権限をデリゲートすることもできます。"
 

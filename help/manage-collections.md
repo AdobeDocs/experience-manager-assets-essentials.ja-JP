@@ -2,14 +2,19 @@
 title: コレクションの管理
 description: コレクションとは、Experience Manager Assets Essentials 内の一連のアセットのことです。コレクションを使用して、ユーザー間でアセットを共有します。
 exl-id: 33c889f5-c989-4772-9591-db62f50e5c80
-source-git-commit: 368b27c4f1f14ff6209c4e45ff288be192809c0e
-workflow-type: ht
-source-wordcount: '737'
+source-git-commit: 14048cd4c40c4d942d43a2ed955d09c71d72b684
+workflow-type: tm+mt
+source-wordcount: '793'
 ht-degree: 100%
 
 ---
 
 # コレクションの管理 {#manage-collections}
+
+>[!CONTEXTUALHELP]
+>id="assets_collections"
+>title="コレクションを管理"
+>abstract="コレクションとは、 Assets Essentials 内のアセット、フォルダーまたはその他のコレクションのセットです。 コレクションを使用して、ユーザー間でアセットを共有します。フォルダーとは異なり、1 つのコレクションに異なる複数の場所のアセットを含めることができます。1 人のユーザーと複数のコレクションを共有できます。各コレクションには、アセットへの参照が含まれます。アセットの参照整合性はコレクション間で維持されます。"
 
 コレクションとは、Adobe Experience Manager Assets Essentials 内のアセット、フォルダーまたはその他のコレクションのセットです。 コレクションを使用して、ユーザー間でアセットを共有します。
 
@@ -153,7 +158,7 @@ Click **[!UICONTROL Collections]** in the left rail and use the Search box to sp
 
 ## コレクションのリンクの共有 {#share-collection-links}
 
-[!DNL Assets Essentials] を使用すると、リンクを生成して、[!DNL Assets Essentials] アプリケーションに対するアクセス権を持たない外部の関係者と、コレクションやコレクション内のアセットを共有できます。リンクの有効期限を定義し、電子メールやメッセージングサービスなどの好みの通信方法を使用して、他のユーザーとリンクを共有できます。リンクの受信者は、アセットをプレビューし、ダウンロードできます。
+[!DNL Assets Essentials] を使用すると、リンクを生成して、[!DNL Assets Essentials] アプリケーションに対するアクセス権を持たない外部の関係者と、コレクションやコレクション内のアセットを共有できます。リンクの有効期限を定義し、メールやメッセージングサービスなどの好みの通信方法を使用して、他のユーザーとリンクを共有できます。リンクの受信者は、アセットをプレビューし、ダウンロードできます。
 
 ![アセットのリンクの共有](assets/share-link-collections.png)
 
