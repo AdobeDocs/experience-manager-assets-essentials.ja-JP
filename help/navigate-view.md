@@ -4,9 +4,9 @@ description: ' [!DNL Assets Essentials] のユーザーインターフェイス�
 role: User
 exl-id: 534a8084-88f7-410e-b872-719e47e62b10
 source-git-commit: 3cc4d8ea48b0b2c8014572fce7609ee39f5868e4
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '902'
+ht-degree: 100%
 
 ---
 
@@ -24,15 +24,15 @@ ht-degree: 0%
 
 ![[!DNL Assets Essentials] ユーザーインターフェイス](assets/essentials-interface.png)
 
-    *回答：左側のサイドバーを使用してリポジトリを参照し、他のいくつかのオプションにアクセスできます。*
-    *B:左側のサイドバーを表示または折りたたんで、アセット表示領域を拡大する*
-    *C:検索結果のフィルタリング*
-    *D:選択したフォルダーのすべてのコンテンツを選択*
-    *E:アセットを並べ替えるオプション*
-    *F:検索ボックス*
-    *G:次を使用してファイルをアップロードまたはドラッグ&amp;ドロップ `Add Assets` ボタン*
-    *H:新しいフォルダーを作成*
-    *I:異なるビュー間の切り替え*
+    *A：左側のサイドバーでリポジトリを参照し、他のいくつかのオプションにアクセスできます*
+    *B：左側のサイドバーを表示または折りたたむと、アセットの表示領域が広がります*
+    *C：検索結果をフィルタリングします*
+    *D：選択したフォルダーのすべてのコンテンツを選択します*
+    *E：アセットを並べ替えるオプション*
+    *F：検索ボックス*
+    *G：`Add Assets` ボタンを使用してファイルをアップロードまたはドラッグ＆ドロップします*
+    *H：新しいフォルダーを作成します*
+    *I：異なるビューを切り替えます*
 
 <!-- TBD: Need an embedded video here with narration. It has to be hosted on MPC to be embeddable. -->
 
@@ -40,15 +40,15 @@ ht-degree: 0%
 
 メインユーザーインターフェイスまたは左側のサイドバーからフォルダーを参照できます。参照時には、このインターフェイスを使用してアセットのサムネールを表示し、リポジトリーを視覚的に参照したり、アセットの詳細を表示して目的のアセットをすばやく見つけたりできます。左側のサイドバーで使用できるオプションは次のとおりです。
 
-* [マイワークスペース](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/my-workspace.html?lang=en):Assets には、Assets ユーザーインターフェイスの主要な領域に便利にアクセスできるウィジェットと、最も関連性の高い情報を提供する、カスタマイズ可能なワークスペースが含まれるようになりました。 このページは、作業項目の概要を示し、主要なワークフローにすばやくアクセスできるワンストップソリューションとして機能します。これらのオプションにより簡単にアクセスできるので、効率とコンテンツ速度が向上します。
-* [タスク](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/my-workspace.html?lang=en):自分に割り当てられたタスクを以下で表示できます。 **自分のタスク** タブをクリックします。 一方、ユーザーが作成したタスクは、以下の場所に表示されます。 **割り当てられたタスク** タブをクリックします。 また、実行するタスクは、 **完了したタスク** タブをクリックします。
-* [アセット](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-organize.html?lang=en)：アクセス可能なすべてのフォルダーのリストがツリー表示されます。
+* [マイワークスペース](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/my-workspace.html?lang=ja)：Assets には、ウィジェットを提供するカスタマイズ可能なワークスペースが含まれるようになりました。このワークスペースは、Assets ユーザーインターフェイスの主要な領域と、最も関連性の高い情報に簡単にアクセスできます。このページは、作業項目の概要を示し、主要なワークフローにすばやくアクセスできるワンストップソリューションとして機能します。これらのオプションにより簡単にアクセスできるので、効率とコンテンツ速度が向上します。
+* [タスク](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/my-workspace.html?lang=ja)：自分に割り当てられたタスクは、「**マイタスク**」タブで確認できます。一方、自分が作成したタスクは、「**割り当てられたタスク**」タブで表示できます。また、完了したタスクは、「**完了済みタスク**」タブにあります。
+* [アセット](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-organize.html?lang=ja)：アクセス可能なすべてのフォルダーのリストがツリー表示されます。
 * **最近表示された項目**：最近プレビューしたアセットのリスト。[!DNL Assets Essentials] は、プレビューしたアセットのみを表示します。リポジトリーファイルまたはフォルダーを参照する際にスクロールして通過したアセットは表示されません。
-* [コレクション](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-collections.html?lang=ja):コレクションとは、Adobe Experience Manager Assets Essentials内のアセット、フォルダーまたはその他のコレクションのセットです。 コレクションを使用して、ユーザー間でアセットを共有します。フォルダーとは異なり、1 つのコレクションに異なる複数の場所のアセットを含めることができます。1 人のユーザーと複数のコレクションを共有できます。各コレクションには、アセットへの参照が含まれます。アセットの参照整合性はコレクション間で維持されます。
+* [コレクション](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-collections.html?lang=ja)：コレクションとは、Adobe Experience Manager Assets Essentials 内のアセット、フォルダーまたはその他のコレクションのセットです。コレクションを使用して、ユーザー間でアセットを共有します。フォルダーとは異なり、1 つのコレクションに異なる複数の場所のアセットを含めることができます。1 人のユーザーと複数のコレクションを共有できます。各コレクションには、アセットへの参照が含まれます。アセットの参照整合性はコレクション間で維持されます。
 
-* [インサイト](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-reports.html?lang=en#view-live-statistics):In [!DNL Assets Essentials]を使用すると、ダッシュボードでリアルタイムのインサイトを表示できます。 Assets Essentials を使用すると、Assets Essentials 環境のリアルタイムデータをインサイトダッシュボードで表示できます。過去 30 日間または過去 12 か月間のリアルタイムイベント指標を表示できます。
-* **ごみ箱**:ルートから削除されたアセットのリスト **[!UICONTROL Assets]** フォルダー。 ごみ箱フォルダー内のアセットを選択して、元の場所に復元したり、完全に削除したりできます。
-* **設定**:Assets Essentialsの様々なオプションは、 **設定**（メタデータフォーム、レポート、分類管理など）。
+* [インサイト](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-reports.html?lang=ja#view-live-statistics)：[!DNL Assets Essentials] では、ダッシュボードでリアルタイムのインサイトを表示できます。Assets Essentials を使用すると、Assets Essentials 環境のリアルタイムデータをインサイトダッシュボードで表示できます。過去 30 日間または過去 12 か月間のリアルタイムイベント指標を表示できます。
+* **ごみ箱**：ルートの **[!UICONTROL Assets]** フォルダーから削除されたアセットをリストします。ごみ箱フォルダー内のアセットを選択して、元の場所に復元したり、完全に削除したりできます。
+* **設定**：メタデータフォーム、レポート、分類管理など、**設定**&#x200B;を使用して Assets Essentials の様々なオプションを設定できます。
 
 <!-- TBD: Not sure if we want to publish these right now. CC Libs are beta as per Greg.
 * **Libraries**: Access to [!DNL Adobe Creative Cloud Team] (CCT) Libraries view. This view is visible only if the user is entitled to CCT Libraries.
@@ -82,23 +82,23 @@ ht-degree: 0%
 
 ![アセットのプレビュー](assets/preview-asset-2.png)
 
-*回答：現在のフォルダーまたはリポジトリ内の現在の検索結果に戻る*
-*B:プレビューしているファイルの名前と形式*
-*C:タスクを割り当て*
-*D:アセットをダウンロード*
-*E:アセットのプレビューとメタデータ情報の確認*
-*D:詳細メタデータ*
-*E:キーワードとスマートタグ*
-*F:コメントと注釈*
-*G:選択したアセットに関連するタスクを表示*
-*H:バージョンの表示と管理*
-*I:画像のレンディションの表示*
-*J:画像を編集*
-*K:基本メタデータ*
-*L:詳細メタデータ*
-*M:キーワードとスマートタグ*
-*N:より詳細にプレビューします。 ズーム、フルスクリーン、その他のオプション*
-*O:現在のフォルダー内の前または次のアセットに進み、フォルダーに戻りません。*
+*A：リポジトリ内の現在のフォルダーまたは現在の検索結果に戻ります*
+*B：プレビューしているファイルの名前と形式*
+*C：タスクを割り当てます*
+*D：アセットをダウンロードします*
+*E：アセットをプレビューして、メタデータ情報を確認します*
+*D：高度なメタデータ*
+*E：キーワードとスマートタグ*
+*F：コメントと注釈*
+*G：選択したアセットに関連するタスクを表示します*
+*H：バージョンを表示および管理します*
+*I：画像のレンディションを表示します*
+*J：画像を編集します*
+*K：基本メタデータ*
+*L：高度なメタデータ*
+*M：キーワードとスマートタグ*
+*N：より詳細にプレビューします。ズーム、フルスクリーン、その他のオプション*
+*O：フォルダーに戻ることなく、現在のフォルダー内の前または次のアセットに進みます*
 
 また、ビデオをプレビューすることもできます。
 
