@@ -3,14 +3,14 @@ title: ' [!DNL Assets Essentials] の基本'
 description: ' [!DNL Assets Essentials] のアクセス方法、ログイン操作、サポートされているユースケース、既知の問題について説明します。'
 role: User, Leader
 exl-id: 7917b2a0-8340-4d94-aa6f-30ce986fa752
-source-git-commit: 02f28c00b387fbcac4cd917fab7763124fdd5d70
-workflow-type: ht
+source-git-commit: a95f0cba350d0c766fefb90609aba5a3f50e9d0f
+workflow-type: tm+mt
 source-wordcount: '432'
 ht-degree: 100%
 
 ---
 
-# [!DNL Experience Manager Assets Essentials] の基本 {#assets-essentials-get-started}
+# [!DNL Adobe Experience Manager Assets Essentials] の基本 {#assets-essentials-get-started}
 
 <!-- TBD: Make links for these steps. -->
 
@@ -61,7 +61,7 @@ ht-degree: 100%
 
 * Assets Essentials ユーザーインターフェイスの「[!UICONTROL フィードバック]」オプションを使用して関する関するフィードバックを提供する
 
-* 右側のサイドバーにある「[!UICONTROL このページを編集]」（![ページを編集](assets/do-not-localize/edit-page.png)）または「[!UICONTROL 問題を記録]」（![GitHub イシューを作成](assets/do-not-localize/github-issue.png)）を使用してドキュメントに関するフィードバックを提供する
+* 右側のサイドバーにある「[!UICONTROL このページを編集]」（![ページを編集](assets/do-not-localize/edit-page.png)）または「[!UICONTROL 問題を記録] 」（![GitHub イシューを作成](assets/do-not-localize/github-issue.png)）を使用してドキュメントに関するフィードバックを提供する
 
 * [カスタマーケア](https://experienceleague.adobe.com/?support-solution=General&amp;lang=ja#support)に問い合わせる
 
