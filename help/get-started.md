@@ -4,7 +4,7 @@ description: ' [!DNL Assets Essentials] のアクセス方法、ログイン操�
 role: User, Leader
 exl-id: 7917b2a0-8340-4d94-aa6f-30ce986fa752
 source-git-commit: a95f0cba350d0c766fefb90609aba5a3f50e9d0f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '432'
 ht-degree: 100%
 
