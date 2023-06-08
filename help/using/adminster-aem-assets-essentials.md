@@ -3,7 +3,7 @@ title: Experience Manager Assets Essentials の管理
 description: Admin Console を使用して Assets Essentials アプリケーションへのアクセスを設定し、Assets Essentials アプリケーションへのログイン後に実行できるタスクを管理します。
 exl-id: ffd65741-21b7-47cd-9779-63a7903879e6
 source-git-commit: 65200f73a954e4ebf4fbd6dc3a819acc6e0beda4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1399'
 ht-degree: 100%
 
