@@ -4,10 +4,10 @@ description: ' [!DNL Assets Essentials] のリリースノートと既知の問�
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AK
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
-source-git-commit: 9b05b9cec106b426038d53d195516a1c616a07a1
+source-git-commit: 84b830af6225242aa8cb851ac6458a66394a281a
 workflow-type: tm+mt
-source-wordcount: '2040'
-ht-degree: 87%
+source-wordcount: '2044'
+ht-degree: 86%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 87%
 
 Assets Essentialsの現在のリリースは 2023 年 6 月 23 日にリリースされました。
 
-機能のリストは次のとおりです。
+このリリースに含まれる機能のリストは次のとおりです。
 
 
 **アセットの階層タグ付けにより、検索操作を高速化**
