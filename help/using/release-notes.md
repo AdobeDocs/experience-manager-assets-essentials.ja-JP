@@ -4,16 +4,77 @@ description: ' [!DNL Assets Essentials] のリリースノートと既知の問�
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AK
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
-source-git-commit: 65200f73a954e4ebf4fbd6dc3a819acc6e0beda4
-workflow-type: ht
-source-wordcount: '1783'
-ht-degree: 100%
+source-git-commit: d6737d903b8010e2a3b7434584a7aae0d7bc68bd
+workflow-type: tm+mt
+source-wordcount: '2040'
+ht-degree: 87%
 
 ---
 
 # [!DNL Assets Essentials] のリリースノート {#release-notes}
 
-Assets Essentials の最新リリースは 2023年5月24日（PT）にリリースされました。
+Assets Essentialsの現在のリリースは 2023 年 6 月 8 日にリリースされました。
+
+機能のリストは次のとおりです。
+
+
+**アセットの階層タグ付けにより、検索操作を高速化**
+
+時間の経過と共に、語彙が制御されるフラットなリストは管理できなくなります。 Assets Essentialsでは、関連メタデータの適用、アセットの分類、検索のサポート、タグの再利用、検出性の向上などを容易におこなえる階層タグ付け構造がサポートされました。
+
+![タグ管理](assets/tags-hierarchy.png)
+
+**ファイル、フォルダー、コレクションをピン留めして、すばやくアクセスできるようにする**
+
+ファイル、フォルダー、コレクションを固定して、後で必要になったときにそれらの項目にすばやくアクセスできるようになりました。 固定された項目は、 **クイックアクセス** を参照してください。 リポジトリ内の保存先に移動する代わりに、My Workspace を使用してアクセスできます。
+
+![ワークスペースのタスク](assets/quick-access.png)
+
+**ごみ箱フォルダー内のアセットのフィルタリング**
+
+Assets Essentialsでは、ごみ箱フォルダー内の使用可能なアセットをフィルタリングできるようになりました。 ごみ箱フォルダー内の適切なアセットを検索するために、標準フィルターまたはカスタムフィルターを適用して、アセットを復元するか完全に削除することができます。
+
+**3D アセットのサムネールプレビュー**
+
+Assets Essentialsは、gLB、USDz、FBX、3DS、OBJ、SBSAR など、一般的な 3D ファイル形式のサムネールプレビューを生成するようになりました。 これらのファイルがAssets Essentialsにアップロードされると、デフォルトでは、システムによってサムネールが自動的に生成されます。
+
+![ワークスペースのタスク](assets/3d-preview.png)
+
+**上位の検索済みキーワードを表示**
+
+Assets Essentialsは、Assets Essentialsデプロイメント内で検索された上位の用語の表示を、 **インサイト** を参照してください。 詳細なインサイトに移動して、過去 30 日間または 12 ヶ月間の上位の検索結果を表示することもできます。
+
+![ワークスペースのタスク](assets/insights-top-searches.png)
+
+**メタデータフォームの強化**
+
+Assets Essentialsで、複数値のテキストおよびドロップダウンリストのプロパティコンポーネントをメタデータフォームに追加できるようになりました。
+
+
+**お客様からのフィードバックに基づく改善**
+
+お客様からのフィードバックに基づく機能強化およびバグ修正。
+
+## 既知の問題 {#known-issues}
+
+[!DNL Assets Essentials] ソリューションに関する既知の問題のリストは、継続的に改訂され、更新されています。
+
+<!--
+
+* Assets Essentials does not support creating Private collections.
+
+-->
+
+
+* 非公開コレクションは、作成者および管理者権限を持つユーザーが使用できます。管理者は、コレクションへのアクセス権を他のユーザーに委任することはできません。
+
+* 管理者は、コレクションへのアクセス権を他のユーザーに委任することはできません。
+
+問題が発生した場合や機能強化のご要望については、サポートチームに[フィードバックを送付](#provide-feedback)してください。
+
+## 過去のリリース {#past-releases}
+
+### 2023 年の複数のリリース {#multiple-releases-2023}
 
 最近追加された機能のリストは次のとおりです。
 
@@ -47,25 +108,6 @@ Assets Essentials では、Assets Essentials ユーザーインターフェイ�
 **お客様からのフィードバックに基づく改善**
 
 お客様からのフィードバックに基づく機能強化およびバグ修正。
-
-## 既知の問題 {#known-issues}
-
-[!DNL Assets Essentials] ソリューションに関する既知の問題のリストは、継続的に改訂され、更新されています。
-
-<!--
-
-* Assets Essentials does not support creating Private collections.
-
--->
-
-
-* 非公開コレクションは、作成者および管理者権限を持つユーザーが使用できます。管理者は、コレクションへのアクセス権を他のユーザーに委任することはできません。
-
-* 管理者は、コレクションへのアクセス権を他のユーザーに委任することはできません。
-
-問題が発生した場合や機能強化のご要望については、サポートチームに[フィードバックを送付](#provide-feedback)してください。
-
-## 過去のリリース {#past-releases}
 
 ### 2022.11.0 {#november-2022}
 
@@ -253,7 +295,7 @@ Assets Essentials 通知を使用すると、[リポジトリで使用可能な�
 
 [!DNL Assets Essentials] 2021.8.0 は 2021年8月30日（PT）にリリースされ、次の更新が行われました。
 
-* [!DNL Adobe Workfront] との統合により、[!DNL Workfront] ユーザーは、自分の作業を管理する中で、自分のデジタルアセットを管理することができます。詳しくは、[他のアドビソリューションとの統合](/help/using/integration.md)を参照してください。
+* [!DNL Adobe Workfront] との統合により、[!DNL Workfront] ユーザーは、自分の作業を管理する中で、自分のデジタルアセットを管理することができます。
 
 ### 2021.7.0 リリース {#july2021}
 
@@ -269,4 +311,4 @@ Assets Essentials 通知を使用すると、[リポジトリで使用可能な�
 * アセット（ネストしたフォルダーを含む）のアップロードと追加。アセットとバージョンのプレビュー。
 * フルテキスト検索、詳細検索フィルター、迅速にアセットを検出できる保存済みの検索。
 * 基本的なアセット管理操作（更新、削除、ダウンロード、メタデータ管理など）。
-* [!DNL Assets Essentials] は、[!DNL Adobe Journey Optimizer] ユーザーがメッセージの作成時にアセットを管理するために利用できます。詳しくは、[他のアドビソリューションとの統合](/help/using/integration.md)を参照してください。
+* [!DNL Assets Essentials] は、[!DNL Adobe Journey Optimizer] ユーザーがメッセージの作成時にアセットを管理するために利用できます。

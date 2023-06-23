@@ -9,9 +9,9 @@ feature-set: Experience Manager Assets,Experience Manager
 feature: Assets Essentials
 role: User,Leader
 solution: Experience Manager
-source-git-commit: 65200f73a954e4ebf4fbd6dc3a819acc6e0beda4
+source-git-commit: 22786c182ac959739396f694f0a63d84efa28ae5
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '129'
 ht-degree: 100%
 
 ---
@@ -41,6 +41,7 @@ ht-degree: 100%
 + [コレクションの管理](manage-collections.md)
 + [アセット、フォルダー、コレクションの監視](manage-notifications.md)
 + [レポートの管理](manage-reports.md)
++ [タグの管理](tagging-management.md)
 + 他のソリューションとの統合 {#integration-with-other-solutions}
    + [概要](integration.md)
    + [Creative Cloud エンタープライズ版との統合](integrate-with-creative-cloud.md)
