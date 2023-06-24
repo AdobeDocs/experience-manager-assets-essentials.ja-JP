@@ -1,10 +1,10 @@
 ---
 title: Assets ビューの概要
 description: Assets ビューの新機能
-source-git-commit: d725a3525c7f451b6dd3377ff267adb50df72280
+source-git-commit: 839c85efa1ba91db5644c7463ff269b6b06f69a1
 workflow-type: tm+mt
-source-wordcount: '305'
-ht-degree: 9%
+source-wordcount: '412'
+ht-degree: 7%
 
 ---
 
@@ -46,5 +46,10 @@ Assets ビューには、次の方法でアクセスできます。
 
 [![ガイドを参照してください](https://helpx.adobe.com/content/dam/help/en/marketing-cloud/how-to/digital-foundation/_jcr_content/main-pars/image_1250343773/see-the-guide-sm.png)](my-workspace.md)
 
+## 効率を高めるための検索優先のアプローチ
+
+最先端の機能を使用した検索機能で、組織のデジタルアセットライブラリの可能性を引き出します。 数え切れないほどのファイルやフォルダを手動で切り抜く手間に別れを告げることができます。 任意のユーザーが、魅力的なマーケティングキャンペーン、魅力的なプレゼンテーション、魅力的なコンテンツを作成するために必要な、完璧な画像、ビデオ、ドキュメントを即座に見つけることができます。 アドビの最初の検索エンジンでは、正確なキーワードを知らずに、アセットタイプ、メタデータ、スマートタグ、コンテンツ自体を簡単にナビゲートできます。 Search-First を活用して DAM の未来を受け入れ、デジタルアセットライブラリの可能性を最大限に引き出します。
+
+![Assets Essentials のデプロイ](assets/search-first.gif)
 
 
