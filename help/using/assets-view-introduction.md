@@ -1,14 +1,17 @@
 ---
 title: Assets ビューの概要
 description: Assets ビューの新機能
-source-git-commit: faa88352204ffa607f669e90fce0fb25320f3de8
+source-git-commit: d725a3525c7f451b6dd3377ff267adb50df72280
 workflow-type: tm+mt
-source-wordcount: '302'
-ht-degree: 8%
+source-wordcount: '305'
+ht-degree: 9%
 
 ---
 
+
 # Assets ビューの概要 {#assets-view}
+
+![Assets Essentials のデプロイ](assets/banner-image.jpg)
 
 リアルタイムのコンテンツの作成と配信が不可欠な今日のデジタルファーストの急速な変化において、ダウンストリームマーケティング速度向けに設計されたデジタルアセット管理 (DAM) エクスペリエンスが最も重要です。 Adobeは、マーケティングやクリエイティブプロフェッショナルを強化する専門知識を活用して、革新的な新しい Assets View ユーザーエクスペリエンスを導入します。 このワークフローファーストのアプローチは、ビジネスが動的なデジタルアセットを処理する方法に革新をもたらし、マーケターがアセットの検索、共同作業、パーソナライズ、配信の効率を最大限に高めます。 合理化されたワークフローにより、コンテンツの速度が向上し、マーケティング活動が新たな高みに向かいます。
 
