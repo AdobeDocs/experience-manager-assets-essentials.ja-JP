@@ -1,7 +1,7 @@
 ---
 title: Assets ビューの概要
 description: Assets ビューの新機能
-source-git-commit: 9d14827d10d2bae34b19a318aac1cc0820e81f35
+source-git-commit: faa88352204ffa607f669e90fce0fb25320f3de8
 workflow-type: tm+mt
 source-wordcount: '302'
 ht-degree: 8%
@@ -39,7 +39,7 @@ Assets ビューには、次の方法でアクセスできます。
 
 様々な組織的役割の多様なニーズを理解したデジタルアセット管理ソリューションにこんにちは。 優れた新しい Assets ビューは、使いやすさとスピードを優先し、視覚的な魅力と整理されたワークスペースに対するマーケターの好みに応えて優先します。 カスタマイズ可能なユーザー専用の My Workspace ダッシュボードを使用すると、マーケターは、驚くほど効率的にアセットをすばやく見つけ、プレビュー、編集、管理および配信できます。 特定のアセットを検索して過ごした無限の時間に別れを告げ、必要なものをすぐに使える合理化されたエクスペリエンスを歓迎します。
 
-![Assets Essentials のデプロイ](assets/workspace.gif)
+![Assets Essentials のデプロイ](assets/experiment.gif)
 
 [![ガイドを参照してください](https://helpx.adobe.com/content/dam/help/en/marketing-cloud/how-to/digital-foundation/_jcr_content/main-pars/image_1250343773/see-the-guide-sm.png)](my-workspace.md)
 
