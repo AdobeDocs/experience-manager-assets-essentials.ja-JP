@@ -3,17 +3,17 @@ title: Assets ビューの概要
 description: Assets ビューの新機能
 hidefromtoc: true
 hide: true
-source-git-commit: 1a7bb00371ae51159b8712156d852b5e107a3be6
+source-git-commit: 836f4524bde739614cca0595e7aace5f7674a954
 workflow-type: tm+mt
-source-wordcount: '502'
-ht-degree: 10%
+source-wordcount: '566'
+ht-degree: 9%
 
 ---
 
 
 # Assets ビューの概要 {#assets-view}
 
-![Assets Essentials のデプロイ](assets/banner-image1.png)
+![Assets Essentials のデプロイ](assets/banner-image.jpg)
 
 リアルタイムのコンテンツの作成と配信が不可欠な今日のデジタルファーストの急速な変化において、ダウンストリームマーケティング速度向けに設計されたデジタルアセット管理 (DAM) エクスペリエンスが最も重要です。 Adobeは、マーケティングやクリエイティブプロフェッショナルを強化する専門知識を活用して、革新的な新しい Assets View ユーザーエクスペリエンスを導入します。 このワークフローファーストのアプローチは、ビジネスが動的なデジタルアセットを処理する方法に革新をもたらし、マーケターがアセットの検索、共同作業、パーソナライズ、配信の効率を最大限に高めます。 合理化されたワークフローにより、コンテンツの速度が向上し、マーケティング活動が新たな高みに向かいます。
 
@@ -44,7 +44,7 @@ Assets ビューには、次の方法でアクセスできます。
 
 様々な組織的役割の多様なニーズを理解したデジタルアセット管理ソリューションにこんにちは。 優れた新しい Assets ビューは、使いやすさとスピードを優先し、視覚的な魅力と整理されたワークスペースに対するマーケターの好みに応えて優先します。 カスタマイズ可能なユーザー専用の My Workspace ダッシュボードを使用すると、マーケターは、驚くほど効率的にアセットをすばやく見つけ、プレビュー、編集、管理および配信できます。 特定のアセットを検索して過ごした無限の時間に別れを告げ、必要なものをすぐに使える合理化されたエクスペリエンスを歓迎します。
 
-![Assets Essentials のデプロイ](assets/experiment.gif)
+![Assets Essentials のデプロイ](assets/my-workspace-demo.gif)
 
 [![ガイドを参照してください](https://helpx.adobe.com/content/dam/help/en/marketing-cloud/how-to/digital-foundation/_jcr_content/main-pars/image_1250343773/see-the-guide-sm.png)](my-workspace.md)
 
@@ -61,5 +61,11 @@ Assets ビューには、次の方法でアクセスできます。
 ![Assets Essentials のデプロイ](assets/insights-overview.gif)
 
 [![ガイドを参照してください](https://helpx.adobe.com/content/dam/help/en/marketing-cloud/how-to/digital-foundation/_jcr_content/main-pars/image_1250343773/see-the-guide-sm.png)](manage-reports.md#view-live-statistics)
+
+## コラボレーションを促進 {#accelerate-collaboration}
+
+この新しいエクスペリエンスは、組み込みのAdobe Photoshop機能、バージョン管理、注釈ツールを使用したリアルタイム編集など、堅牢なコラボレーション機能のセットを提供します。 これにより、設計、クリエイティブ、ブランディング、マーケティングチーム間のシームレスなコラボレーションが可能になり、ボトルネックを克服し、マーケティング運用プロセスを迅速に進めることができます。 マーケターは、プロジェクトの配信を高速化し、全体的な生産性を高めるための強力なツールを自由に使用できるようになりました。
+
+
 
 
