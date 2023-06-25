@@ -3,17 +3,17 @@ title: Assets ビューの概要
 description: Assets ビューの新機能
 hidefromtoc: true
 hide: true
-source-git-commit: b26a7698152998cc6353924eb7d2698315c9da16
+source-git-commit: 1a7bb00371ae51159b8712156d852b5e107a3be6
 workflow-type: tm+mt
-source-wordcount: '412'
-ht-degree: 7%
+source-wordcount: '502'
+ht-degree: 10%
 
 ---
 
 
 # Assets ビューの概要 {#assets-view}
 
-![Assets Essentials のデプロイ](assets/banner-image.jpg)
+![Assets Essentials のデプロイ](assets/banner-image1.png)
 
 リアルタイムのコンテンツの作成と配信が不可欠な今日のデジタルファーストの急速な変化において、ダウンストリームマーケティング速度向けに設計されたデジタルアセット管理 (DAM) エクスペリエンスが最も重要です。 Adobeは、マーケティングやクリエイティブプロフェッショナルを強化する専門知識を活用して、革新的な新しい Assets View ユーザーエクスペリエンスを導入します。 このワークフローファーストのアプローチは、ビジネスが動的なデジタルアセットを処理する方法に革新をもたらし、マーケターがアセットの検索、共同作業、パーソナライズ、配信の効率を最大限に高めます。 合理化されたワークフローにより、コンテンツの速度が向上し、マーケティング活動が新たな高みに向かいます。
 
@@ -53,5 +53,13 @@ Assets ビューには、次の方法でアクセスできます。
 最先端の機能を使用した検索機能で、組織のデジタルアセットライブラリの可能性を引き出します。 数え切れないほどのファイルやフォルダを手動で切り抜く手間に別れを告げることができます。 任意のユーザーが、魅力的なマーケティングキャンペーン、魅力的なプレゼンテーション、魅力的なコンテンツを作成するために必要な、完璧な画像、ビデオ、ドキュメントを即座に見つけることができます。 アドビの最初の検索エンジンでは、正確なキーワードを知らずに、アセットタイプ、メタデータ、スマートタグ、コンテンツ自体を簡単にナビゲートできます。 Search-First を活用して DAM の未来を受け入れ、デジタルアセットライブラリの可能性を最大限に引き出します。
 
 ![Assets Essentials のデプロイ](assets/search-first.gif)
+
+## データ主導型の意思決定を行うためのインサイト {#insights-data}
+
+コンテンツの速度に合わせるためには、実用的なインサイトが不可欠です。 新しいアセット表示エクスペリエンスでは、My Workspace 内の高度なインサイトが提供され、アセットのパフォーマンス、オーディエンスの使用状況、エンゲージメントに関する貴重なデータを提供します。 マーケターは、データ主導型の意思決定をおこない、コンテンツ戦略を最適化し、最適な結果を得るためにダウンストリーム配信を絞り込むことができます。 意味のあるインサイトを利用することで、企業は競争に先んじ、優れた成果をもたらすことができます。
+
+![Assets Essentials のデプロイ](assets/insights-overview.gif)
+
+[![ガイドを参照してください](https://helpx.adobe.com/content/dam/help/en/marketing-cloud/how-to/digital-foundation/_jcr_content/main-pars/image_1250343773/see-the-guide-sm.png)](manage-reports.md#view-live-statistics)
 
 
