@@ -3,10 +3,10 @@ title: Assets ビューの概要
 description: Assets ビューの新機能
 hidefromtoc: true
 hide: true
-source-git-commit: cd99934326eab5f7701e691a7f98329c57f8d2c4
+source-git-commit: f370e2e3e1c7fc5798e6873bd37098e5c22b8e5a
 workflow-type: tm+mt
-source-wordcount: '861'
-ht-degree: 15%
+source-wordcount: '1022'
+ht-degree: 13%
 
 ---
 
@@ -93,6 +93,16 @@ Assets ビューでは、リポジトリー内で使用可能なアセット、�
 ![ソフト削除](assets/soft-delete.gif)
 
 [![ガイドを参照してください](https://helpx.adobe.com/content/dam/help/en/marketing-cloud/how-to/digital-foundation/_jcr_content/main-pars/image_1250343773/see-the-guide-sm.png)](navigate-view.md)
+
+アセット表示では、これらの機能に加えて、管理表示では使用できない次の機能も実行できます。
+
+* 別の名前を持つ新しいバージョンのアセットを、ローカルファイルシステムからアセットリポジトリにアップロードします。 アップロードされたアセットは、元のアセットと同じ名前の新しいバージョンとして使用できます。
+
+* リポジトリ内で使用可能なアセットおよびフォルダーの名前を変更します。
+
+## まとめ {#conclusion}
+
+デジタルファーストの時代が到来し、今こそ、進化するビジネス環境をサポートするためにマーケティングツールを変革する時です。 新しいAdobe Experience Manager Assets Assets ビューは、ワークフローの合理化、共同作業の促進、アセットの配信の迅速化を目的に作成されています。 コンテンツベロシティを受け入れることで、マーケターはデジタルアセットの可能性を最大限に引き出し、今までにないような創造性を引き出すことができます。 Adobeの新しい Assets の機能を活用する準備をします。エクスペリエンスを表示し、マーケティングキャンペーンで優れた結果を引き出します。 今こそ DAM の未来を受け入れ、ビジネスを前進させる時です。
 
 
 
