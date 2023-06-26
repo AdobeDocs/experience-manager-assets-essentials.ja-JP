@@ -3,10 +3,10 @@ title: Assets ビューの概要
 description: Assets ビューの新機能
 hidefromtoc: true
 hide: true
-source-git-commit: 1ff1ced0910f1b2ca18e9130b07a399da1ccf27f
+source-git-commit: 7a1d9c01ed19015f8552b088142122b354c6074b
 workflow-type: tm+mt
-source-wordcount: '566'
-ht-degree: 9%
+source-wordcount: '657'
+ht-degree: 10%
 
 ---
 
@@ -62,11 +62,17 @@ Assets ビューには、次の方法でアクセスできます。
 
 [![ガイドを参照してください](https://helpx.adobe.com/content/dam/help/en/marketing-cloud/how-to/digital-foundation/_jcr_content/main-pars/image_1250343773/see-the-guide-sm.png)](manage-reports.md#view-live-statistics)
 
-## コラボレーションを促進 {#accelerate-collaboration}
+## Adobe Photoshop Express統合とのコラボレーションを促進 {#accelerate-collaboration}
 
 この新しいエクスペリエンスは、組み込みのAdobe Photoshop機能、バージョン管理、注釈ツールを使用したリアルタイム編集など、堅牢なコラボレーション機能のセットを提供します。 これにより、設計、クリエイティブ、ブランディング、マーケティングチーム間のシームレスなコラボレーションが可能になり、ボトルネックを克服し、マーケティング運用プロセスを迅速に進めることができます。 マーケターは、プロジェクトの配信を高速化し、全体的な生産性を高めるための強力なツールを自由に使用できるようになりました。
 
 >[!VIDEO](https://video.tv.adobe.com/v/3420922)
+
+[![ガイドを参照してください](https://helpx.adobe.com/content/dam/help/en/marketing-cloud/how-to/digital-foundation/_jcr_content/main-pars/image_1250343773/see-the-guide-sm.png)](edit-images.md)
+
+## フォルダーのアップロードを使用した階層構造の設定が簡単になりました {#folder-uploads}
+
+Assets ビューを使用して、ローカルファイルシステムに存在するフォルダーをアップロードすることで、組織のフォルダー構造をすばやく設定できます。 論理階層構造を維持するために、ルートフォルダーの下にフォルダーを作成してから、それらのフォルダーにアセットを手動でアップロードする必要はありません。 ルートフォルダーの下にあるすべてのフォルダーとアセットが、Experience Manager Assetsに自動的にアップロードされます。
 
 
 
