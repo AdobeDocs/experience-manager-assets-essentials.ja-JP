@@ -3,10 +3,10 @@ title: Assets ビューの概要
 description: Assets ビューの新機能
 hidefromtoc: true
 hide: true
-source-git-commit: dd6734b4e43eef875515e48704757a4f53a1a185
+source-git-commit: 547dd9dab9a2b176f9fb7bed62289d60f96243dc
 workflow-type: tm+mt
-source-wordcount: '677'
-ht-degree: 13%
+source-wordcount: '773'
+ht-degree: 15%
 
 ---
 
@@ -62,7 +62,7 @@ Assets ビューには、次の方法でアクセスできます。
 
 [![ガイドを参照してください](https://helpx.adobe.com/content/dam/help/en/marketing-cloud/how-to/digital-foundation/_jcr_content/main-pars/image_1250343773/see-the-guide-sm.png)](manage-reports.md#view-live-statistics)
 
-## Adobe Photoshop Express統合とのコラボレーションを促進 {#accelerate-collaboration}
+## 連携を促進するAdobe Photoshop Express統合 {#accelerate-collaboration}
 
 この新しいエクスペリエンスは、組み込みのAdobe Photoshop機能、バージョン管理、注釈ツールを使用したリアルタイム編集など、堅牢なコラボレーション機能のセットを提供します。 これにより、設計、クリエイティブ、ブランディング、マーケティングチーム間のシームレスなコラボレーションが可能になり、ボトルネックを克服し、マーケティング運用プロセスを迅速に進めることができます。 マーケターは、プロジェクトの配信を高速化し、全体的な生産性を高めるための強力なツールを自由に使用できるようになりました。
 
@@ -70,13 +70,21 @@ Assets ビューには、次の方法でアクセスできます。
 
 [![ガイドを参照してください](https://helpx.adobe.com/content/dam/help/en/marketing-cloud/how-to/digital-foundation/_jcr_content/main-pars/image_1250343773/see-the-guide-sm.png)](edit-images.md)
 
-## フォルダーのアップロードを使用した階層構造の設定が簡単になりました {#folder-uploads}
+## 組織の階層構造を設定するためのフォルダーアップロード {#folder-uploads}
 
 Assets ビューを使用して、ローカルファイルシステムに存在するフォルダーをアップロードすることで、組織のフォルダー構造をすばやく設定できます。 論理階層構造を維持するために、ルートフォルダーの下にフォルダーを作成してから、それらのフォルダーにアセットを手動でアップロードする必要はありません。 ルートフォルダーの下にあるすべてのフォルダーとアセットが、Experience Manager Assetsに自動的にアップロードされます。
 
-![Assets Essentials のデプロイ](assets/folder-uploads.gif)
+![フォルダーのアップロード](assets/folder-uploads.gif)
 
 [![ガイドを参照してください](https://helpx.adobe.com/content/dam/help/en/marketing-cloud/how-to/digital-foundation/_jcr_content/main-pars/image_1250343773/see-the-guide-sm.png)](add-delete.md)
+
+## コンテンツを購読して通知を受け取る
+
+Assets ビューでは、リポジトリー内で使用可能なアセット、フォルダーまたはコレクションに対して実行された操作を監視できます。 通知を送信するコンテンツを選択し、購読する必要があります。購読済みコンテンツの削除、購読済みコンテンツの変更など、イベントタイプを設定することもできます。 その後、通知は、これらのイベントタイプに対してのみ送信されます。
+
+![通知を受信](assets/notifications.gif)
+
+[![ガイドを参照してください](https://helpx.adobe.com/content/dam/help/en/marketing-cloud/how-to/digital-foundation/_jcr_content/main-pars/image_1250343773/see-the-guide-sm.png)](manage-notifications.md)
 
 
 
