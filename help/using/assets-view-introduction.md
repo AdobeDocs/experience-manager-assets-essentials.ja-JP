@@ -3,9 +3,9 @@ title: Assets ビューの概要
 description: Assets ビューの新機能
 hidefromtoc: true
 hide: true
-source-git-commit: 547dd9dab9a2b176f9fb7bed62289d60f96243dc
+source-git-commit: cd99934326eab5f7701e691a7f98329c57f8d2c4
 workflow-type: tm+mt
-source-wordcount: '773'
+source-wordcount: '861'
 ht-degree: 15%
 
 ---
@@ -78,13 +78,21 @@ Assets ビューを使用して、ローカルファイルシステムに存在�
 
 [![ガイドを参照してください](https://helpx.adobe.com/content/dam/help/en/marketing-cloud/how-to/digital-foundation/_jcr_content/main-pars/image_1250343773/see-the-guide-sm.png)](add-delete.md)
 
-## コンテンツを購読して通知を受け取る
+## 効率的なアセット管理のためにリポジトリコンテンツを購読
 
 Assets ビューでは、リポジトリー内で使用可能なアセット、フォルダーまたはコレクションに対して実行された操作を監視できます。 通知を送信するコンテンツを選択し、購読する必要があります。購読済みコンテンツの削除、購読済みコンテンツの変更など、イベントタイプを設定することもできます。 その後、通知は、これらのイベントタイプに対してのみ送信されます。
 
 ![通知を受信](assets/notifications.gif)
 
 [![ガイドを参照してください](https://helpx.adobe.com/content/dam/help/en/marketing-cloud/how-to/digital-foundation/_jcr_content/main-pars/image_1250343773/see-the-guide-sm.png)](manage-notifications.md)
+
+## 管理者がより細かく制御できるように、アセットをソフトデリート {#soft-delete-assets}
+
+アセット表示で使用できるごみ箱フォルダーには、ルートの Assets フォルダーから削除されたアセットが一覧表示されます。 ごみ箱フォルダーからアセットを選択して、元の場所に復元するか、完全に削除することができます。 また、キーワードを指定したり、標準フィルターやカスタムフィルターを適用してごみ箱フォルダ内の適切なアセットを検索することもできます。
+
+![ソフト削除](assets/soft-delete.gif)
+
+[![ガイドを参照してください](https://helpx.adobe.com/content/dam/help/en/marketing-cloud/how-to/digital-foundation/_jcr_content/main-pars/image_1250343773/see-the-guide-sm.png)](navigate-view.md)
 
 
 
