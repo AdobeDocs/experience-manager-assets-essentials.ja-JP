@@ -3,10 +3,10 @@ title: Assets ビューの概要
 description: Assets ビューの新機能
 hidefromtoc: true
 hide: true
-source-git-commit: 7a1d9c01ed19015f8552b088142122b354c6074b
+source-git-commit: dd6734b4e43eef875515e48704757a4f53a1a185
 workflow-type: tm+mt
-source-wordcount: '657'
-ht-degree: 10%
+source-wordcount: '677'
+ht-degree: 13%
 
 ---
 
@@ -73,6 +73,10 @@ Assets ビューには、次の方法でアクセスできます。
 ## フォルダーのアップロードを使用した階層構造の設定が簡単になりました {#folder-uploads}
 
 Assets ビューを使用して、ローカルファイルシステムに存在するフォルダーをアップロードすることで、組織のフォルダー構造をすばやく設定できます。 論理階層構造を維持するために、ルートフォルダーの下にフォルダーを作成してから、それらのフォルダーにアセットを手動でアップロードする必要はありません。 ルートフォルダーの下にあるすべてのフォルダーとアセットが、Experience Manager Assetsに自動的にアップロードされます。
+
+![Assets Essentials のデプロイ](assets/folder-uploads.gif)
+
+[![ガイドを参照してください](https://helpx.adobe.com/content/dam/help/en/marketing-cloud/how-to/digital-foundation/_jcr_content/main-pars/image_1250343773/see-the-guide-sm.png)](add-delete.md)
 
 
 
