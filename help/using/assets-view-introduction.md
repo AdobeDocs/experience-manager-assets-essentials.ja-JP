@@ -3,9 +3,9 @@ title: Assets ビューの概要
 description: Assets ビューの新機能
 hidefromtoc: true
 hide: true
-source-git-commit: f370e2e3e1c7fc5798e6873bd37098e5c22b8e5a
+source-git-commit: 9ce744b0a920dc553a41e631d0f1be1d8f26bb93
 workflow-type: tm+mt
-source-wordcount: '1022'
+source-wordcount: '1037'
 ht-degree: 13%
 
 ---
@@ -65,6 +65,8 @@ Assets ビューには、次の方法でアクセスできます。
 ## 連携を促進するAdobe Photoshop Express統合 {#accelerate-collaboration}
 
 この新しいエクスペリエンスは、組み込みのAdobe Photoshop機能、バージョン管理、注釈ツールを使用したリアルタイム編集など、堅牢なコラボレーション機能のセットを提供します。 これにより、設計、クリエイティブ、ブランディング、マーケティングチーム間のシームレスなコラボレーションが可能になり、ボトルネックを克服し、マーケティング運用プロセスを迅速に進めることができます。 マーケターは、プロジェクトの配信を高速化し、全体的な生産性を高めるための強力なツールを自由に使用できるようになりました。
+
+Adobe Photoshop Expressとの Assets ビューの統合の機能については、このビデオをご覧ください。
 
 >[!VIDEO](https://video.tv.adobe.com/v/3420922)
 
