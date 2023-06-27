@@ -4,7 +4,7 @@ description: Assets ビューの新機能
 mini-toc-levels: 3
 hidefromtoc: true
 hide: true
-source-git-commit: 094ee651d7ac90675df88b52a5e76dd3e6e84094
+source-git-commit: 256d42b06e66e9f152823f507412de360474b3b7
 workflow-type: tm+mt
 source-wordcount: '1070'
 ht-degree: 11%
@@ -81,9 +81,9 @@ Adobe Photoshop Expressとの Assets ビューの統合の機能については�
 
 >[!VIDEO](https://video.tv.adobe.com/v/3420922)
 
-今後のリリースには、次のものも含まれます。 [Adobe Fireflyを使用したAdobe Express](https://firefly.adobe.com/?gclid=EAIaIQobChMIlZeKuNfj_wIVeyCtBh3e5g2cEAAYASAAEgL56_D_BwE&amp;sdid=JM4FW6VL&amp;mv=search&amp;mv2=paidsearch&amp;ef_id=EAIaIQobChMIlZeKuNfj_wIVeyCtBh3e5g2cEAAYASAAEgL56_D_BwE:G:s&amp;s_kwcid=AL!3085!3!652077237594!e!!g!!adobe%20firefly!19870733758!148140507838).
-
 [![ガイドを参照してください](https://helpx.adobe.com/content/dam/help/en/marketing-cloud/how-to/digital-foundation/_jcr_content/main-pars/image_1250343773/see-the-guide-sm.png)](edit-images.md)
+
+今後のリリースには、次のものも含まれます。 [Adobe Fireflyを使用したAdobe Express](https://firefly.adobe.com/?gclid=EAIaIQobChMIlZeKuNfj_wIVeyCtBh3e5g2cEAAYASAAEgL56_D_BwE&amp;sdid=JM4FW6VL&amp;mv=search&amp;mv2=paidsearch&amp;ef_id=EAIaIQobChMIlZeKuNfj_wIVeyCtBh3e5g2cEAAYASAAEgL56_D_BwE:G:s&amp;s_kwcid=AL!3085!3!652077237594!e!!g!!adobe%20firefly!19870733758!148140507838).
 
 ### 組織の階層構造を設定するためのフォルダーアップロード {#folder-uploads}
 
