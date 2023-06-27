@@ -4,10 +4,10 @@ description: Assets ビューの新機能
 mini-toc-levels: 3
 hidefromtoc: true
 hide: true
-source-git-commit: 138e8eaa8e4c0ff83c46e2b6a62e92740c87f366
+source-git-commit: 52ec2263e237e6c3b47dc967eb5cc3e6acbe814f
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1020'
+ht-degree: 12%
 
 ---
 
@@ -22,23 +22,29 @@ ht-degree: 0%
 
 Assets ビューには、次の方法でアクセスできます。
 
-* **管理表示で切り替え**
+![マイワークスペースの概要](assets/assets-view.png)
 
-   * ログイン [!DNL Experience Manager] Cloud Manager を使用して、
-   * **[!UICONTROL Assets]**／**[!UICONTROL ファイル]**&#x200B;に移動します。
-   * 右上隅のプロファイルアイコンをクリックします。
-   * クリック **[!UICONTROL 表示を切り替え]** から **[!UICONTROL プロファイル設定]** 」セクションに入力します。
-これらの手順を繰り返して、管理ビューに戻します。
+<!--
 
-* **製品切り替えボタン**
-   * ログイン [!DNL Experience Manager] をクリックし、
-   * 選択 **[!UICONTROL Experience Manager Assets]** をクリックして、Assets ビューにアクセスします。
-   * 選択 **[!UICONTROL Experience Manager]** をクリックして、管理者ビューにアクセスします。
+* **Toggle in Admin view**
 
-* **クイックリンク**
-   * experience.adobe.com にログインします。
-   * クリック **[!UICONTROL Experience Manager Assets]** をクリックして、Assets ビューにアクセスします。
-   * クリック **[!UICONTROL Experience Manager Assets]** をクリックして、Assets ビューにアクセスします。
+    * Log into [!DNL Experience Manager] using Cloud Manager.
+    * Navigate to **[!UICONTROL Assets]** > **[!UICONTROL Files]**.
+    * Click the profile icon on the top right corner.
+    * Click **[!UICONTROL Switch View]** from the **[!UICONTROL Profile Settings]** section.
+    Repeat these steps to switch back to the Admin view.
+
+* **Product Switcher**
+    * Log into [!DNL Experience Manager] and click ![Product selector](assets/waffle-icon.svg).
+    * Select **[!UICONTROL Experience Manager Assets]** to access the Assets view.
+    * Select **[!UICONTROL Experience Manager]** to access the Admin view.
+
+* **Quick Links** 
+    * Log into experience.adobe.com.
+    * Click **[!UICONTROL Experience Manager Assets]** to access the Assets view.
+    * Click **[!UICONTROL Experience Manager Assets]** to access the Assets view.
+
+    -->
 
 ## アセットが表示される理由
 
