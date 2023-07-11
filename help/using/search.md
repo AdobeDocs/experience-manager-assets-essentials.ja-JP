@@ -3,10 +3,10 @@ title: ' [!DNL Assets Essentials] でのアセットの検索と検出'
 description: ' [!DNL Assets Essentials] でのアセットの検索と検出について説明します。'
 role: User
 exl-id: be9597a3-056c-436c-a09e-15a03567c85a
-source-git-commit: 5c9578e18c81166641da088713dbedb3c2b738dc
+source-git-commit: 839ec4e2dcd324c481d9b4b5aba2210ec95203ba
 workflow-type: tm+mt
-source-wordcount: '905'
-ht-degree: 99%
+source-wordcount: '897'
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,6 @@ ht-degree: 99%
 >title="アセットの検索"
 >abstract="検索バーでキーワードを指定するか、ステータス、ファイルタイプ、MIME タイプ、サイズ、作成日、変更日および有効期限に基づいてアセットをフィルタリングして、アセットを検索します。標準フィルターに加えて、カスタムフィルターを適用することもできます。フィルタリングした結果は、保存した検索条件またはスマートコレクションとして保存できます。"
 >additional-url="https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-collections.html?lang=ja#manage-smart-collection" text="スマートコレクションを作成"
->additional-url="https://video.tv.adobe.com/v/3420922/?captions=jpn" text="機能の動作を見る"
 
 [!DNL Assets Essentials] では効果的な検索が可能です。この検索はデフォルトで機能します。フルテキスト検索なので、網羅的に検索できます。この強力な検索機能を使用すると、適切なアセットをすばやく発見できるので、コンテンツベロシティ（コンテンツ創出の速度）の向上に役立ちます。[!DNL Assets Essentials] では、フルテキスト検索を行えるほか、スマートタグ、タイトル、作成日、著作権などのメタデータを検索することもできます。
 
