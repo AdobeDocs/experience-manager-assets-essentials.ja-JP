@@ -3,10 +3,10 @@ title: ' [!DNL Assets Essentials] でのアセットの検索と検出'
 description: ' [!DNL Assets Essentials] でのアセットの検索と検出について説明します。'
 role: User
 exl-id: be9597a3-056c-436c-a09e-15a03567c85a
-source-git-commit: 839ec4e2dcd324c481d9b4b5aba2210ec95203ba
+source-git-commit: 99f843be67ca6ca9dc1afe4887937b0fbcbfcf8e
 workflow-type: tm+mt
-source-wordcount: '897'
-ht-degree: 100%
+source-wordcount: '1033'
+ht-degree: 86%
 
 ---
 
@@ -141,6 +141,34 @@ What about temporarily hiding an asset (suspending search on it) from the search
 
 When userA is searching and userB add an asset that matches search results, will the asset display in search as soon as userA refreshes the page? Assuming indexing is near real-time. May not be so for bulk uploads.
 -->
+
+## 検索結果の操作 {#work-with-search-results}
+
+検索結果に表示するアセットを選択し、次の操作を実行できます。
+
+* **詳細**:アセットのプロパティを表示および編集します。
+
+* **コレクションに追加**:選択したアセットをコレクションに追加します。
+
+* **ダウンロード**:アセットをダウンロードします。
+
+* **削除**:アセットの削除
+
+* **コピー**:別のフォルダーの場所にアセットをコピーします。
+
+* **移動**:アセットを別のフォルダーの場所に移動します。
+
+* **名前を変更**:アセットの名前を変更する。
+
+* **タスクを割り当て**:アセットのユーザーにタスクを割り当てます。
+
+* **リンクを共有**: [リンクを共有](share-links-for-assets.md) アセットにアクセスしてダウンロードできるようにするために使用します。
+
+* **所要時間**: [操作の監視](manage-notifications.md) 実行されたアセットの状態。
+
+* **ファイルの場所を表示**:アセットフォルダーの場所に移動します。
+
+* **クイックアクセスに固定**: [アセットのピン留め](my-workspace.md) 後で必要になったときのアクセスを高速化するため。 ピンされたすべての項目が **クイックアクセス** を参照してください。
 
 ## 次の手順 {#next-steps}
 
