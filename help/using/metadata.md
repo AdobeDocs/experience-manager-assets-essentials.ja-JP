@@ -7,7 +7,7 @@ exl-id: cfc105d1-41fc-4418-9905-b2a28a348682
 source-git-commit: 839ec4e2dcd324c481d9b4b5aba2210ec95203ba
 workflow-type: tm+mt
 source-wordcount: '1544'
-ht-degree: 73%
+ht-degree: 74%
 
 ---
 
@@ -67,7 +67,7 @@ ht-degree: 73%
 >id="assets_metadata_forms"
 >title="メタデータフォーム"
 >abstract="[!DNL Experience Manager Assets] には、多数の標準メタデータフィールドがデフォルトで用意されています。組織には、メタデータに対するさらなるニーズがあり、ビジネス固有のメタデータを追加するために、さらに多くのメタデータフィールドが必要です。メタデータフォームを使用すると、ビジネスごとにアセットの詳細ページにカスタムメタデータフィールドを追加できます。ビジネス固有のメタデータにより、アセットのガバナンスと検出が向上します。"
->additional-url="https://video.tv.adobe.com/v/3420922/?captions=jpn" text="機能の動作を見る"
+>additional-url="https://video.tv.adobe.com/v/3420922/?captions=jpn" text="アクションの機能を見る"
 
 Assets Essentials には、多数の標準メタデータフィールドがデフォルトで用意されています。組織には、追加のメタデータニーズがあり、ビジネス固有のメタデータを追加するために、さらに多くのメタデータフィールドが必要です。メタデータフォームを使用すると、ビジネスごとにアセットの[!UICONTROL 詳細]ページにカスタムメタデータフィールドを追加できます。ビジネス固有のメタデータにより、アセットのガバナンスと検出が向上します。フォームは、ゼロから作成することも、既存のフォームを再利用することもできます。
 
