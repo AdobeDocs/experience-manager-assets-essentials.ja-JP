@@ -4,56 +4,47 @@ description: ' [!DNL Assets Essentials] のリリースノートと既知の問�
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AK
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
-source-git-commit: 84b830af6225242aa8cb851ac6458a66394a281a
+source-git-commit: c61a22ad3c44b26762a8afbb93422197a5cf92ca
 workflow-type: tm+mt
-source-wordcount: '2044'
-ht-degree: 86%
+source-wordcount: '2154'
+ht-degree: 84%
 
 ---
 
 # [!DNL Assets Essentials] のリリースノート {#release-notes}
 
-Assets Essentialsの現在のリリースは 2023 年 6 月 23 日にリリースされました。
+Assets Essentialsの現在のリリースは 2023 年 7 月 27 日にリリースされました。
 
 このリリースに含まれる機能のリストは次のとおりです。
 
+<!--
 
-**アセットの階層タグ付けにより、検索操作を高速化**
+**Assign metadata form to a folder**
 
-時間の経過と共に、語彙が制御されるフラットなリストは管理できなくなります。 Assets Essentialsでは、関連メタデータの適用、アセットの分類、検索のサポート、タグの再利用、検出性の向上などを容易におこなえる階層タグ付け構造がサポートされました。
+You can now assign metadata form to a specific folder within your Assets Essentials deployment. All assets in the folder, including assets in the sub-folders, then display properties defined in the assigned metadata form.
 
-![タグ管理](assets/tags-hierarchy.png)
+![assign metadata form to a folder](/help/using/assets/assign-to-folder.png)
 
-**ファイル、フォルダー、コレクションをピン留めして、すばやくアクセスできるようにする**
+-->
 
-ファイル、フォルダー、コレクションを固定して、後で必要になったときにそれらの項目にすばやくアクセスできるようになりました。 固定された項目は、 **クイックアクセス** を参照してください。 リポジトリ内の保存先に移動する代わりに、My Workspace を使用してアクセスできます。
+**画像スマートタグ用の人工知能フレームワークの改善**
 
-![ワークスペースのタスク](assets/quick-access.png)
+Experience Manager Assets は、画像スマートタグ用に改善された人工知能フレームワークを使用するようになりました。 このコンテンツインテリジェンスにより、取り込み時にすべての画像アセットで使用できるスマートタグの関連性と精度が向上します。 
 
-**ごみ箱フォルダー内のアセットのフィルタリング**
+**アセットのリスト表示の列表示の設定**
 
-Assets Essentialsでは、ごみ箱フォルダー内の使用可能なアセットをフィルタリングできるようになりました。 ごみ箱フォルダー内の適切なアセットを検索するために、標準フィルターまたはカスタムフィルターを適用して、アセットを復元するか完全に削除することができます。
+Assets Essentialsでは、アセットのリスト表示に表示する列 ( ステータス、形式、Dimension、サイズなど ) を選択できるようになりました。
 
-**3D アセットのサムネールプレビュー**
+![列を設定](/help/using/assets/configure-columns.png)
 
-Assets Essentialsは、gLB、USDz、FBX、3DS、OBJ、SBSAR など、一般的な 3D ファイル形式のサムネールプレビューを生成するようになりました。 これらのファイルがAssets Essentialsにアップロードされると、デフォルトでは、システムによってサムネールが自動的に生成されます。
+**関連性に基づいて検索結果を並べ替える**
 
-![ワークスペースのタスク](assets/3d-preview.png)
-
-**上位の検索済みキーワードを表示**
-
-Assets Essentialsは、Assets Essentialsデプロイメント内で検索された上位の用語の表示を、 **インサイト** を参照してください。 詳細なインサイトに移動して、過去 30 日間または 12 ヶ月間の上位の検索結果を表示することもできます。
-
-![ワークスペースのタスク](assets/insights-top-searches.png)
-
-**メタデータフォームの強化**
-
-Assets Essentialsで、複数値のテキストおよびドロップダウンリストのプロパティコンポーネントをメタデータフォームに追加できるようになりました。
-
+Assets Essentialsは、デフォルトで、「関連性」に基づいて検索結果を並べ替えるようになりました。 検索したアセットを、`Name`、`Relevance`、`Size`、`Modified` および `Created` の昇順または降順に並べ替えることができます。
 
 **お客様からのフィードバックに基づく改善**
 
 お客様からのフィードバックに基づく機能強化およびバグ修正。
+
 
 ## 既知の問題 {#known-issues}
 
@@ -73,6 +64,40 @@ Assets Essentialsで、複数値のテキストおよびドロップダウンリ
 問題が発生した場合や機能強化のご要望については、サポートチームに[フィードバックを送付](#provide-feedback)してください。
 
 ## 過去のリリース {#past-releases}
+
+### 年6月リリース {#june2023-release}
+
+**アセットの階層タグ付けにより、検索操作を高速化**
+
+時間の経過と共に、語彙が制御されるフラットなリストは管理できなくなります。 Assets Essentialsでは、関連メタデータの適用、アセットの分類、検索のサポート、タグの再利用、検出性の向上などを容易におこなえる階層タグ付け構造がサポートされました。
+
+![タグ管理](assets/tags-hierarchy.png)
+
+**ファイル、フォルダー、コレクションをピン留めして、すばやくアクセスできるようにする**
+
+ファイル、フォルダー、コレクションを固定して、後で必要になったときにそれらの項目にすばやくアクセスできるようになりました。 固定された項目は、 **クイックアクセス** を参照してください。 リポジトリ内の保存先に移動する代わりに、My Workspace を使用してアクセスできます。
+
+![ワークスペースのタスク](assets/quick-access.png)
+
+**ごみ箱フォルダー内のアセットのフィルタリング**
+
+Assets Essentialsでは、ごみ箱フォルダー内の使用可能なアセットをフィルタリングできるようになりました。 ごみ箱フォルダー内の適切なアセットを検索するために、標準フィルターまたはカスタムフィルターを適用して、アセットを復元または完全に削除できます。
+
+**3D アセットのサムネールプレビュー**
+
+Assets Essentialsは、gLB、USDz、FBX、3DS、OBJ、SBSAR など、一般的な 3D ファイル形式のサムネールプレビューを生成するようになりました。 これらのファイルがAssets Essentialsにアップロードされると、デフォルトでは、システムによってサムネールが自動的に生成されます。
+
+![ワークスペースのタスク](assets/3d-preview.png)
+
+**上位の検索済みキーワードを表示**
+
+Assets Essentialsは、Assets Essentialsデプロイメント内で検索された上位の用語の表示を、 **インサイト** を参照してください。 詳細なインサイトに移動して、過去 30 日間または 12 ヶ月間の上位の検索結果を表示することもできます。
+
+![ワークスペースのタスク](assets/insights-top-searches.png)
+
+**メタデータフォームの強化**
+
+Assets Essentialsで、複数値のテキストおよびドロップダウンリストのプロパティコンポーネントをメタデータフォームに追加できるようになりました。
 
 ### 2023 年の複数のリリース {#multiple-releases-2023}
 

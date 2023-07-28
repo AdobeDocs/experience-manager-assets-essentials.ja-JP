@@ -4,10 +4,10 @@ description: ' [!DNL Assets Essentials] におけるアセットのメタデー�
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AG
 exl-id: cfc105d1-41fc-4418-9905-b2a28a348682
-source-git-commit: 5b9e3297c37bca0e5badc2073f8c6467e012ccde
+source-git-commit: 5942762ec76b25cc89168015edfbe3fce4c4368f
 workflow-type: tm+mt
 source-wordcount: '1558'
-ht-degree: 73%
+ht-degree: 74%
 
 ---
 
@@ -59,7 +59,7 @@ ht-degree: 73%
 
 ## 分類管理 {#taxonomy-management}
 
-また、タグを階層にネストして、カテゴリやサブカテゴリなどの関係をサポートすることもできます。 階層タグを挿入する必要がある場合は、管理者が、 [!UICONTROL 分類管理] セクション [!UICONTROL 設定]. すべてのユーザーがコンテンツを記述する際に使用できる名前空間とタグの集まりを、管理されるように作成できます。 タグ階層を [!UICONTROL 分類マネージャ] 値が一貫して制御され、使用されていることを確認する。
+また、タグを階層にネストして、カテゴリやサブカテゴリなどの関係をサポートすることもできます。 階層タグを挿入する必要がある場合は、管理者が、 [!UICONTROL 分類管理] のセクション [!UICONTROL 設定]. すべてのユーザーがコンテンツを記述する際に使用できる名前空間とタグの集まりを、管理されるように作成できます。 タグ階層は、管理者のみが [!UICONTROL 分類マネージャ] 値が一貫して制御され、使用されていることを確認する。
 
 ## メタデータフォームの設定 {#metadata-forms}
 
@@ -100,7 +100,7 @@ MIME サブタイプ／MIME タイプ／`default` フォーム／標準フォー
 
    *図：コンポーネントを追加するオプションとフォームをプレビューするオプションを備えたメタデータフォーム作成インターフェイス*
 
-1. 各コンポーネントに、 **[!UICONTROL 設定]** 右側のレールで、サポートされているプロパティとのマッピングを提供します。
+1. 各コンポーネントに対して、 **[!UICONTROL 設定]** 右側のレールで、サポートされているプロパティとのマッピングを提供します。
 1. オプションで、コンポーネントに対して、「**[!UICONTROL 必須]**」を選択してメタデータフィールドを必須にしたり、「**[!UICONTROL 読み取り専用]**」を選択してアセットの[!UICONTROL 詳細]ページでフィールドを編集できないようにしたりします。
 1. 必要に応じて、「**[!UICONTROL プレビュー]**」をクリックして、作成するフォームをプレビューします。
 1. オプションで、タブと、各タブで必要なコンポーネントを追加します。
@@ -114,7 +114,7 @@ MIME サブタイプ／MIME タイプ／`default` フォーム／標準フォー
 
 既存のフォームを再利用して新しいフォームを作成するには、メタデータフォームを選択し、ツールバーの「**[!UICONTROL コピー]**」をクリックし、名前を指定して、「**[!UICONTROL 確認]**」をクリックします。メタデータフォームを編集して変更することができます。変更したフォームは、変更後にアップロードされたアセットに対して使用されます。既存のアセットは変更されません。
 
-## プロパティコンポーネント {#property-components}
+### プロパティコンポーネント {#property-components}
 
 メタデータフォームは、次のプロパティコンポーネントのいずれかを使用してカスタマイズできます。 必要な場所にフォーム上のコンポーネントタイプをドラッグ&amp;ドロップし、コンポーネント設定を変更するだけです。
 以下に、各プロパティのタイプと保存方法の概要を示します。
@@ -134,6 +134,24 @@ MIME サブタイプ／MIME タイプ／`default` フォーム／標準フォー
 | タグ | Taxonomy Management に格納された値（xcm:tags にマッピングされた値）からタグを追加します。 |
 | キーワード | フリーフォームキーワードを追加します（dc:subject にマッピング）。 |
 | スマートタグ | メタデータタグを自動的に追加して、検索機能を強化します。 |
+
+<!--
+
+### Assign metadata form to a folder {#assign-metadata-form-folder}
+
+You can also assign a metadata form to a folder within your Assets Essentials deployment. The metadata form assigned to a folder as per the MIME type is overwritten when you apply a metadata form to a folder manually. All assets in the folder, including assets in the sub-folders, then display properties defined in the metadata form.
+
+To assign a metadata form to a folder:
+
+1. Navigate to **[!UICONTROL Settings]** > **[!UICONTROL Metadata Forms]** and select a metadata form.
+
+2. Click **[!UICONTROL Assign to Folder]**.
+
+3. Select the folder and click **[!UICONTROL Assign]**.
+
+   ![assign metadata form to a folder](/help/using/assets/assign-to-folder.png)
+
+-->
 
 ## 次の手順 {#next-steps}
 

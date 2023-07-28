@@ -3,10 +3,10 @@ title: 「[!DNL Assets Essentials] ユーザーインターフェイス」
 description: ' [!DNL Assets Essentials] のユーザーインターフェイスとナビゲーションについて説明します。'
 role: User
 exl-id: 534a8084-88f7-410e-b872-719e47e62b10
-source-git-commit: b2ec3dde3d231cdb772833dfa7c9de01b7c3dd38
+source-git-commit: 4f3141fe95a0c33b22042da4f234dd2a921cbac6
 workflow-type: tm+mt
-source-wordcount: '937'
-ht-degree: 96%
+source-wordcount: '1000'
+ht-degree: 90%
 
 ---
 
@@ -111,6 +111,16 @@ ht-degree: 96%
 Explicitly previewed assets are displayed as recently viewed assets. Give screenshot of this.
 Other use cases after previewing.
 -->
+
+## アセットのリスト表示の列表示の設定 {#configure-columns-list-view}
+
+アセットのリスト表示に表示する列を選択できます。例えば、ステータス、フォーマット、Dimension、サイズなどです。
+
+1. 選択 **[!UICONTROL Assets]** 左側のナビゲーションウィンドウで、アセットリストビューに切り替えて、 ![設定アイコン](assets/settings-icon.svg).
+
+1. リスト表示に表示する列を選択し、 **[!UICONTROL 確認]**.
+
+   ![列を設定](/help/using/assets/configure-columns.png)
 
 ## 次の手順 {#next-steps}
 
