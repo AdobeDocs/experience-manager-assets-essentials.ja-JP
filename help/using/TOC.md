@@ -10,9 +10,9 @@ feature: Assets Essentials
 role: User,Leader
 solution: Experience Manager
 source-git-commit: 95720f448d45e1e3f36d10dacbe5c0903a83b3e8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '131'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -41,10 +41,10 @@ ht-degree: 98%
 + [コレクションの管理](manage-collections.md)
 + [アセット、フォルダー、コレクションの監視](manage-notifications.md)
 + [レポートの管理](manage-reports.md)
-+ [タグの管理](tagging-management.md)
++ [タグを管理](tagging-management.md)
 + 他のソリューションとの統合 {#integration-with-other-solutions}
    + [概要](integration.md)
    + [Creative Cloud エンタープライズ版との統合](integrate-with-creative-cloud.md)
    + [Adobe Workfront との統合](integrate-with-workfront.md)
 + [ビデオ](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/overview.html?lang=ja)
-+ [アセット表示](assets-view-introduction.md)
++ [アセットビュー](assets-view-introduction.md)
