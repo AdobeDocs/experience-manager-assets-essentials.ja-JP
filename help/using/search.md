@@ -6,7 +6,7 @@ exl-id: be9597a3-056c-436c-a09e-15a03567c85a
 source-git-commit: 5942762ec76b25cc89168015edfbe3fce4c4368f
 workflow-type: tm+mt
 source-wordcount: '1042'
-ht-degree: 86%
+ht-degree: 99%
 
 ---
 
@@ -152,7 +152,7 @@ When userA is searching and userB add an asset that matches search results, will
 
 * **ダウンロード**：アセットをダウンロードします。
 
-* **削除**：アセットの削除。
+* **削除**：アセットを削除します。
 
 * **コピー**：別のフォルダーの場所にアセットをコピーします。
 
@@ -162,13 +162,13 @@ When userA is searching and userB add an asset that matches search results, will
 
 * **タスクを割り当て**：アセットのユーザーにタスクを割り当てます。
 
-* **リンクを共有**: [リンクを共有](share-links-for-assets.md) アセットにアクセスしてダウンロードできるようにするための、他のユーザーとの間のアクセス。
+* **リンクを共有**：他のユーザーとアセットの[リンクを共有](share-links-for-assets.md)して、アセットにアクセスしてダウンロードできるようにします。
 
-* **所要時間**: [運用の監視](manage-notifications.md) 実行されたアセットの特性を確認します。
+* **監視**：アセットに対して実行される[操作を監視](manage-notifications.md)します。
 
 * **ファイルの場所を表示**：アセットフォルダーの場所に移動します。
 
-* **クイックアクセスに固定**: [アセットのピン留め](my-workspace.md) 後で必要になったときのアクセスを高速化するため。 ピンされたすべての項目が **クイックアクセス** を参照してください。
+* **クイックアクセスにピン留め**：[アセットをピン留め](my-workspace.md)すると、後で必要になった際に、すばやくアクセスできるようになります。ピン留めしたすべての項目は、マイワークスペースの「**クイックアクセス**」セクションに表示されます。
 
 ## 次の手順 {#next-steps}
 
