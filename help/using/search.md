@@ -6,7 +6,7 @@ exl-id: be9597a3-056c-436c-a09e-15a03567c85a
 source-git-commit: 5942762ec76b25cc89168015edfbe3fce4c4368f
 workflow-type: tm+mt
 source-wordcount: '1042'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -50,7 +50,7 @@ ht-degree: 99%
 
 * カスタムフィルター：Assets Essentials ユーザーインターフェイスに[カスタムフィルターを追加](#custom-filters)できます。 標準フィルターに加えて、カスタムフィルターを適用し、検索結果を絞り込むことができます。
 
-検索したアセットを、`Name`、`Relevance`、`Size`、`Modified` および `Created` の昇順または降順に並べ替えることができます。検索したアセットは、 `Relevance`（デフォルト）。
+検索したアセットを、`Name`、`Relevance`、`Size`、`Modified` および `Created` の昇順または降順に並べ替えることができます。デフォルトでは、検索したアセットは `Relevance` に基づいて並べ替えられます。
 
 ## カスタムフィルターの管理 {#custom-filters}
 

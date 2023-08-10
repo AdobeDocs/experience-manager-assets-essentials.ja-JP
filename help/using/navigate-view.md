@@ -6,7 +6,7 @@ exl-id: 534a8084-88f7-410e-b872-719e47e62b10
 source-git-commit: 4f3141fe95a0c33b22042da4f234dd2a921cbac6
 workflow-type: tm+mt
 source-wordcount: '1000'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -114,11 +114,11 @@ Other use cases after previewing.
 
 ## アセットのリスト表示の列表示の設定 {#configure-columns-list-view}
 
-アセットのリスト表示に表示する列を選択できます。例えば、ステータス、フォーマット、Dimension、サイズなどです。
+ステータス、形式、ディメンション、サイズなど、アセットのリスト表示に表示する列を選択できます。
 
-1. 選択 **[!UICONTROL Assets]** 左側のナビゲーションウィンドウで、アセットリストビューに切り替えて、 ![設定アイコン](assets/settings-icon.svg).
+1. 左側のナビゲーションパネルから「**[!UICONTROL アセット]**」を選択し、アセットのリスト表示に切り替えて、![設定アイコン](assets/settings-icon.svg)をクリックします。
 
-1. リスト表示に表示する列を選択し、 **[!UICONTROL 確認]**.
+1. リスト表示に表示する必要がある列を選択し、「**[!UICONTROL 確認]**」をクリックします。
 
    ![列を設定](/help/using/assets/configure-columns.png)
 
