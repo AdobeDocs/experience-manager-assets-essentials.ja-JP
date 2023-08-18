@@ -4,10 +4,10 @@ description: ' [!DNL Assets Essentials] におけるアセットのメタデー�
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AG
 exl-id: cfc105d1-41fc-4418-9905-b2a28a348682
-source-git-commit: 5942762ec76b25cc89168015edfbe3fce4c4368f
+source-git-commit: 6a9bc34907f9eb8c7d18a8fbb139e27244538256
 workflow-type: tm+mt
-source-wordcount: '1558'
-ht-degree: 100%
+source-wordcount: '1606'
+ht-degree: 99%
 
 ---
 
@@ -58,6 +58,11 @@ ht-degree: 100%
 アップロードされたすべてのアセットに [!DNL Assets Essentials] で自動的に追加されたタグを、「[!UICONTROL スマートタグ]」セクションから削除することもできます。
 
 ## 分類の管理 {#taxonomy-management}
+
+>[!CONTEXTUALHELP]
+>id="assets_express_integration"
+>title="Adobe Expressの統合"
+>abstract="[!DNL Experience Manager Assets] には、多数の標準メタデータフィールドがデフォルトで用意されています。組織には、メタデータに対するさらなるニーズがあり、ビジネス固有のメタデータを追加するために、さらに多くのメタデータフィールドが必要です。メタデータフォームを使用すると、ビジネスごとにアセットの詳細ページにカスタムメタデータフィールドを追加できます。ビジネス固有のメタデータにより、アセットのガバナンスと検出が向上します。"
 
 また、タグを階層にネストして、カテゴリやサブカテゴリなどの関係をサポートすることもできます。階層タグを挿入する必要がある場合は、管理者が[!UICONTROL 設定]の「[!UICONTROL 分類管理]」セクションで簡単に管理できます。すべてのユーザーがコンテンツの記述中にアクセスして使用できる、管理対象の名前空間とタグのセットを作成できます。管理者のみが[!UICONTROL 分類マネージャー]でタグ階層を設定して、値が一貫して制御および使用されるようにすることができます。
 
