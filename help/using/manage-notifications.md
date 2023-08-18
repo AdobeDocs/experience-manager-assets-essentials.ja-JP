@@ -2,10 +2,10 @@
 title: 通知の管理
 description: Assets Essentials 通知を使用して、リポジトリで使用可能なアセットやフォルダーで実行した操作を監視します。
 exl-id: 5c0039a2-caa2-4b55-b963-0e7e9e542c47
-source-git-commit: 65200f73a954e4ebf4fbd6dc3a819acc6e0beda4
-workflow-type: ht
-source-wordcount: '617'
-ht-degree: 100%
+source-git-commit: 07457e86a37b5d39a6c843c2c2cf8750a6acb354
+workflow-type: tm+mt
+source-wordcount: '665'
+ht-degree: 99%
 
 ---
 
@@ -95,6 +95,11 @@ Assets Essentials は購読しているカテゴリの通知を送信するよ�
 同様に、購読解除するには、購読しているアセット、フォルダー、またはコレクションを選択し、「**[!UICONTROL ウォッチ解除]**」をクリックします。
 
 ## 通知の表示 {#view-notifications}
+
+>[!CONTEXTUALHELP]
+>id="assets_express_integration"
+>title="Adobe Expressの統合"
+>abstract="[!DNL Experience Manager Assets] には、多数の標準メタデータフィールドがデフォルトで用意されています。組織には、メタデータに対するさらなるニーズがあり、ビジネス固有のメタデータを追加するために、さらに多くのメタデータフィールドが必要です。メタデータフォームを使用すると、ビジネスごとにアセットの詳細ページにカスタムメタデータフィールドを追加できます。ビジネス固有のメタデータにより、アセットのガバナンスと検出が向上します。"
 
 通知は、Assets Essentials ユーザーインターフェイスのメニューバーの右端に表示されます。
 
