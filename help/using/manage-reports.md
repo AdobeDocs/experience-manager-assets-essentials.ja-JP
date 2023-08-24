@@ -2,10 +2,10 @@
 title: Assets Essentials でのレポートの管理
 description: Assets Essentials の「レポート」セクションのデータにアクセスして、製品と機能の使用状況を評価し、主要な成功指標に関するインサイトを導き出します。
 exl-id: c7155459-05d9-4a95-a91f-a1fa6ae9d9a4
-source-git-commit: 22786c182ac959739396f694f0a63d84efa28ae5
-workflow-type: ht
-source-wordcount: '814'
-ht-degree: 100%
+source-git-commit: 7bda2024fd9e9d2ad05ccffccf76a51b16a113fa
+workflow-type: tm+mt
+source-wordcount: '839'
+ht-degree: 94%
 
 ---
 
@@ -14,9 +14,9 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="assets_reports"
 >title="レポート"
->abstract="アセットレポートを使用すると、管理者は Adobe Experience Manager Assets Essentials 環境のアクティビティを視覚的に確認できます。このデータは、ユーザーがコンテンツや製品とどのようにやり取りするかについての有用な情報を提供します。管理者製品プロファイルに割り当てられているユーザーはすべて、インサイトダッシュボードにアクセスしたり、ユーザー定義のレポートを作成したりできます。"
+>abstract="アセットレポートを使用すると、管理者は Adobe Experience Manager Assets Essentials 環境のアクティビティを視覚的に確認できます。このデータは、ユーザーがコンテンツや製品とどのようにやり取りするかについての有用な情報を提供します。すべてのユーザーがインサイトダッシュボードにアクセスでき、管理者製品プロファイルに割り当てられたユーザーがユーザー定義のレポートを作成できます。"
 
-アセットレポートを使用すると、管理者は Adobe Experience Manager Assets Essentials 環境のアクティビティを視覚的に確認できます。このデータは、ユーザーがコンテンツや製品とどのようにやり取りするかについての有用な情報を提供します。
+アセットレポートを使用すると、管理者は Adobe Experience Manager Assets Essentials 環境のアクティビティを視覚的に確認できます。このデータは、ユーザーがコンテンツや製品とどのようにやり取りするかについての有用な情報を提供します。すべてのユーザーがインサイトダッシュボードにアクセスでき、管理者製品プロファイルに割り当てられたユーザーがユーザー定義のレポートを作成できます。
 
 ## レポートへのアクセス {#access-reports}
 
@@ -55,6 +55,7 @@ Assets Essentials を使用すると、Assets Essentials 環境のリアルタ�
 1. 「**[!UICONTROL フォルダーパスを選択]**」フィールドを使用して、レポートを実行するアセットを含むフォルダーパスを選択します。
 
 1. レポートの日付間隔を選択します。
+
    >[!NOTE]
    >
    > Assets Essentials は、すべてのローカルタイムゾーンを協定世界時（UTC）に変換します。
