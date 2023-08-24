@@ -5,7 +5,7 @@ exl-id: 5c0039a2-caa2-4b55-b963-0e7e9e542c47
 source-git-commit: 07457e86a37b5d39a6c843c2c2cf8750a6acb354
 workflow-type: tm+mt
 source-wordcount: '665'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -98,7 +98,7 @@ Assets Essentials は購読しているカテゴリの通知を送信するよ�
 
 >[!CONTEXTUALHELP]
 >id="assets_express_integration"
->title="Adobe Expressの統合"
+>title="Adobe Express の統合"
 >abstract="[!DNL Experience Manager Assets] には、多数の標準メタデータフィールドがデフォルトで用意されています。組織には、メタデータに対するさらなるニーズがあり、ビジネス固有のメタデータを追加するために、さらに多くのメタデータフィールドが必要です。メタデータフォームを使用すると、ビジネスごとにアセットの詳細ページにカスタムメタデータフィールドを追加できます。ビジネス固有のメタデータにより、アセットのガバナンスと検出が向上します。"
 
 通知は、Assets Essentials ユーザーインターフェイスのメニューバーの右端に表示されます。
