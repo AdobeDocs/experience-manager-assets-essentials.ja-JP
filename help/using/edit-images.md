@@ -3,10 +3,10 @@ title: 画像の編集
 description: ' [!DNL Adobe Photoshop Express]  を利用したオプションを使用して画像を編集し、更新した画像をバージョンとして保存します。'
 role: User
 exl-id: fc21a6ee-bf23-4dbf-86b0-74695a315b2a
-source-git-commit: 10709417b2656ab15a3bade94bea701f50ec5ae3
+source-git-commit: c34fa28a698523dee00f972ede0781305aee6e60
 workflow-type: tm+mt
-source-wordcount: '868'
-ht-degree: 53%
+source-wordcount: '896'
+ht-degree: 52%
 
 ---
 
@@ -22,7 +22,12 @@ ht-degree: 53%
 
 <!--The editing actions that are available are Spot healing, Crop and straighten, Resize image, and Adjust image.-->
 
-## 次を使用して画像を編集： [!DNL Adobe Express] {#edit-using-express}
+## 「編集」Adobe Express {#edit-using-express}
+
+>[!CONTEXTUALHELP]
+>id="assets_express_integration"
+>title="Adobe Express の統合"
+>abstract="AEM Assets内で直接利用できるAdobe Expressを活用した、簡単で直感的な画像編集ツールにより、コンテンツの再利用性を高め、コンテンツの速度を向上させます。"
 
 ### 画像のサイズ変更 {#resize-image-using-express}
 
