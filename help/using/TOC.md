@@ -9,10 +9,10 @@ feature-set: Experience Manager Assets,Experience Manager
 feature: Assets Essentials
 role: User,Leader
 solution: Experience Manager
-source-git-commit: 95720f448d45e1e3f36d10dacbe5c0903a83b3e8
-workflow-type: ht
-source-wordcount: '131'
-ht-degree: 100%
+source-git-commit: e6720e7f3f19e81b50feece7e7adaddca0b861d8
+workflow-type: tm+mt
+source-wordcount: '134'
+ht-degree: 97%
 
 ---
 
@@ -33,6 +33,7 @@ ht-degree: 100%
 + [サポートされているファイルタイプとユースケース](supported-file-formats.md)
 + [アセットの表示](navigate-view.md)
 + [アセットのアップロードと追加](add-delete.md)
++ [アセットの一括読み込み](bulk-import-assets-view.md)
 + [アセットの検索と検出](search.md)
 + [アセット管理タスク](manage-organize.md)
 + [画像の編集](edit-images.md)
