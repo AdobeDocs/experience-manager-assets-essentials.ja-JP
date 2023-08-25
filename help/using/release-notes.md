@@ -4,16 +4,16 @@ description: ' [!DNL Assets Essentials] のリリースノートと既知の問�
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AK
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
-source-git-commit: c61a22ad3c44b26762a8afbb93422197a5cf92ca
-workflow-type: ht
-source-wordcount: '2154'
-ht-degree: 100%
+source-git-commit: de90b6958e4db44e8706d4a74558006702c3057c
+workflow-type: tm+mt
+source-wordcount: '2298'
+ht-degree: 93%
 
 ---
 
 # [!DNL Assets Essentials] のリリースノート {#release-notes}
 
-Assets Essentials の最新リリースは 2023年7月27日（PT）にリリースされました。
+ Assets Essentials の最新リリースは 2023年8月24日（PT）にリリースされました。
 
 このリリースの機能のリストには、次が含まれます。
 
@@ -27,19 +27,23 @@ You can now assign metadata form to a specific folder within your Assets Essenti
 
 -->
 
-**画像スマートタグ用の人工知能フレームワークの改善**
+**データソースからのアセットの一括読み込み**
 
-Experience Manager Assets は、画像スマートタグ用に改善された人工知能フレームワークを使用するようになりました。このコンテンツインテリジェンスにより、取り込み時にすべての画像アセットで使用できるスマートタグの関連性と精度が向上します。
+管理者は、データソースからAEM Assetsに大量のアセットを読み込めるようになりました。 管理者は、個々のアセットやフォルダーをAEM Assetsにアップロードする必要はありません。 一括インポートでサポートされるデータソースには、Azure、AWS、Google Cloud、Dropboxが含まれます。
 
-**アセットのリスト表示の列表示の設定**
+![データソースからのアセットの一括読み込み](/help/using/assets/bulk-import.png)
 
-Assets Essentials では、ステータス、形式、ディメンション、サイズなど、アセット のリスト表示に表示する列を選択できるようになりました。
+**画像編集ツール (Adobe Express機能 )**
 
-![列を設定](/help/using/assets/configure-columns.png)
+AEM Assets内で直接利用できるAdobe Expressを活用した、簡単で直感的な画像編集ツールにより、コンテンツの再利用性を高め、コンテンツの速度を向上させます。
 
-**関連性に基づいた検索結果の並べ替え**
+![画像編集とAdobe Express](/help/using/assets/edit-adobe-express.png)
 
-Assets Essentials では、デフォルトで、関連性に基づいて検索結果を並べ替えるようになりました。検索したアセットを、`Name`、`Relevance`、`Size`、`Modified` および `Created` の昇順または降順に並べ替えることができます。
+**My Workspace クイックアクセス用に項目をピン留めする際の柔軟性**
+
+選択内容に基づいて、自分用、組織全体用、またはグループのリスト用の項目を選択してピン留めする機能で、選択内容に基づいて My Workspace のクイックアクセスセクションに表示されます。
+
+![グループの項目をピン留めする](assets/pin-items-for-groups.png)
 
 **お客様からのフィードバックに基づく改善**
 
@@ -65,7 +69,23 @@ Assets Essentials では、デフォルトで、関連性に基づいて検索�
 
 ## 過去のリリース {#past-releases}
 
-### 年6月リリース {#june2023-release}
+### 2023年7月リリース {#july2023-release}
+
+**画像スマートタグ用の人工知能フレームワークの改善**
+
+Experience Manager Assets は、画像スマートタグ用に改善された人工知能フレームワークを使用するようになりました。このコンテンツインテリジェンスにより、取り込み時にすべての画像アセットで使用できるスマートタグの関連性と精度が向上します。
+
+**アセットのリスト表示の列表示の設定**
+
+Assets Essentials では、ステータス、形式、ディメンション、サイズなど、アセット のリスト表示に表示する列を選択できるようになりました。
+
+![列を設定](/help/using/assets/configure-columns.png)
+
+**関連性に基づいた検索結果の並べ替え**
+
+Assets Essentials では、デフォルトで、関連性に基づいて検索結果を並べ替えるようになりました。検索したアセットを、`Name`、`Relevance`、`Size`、`Modified` および `Created` の昇順または降順に並べ替えることができます。
+
+### 2023年6月リリース {#june2023-release}
 
 **アセットの階層タグ付けにより、検索エクスペリエンスを高速化**
 
