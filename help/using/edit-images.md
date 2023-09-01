@@ -3,10 +3,10 @@ title: 画像の編集
 description: ' [!DNL Adobe Photoshop Express]  を利用したオプションを使用して画像を編集し、更新した画像をバージョンとして保存します。'
 role: User
 exl-id: fc21a6ee-bf23-4dbf-86b0-74695a315b2a
-source-git-commit: c34fa28a698523dee00f972ede0781305aee6e60
+source-git-commit: 701da4ddf9dcadb9e8ad3070877788344d0210fc
 workflow-type: tm+mt
-source-wordcount: '896'
-ht-degree: 55%
+source-wordcount: '908'
+ht-degree: 54%
 
 ---
 
@@ -34,10 +34,10 @@ ht-degree: 55%
 画像を特定のサイズに変更するのが一般的なユースケースです。[!DNL Assets Essentials] では、特定の写真サイズに対応する新しい解像度を事前に計算しておくことで、一般的な写真サイズに合わせて画像のサイズをすばやく変更できます。を使用して画像のサイズを変更するには [!DNL Assets Essentials]、次の手順に従います。
 
 1. 画像を選択し、 **編集**.
-2. クリック **[!DNL Resize Image]** 左側のウィンドウで使用できるクイックアクションから。
+2. クリック **[!UICONTROL 画像のサイズ変更]** 左側のウィンドウで使用できるクイックアクションから。
 3. 次の中から適切なソーシャルメディアプラットフォームを選択します。 **[!UICONTROL サイズ変更]** 」ドロップダウンリストから選択し、表示されるオプションから画像サイズを選択します。
 4. 必要に応じて、 **[!UICONTROL 画像の拡大・縮小]** フィールドに入力します。
-5. クリック **[!DNL Apply]** 変更を適用します。
+5. クリック **[!UICONTROL 適用]** 変更を適用します。
    ![画像編集とAdobe Express](/help/using/assets/adobe-express-resize-image.png)
 
    編集した画像をダウンロードできます。 編集したアセットを同じアセットの新しいバージョンとして保存するか、新しいアセットとして保存することができます。
@@ -48,8 +48,8 @@ ht-degree: 55%
 以下に示すように、簡単な手順で画像から背景を削除できます。
 
 1. 画像を選択し、 **編集**.
-2. クリック **[!DNL Remove Background]** 左側のウィンドウで使用できるクイックアクションから。 Experience Manager Assetsは、背景のない画像を表示します。
-3. クリック **[!DNL Apply]** 変更を適用します。
+2. クリック **[!UICONTROL 背景を削除]** 左側のウィンドウで使用できるクイックアクションから。 Experience Manager Assetsは、背景のない画像を表示します。
+3. クリック **[!UICONTROL 適用]** 変更を適用します。
    ![画像と共に保存Adobe Express](/help/using/assets/adobe-express-remove-background.png)
 
    編集した画像をダウンロードできます。 編集したアセットを同じアセットの新しいバージョンとして保存するか、新しいアセットとして保存することができます。
@@ -59,9 +59,9 @@ ht-degree: 55%
 埋め込み機能を使用すると、画像を最適なサイズに簡単に変換できます [!DNL Adobe Express] クイックアクション。
 
 1. 画像を選択し、 **編集**.
-2. クリック **[!DNL Crop Image]** 左側のウィンドウで使用できるクイックアクションから。
+2. クリック **[!UICONTROL 画像を切り抜く]** 左側のウィンドウで使用できるクイックアクションから。
 3. 画像の隅にあるハンドルをドラッグして、目的の切り抜きを作成します。
-4. 「**[!DNL Apply]**」をクリックします。
+4. 「**[!UICONTROL 適用]**」をクリックします。
    ![画像と共に保存Adobe Express](/help/using/assets/adobe-express-crop-image.png)
 切り抜いた画像をダウンロードできます。 編集したアセットを同じアセットの新しいバージョンとして保存するか、新しいアセットとして保存することができます。
 
@@ -70,7 +70,7 @@ ht-degree: 55%
 Adobe Expressを使用すると、JPEG画像を PNG 形式にすばやく変換できます。 以下の手順を実行します。
 
 1. 画像を選択し、 **編集**.
-2. クリック **[!DNL JPEG to PNG]** 左側のウィンドウで使用できるクイックアクションから。
+2. クリック **[!UICONTROL JPEGから PNG]** 左側のウィンドウで使用できるクイックアクションから。
    ![PNG に変換 (Adobe Express)](/help/using/assets/adobe-express-convert-image.png)
 3. 「**[!UICONTROL ダウンロード]**」をクリックします。
 
