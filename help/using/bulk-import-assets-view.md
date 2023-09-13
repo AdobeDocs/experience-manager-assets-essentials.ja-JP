@@ -4,7 +4,7 @@ description: 新しい Assets UI（Assets ビュー）を使用してアセッ�
 source-git-commit: 946dc5ea27c61eb5f2dc74054ebdd65cdbdb71a8
 workflow-type: tm+mt
 source-wordcount: '1244'
-ht-degree: 21%
+ht-degree: 25%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 21%
 >[!CONTEXTUALHELP]
 >id="assets_bulk_import"
 >title="アセットの一括読み込み"
->abstract="管理者は、Assets ビューを使用して、データソースからExperience Manager Assetsに大量のアセットを読み込めるようになりました。 管理者は、個々のアセットやフォルダーをExperience Manager Assetsにアップロードする必要はありません。 一括インポートでサポートされるクラウドストレージプロバイダーには、Azure、AWS、Google Cloud、Dropboxが含まれます。"
+>abstract="管理者は、Assets ビューを使用して、データソースからExperience Manager Assetsに大量のアセットを読み込めるようになりました。管理者は、個々のアセットやフォルダーを Experience Manager Assets にアップロードする必要がなくなりました。一括読み込みでサポートされるクラウドストレージプロバイダーには、Azure、AWS、Google Cloud、Dropbox が含まれます。"
 
 AEM Assets表示での一括読み込みを使用すると、管理者は、データソースからAEM Assetsに大量のアセットを読み込むことができます。 管理者は、個々のアセットやフォルダーをAEM Assetsにアップロードする必要はありません。
 
