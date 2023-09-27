@@ -4,10 +4,10 @@ description: ' [!DNL Assets Essentials] におけるアセットのメタデー�
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AG
 exl-id: cfc105d1-41fc-4418-9905-b2a28a348682
-source-git-commit: 1897989934b12b0f88b56461c76833273ca04447
-workflow-type: ht
-source-wordcount: '1558'
-ht-degree: 100%
+source-git-commit: 1df4ab7705b5478c86531a5b4cae57b09ef5a0d5
+workflow-type: tm+mt
+source-wordcount: '1686'
+ht-degree: 92%
 
 ---
 
@@ -135,25 +135,21 @@ MIME サブタイプ／MIME タイプ／`default` フォーム／標準フォー
 | キーワード | フリーフォームキーワードを追加します（dc:subject にマッピング）。 |
 | スマートタグ | メタデータタグを自動的に追加して、検索機能を強化します。 |
 
-<!--
+### フォルダーへのメタデータフォームの割り当て {#assign-metadata-form-folder}
 
-### Assign metadata form to a folder {#assign-metadata-form-folder}
+メタデータフォームをフォルダーデプロイメント内のAssets Essentialsーに割り当てることもできます。 MIME タイプに従ってフォルダーに割り当てられたメタデータフォームは、メタデータフォームをフォルダーに手動で適用すると上書きされます。 フォルダー内のすべてのアセット（サブフォルダー内のアセットを含む）に、メタデータフォームで定義されたプロパティが表示されます。
 
-You can also assign a metadata form to a folder within your Assets Essentials deployment. The metadata form assigned to a folder as per the MIME type is overwritten when you apply a metadata form to a folder manually. All assets in the folder, including assets in the sub-folders, then display properties defined in the metadata form.
+フォルダーにメタデータフォームを割り当てるには：
 
-To assign a metadata form to a folder:
+1. に移動します。 **[!UICONTROL 設定]** > **[!UICONTROL メタデータForms]** メタデータフォームを選択します。
 
-1. Navigate to **[!UICONTROL Settings]** > **[!UICONTROL Metadata Forms]** and select a metadata form.
+2. クリック **[!UICONTROL フォルダーに割り当て]**.
 
-2. Click **[!UICONTROL Assign to Folder]**.
+3. フォルダーを選択し、 **[!UICONTROL 割り当て]**.
 
-3. Select the folder and click **[!UICONTROL Assign]**.
+   ![フォルダーにメタデータフォームを割り当て](/help/using/assets/assign-to-folder.png)
 
-   ![assign metadata form to a folder](/help/using/assets/assign-to-folder.png)
-
-   You can also navigate to the folder details page and select a metadata form from the folder properties available in the right pane to assign the metadata form to the folder.
-
--->
+   また、フォルダーの詳細ページに移動し、右側のウィンドウで使用可能なフォルダープロパティからメタデータフォームを選択して、メタデータフォームをフォルダーに割り当てることもできます。
 
 ## 次の手順 {#next-steps}
 

@@ -4,28 +4,24 @@ description: ' [!DNL Assets Essentials] のリリースノートと既知の問�
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AK
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
-source-git-commit: de90b6958e4db44e8706d4a74558006702c3057c
+source-git-commit: 1df4ab7705b5478c86531a5b4cae57b09ef5a0d5
 workflow-type: tm+mt
-source-wordcount: '2298'
-ht-degree: 93%
+source-wordcount: '2342'
+ht-degree: 92%
 
 ---
 
 # [!DNL Assets Essentials] のリリースノート {#release-notes}
 
- Assets Essentials の最新リリースは 2023年8月24日（PT）にリリースされました。
+Assets Essentialsの現在のリリースは 2023 年 9 月 21 日にリリースされました。
 
-このリリースの機能のリストには、次が含まれます。
+最近追加された機能のリストは次のとおりです。
 
-<!--
+**フォルダーへのメタデータフォームの割り当て**
 
-**Assign metadata form to a folder**
+メタデータフォームを Folders デプロイメント内の特定のフォルダーに割り当てることができるAssets Essentialsになりました。 フォルダー内のすべてのアセット（サブフォルダー内のアセットを含む）には、割り当てられたメタデータフォームで定義されたプロパティが表示されます。
 
-You can now assign metadata form to a specific folder within your Assets Essentials deployment. All assets in the folder, including assets in the sub-folders, then display properties defined in the assigned metadata form.
-
-![assign metadata form to a folder](/help/using/assets/assign-to-folder.png)
-
--->
+![フォルダーにメタデータフォームを割り当て](/help/using/assets/assign-to-folder.png)
 
 **データソースからのアセットの一括読み込み**
 
@@ -35,7 +31,7 @@ You can now assign metadata form to a specific folder within your Assets Essenti
 
 **画像編集ツール (Adobe Express機能 )**
 
-AEM Assets内で直接利用できるAdobe Expressを活用した、簡単で直感的な画像編集ツールにより、コンテンツの再利用性を高め、コンテンツの速度を向上させます。
+AEM Assets 内で直接使用できる Adobe Express を活用した、簡単で直感的な画像編集ツールにより、コンテンツの再利用性を高め、コンテンツの速度を向上させます。
 
 ![画像編集とAdobe Express](/help/using/assets/edit-adobe-express.png)
 
