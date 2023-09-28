@@ -1,25 +1,25 @@
 ---
-title: Assets ビューを使用したアセットの一括読み込み
-description: 新しい Assets UI（Assets ビュー）を使用してアセットを一括読み込む方法を説明します。 管理者は、大量のアセットをデータソースからAEM Assetsに読み込むことができます。
-source-git-commit: 946dc5ea27c61eb5f2dc74054ebdd65cdbdb71a8
+title: Assets Essentialsを使用したアセットの一括読み込み
+description: 新しい Assets UI(Assets Essentials) を使用してアセットを一括読み込む方法を説明します。 管理者は、大量のアセットをデータソースからAEM Assetsに読み込むことができます。
+source-git-commit: 8708a9140b283ab2f45db7d466c069e53fb28b2a
 workflow-type: tm+mt
-source-wordcount: '1244'
-ht-degree: 25%
+source-wordcount: '1245'
+ht-degree: 24%
 
 ---
 
-# Assets ビューを使用したアセットの一括読み込み  {#bulk-import-assets-view}
+# Assets Essentialsを使用したアセットの一括読み込み  {#bulk-import-essentials}
 
 >[!CONTEXTUALHELP]
 >id="assets_bulk_import"
 >title="アセットの一括読み込み"
->abstract="管理者は、Assets ビューを使用して、データソースからExperience Manager Assetsに大量のアセットを読み込めるようになりました。管理者は、個々のアセットやフォルダーを Experience Manager Assets にアップロードする必要がなくなりました。一括読み込みでサポートされるクラウドストレージプロバイダーには、Azure、AWS、Google Cloud、Dropbox が含まれます。"
+>abstract="管理者は、Assets Essentialsを使用してデータソースからExperience Manager Assetsに大量のアセットを読み込めるようになりました。 管理者は、個々のアセットやフォルダーを Experience Manager Assets にアップロードする必要がなくなりました。一括読み込みでサポートされるクラウドストレージプロバイダーには、Azure、AWS、Google Cloud、Dropbox が含まれます。"
 
-AEM Assets表示での一括読み込みを使用すると、管理者は、データソースからAEM Assetsに大量のアセットを読み込むことができます。 管理者は、個々のアセットやフォルダーをAEM Assetsにアップロードする必要はありません。
+AEM Assets Essentials での一括読み込みを使用すると、管理者は、データソースからAEM Assetsに大量のアセットを読み込むことができます。 管理者は、個々のアセットやフォルダーをAEM Assetsにアップロードする必要はありません。
 
 >[!NOTE]
 >
->Assets 表示の一括インポーターは、管理者表示の一括インポーターと同じバックエンドを使用します。 ただし、から読み込むデータソースが増え、ユーザーエクスペリエンスがより効率的になります。
+>Assets Essentialsの一括インポーターは、Assetsas a Cloud Serviceの一括インポーターと同じバックエンドを使用します。 ただし、Assets Essentialsでは、から読み込むデータソースが増え、ユーザーエクスペリエンスがより効率的になります。
 
 次のデータソースからアセットを読み込むことができます。
 
@@ -74,7 +74,7 @@ AEM Assets表示での一括読み込みを使用すると、管理者は、デ�
 
 一括読み込み時に、[!DNL Experience Manager] は、既存のフォルダーを探してアセットやフォルダーの再読み込みを避けると共に、読み込みが行われる親フォルダーに適用されるサニタイズルールを検証します。親フォルダーにサニタイズルールが適用される場合、インポートソースにも同じルールが適用されます。新規読み込みの場合、アセットやフォルダーのファイル名を管理するために、次のサニタイズルールが適用されます。
 
-一括読み込み時の禁止名、アセット名の処理、フォルダー名の処理について詳しくは、 [管理ビューでの一括インポート中のファイル名の処理](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/add-assets.html?lang=en#filename-handling-bulkimport).
+一括読み込み時の禁止名、アセット名の処理、フォルダー名の処理について詳しくは、 [一括インポート中のファイル名の処理](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/add-assets.html?lang=en#filename-handling-bulkimport).
 
 ## 既存の一括インポート設定を表示 {#view-import-configuration}
 
