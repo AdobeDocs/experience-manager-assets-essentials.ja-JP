@@ -1,10 +1,11 @@
 ---
 title: Assets Essentialsを使用したアセットの一括読み込み
 description: 新しい Assets UI(Assets Essentials) を使用してアセットを一括読み込む方法を説明します。 管理者は、大量のアセットをデータソースからAEM Assetsに読み込むことができます。
-source-git-commit: 8708a9140b283ab2f45db7d466c069e53fb28b2a
+exl-id: 5f5fc15e-959b-48b6-834a-42b213512b49
+source-git-commit: 77accbc70d973a9b4afddde1c8bcd60c37ff636d
 workflow-type: tm+mt
 source-wordcount: '1245'
-ht-degree: 24%
+ht-degree: 25%
 
 ---
 
@@ -13,7 +14,7 @@ ht-degree: 24%
 >[!CONTEXTUALHELP]
 >id="assets_bulk_import"
 >title="アセットの一括読み込み"
->abstract="管理者は、Assets Essentialsを使用してデータソースからExperience Manager Assetsに大量のアセットを読み込めるようになりました。 管理者は、個々のアセットやフォルダーを Experience Manager Assets にアップロードする必要がなくなりました。一括読み込みでサポートされるクラウドストレージプロバイダーには、Azure、AWS、Google Cloud、Dropbox が含まれます。"
+>abstract="管理者は、Assets Essentials を使用して、データソースから Experience Manager Assets に大量のアセットを読み込めるようになりました。管理者は、個々のアセットやフォルダーを Experience Manager Assets にアップロードする必要がなくなりました。一括読み込みでサポートされるクラウドストレージプロバイダーには、Azure、AWS、Google Cloud、Dropbox が含まれます。"
 
 AEM Assets Essentials での一括読み込みを使用すると、管理者は、データソースからAEM Assetsに大量のアセットを読み込むことができます。 管理者は、個々のアセットやフォルダーをAEM Assetsにアップロードする必要はありません。
 
@@ -138,4 +139,3 @@ AEM Assets Essentials での一括読み込みを使用すると、管理者は�
 ## 一括読み込みの実行後にアセットに移動する {#view-assets-after-bulk-import}
 
 一括読み込みジョブの実行後にアセットが読み込まれる Assets のターゲット位置を表示するには、設定名に対応する「 ... 」をクリックし、 **[!UICONTROL アセットを表示]**.
-
