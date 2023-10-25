@@ -6,23 +6,23 @@ exl-id: fc21a6ee-bf23-4dbf-86b0-74695a315b2a
 source-git-commit: 701da4ddf9dcadb9e8ad3070877788344d0210fc
 workflow-type: tm+mt
 source-wordcount: '908'
-ht-degree: 54%
+ht-degree: 100%
 
 ---
 
 # [!DNL Assets Essentials] での画像の編集  {#edit-images}
 
-[!DNL Assets Essentials] は、を利用してわかりやすい編集オプションを提供します。 [!DNL Adobe Express] および [!DNL Adobe Photoshop Express]. 次を使用して使用可能な編集アクション： [!DNL Adobe Express] は、画像のサイズ変更、背景の削除、画像の切り抜き、およびJPEGの PNG への変換です。
+[!DNL Assets Essentials] には、[!DNL Adobe Express] と [!DNL Adobe Photoshop Express] を利用した使いやすい編集オプションが用意されています。[!DNL Adobe Express] を使用すると、画像のサイズ変更、背景の削除、画像の切り抜き、JPEG から PNG への変換といった編集アクションを使用できます。
 
-画像の編集後、新しい画像を新しいバージョンとして保存できます。バージョン管理を使用すると、必要に応じて後で元のアセットに戻すことができます。画像を編集するには、 [プレビューを開く](/help/using/navigate-view.md#preview-assets) をクリックします。 **[!UICONTROL 画像を編集]**.
+画像の編集後、新しい画像を新しいバージョンとして保存できます。バージョン管理を使用すると、必要に応じて後で元のアセットに戻すことができます。画像を編集するには、[プレビューを開き](/help/using/navigate-view.md#preview-assets)、「**[!UICONTROL 画像を編集]**」をクリックします。
 
 >[!NOTE]
 >
->PNG および画像ファイルタイプの画像は、次を使用してJPEGできます。 [!DNL Adobe Express].
+>[!DNL Adobe Express] を使用すると、PNG および JPEG ファイルタイプの画像を編集できます。
 
 <!--The editing actions that are available are Spot healing, Crop and straighten, Resize image, and Adjust image.-->
 
-## 「編集」Adobe Express {#edit-using-express}
+## Adobe Express を使用した画像の編集 {#edit-using-express}
 
 >[!CONTEXTUALHELP]
 >id="assets_express_integration"
@@ -31,56 +31,56 @@ ht-degree: 54%
 
 ### 画像のサイズ変更 {#resize-image-using-express}
 
-画像を特定のサイズに変更するのが一般的なユースケースです。[!DNL Assets Essentials] では、特定の写真サイズに対応する新しい解像度を事前に計算しておくことで、一般的な写真サイズに合わせて画像のサイズをすばやく変更できます。を使用して画像のサイズを変更するには [!DNL Assets Essentials]、次の手順に従います。
+画像を特定のサイズに変更するのが一般的なユースケースです。[!DNL Assets Essentials] では、特定の写真サイズに対応する新しい解像度を事前に計算しておくことで、一般的な写真サイズに合わせて画像のサイズをすばやく変更できます。[!DNL Assets Essentials] を使用して画像のサイズを変更するには、次の手順に従います。
 
-1. 画像を選択し、 **編集**.
-2. クリック **[!UICONTROL 画像のサイズ変更]** 左側のウィンドウで使用できるクイックアクションから。
-3. 次の中から適切なソーシャルメディアプラットフォームを選択します。 **[!UICONTROL サイズ変更]** 」ドロップダウンリストから選択し、表示されるオプションから画像サイズを選択します。
-4. 必要に応じて、 **[!UICONTROL 画像の拡大・縮小]** フィールドに入力します。
-5. クリック **[!UICONTROL 適用]** 変更を適用します。
-   ![画像編集とAdobe Express](/help/using/assets/adobe-express-resize-image.png)
+1. 画像を選択し、「**編集**」をクリックします。
+2. 左側のパネルにあるクイックアクションから「**[!UICONTROL 画像のサイズを変更]**」をクリックします。
+3. **[!UICONTROL サイズを変更]**&#x200B;ドロップダウンリストから適切なソーシャルメディアプラットフォームを選択し、表示されるオプションから画像サイズを選択します。
+4. 必要に応じて、「**[!UICONTROL 画像の拡大・縮小]**」フィールドを使用して画像を拡大・縮小します。
+5. 「**[!UICONTROL 適用]**」をクリックし、変更を適用します。
+   ![Adobe Express を使用した画像の編集](/help/using/assets/adobe-express-resize-image.png)
 
-   編集した画像をダウンロードできます。 編集したアセットを同じアセットの新しいバージョンとして保存するか、新しいアセットとして保存することができます。
-   ![画像と共に保存Adobe Express](/help/using/assets/adobe-express-resize-save.png)
+   編集した画像はダウンロードできます。編集したアセットを同じアセットの新しいバージョンとして保存するか、新しいアセットとして保存することができます。
+   ![Adobe Express を使用した画像の保存](/help/using/assets/adobe-express-resize-save.png)
 
 ### 背景を削除 {#remove-background-using-express}
 
-以下に示すように、簡単な手順で画像から背景を削除できます。
+以下に示すように、いくつかの簡単な手順で画像から背景を削除できます。
 
-1. 画像を選択し、 **編集**.
-2. クリック **[!UICONTROL 背景を削除]** 左側のウィンドウで使用できるクイックアクションから。 Experience Manager Assetsは、背景のない画像を表示します。
-3. クリック **[!UICONTROL 適用]** 変更を適用します。
-   ![画像と共に保存Adobe Express](/help/using/assets/adobe-express-remove-background.png)
+1. 画像を選択し、「**編集**」をクリックします。
+2. 左側のパネルにあるクイックアクションから「**[!UICONTROL 背景を削除]**」をクリックします。Experience Manager Assets では、背景のない画像が表示されます。
+3. 「**[!UICONTROL 適用]**」をクリックし、変更を適用します。
+   ![Adobe Express を使用した画像の保存](/help/using/assets/adobe-express-remove-background.png)
 
-   編集した画像をダウンロードできます。 編集したアセットを同じアセットの新しいバージョンとして保存するか、新しいアセットとして保存することができます。
+   編集した画像はダウンロードできます。編集したアセットを同じアセットの新しいバージョンとして保存するか、新しいアセットとして保存することができます。
 
-### 画像の切り抜き {#crop-image-using-express}
+### 画像を切り抜き {#crop-image-using-express}
 
-埋め込み機能を使用すると、画像を最適なサイズに簡単に変換できます [!DNL Adobe Express] クイックアクション。
+埋め込まれた [!DNL Adobe Express] クイックアクションを使用すると、画像を完璧なサイズに簡単に変換できます。
 
-1. 画像を選択し、 **編集**.
-2. クリック **[!UICONTROL 画像を切り抜く]** 左側のウィンドウで使用できるクイックアクションから。
+1. 画像を選択し、「**編集**」をクリックします。
+2. 左側のパネルにあるクイックアクションから「**[!UICONTROL 画像を切り抜き]**」をクリックします。
 3. 画像の隅にあるハンドルをドラッグして、目的の切り抜きを作成します。
 4. 「**[!UICONTROL 適用]**」をクリックします。
-   ![画像と共に保存Adobe Express](/help/using/assets/adobe-express-crop-image.png)
-切り抜いた画像をダウンロードできます。 編集したアセットを同じアセットの新しいバージョンとして保存するか、新しいアセットとして保存することができます。
+   ![Adobe Express を使用した画像の保存](/help/using/assets/adobe-express-crop-image.png)
+切り抜いた画像はダウンロードできます。編集したアセットを同じアセットの新しいバージョンとして保存するか、新しいアセットとして保存することができます。
 
-### JPEGを PNG に変換 {#convert-jpeg-to-png-using-express}
+### JPEG を PNG に変換 {#convert-jpeg-to-png-using-express}
 
-Adobe Expressを使用すると、JPEG画像を PNG 形式にすばやく変換できます。 以下の手順を実行します。
+Adobe Express を使用すると、JPEG 画像を PNG 形式にすばやく変換できます。以下の手順を実行します。
 
-1. 画像を選択し、 **編集**.
-2. クリック **[!UICONTROL JPEGから PNG]** 左側のウィンドウで使用できるクイックアクションから。
-   ![PNG に変換 (Adobe Express)](/help/using/assets/adobe-express-convert-image.png)
+1. 画像を選択し、「**編集**」をクリックします。
+2. 左側のパネルにあるクイックアクションから「**[!UICONTROL JPEG を PNG に変換]**」をクリックします。
+   ![Adobe Express を使用した PNG への変換](/help/using/assets/adobe-express-convert-image.png)
 3. 「**[!UICONTROL ダウンロード]**」をクリックします。
 
 ### 制限事項 {#limitations-adobe-express}
 
-* サポートされる画像解像度：最小 — 50 ピクセル、最大 — 6000 ピクセル/サイズ
+* サポートされる画像解像度：最小 - 50 ピクセル、最大 - サイズあたり 6000 ピクセル
 
-* サポートされる最大ファイルサイズ： 17 MB
+* サポートされる最大ファイルサイズ：17 MB
 
-## 次を使用して画像を編集： [!DNL Adobe Photoshop Express] {#edit-using-photoshop-express}
+## [!DNL Adobe Photoshop Express] を使用した画像の編集 {#edit-using-photoshop-express}
 
 <!--
 After editing an image, you can save the new image as a new version. Versioning helps you to revert to the original asset later, if needed. To edit an image, [open its preview](/help/using/navigate-view.md#preview-assets) and click **[!UICONTROL Edit Image]** ![edit icon](assets/do-not-localize/edit-icon.png) from the rail on the right.
@@ -105,7 +105,7 @@ For more information about how Spot Healing works in Photoshop, see [retouching 
 
 ### 画像の切り抜きと角度補正 {#crop-straighten-images-using-photoshop-express}
 
-基本的な切り抜き、画像の回転、水平方向または垂直方向の反転、人気のある Social メディア Web サイトに適したサイズに切り抜くことができる切り抜きと直線化オプションを使用します。
+切り抜きと角度補正オプションを使用すると、基本的な切り抜き、画像の回転、水平方向または垂直方向の反転を行ったうえで、一般的なソーシャルメディア web サイトに適したサイズに切り抜くことができます。
 
 編集内容を保存するには、「**[!UICONTROL 画像を切り抜き]**」をクリックします。編集後、新しい画像をバージョンとして保存できます。
 
