@@ -4,42 +4,28 @@ description: ' [!DNL Assets Essentials] のリリースノートと既知の問�
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AK
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
-source-git-commit: 1df4ab7705b5478c86531a5b4cae57b09ef5a0d5
+source-git-commit: 347ec8c64daa46f603b41dd3845503863a1ccedd
 workflow-type: tm+mt
-source-wordcount: '2342'
-ht-degree: 92%
+source-wordcount: '2435'
+ht-degree: 93%
 
 ---
 
 # [!DNL Assets Essentials] のリリースノート {#release-notes}
 
-Assets Essentialsの現在のリリースは 2023 年 9 月 21 日にリリースされました。
+Assets Essentialsの現在のリリースは 2023 年 10 月 26 日にリリースされました。
 
-最近追加された機能のリストは次のとおりです。
+新しい機能は次のとおりです。
 
-**フォルダーへのメタデータフォームの割り当て**
+**OneDrive データソースからのアセットの一括読み込み**
 
-メタデータフォームを Folders デプロイメント内の特定のフォルダーに割り当てることができるAssets Essentialsになりました。 フォルダー内のすべてのアセット（サブフォルダー内のアセットを含む）には、割り当てられたメタデータフォームで定義されたプロパティが表示されます。
+管理者は、次の操作を実行できるようになりました。 [OneDrive からAEM Assetsに大量のアセットを読み込む](/help/using/bulk-import-assets-view.md). 一括インポートでサポートされるデータソースの最新のリストには、Azure、AWS、Google Cloud、Dropbox、OneDrive が含まれています。
 
-![フォルダーにメタデータフォームを割り当て](/help/using/assets/assign-to-folder.png)
+![フォルダーにメタデータフォームを割り当て](/help/using/assets/bulk-import-source-details.png)
 
-**データソースからのアセットの一括読み込み**
+**組織間のライブラリの権限付与のサポート**
 
-管理者は、データソースからAEM Assetsに大量のアセットを読み込めるようになりました。 管理者は、個々のアセットやフォルダーをAEM Assetsにアップロードする必要はありません。 一括インポートでサポートされるデータソースには、Azure、AWS、Google Cloud、Dropboxが含まれます。
-
-![データソースからのアセットの一括読み込み](/help/using/assets/bulk-import.png)
-
-**画像編集ツール (Adobe Express機能 )**
-
-AEM Assets 内で直接使用できる Adobe Express を活用した、簡単で直感的な画像編集ツールにより、コンテンツの再利用性を高め、コンテンツの速度を向上させます。
-
-![画像編集とAdobe Express](/help/using/assets/edit-adobe-express.png)
-
-**My Workspace クイックアクセス用に項目をピン留めする際の柔軟性**
-
-選択内容に基づいて、自分用、組織全体用、またはグループのリスト用の項目を選択してピン留めする機能で、選択内容に基づいて My Workspace のクイックアクセスセクションに表示されます。
-
-![グループの項目をピン留めする](assets/pin-items-for-groups.png)
+Experience Manager Assetsで、別の IMS 組織のCreative Cloudライブラリへのアクセスを設定できるようになりました。 これにより、Creative CloudとExperience Managerの間の最新のクロス製品ワークフローに容易にアクセスでき、クリエイティブの時間と労力を削減できます。
 
 **お客様からのフィードバックに基づく改善**
 
@@ -64,6 +50,33 @@ AEM Assets 内で直接使用できる Adobe Express を活用した、簡単で
 問題が発生した場合や機能強化のご要望については、サポートチームに[フィードバックを送付](#provide-feedback)してください。
 
 ## 過去のリリース {#past-releases}
+
+### 2023年9月リリース {#september2023-release}
+
+**フォルダーへのメタデータフォームの割り当て**
+
+メタデータフォームを Folders デプロイメント内の特定のフォルダーに割り当てることができるAssets Essentialsになりました。 フォルダー内のすべてのアセット（サブフォルダー内のアセットを含む）には、割り当てられたメタデータフォームで定義されたプロパティが表示されます。
+
+![フォルダーにメタデータフォームを割り当て](/help/using/assets/assign-to-folder.png)
+
+**データソースからのアセットの一括読み込み**
+
+管理者は、データソースから AEM Assets に大量のアセットを読み込めるようになりました。管理者は、個々のアセットやフォルダーを AEM Assets にアップロードする必要がなくなりました。一括読み込みでサポートされるデータソースには、Azure、AWS、Google Cloud、Dropbox が含まれます。
+
+![データソースからのアセットの一括読み込み](/help/using/assets/bulk-import.png)
+
+**Adobe Express を活用した画像編集ツール**
+
+AEM Assets 内で直接使用できる Adobe Express を活用した、簡単で直感的な画像編集ツールにより、コンテンツの再利用性を高め、コンテンツの速度を向上させます。
+
+![Adobe Express を使用した画像の編集](/help/using/assets/edit-adobe-express.png)
+
+**マイワークスペースのクイックアクセス用に項目をピン留めする際の柔軟性**
+
+自分用、組織全体用またはグループのリスト用の項目を選択してピン留めし、選択に基づいてマイワークスペースの「クイックアクセス」セクションに項目が表示されるようにする機能です。
+
+![グループ用の項目のピン留め](assets/pin-items-for-groups.png)
+
 
 ### 2023年7月リリース {#july2023-release}
 
