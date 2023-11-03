@@ -9,7 +9,7 @@ ht-degree: 88%
 
 ---
 
-# タグでのAssets Essentials管理 {#view-assets-and-details}
+# Assets Essentials でタグを管理 {#view-assets-and-details}
 
 
 >[!CONTEXTUALHELP]
