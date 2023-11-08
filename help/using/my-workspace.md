@@ -2,10 +2,10 @@
 title: Assets のマイワークスペース
 description: マイワークスペースは、カスタマイズ可能なビジュアルモジュールを提供するページで、Assets ユーザーインターフェイスの主要な領域と、ユーザーに最も関連性の高い情報に簡単にアクセスできます。
 exl-id: 402dd3a6-44e5-4d13-97d8-1d7fa26a99e4
-source-git-commit: 55418ab5b6346785bcc14bf32322a2e69738895d
+source-git-commit: 21db2f77de3245f6fa40964b64ec8ac2c45d13e9
 workflow-type: tm+mt
 source-wordcount: '738'
-ht-degree: 93%
+ht-degree: 96%
 
 ---
 
