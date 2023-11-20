@@ -2,10 +2,10 @@
 title: Assets Essentials でのレポートの管理
 description: Assets Essentials の「レポート」セクションのデータにアクセスして、製品と機能の使用状況を評価し、主要な成功指標に関するインサイトを導き出します。
 exl-id: c7155459-05d9-4a95-a91f-a1fa6ae9d9a4
-source-git-commit: 43ecb9862b6553ffd34cf1e116eb018505eff28e
+source-git-commit: aee57f5a83bfa5a292e9c0c50e2cb00499dbb08c
 workflow-type: tm+mt
-source-wordcount: '827'
-ht-degree: 100%
+source-wordcount: '916'
+ht-degree: 90%
 
 ---
 
@@ -16,6 +16,20 @@ ht-degree: 100%
 ## レポートへのアクセス {#access-reports}
 
 [Assets Essentials 管理者製品プロファイル](deploy-administer.md)に割り当てられているユーザーはすべて、Assets Essentials でインサイトダッシュボードにアクセスしたり、ユーザー定義のレポートを作成したりできます。
+
+レポートにアクセスするには、 **[!UICONTROL レポート]** under **[!UICONTROL 設定]**.
+
+![レポート](assets/reports.png)
+<!--
+In the **[!UICONTROL Reports]** screen, various components are shown in the tabular format which includes the following:
+
+* **Title**: Title of the report
+* **Type**: Determines whether the report is uploaded or downloaded to the repository
+* **Description**: Provide details of the report that was given during uploading/downloading the report
+* **Status**: Determines whether the report is completed, under progress, or deleted.
+* **Author**: Provides email of the author who has uploaded/downloaded the report.
+* **Created**: Gives information of the date when the report was generated.
+-->
 
 ## インサイトの表示 {#view-live-statistics}
 
@@ -34,13 +48,18 @@ Assets Essentials を使用すると、Assets Essentials 環境のリアルタ�
 
 * **アップロード**：過去 30 日間または 12 か月間に Assets Essentials 環境にアップロードされたアセットの数は、折れ線グラフで表されます。
 
+* **サイズ別のアセット数**:0 MB ～ 100 GB の様々なサイズの範囲に基づくアセット数の割合です。
+
+* **ストレージ使用量**：ユーザービリティに応じて、棒グラフで表されるAssets Essentials環境のストレージ使用量（バイト単位）。
+
+  ![ストレージ](assets/storage.png)
+
+
+* **配信**：グラフは、配信日としてのアセット数を示します。
+
+* **アセットタイプ別のアセット数**：使用可能なアセットの様々な MIME タイプの数を表します。 例えば、application/zip、image/png、video/mp4、application/postscripte などです。
+
 * **上位の検索**：過去 30 日間または 12 か月間に Assets Essentials 環境内で検索された上位の検索キーワードと回数は、表形式で表されます。
-
-<!--
-
-* **Storage usage**: The storage usage, in gigabytes (GB), for the Assets Essentials environment, for the last 30 days or 12 months represented using a bar chart.
-
--->
 
 ## ダウンロードレポートの作成 {#create-download-report}
 
