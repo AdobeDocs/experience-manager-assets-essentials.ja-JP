@@ -2,9 +2,9 @@
 title: Assets Essentials でのレポートの管理
 description: Assets Essentials の「レポート」セクションのデータにアクセスして、製品と機能の使用状況を評価し、主要な成功指標に関するインサイトを導き出します。
 exl-id: c7155459-05d9-4a95-a91f-a1fa6ae9d9a4
-source-git-commit: aee57f5a83bfa5a292e9c0c50e2cb00499dbb08c
+source-git-commit: 37a0692c47d4fa14e9c2582a34000ec8bf975692
 workflow-type: tm+mt
-source-wordcount: '916'
+source-wordcount: '910'
 ht-degree: 90%
 
 ---
@@ -40,7 +40,7 @@ In the **[!UICONTROL Reports]** screen, various components are shown in the tabu
 
 Assets Essentials を使用すると、Assets Essentials 環境のリアルタイムデータをインサイトダッシュボードで表示できます。過去 30 日間または過去 12 か月間のリアルタイムイベント指標を表示できます。
 
-![アセット選択時のツールバーオプション](assets/assets-essentials-live-statistics.png)
+<!--![Toolbar options when you select an asset](assets/assets-essentials-live-statistics.png)-->
 
 左側のナビゲーションパネルにある「**[!UICONTROL インサイト]**」をクリックすると、自動生成された以下のグラフを表示できます。
 
@@ -52,7 +52,7 @@ Assets Essentials を使用すると、Assets Essentials 環境のリアルタ�
 
 * **ストレージ使用量**：ユーザービリティに応じて、棒グラフで表されるAssets Essentials環境のストレージ使用量（バイト単位）。
 
-  ![ストレージ](assets/storage.png)
+  <!--![Storage](assets/storage.png)-->
 
 
 * **配信**：グラフは、配信日としてのアセット数を示します。
@@ -60,6 +60,9 @@ Assets Essentials を使用すると、Assets Essentials 環境のリアルタ�
 * **アセットタイプ別のアセット数**：使用可能なアセットの様々な MIME タイプの数を表します。 例えば、application/zip、image/png、video/mp4、application/postscripte などです。
 
 * **上位の検索**：過去 30 日間または 12 か月間に Assets Essentials 環境内で検索された上位の検索キーワードと回数は、表形式で表されます。
+
+  ![インサイト](assets/insights1.png)
+  ![インサイト](assets/insights2.png)
 
 ## ダウンロードレポートの作成 {#create-download-report}
 
