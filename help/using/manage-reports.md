@@ -2,10 +2,10 @@
 title: Assets Essentials でのレポートの管理
 description: Assets Essentials の「レポート」セクションのデータにアクセスして、製品と機能の使用状況を評価し、主要な成功指標に関するインサイトを導き出します。
 exl-id: c7155459-05d9-4a95-a91f-a1fa6ae9d9a4
-source-git-commit: 37a0692c47d4fa14e9c2582a34000ec8bf975692
+source-git-commit: b065a56bbd0ce86bc9dd6ac568364de30d77be4e
 workflow-type: tm+mt
-source-wordcount: '910'
-ht-degree: 90%
+source-wordcount: '850'
+ht-degree: 96%
 
 ---
 
@@ -48,21 +48,23 @@ Assets Essentials を使用すると、Assets Essentials 環境のリアルタ�
 
 * **アップロード**：過去 30 日間または 12 か月間に Assets Essentials 環境にアップロードされたアセットの数は、折れ線グラフで表されます。
 
-* **サイズ別のアセット数**:0 MB ～ 100 GB の様々なサイズの範囲に基づくアセット数の割合です。
+<!--* **Asset Count by Size**: The division of count of assets based on their range of various sizes from 0 MB to 100 GB.-->
 
 * **ストレージ使用量**：ユーザービリティに応じて、棒グラフで表されるAssets Essentials環境のストレージ使用量（バイト単位）。
 
   <!--![Storage](assets/storage.png)-->
 
 
-* **配信**：グラフは、配信日としてのアセット数を示します。
+<!--* **Delivery**: The graph depicts the count of assets as the delivery dates.-->
 
-* **アセットタイプ別のアセット数**：使用可能なアセットの様々な MIME タイプの数を表します。 例えば、application/zip、image/png、video/mp4、application/postscripte などです。
+<!--* **Asset Count by Asset Type**: Represents count of various MIME types of the available assets. For example, application/zip, image/png, video/mp4, application/postscripte.-->
 
 * **上位の検索**：過去 30 日間または 12 か月間に Assets Essentials 環境内で検索された上位の検索キーワードと回数は、表形式で表されます。
 
-  ![インサイト](assets/insights1.png)
-  ![インサイト](assets/insights2.png)
+  <!--
+   ![Insights](assets/insights1.png)
+   ![Insights](assets/insights2.png)
+   -->
 
 ## ダウンロードレポートの作成 {#create-download-report}
 
