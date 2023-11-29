@@ -2,10 +2,10 @@
 title: Assets Essentials でのレポートの管理
 description: Assets Essentials の「レポート」セクションのデータにアクセスして、製品と機能の使用状況を評価し、主要な成功指標に関するインサイトを導き出します。
 exl-id: c7155459-05d9-4a95-a91f-a1fa6ae9d9a4
-source-git-commit: 7ceeeda677e845cc7cb31964edaa687c806f3afe
+source-git-commit: b24113299b5f8d32b3c4aef453923b23dc775228
 workflow-type: tm+mt
-source-wordcount: '851'
-ht-degree: 96%
+source-wordcount: '847'
+ht-degree: 97%
 
 ---
 
@@ -52,7 +52,7 @@ Assets Essentials を使用すると、Assets Essentials 環境のリアルタ�
 
 <!--* **Asset Count by Size**: The division of count of assets based on their range of various sizes from 0 MB to 100 GB.-->
 
-* **ストレージ使用量**：ユーザービリティに応じて、棒グラフで表されるAssets Essentials環境のストレージ使用量（バイト単位）。
+* **ストレージ使用量**：棒グラフで表されるAssets Essentials環境のストレージ使用量（バイト単位）。
 
 <!--* **Delivery**: The graph depicts the count of assets as the delivery dates.-->
 
