@@ -3,10 +3,10 @@ title: 画像の編集
 description: ' [!DNL Adobe Photoshop Express]  を利用したオプションを使用して画像を編集し、更新した画像をバージョンとして保存します。'
 role: User
 exl-id: fc21a6ee-bf23-4dbf-86b0-74695a315b2a
-source-git-commit: 701da4ddf9dcadb9e8ad3070877788344d0210fc
+source-git-commit: 57968009bc23c2c7a57fd0faf643055832707618
 workflow-type: tm+mt
-source-wordcount: '908'
-ht-degree: 100%
+source-wordcount: '1170'
+ht-degree: 75%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="assets_express_integration"
 >title="Adobe Express の統合"
->abstract="AEM Assets 内で直接使用できる Adobe Express を活用した、簡単で直感的な画像編集ツールにより、コンテンツの再利用性を高め、コンテンツの速度を向上させます。"
+>abstract="AEM Assets内で直接利用できるAdobe Expressを活用した、簡単で直感的な画像編集ツールを使用して、コンテンツの再利用を促進し、コンテンツの速度を向上させます。"
 
 ### 画像のサイズ変更 {#resize-image-using-express}
 
@@ -79,6 +79,36 @@ Adobe Express を使用すると、JPEG 画像を PNG 形式にすばやく変�
 * サポートされる画像解像度：最小 - 50 ピクセル、最大 - サイズあたり 6000 ピクセル
 
 * サポートされる最大ファイルサイズ：17 MB
+
+## 埋め込み画像エディターを使用したAdobe Expressの編集 {#edit-using-embedded-editor}
+
+[!DNL Assets Essentials] では、アセットリポジトリーから直接画像を包括的に編集できます。 組み込みエディターを使用すると、画像を簡単かつ直感的に編集できます。 [!DNL Adobe Express]. テンプレートを使用したり、既存のアセットを変更したりして、アセットの再利用性を高めます。 事前定義済みの要素を使用して、アセットを見栄えの良いものにしたり、数回のクリックで画像を編集するクイックアクションを実行したりできます。
+
+を使用して画像を編集するには [!DNL Adobe Express] 埋め込みエディターの場合は、次の手順に従います。
+
+1. 次の場所から画像を選択： [!DNL Experience Manager] Assets リポジトリ。
+1. クリック **[!UICONTROL 「開く」Adobe Express]**. [!DNL Adobe Express] 画面が表示されます。
+
+   ![Adobe Express埋め込みエディター](assets/embedded-editor.png)
+
+   次の機能を活用できます： [!DNL Adobe Express] 画像編集関連のすべてのアクション ( 例： [画像のサイズ変更](https://helpx.adobe.com/in/express/using/resize-image.html), [背景色を削除または変更する](https://helpx.adobe.com/in/express/using/remove-background.html), [切り抜き画像](https://helpx.adobe.com/in/express/using/crop-image.html)など。
+
+1. 画像の編集が完了したら、アセットを新しいアセットとしてダウンロードしたり、アセットを新しいバージョンとして保存したりできます。
+
+## 「 」Adobe Expressを使用して新しいアセットを作成 {#create-new-embedded-editor}
+
+[!DNL Assets Essentials] を使用して新しいテンプレートを最初から作成する機能を提供します。 [!DNL Adobe Express] 埋め込みエディター。 を使用して新しいアセットを作成するには [!DNL Adobe Expresss]、次の手順を実行します。
+
+1. に移動します。 **[!UICONTROL マイワークスペース]** をクリックします。 **[!UICONTROL 作成]**. [!DNL Adobe Express] 空白のキャンバスが [!DNL Assets Essentials] ユーザーインターフェイス。
+1. 次を使用してコンテンツを作成： [テンプレート](https://helpx.adobe.com/in/express/using/work-with-templates.html). それ以外の場合は、に移動します。 **[!UICONTROL お使いのもの]** 既存のコンテンツを変更する場合。
+1. 編集が完了したら、「 **[!UICONTROL 新しいアセットとして保存]**.
+1. 作成したアセットの宛先パスを指定します。
+
+>[!NOTE]
+>
+>* 変更できるのは、 `JPEG` および `PNG` 形式。
+>* アセットのサイズは 14 MB 未満にする必要があります。
+>* 画像は、 `PDF`, `JPEG`または `PNG` 形式。
 
 ## [!DNL Adobe Photoshop Express] を使用した画像の編集 {#edit-using-photoshop-express}
 
