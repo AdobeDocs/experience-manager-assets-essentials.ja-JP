@@ -4,28 +4,48 @@ description: ' [!DNL Assets Essentials] のリリースノートと既知の問�
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AK
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
-source-git-commit: 347ec8c64daa46f603b41dd3845503863a1ccedd
+source-git-commit: 7a34bf9aa740c647530306c3edde6e493f80790a
 workflow-type: tm+mt
-source-wordcount: '2435'
-ht-degree: 93%
+source-wordcount: '2548'
+ht-degree: 89%
 
 ---
 
 # [!DNL Assets Essentials] のリリースノート {#release-notes}
 
-Assets Essentialsの現在のリリースは 2023 年 10 月 26 日にリリースされました。
+ Assets Essentials の最新リリースは 2023年11月30日（PT）にリリースされました。
 
 新しい機能は次のとおりです。
 
-**OneDrive データソースからのアセットの一括読み込み**
+**AEM Assetsの埋め込みAdobe Expressエディター**
 
-管理者は、次の操作を実行できるようになりました。 [OneDrive からAEM Assetsに大量のアセットを読み込む](/help/using/bulk-import-assets-view.md). 一括インポートでサポートされるデータソースの最新のリストには、Azure、AWS、Google Cloud、Dropbox、OneDrive が含まれています。
+Express へのアクセス権を持つユーザーは、AEM Assets内で直接利用できるAdobe ExpressとAdobe Fireflyの画像編集および作成ツールを統合し、コンテンツの再利用を改善し、コンテンツの速度を向上させることができます。
 
-![フォルダーにメタデータフォームを割り当て](/help/using/assets/bulk-import-source-details.png)
+![フォルダーにメタデータフォームを割り当て](/help/using/assets/adobe-express-aem-assets.png)
 
-**組織間のライブラリの権限付与のサポート**
+<!--
 
-Experience Manager Assetsで、別の IMS 組織のCreative Cloudライブラリへのアクセスを設定できるようになりました。 これにより、Creative CloudとExperience Managerの間の最新のクロス製品ワークフローに容易にアクセスでき、クリエイティブの時間と労力を削減できます。
+**Smart tags blocklist** 
+
+Assets Essentials now enables you to define a list of blocked tags. These tags are automatically removed from the auto-generated smart tags when you upload assets to the repository. This capability performs tags governance and saves a lot of time as you can add a tag to the block list and Assets Essentials automatically excludes it from the list of tags for any of the assets that are added to the repository.
+
+  ![storage usage insights](/help/using/assets/block-tags.png)
+
+-->
+
+**インサイトのストレージ使用状況レポート**:
+
+管理者は、インサイトの一部として使用できるストレージ使用状況レポートを表示できるようになりました。
+
+![ストレージ使用状況インサイト](/help/using/assets/storage-usage-insights.png)
+
+**最初のホームページ設定を検索**
+
+Assets Essentialsが、組織に合わせてホームページのエクスペリエンスを設定できるようになりました。 ホームページで最初に検索を選択した場合は、組織の検索バーの配置、背景画像、ロゴを設定できます。
+
+![最初の設定を検索](/help/using/assets/search-first-configuration.png)
+
+
 
 **お客様からのフィードバックに基づく改善**
 
@@ -50,6 +70,18 @@ Experience Manager Assetsで、別の IMS 組織のCreative Cloudライブラリ
 問題が発生した場合や機能強化のご要望については、サポートチームに[フィードバックを送付](#provide-feedback)してください。
 
 ## 過去のリリース {#past-releases}
+
+### 2023年10月リリース {#october2023-release}
+
+**OneDrive データソースからのアセットの一括読み込み**
+
+管理者は、次の操作を実行できるようになりました。 [OneDrive からAEM Assetsに大量のアセットを読み込む](/help/using/bulk-import-assets-view.md). 一括インポートでサポートされるデータソースの最新のリストには、Azure、AWS、Google Cloud、Dropbox、OneDrive が含まれています。
+
+![フォルダーにメタデータフォームを割り当て](/help/using/assets/bulk-import-source-details.png)
+
+**組織間のライブラリの権限付与のサポート**
+
+Experience Manager Assetsで、別の IMS 組織のCreative Cloudライブラリへのアクセスを設定できるようになりました。 これにより、Creative CloudとExperience Managerの間の最新のクロス製品ワークフローに容易にアクセスでき、クリエイティブの時間と労力を削減できます。
 
 ### 2023年9月リリース {#september2023-release}
 
