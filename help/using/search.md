@@ -3,14 +3,14 @@ title: ' [!DNL Assets Essentials] でのアセットの検索と検出'
 description: ' [!DNL Assets Essentials] でのアセットの検索と検出について説明します。'
 role: User
 exl-id: be9597a3-056c-436c-a09e-15a03567c85a
-source-git-commit: 8a52d79ecd1ce8fdafd181e0f9b166e8d827c665
+source-git-commit: 2a885eb87d29be19f2e1206fe44e592137e43fe2
 workflow-type: tm+mt
-source-wordcount: '1041'
-ht-degree: 100%
+source-wordcount: '1303'
+ht-degree: 76%
 
 ---
 
-# [!DNL Assets Essentials] でのアセットの検索  {#search-assets}
+# [!DNL Assets Essentials] でアセットを検索 {#search-assets}
 
 >[!CONTEXTUALHELP]
 >id="assets_search"
@@ -56,7 +56,7 @@ ht-degree: 100%
 
 **必要な権限：** `Can Edit`、`Owner` または管理者。
 
-また、Assets Essentials で、ユーザーインターフェイスにカスタムフィルターを追加できます。[標準フィルター](#refine-search-results)に加えて、カスタムフィルターを適用し、検索結果を絞り込むことができます。
+Assets Essentialsを使用して、ユーザーインターフェイスにカスタムフィルターを追加することもできます。 [標準フィルター](#refine-search-results)に加えて、カスタムフィルターを適用し、検索結果を絞り込むことができます。
 
 Assets Essentials が提供するカスタムフィルターは次のとおりです。
 
@@ -123,7 +123,7 @@ Assets Essentials が提供するカスタムフィルターは次のとおり�
 
 ## 保存済みの検索 {#saved-search}
 
-[!DNL Assets Essentials] の検索機能は非常に使いやすくなっています。検索ボックス内に、キーワードを入力し、Return キーを押せば結果を表示できるだけでなく、最近検索したキーワードを 1 回クリックするだけですばやく再検索することもできます。
+[!DNL Assets Essentials] の検索機能は非常に使いやすくなっています。検索ボックス内からは、キーワードを入力し、Enter キーを押して結果を確認するだけでなく、最近検索したキーワードを 1 回のクリックですばやく再検索することもできます。
 
 また、アセットのメタデータやタイプに関する特定の条件に基づいて検索結果をフィルタリングすることもできます。特定のフィルターを頻繁に使用する場合、[!DNL Assets Essentials] では、検索性を向上させるために、検索パラメーターを保存できます。その場合、保存済みの検索を選択し、1 回クリックするだけで検索してフィルターを適用することができます。
 
@@ -169,6 +169,39 @@ When userA is searching and userB add an asset that matches search results, will
 * **ファイルの場所を表示**：アセットフォルダーの場所に移動します。
 
 * **クイックアクセスにピン留め**：[アセットをピン留め](my-workspace.md)すると、後で必要になった際に、すばやくアクセスできるようになります。ピン留めしたすべての項目は、マイワークスペースの「**クイックアクセス**」セクションに表示されます。
+
+## 最初のホームページを検索する設定 {#configuring-search-first-homepage}
+
+最初のホームページを検索すると、様々なファイルやフォルダーをすぐに検索できます。 これにより、正確なキーワードを知らずに、アセットタイプ、メタデータ、スマートタグ、コンテンツ自体を簡単にナビゲートできます。 [!DNL Assets Essentials] にログオンする際に何を表示するかを制御することで、ホームページを設定できます。 [!DNL Assets Essentials].
+
+検索用の最初のホームページを設定するには、次の手順を実行します。
+
+1. に移動します。 **[!UICONTROL 設定]** > **[!UICONTROL 一般設定]**.
+1. 選択 **[!UICONTROL 最初に検索]**. さらに、検索に関連する最初の設定が開きます。 次の設定が可能です。 [整列](#setting-alignment-search-bar) または [背景とロゴの画像を設定](#setting-background-image-and-logo) 」をクリックします。
+
+### 検索バーの配置を設定しています {#setting-alignment-search-bar}
+
+[!DNL Assets Essentials] 検索バーの配置を変更できます。 検索バーは中央または上部に表示できます。 適切な位置揃えを選択し、 **[!UICONTROL 保存]**.
+
+![最初のホームページの配置を検索](assets/search-first-alignment.png)
+
+### ホームページの背景とロゴイメージを設定しています {#setting-background-image-and-logo}
+
+検索最初のホームページにブランドのロゴと背景画像を追加できます。 以下の手順を実行します。
+
+1. に移動します。 **[!UICONTROL 背景とロゴの画像]** の下のセクション **[!UICONTROL ホームページ]**.
+1. クリック **[!UICONTROL 置換]** 既存のアセットリポジトリーから画像を参照する場合。
+1. 「**[!UICONTROL 保存]**」をクリックします。[プレビュー](#preview-configured-homepage) 変更内容に対する変更が反映されます。
+
+### 設定済みのホームページをプレビュー {#preview-configured-homepage}
+
+プレビューを使用して、検索最初のホームページのレイアウトや書式を確認できます。 使用 **[!UICONTROL プレビュー]**&#x200B;を使用すると、レイアウトを修正したり、必要に応じて変更したりできます。 設定済みのホームページをプレビューするには、次の手順を実行します。
+
+1. クリック **[!UICONTROL 一般設定]** を選択し、 **[!UICONTROL 最初に検索]**.
+1. に移動します。 **[!UICONTROL 最初のホームページで検索をカスタマイズ]** をクリックします。 **[!UICONTROL プレビュー]**. 切り替え **[!UICONTROL ダークテーマ]** ボタンをクリックして、ホームページを暗いテーマまたは明るいテーマでプレビューします。
+1. クリック **[!UICONTROL 閉じる]** をクリックして、プレビュー画面を閉じます。
+
+   ![最初のホームページのプレビューを検索](assets/search-first-preview.gif)
 
 ## 次の手順 {#next-steps}
 
