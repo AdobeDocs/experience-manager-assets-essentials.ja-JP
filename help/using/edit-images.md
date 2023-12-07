@@ -5,8 +5,8 @@ role: User
 exl-id: fc21a6ee-bf23-4dbf-86b0-74695a315b2a
 source-git-commit: dee5bde4837795b800fad6307d18914ed4c90af9
 workflow-type: tm+mt
-source-wordcount: '1182'
-ht-degree: 74%
+source-wordcount: '1147'
+ht-degree: 77%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 74%
 >[!CONTEXTUALHELP]
 >id="assets_express_integration"
 >title="Adobe Express の統合"
->abstract="AEM Assets内で直接利用できるAdobe Expressを活用した、簡単で直感的な画像編集ツールを使用して、コンテンツの再利用を促進し、コンテンツの速度を向上させます。"
+>abstract="AEM Assets 内で直接使用できる Adobe Express を活用した、簡単で直感的な画像編集ツールにより、コンテンツの再利用性を高め、コンテンツの速度を向上させます。"
 
 ### 画像のサイズ変更 {#resize-image-using-express}
 
