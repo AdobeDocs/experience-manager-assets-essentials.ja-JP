@@ -4,10 +4,10 @@ description: ' [!DNL Assets Essentials] 内のアセットを移動、削除、�
 role: User,Leader
 contentOwner: AG
 exl-id: b01e98b9-0cc2-47c5-9f5b-79b8e6bef39f
-source-git-commit: e13e204482e480b3a66b48263e965787bd980842
+source-git-commit: 638d1cef41c5cde1f4f16e231eef5852d779b7e1
 workflow-type: tm+mt
-source-wordcount: '1026'
-ht-degree: 100%
+source-wordcount: '1152'
+ht-degree: 90%
 
 ---
 
@@ -17,19 +17,43 @@ ht-degree: 100%
 
 [!DNL Assets Essentials] を使用すると、次のアセット管理タスクを実行できます。アセットを選択すると、上部のツールバーに次のオプションが表示されます。
 
-![アセット選択時のツールバーオプション](assets/toolbar-image-selected.png)
+![アセット選択時のツールバーオプション](assets/asset-options.png)
 
 *図：選択した画像に対してツールバーで使用できるオプション*
 
+検索結果に表示するアセットを選択し、次の操作を実行できます。
+
 * ![選択解除アイコン](assets/do-not-localize/close-icon.png) 選択を解除します。
+
+* ![類似アイコンを検索](assets/do-not-localize/find-similar.svg) Assets UI で、メタデータとスマートタグに基づいて類似した画像アセットを見つけます。
+
 * ![詳細アイコン](assets/do-not-localize/edit-in-icon.png) アセットをプレビューし、詳細なメタデータを表示します。プレビュー時に、バージョンを表示して画像を編集できます。
+
 * ![ダウンロードアイコン](assets/do-not-localize/download-icon.png) 選択したアセットをローカルファイルシステムにダウンロードします。
+
+* ![コレクションを追加アイコン](assets/do-not-localize/add-collection.svg) 選択したアセットをコレクションに追加します。
+
+* ![アセットアイコンを固定](assets/do-not-localize/pin-quick-access.svg) 後で必要になったときにすばやくアクセスできるように、アセットを固定します。 ピン留めしたすべての項目は、マイワークスペースの「**クイックアクセス**」セクションに表示されます。
+
+* ![「速達で編集」アイコン](assets/do-not-localize/edit-e.svg) Adobe Experience Manager Assets内の統合Adobe Expressで画像を編集します。
+
+* ![アセットを編集アイコン](assets/do-not-localize/edit-e.svg) 画像を編集するには、Adobe Expressを使用します。
+
+* ![アセットリンクを共有アイコン](assets/do-not-localize/share-link.svg) アセットにアクセスしてダウンロードできるようにするための、他のユーザーとの間のアクセス。
+
 * ![削除アイコン](assets/do-not-localize/delete-icon.png) 選択したアセットまたはフォルダーを削除します。
-* ![チェックアウトアイコン](assets/do-not-localize/checkout-icon.png) 選択したアセットをチェックアウトします。
+
 * ![コピーアイコン](assets/do-not-localize/copy-icon.png) 選択したファイルまたはフォルダーをコピーします。
+
 * ![移動アイコン](assets/do-not-localize/move-icon.png) 選択したアセットまたはフォルダーをリポジトリ階層内の別の場所に移動します。
+
 * ![名前変更アイコン](assets/do-not-localize/rename-icon.png) 選択したアセットまたはフォルダーの名前を変更します。一意の名前を使用しないと、名前を変更しても警告が表示されて失敗します。その場合は、新しい名前でもう一度やり直すことができます。
+
+* ![ライブラリをコピーアイコン](assets/do-not-localize/copy-icon.png) アセットをライブラリに追加します。
+
 * ![タスクを割り当てアイコン](assets/do-not-localize/review-delegate-icon.png) 他のユーザーにタスクを割り当てて、アセットに関する作業を共同で行えるようにします。
+
+* ![タスクを割り当てアイコン](assets/do-not-localize/watch-asset.svg) アセットに対して実行された操作を監視します。
 
 アセットのサムネールにも同じオプションが表示されます。
 
@@ -148,9 +172,3 @@ Assets Essentials には、多数の標準メタデータフィールドがデ�
 * 右側のサイドバーにある「[!UICONTROL このページを編集]」（![ページを編集](assets/do-not-localize/edit-page.png)）または「[!UICONTROL 問題を記録] 」（![GitHub イシューを作成](assets/do-not-localize/github-issue.png)）を使用してドキュメントに関するフィードバックを提供する
 
 * [カスタマーケア](https://experienceleague.adobe.com/?support-solution=General&amp;lang=ja#support)に問い合わせる
-
-
-
-<!-- * ![find similar icon](assets/do-not-localize/find-similar-image-icon.svg) Find similar image asset in the Assets UI based on the metadata and smart tags.
-* ![Add to Collection]() Add the selected asset to a collection.
-* **Pin to Quick Access**: Pin an asset to quickly access the asset when you need it later. -->

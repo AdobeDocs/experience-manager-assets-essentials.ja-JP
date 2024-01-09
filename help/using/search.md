@@ -3,10 +3,10 @@ title: ' [!DNL Assets Essentials] でのアセットの検索と検出'
 description: ' [!DNL Assets Essentials] でのアセットの検索と検出について説明します。'
 role: User
 exl-id: be9597a3-056c-436c-a09e-15a03567c85a
-source-git-commit: 608cd11dbdee46606e898fe3c79ffbad0101cebc
+source-git-commit: 638d1cef41c5cde1f4f16e231eef5852d779b7e1
 workflow-type: tm+mt
-source-wordcount: '1401'
-ht-degree: 69%
+source-wordcount: '1442'
+ht-degree: 67%
 
 ---
 
@@ -32,11 +32,16 @@ ht-degree: 69%
 
 ## Adobe Fireflyを使用したアセットの検索
 
-の統合により、 [!UICONTROL Adobe Firefly] および [!UICONTROL Adobe Experience Manager Assets]を使用すると、どの assets フォルダーにもないアセットを効率的に検索できます。 <br> 例えば、キーワードを使用してアセットを検索できます `Bugatti Type 57`. 検索時 `Bugatti Type 57`、結果が見つかりません。
+どの assets フォルダーにもないアセットを検索する場合は、 [!UICONTROL Adobe Firefly] 内のアセット検索機能 [!UICONTROL Adobe Experience Manager Assets]. この機能を使用すると、指定したフォルダーに保存されていない可能性のあるアセットを効率的に検索できます。  <br> 例えば、キーワードを使用してアセットを検索できます `Bugatti Type 57`. 検索時 `Bugatti Type 57`、結果が見つかりません。 <br>
+検索バーにアセット名を入力し、 **[!UICONTROL 生成]**.
 
-検索バーにアセット名を入力し、 **[!UICONTROL 生成]**. サンプルアセットが画面に表示されます。 これらのアセットを目的のフォルダーにアップロードして、アクセスしやすくすることができます。
+![Firefly統合](firefly-integration.jpg)
+*図：アセットフォルダーの Bugatti Type 57 に対する結果が見つかりませんでした。*
+
+サンプルアセットが画面に表示されます。 これらのアセットを目的のフォルダーにアップロードして、アクセスしやすくすることができます。
 
 ![Firefly統合](assets/bugatti-type-57.jpg)
+*図：アセット検索機能を使用して検索されたAdobe Fireflyの参照。*
 
 ## 検索結果のフィルタリング {#refine-search-results}
 
