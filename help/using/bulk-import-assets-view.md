@@ -4,8 +4,8 @@ description: 新しい Assets UI(Assets Essentials) を使用してアセット�
 exl-id: 5f5fc15e-959b-48b6-834a-42b213512b49
 source-git-commit: 8a52d79ecd1ce8fdafd181e0f9b166e8d827c665
 workflow-type: tm+mt
-source-wordcount: '1809'
-ht-degree: 64%
+source-wordcount: '1772'
+ht-degree: 94%
 
 ---
 
@@ -39,37 +39,37 @@ AEM Assets Essentials での一括読み込みを使用すると、管理者は�
 | AWS | <ul> <li>AWS 地域 </li> <li> AWS バケット <li> AWS アクセスキー </li><li> AWS アクセスシークレット </li></ul> |
 | Google Cloud | <ul> <li>GCP バケット </li> <li> GCP サービスアカウントメール <li> GCP サービスアカウントの秘密キー</li></ul> |
 | Dropbox | <ul> <li>Dropbox クライアント ID </li> <li> Dropbox クライアント秘密鍵</li></ul> |
-| OneDrive | <ul> <li>OneDrive テナント ID  </li> <li> OneDrive クライアント ID</li><li> OneDrive クライアントの秘密鍵</li></ul> |
+| OneDrive | <ul> <li>OneDrive テナント ID  </li> <li> OneDrive クライアント ID</li><li> OneDrive クライアントシークレット</li></ul> |
 
 データソースに基づくこれらの前提条件に加えて、AEM Assets に読み込む必要があるすべてのアセットが含まれるデータソースで使用可能なソースフォルダー名を認識しておく必要があります。
 
-## Dropbox開発者アプリケーションの設定 {#dropbox-developer-application}
+## Dropbox 開発者アプリケーションの設定 {#dropbox-developer-application}
 
-DropboxアカウントからAEM Assetsにアセットを読み込む前に、Dropbox開発者アプリケーションを作成し、設定します。
+Dropbox アカウントからAEM Assets にアセットを読み込む前に、Dropbox 開発者アプリケーションを作成して設定します。
 
 以下の手順を実行します。
 
-1. にログインします。 [Dropboxアカウント](https://www.dropbox.com/developers) をクリックします。 **[!UICONTROL アプリを作成]**.
+1. [Dropbox アカウント](https://www.dropbox.com/developers)にログインし、「**[!UICONTROL アプリを作成]**」をクリックします。
 
-1. Adobe Analytics の **[!UICONTROL API を選択]** 「 」セクションで、使用可能なラジオボタンのみを選択します。
+1. 「**[!UICONTROL API を選択]**」セクションで、使用可能なラジオボタンのみを選択します。
 
-1. Adobe Analytics の **[!UICONTROL 必要なアクセスのタイプを選択]** 「 」セクションで、次のいずれかのオプションを選択します。
+1. 「**[!UICONTROL 必要なアクセスのタイプを選択]**」セクションで、次のいずれかのオプションを選択します。
 
-   * 選択 **[!UICONTROL アプリフォルダー]**&#x200B;アプリケーション内でDropboxアカウントで作成された単一のフォルダーにアクセスする必要がある場合は、を選択します。
+   * Dropbox アカウントで、アプリケーション内で作成された 1 つのフォルダーにアクセスする必要がある場合は、「**[!UICONTROL アプリフォルダー]**」を選択します。
 
-   * 選択 **[!UICONTROL フルDropbox]** Dropboxアカウント内のすべてのファイルおよびフォルダーにアクセスする必要がある場合は、を選択します。
+   * Dropbox アカウント内のすべてのファイルおよびフォルダーにアクセスする必要がある場合は、「**[!UICONTROL 完全な Dropbox]**」を選択します。
 
-1. アプリケーションの名前を指定し、 **[!UICONTROL アプリを作成]**.
+1. アプリケーションの名前を指定し、「**[!UICONTROL アプリを作成]**」をクリックします。
 
-1. Adobe Analytics の **[!UICONTROL 設定]** 」タブをクリックし、次の項目を **[!UICONTROL リダイレクト URI]** セクション：
+1. アプリケーションの「**[!UICONTROL 設定]**」タブで、以下を「**[!UICONTROL リダイレクト URI]**」セクションに追加します。
 
    * https://exc-unifiedcontent.experience.adobe.net
 
-   * https://exc-unifiedcontent.experience-stage.adobe.net （ステージ環境の場合のみ有効）
+   * https://exc-unifiedcontent.experience-stage.adobe.net（ステージ環境でのみ有効）
 
-1. の値をコピーします。 **[!UICONTROL アプリキー]** および **[!UICONTROL アプリ秘密鍵]** フィールド。 値は、AEM Assetsで一括読み込みツールを設定する際に必要です。
+1. 「**[!UICONTROL アプリキー]**」および「**[!UICONTROL アプリシークレット]**」フィールドの値をコピーします。これらの値は、AEM Assets で一括読み込みツールを設定する際に必要になります。
 
-1. 次の日： **[!UICONTROL 権限]** 」タブで、 **[!UICONTROL 個々のスコープ]** 」セクションに入力します。
+1. 「**[!UICONTROL 権限]**」タブで、「**[!UICONTROL 個々のスコープ]**」セクションに次の権限を追加します。
 
    * account_info.read
 
@@ -79,40 +79,40 @@ DropboxアカウントからAEM Assetsにアセットを読み込む前に、Dro
 
    * files.content.write
 
-1. クリック **[!UICONTROL 送信]** をクリックして変更を保存します。
+1. 「**[!UICONTROL 送信]**」をクリックして、変更を保存します。
 
-## OneDrive 開発者アプリケーションを設定する {#onedrive-developer-application}
+## OneDrive 開発者アプリケーションの設定 {#onedrive-developer-application}
 
-OneDrive アカウントからAEM Assetsにアセットを読み込む前に、OneDrive 開発者アプリケーションを作成して設定します。
+OneDrive アカウントから AEM Assets にアセットを読み込む前に、OneDrive 開発者アプリケーションを作成して設定します。
 
 以下の手順を実行します。
 
-1. にログインします。 [OneDrive アカウント](https://portal.azure.com/#view/Microsoft_AAD_RegisteredApps/ApplicationsListBlade) をクリックします。 **[!UICONTROL 新規登録]**.
+1. [OneDrive アカウント](https://portal.azure.com/#view/Microsoft_AAD_RegisteredApps/ApplicationsListBlade)にログインして「**[!UICONTROL 新規登録]**」をクリックします
 
-1. アプリケーションの名前を指定し、「 」を選択します。 **[!UICONTROL この組織ディレクトリのアカウントのみ (Adobeのみ — シングルテナント )]** から **[!UICONTROL サポートされるアカウントのタイプ]**&#x200B;をクリックし、 **[!UICONTROL 登録]**. アプリケーションが正常に作成されました。
+1. アプリケーションの名前を指定し、「**[!UICONTROL サポートされるアカウントのタイプ]**」で「**[!UICONTROL この組織ディレクトリのアカウントのみ（アドビのみ - シングルテナント）]**」を選択し、「**[!UICONTROL 登録]**」をクリックします。アプリケーションが正常に作成されます。
 
-1. アプリケーションのクライアント ID およびテナント ID フィールドの値をコピーします。 値は、AEM Assetsで一括読み込みツールを設定する際に必要です。
+1. アプリケーションのクライアント ID およびテナント ID フィールドの値をコピーします。これらの値は、AEM Assets で一括読み込みツールを設定する際に必要になります。
 
 1. 証明書を追加するには、次の手順を実行します。
-   1. アプリの概要ページで、 **[!UICONTROL 証明書または秘密鍵の追加]** 次に、「 **[!UICONTROL 新しいクライアント秘密鍵]**.
-   1. クライアントシークレットの説明と有効期限を指定し、「 **[!UICONTROL 追加]**.
-   1. クライアントシークレットを作成したら、 **[!UICONTROL 値]** フィールド（ Secret ID フィールドはコピーしないでください）。 これは、AEM Assetsで一括読み込みを設定する際に必要です。
+   1. アプリの概要ページで、「**[!UICONTROL 証明書またはシークレットを追加]**」、「**[!UICONTROL 新しいクライアントシークレット]**」の順にクリックします。
+   1. クライアントシークレットの説明と有効期限を指定し、「**[!UICONTROL 追加]**」をクリックします。
+   1. クライアントシークレットを作成したら、「**[!UICONTROL 値]**」フィールドをコピーします（「シークレット ID」フィールドはコピーしないでください）。これは、AEM Assets で一括読み込みを設定する際に必要になります。
 
 1. 次の手順を実行して、リダイレクト URI を追加します。
-   1. アプリの概要ページで、 **[!UICONTROL リダイレクト URI の追加]** > **[!UICONTROL プラットフォームの追加]** > **[!UICONTROL Web]**.
-   1. 以下を **[!UICONTROL リダイレクト URI]** セクション：
+   1. アプリの概要ページで、**[!UICONTROL リダイレクト URI の追加]**／**[!UICONTROL プラットフォームの追加]**／**[!UICONTROL Web]** をクリックします。
+   1. 以下を「**[!UICONTROL リダイレクト URI]**」セクションに追加します。
 
       * https://exc-unifiedcontent.experience.adobe.net
 
-      * https://exc-unifiedcontent.experience-stage.adobe.net （ステージ環境の場合のみ有効）
+      * https://exc-unifiedcontent.experience-stage.adobe.net（ステージ環境でのみ有効）
 
-      最初の URI を追加し、「 **[!UICONTROL 設定]** をクリックして追加します。 追加するには、 **[!UICONTROL URI を追加]** オプションは **[!UICONTROL Web]** のセクション **[!UICONTROL 認証]** ページに貼り付けます。
+      最初の URI を追加し、「**[!UICONTROL 設定]**」をクリックして追加します。さらに追加するには、「**[!UICONTROL 認証]**」ページの「**[!UICONTROL Web]**」セクションにある「**[!UICONTROL URI を追加]**」オプションをクリックします。
 
 1. 次の手順を実行して、アプリケーションの API 権限を追加します。
-   1. クリック **[!UICONTROL API 権限]** 左側のウィンドウで、 **[!UICONTROL 権限を追加]**.
-   1. クリック **[!UICONTROL Microsoft Graph]** > **[!UICONTROL 委任された権限]**. The **[!UICONTROL 権限を選択]** 「 」セクションには、使用可能な権限が表示されます。
-   1. 選択 `offline_access` 許可： `OpenId permissions` および `Files.ReadWrite.All` 許可： `Files`.
-   1. クリック **[!UICONTROL 権限を追加]** 更新内容を保存します。
+   1. 左側のウィンドウで「**[!UICONTROL API 権限]**」、「**[!UICONTROL 権限を追加]**」の順にクリックします。
+   1. **[!UICONTROL Microsoft Graph]**／**[!UICONTROL 委任された権限]**&#x200B;をクリックします。「**[!UICONTROL 権限を選択]**」セクションに、使用可能な権限が表示されます。
+   1. 「`OpenId permissions` の `offline_access` 権限」および「`Files` の `Files.ReadWrite.All` 権限」を選択します。
+   1. 「**[!UICONTROL 権限を追加]**」をクリックして変更を保存します。
 
 ## 一括読み込み設定の作成 {#create-bulk-import-configuration}
 
@@ -126,9 +126,9 @@ OneDrive アカウントからAEM Assetsにアセットを読み込む前に、O
 
    >[!NOTE]
    >
-   >データソースとしてDropboxを使用している場合は、次のルールに基づいてソースフォルダーのパスを指定します。
-   >* 次を選択した場合、 **フルDropbox** Dropboxアプリケーションの作成時、およびアセットを含むフォルダーが次の場所に存在する： `https://www.dropbox.com/home/bulkimport-assets`次に、 `bulkimport-assets` （内） **[!UICONTROL ソースフォルダー]** フィールドに入力します。
-   >* 次を選択した場合、 **アプリフォルダー** Dropboxアプリケーションの作成時、およびアセットを含むフォルダーが次の場所に存在する： `https://www.dropbox.com/home/Apps/BulkImportAppFolderScope/bulkimport-assets`次に、 `bulkimport-assets` （内） **[!UICONTROL ソースフォルダー]** フィールド、ここで `BulkImportAppFolderScope` は、アプリケーションの名前を指します。 `Apps` が `home` この場合、
+   >データソースとして Dropbox を使用している場合は、次のルールに基づいてソースフォルダーのパスを指定します。
+   >* Dropbox のアプリケーションと、`https://www.dropbox.com/home/bulkimport-assets` にあるアセットを含むフォルダーの作成中に、「**完全な Dropbox**」を選択した場合は、「**[!UICONTROL ソースフォルダー]**」フィールドで `bulkimport-assets` を指定します。
+   >* Dropbox のアプリケーションと、`https://www.dropbox.com/home/Apps/BulkImportAppFolderScope/bulkimport-assets` にあるアセットを含むフォルダーの作成中に、「**アプリのフォルダー**」を選択した場合は、「**[!UICONTROL ソースフォルダー]**」フィールドで `bulkimport-assets` を指定します。ここで `BulkImportAppFolderScope` は、アプリケーションの名前を指します。ここでは、`Apps` が `home` の後に自動的に追加されます。
 
 1. （オプション）ファイルが Experience Manager Assets に読み込まれた後、ソースデータストアから元のファイルを削除するには、「**[!UICONTROL 読み込み後にソースファイルを削除]**」オプションを選択します。
 1. 「**[!UICONTROL 読み込みモード]**」を選択します。「**[!UICONTROL スキップ]**」、「**[!UICONTROL 置換]**」または「**[!UICONTROL バージョンを作成]**」を選択します。スキップモードがデフォルトです。このモードでは、アセットが既に存在する場合は、取得をスキップします。
