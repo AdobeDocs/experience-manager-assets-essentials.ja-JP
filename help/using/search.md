@@ -3,9 +3,9 @@ title: ' [!DNL Assets Essentials] でのアセットの検索と検出'
 description: ' [!DNL Assets Essentials] でのアセットの検索と検出について説明します。'
 role: User
 exl-id: be9597a3-056c-436c-a09e-15a03567c85a
-source-git-commit: 638d1cef41c5cde1f4f16e231eef5852d779b7e1
+source-git-commit: 41cbb7a26d632ef24f6997ab6fe741e5d060e70a
 workflow-type: tm+mt
-source-wordcount: '1442'
+source-wordcount: '1451'
 ht-degree: 67%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 67%
 
 ## Adobe Fireflyを使用したアセットの検索
 
-どの assets フォルダーにもないアセットを検索する場合は、 [!UICONTROL Adobe Firefly] 内のアセット検索機能 [!UICONTROL Adobe Experience Manager Assets]. この機能を使用すると、指定したフォルダーに保存されていない可能性のあるアセットを効率的に検索できます。  <br> 例えば、キーワードを使用してアセットを検索できます `Bugatti Type 57`. 検索時 `Bugatti Type 57`、結果が見つかりません。 <br>
+どの assets フォルダーにもないアセットを検索する場合は、 [!UICONTROL Adobe Firefly] 内のアセット検索機能 [!UICONTROL Adobe Experience Manager Assets]. 指定したフォルダーに保存されていないアセットを効率的に検索できます。 この機能には、現在、権限を持つ権限を持つユーザーのみがアクセスできます。  <br> 例えば、キーワードを使用してアセットを検索できます `Bugatti Type 57`. 検索時 `Bugatti Type 57`、結果が見つかりません。 <br>
 検索バーにアセット名を入力し、 **[!UICONTROL 生成]**.
 
 ![Firefly統合](firefly-integration.jpg)
