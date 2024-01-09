@@ -3,10 +3,10 @@ title: ' [!DNL Assets Essentials] でのアセットの検索と検出'
 description: ' [!DNL Assets Essentials] でのアセットの検索と検出について説明します。'
 role: User
 exl-id: be9597a3-056c-436c-a09e-15a03567c85a
-source-git-commit: dee5bde4837795b800fad6307d18914ed4c90af9
+source-git-commit: 608cd11dbdee46606e898fe3c79ffbad0101cebc
 workflow-type: tm+mt
-source-wordcount: '1295'
-ht-degree: 77%
+source-wordcount: '1401'
+ht-degree: 69%
 
 ---
 
@@ -29,6 +29,14 @@ ht-degree: 77%
    * キーワードを使用して検索します。オプションで、フォルダーを変更することもできます。Return キーを押します。
 
    * 最近表示されたアセットを直接検索して、操作を開始します。検索ボックス内をクリックし、最近表示されたアセットを候補から選択します。
+
+## Adobe Fireflyを使用したアセットの検索
+
+の統合により、 [!UICONTROL Adobe Firefly] および [!UICONTROL Adobe Experience Manager Assets]を使用すると、どの assets フォルダーにもないアセットを効率的に検索できます。 <br> 例えば、キーワードを使用してアセットを検索できます `Bugatti Type 57`. 検索時 `Bugatti Type 57`、結果が見つかりません。
+
+検索バーにアセット名を入力し、 **[!UICONTROL 生成]**. サンプルアセットが画面に表示されます。 これらのアセットを目的のフォルダーにアップロードして、アクセスしやすくすることができます。
+
+![Firefly統合](assets/bugatti-type-57.jpg)
 
 ## 検索結果のフィルタリング {#refine-search-results}
 
@@ -146,11 +154,21 @@ When userA is searching and userB add an asset that matches search results, will
 
 検索結果に表示するアセットを選択し、次の操作を実行できます。
 
+* **類似画像を検索**：メタデータとスマートタグに基づいて、Assets UI で類似の画像アセットを見つけます。
+
 * **詳細**：アセットのプロパティを表示および編集します。
+
+* **ダウンロード**：アセットをダウンロードします。
 
 * **コレクションに追加**：選択したアセットをコレクションに追加します。
 
-* **ダウンロード**：アセットをダウンロードします。
+* **クイックアクセスにピン留め**：[アセットをピン留め](my-workspace.md)すると、後で必要になった際に、すばやくアクセスできるようになります。ピン留めしたすべての項目は、マイワークスペースの「**クイックアクセス**」セクションに表示されます。
+
+* **「開く」Adobe Express**:Adobe Experience Manager Assets画面から統合Adobe Expressで画像を編集します。
+
+* **編集**:「 」オプションを使用して画像をAdobe Expressします。
+
+* **リンクを共有**：他のユーザーとアセットの[リンクを共有](share-links-for-assets.md)して、アセットにアクセスしてダウンロードできるようにします。
 
 * **削除**：アセットを削除します。
 
@@ -160,15 +178,11 @@ When userA is searching and userB add an asset that matches search results, will
 
 * **名前を変更**：アセットの名前を変更します。
 
+* **ライブラリにコピー**：アセットをライブラリに追加します。
+
 * **タスクを割り当て**：アセットのユーザーにタスクを割り当てます。
 
-* **リンクを共有**：他のユーザーとアセットの[リンクを共有](share-links-for-assets.md)して、アセットにアクセスしてダウンロードできるようにします。
-
 * **監視**：アセットに対して実行される[操作を監視](manage-notifications.md)します。
-
-* **ファイルの場所を表示**：アセットフォルダーの場所に移動します。
-
-* **クイックアクセスにピン留め**：[アセットをピン留め](my-workspace.md)すると、後で必要になった際に、すばやくアクセスできるようになります。ピン留めしたすべての項目は、マイワークスペースの「**クイックアクセス**」セクションに表示されます。
 
 ## 最初のホームページを検索する設定 {#configuring-search-first-homepage}
 
