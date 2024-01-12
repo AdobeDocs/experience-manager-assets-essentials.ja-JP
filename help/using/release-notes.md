@@ -4,18 +4,24 @@ description: ' [!DNL Assets Essentials] のリリースノートと既知の問�
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AK
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
-source-git-commit: 10d82a8a90e718272c9bb1c5b14db30785bb1ded
+source-git-commit: 196fa10fd6788b306aaad3c63100e5763be566b2
 workflow-type: tm+mt
-source-wordcount: '2617'
-ht-degree: 88%
+source-wordcount: '2666'
+ht-degree: 86%
 
 ---
 
 # [!DNL Assets Essentials] のリリースノート {#release-notes}
 
- Assets Essentials の最新リリースは 2023年12月19日（PT）にリリースされました。
+Assets Essentials の最新リリースは 2024年1月11日（PT）にリリースされました。
 
 最近追加された機能の一部を次に示します。
+
+**スマートタグのブロックリストに加える**
+
+Assets Essentialsは、リポジトリにアッブロックリストに加えるプロードされる際に、スマートタグとしてアセットに追加しない単語で構成されるを定義できるようになりました。 この機能を使用すると、ブランドコンプライアンスを維持し、スマートタグのモデレートにかかる作業を軽減できます。
+
+![ストレージ使用状況インサイト](/help/using/assets/block-tags.png)
 
 **Adobe Fireflyを含む GenAI 画像の作成**
 
@@ -32,16 +38,6 @@ Adobe Fireflyのテキスト/画像間機能を統合し、検索クエリに基
 Express へのアクセス権を持つユーザーは、AEM Assets内で直接利用できるAdobe ExpressとAdobe Fireflyの画像編集および作成ツールを統合し、コンテンツの再利用を改善し、コンテンツの速度を向上させることができます。
 
 ![フォルダーにメタデータフォームを割り当て](/help/using/assets/adobe-express-aem-assets.png)
-
-<!--
-
-**Smart tags blocklist** 
-
-Assets Essentials now enables you to define a list of blocked tags. These tags are automatically removed from the auto-generated smart tags when you upload assets to the repository. This capability performs tags governance and saves a lot of time as you can add a tag to the block list and Assets Essentials automatically excludes it from the list of tags for any of the assets that are added to the repository.
-
-  ![storage usage insights](/help/using/assets/block-tags.png)
-
--->
 
 **インサイトのストレージ使用状況レポート**:
 
