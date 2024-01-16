@@ -1,11 +1,11 @@
 ---
 title: Assets Essentials を使用したアセットの一括読み込み
-description: 新しい Assets UI(Assets Essentials) を使用してアセットを一括読み込む方法を説明します。 これにより、管理者はデータソースから AEM Assets に大量のアセットを読み込むことができます。
+description: 新しい Assets UI（Assets Essentials）を使用してアセットを一括で読み込む方法について説明します。これにより、管理者はデータソースから AEM Assets に大量のアセットを読み込むことができます。
 exl-id: 5f5fc15e-959b-48b6-834a-42b213512b49
 source-git-commit: 8a52d79ecd1ce8fdafd181e0f9b166e8d827c665
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1772'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -17,11 +17,11 @@ ht-degree: 94%
 >abstract="管理者は、Assets Essentials を使用して、データソースから Experience Manager Assets に大量のアセットを読み込めます。管理者は、個々のアセットやフォルダーを Experience Manager Assets にアップロードする必要がなくなりました。一括読み込みでサポートされるクラウドストレージプロバイダーには、Azure、AWS、Google Cloud、Dropbox が含まれます。"
 >additional-url="https://images-tv.adobe.com/mpcv3/4477/98bce651-721c-442e-98b8-c43e7708e44c_1698834577.854x480at800_h264.mp4" text="ビデオを見る"
 
-AEM Assets Essentials での一括読み込みを使用すると、管理者は、データソースからAEM Assetsに大量のアセットを読み込むことができます。 管理者は、個々のアセットやフォルダーを AEM Assets にアップロードする必要がなくなりました。
+AEM Assets Essentials の一括読み込みを使用すると、管理者はデータソースから AEM Assets に大量のアセットを読み込むことができます。管理者は、個々のアセットやフォルダーを AEM Assets にアップロードする必要がなくなりました。
 
 >[!NOTE]
 >
->Assets Essentialsの一括インポーターは、Assetsas a Cloud Serviceの一括インポーターと同じバックエンドを使用します。 ただし、Assets Essentialsでは、から読み込むデータソースが増え、ユーザーエクスペリエンスがより効率的になります。
+>Assets Essentials 一括インポーターは、Assets as a Cloud Service 一括インポーターと同じバックエンドを使用します。ただし、Assets Essentials では、読み込み元となるより多くのデータソースと、より合理化されたユーザーエクスペリエンスを提供します。
 
 次のデータソースからアセットを読み込むことができます。
 
@@ -156,7 +156,7 @@ OneDrive アカウントから AEM Assets にアセットを読み込む前に�
 
 一括読み込み時に、[!DNL Experience Manager] は、既存のフォルダーを探してアセットやフォルダーの再読み込みを避けると共に、読み込みが行われる親フォルダーに適用されるサニタイズルールを検証します。親フォルダーにサニタイズルールが適用される場合、インポートソースにも同じルールが適用されます。新規読み込みの場合、アセットやフォルダーのファイル名を管理するために、次のサニタイズルールが適用されます。
 
-一括読み込み時の禁止名、アセット名の処理、フォルダー名の処理について詳しくは、 [一括インポート中のファイル名の処理](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/add-assets.html?lang=en#filename-handling-bulkimport).
+一括読み込み時の使用できない名前、アセット名の処理、フォルダー名の処理について詳しくは、[一括読み込み時のファイル名の処理](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/add-assets.html?lang=ja#filename-handling-bulkimport)を参照してください。
 
 ## 既存の一括読み込み設定を表示 {#view-import-configuration}
 
