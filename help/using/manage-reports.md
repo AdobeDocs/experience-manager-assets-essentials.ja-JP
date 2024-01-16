@@ -3,9 +3,9 @@ title: Assets Essentials でのレポートの管理
 description: Assets Essentials の「レポート」セクションのデータにアクセスして、製品と機能の使用状況を評価し、主要な成功指標に関するインサイトを導き出します。
 exl-id: c7155459-05d9-4a95-a91f-a1fa6ae9d9a4
 source-git-commit: b24113299b5f8d32b3c4aef453923b23dc775228
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '857'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 97%
 
 [Assets Essentials 管理者製品プロファイル](deploy-administer.md)に割り当てられているユーザーはすべて、Assets Essentials でインサイトダッシュボードにアクセスしたり、ユーザー定義のレポートを作成したりできます。
 
-レポートにアクセスするには、 **[!UICONTROL レポート]** under **[!UICONTROL 設定]**.
+レポートにアクセスするには、**[!UICONTROL 設定]**&#x200B;の&#x200B;**[!UICONTROL レポート]**&#x200B;に移動します。
 
 ![レポート](assets/reports.png)
 <!--
@@ -52,7 +52,7 @@ Assets Essentials を使用すると、Assets Essentials 環境のリアルタ�
 
 <!--* **Asset Count by Size**: The division of count of assets based on their range of various sizes from 0 MB to 100 GB.-->
 
-* **ストレージ使用量**：棒グラフで表されるAssets Essentials環境のストレージ使用量（バイト単位）。
+* **ストレージ使用量**：Assets Essentials 環境のストレージ使用量（バイト）は、棒グラフで表されます。
 
 <!--* **Delivery**: The graph depicts the count of assets as the delivery dates.-->
 
