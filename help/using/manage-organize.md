@@ -5,9 +5,9 @@ role: User,Leader
 contentOwner: AG
 exl-id: b01e98b9-0cc2-47c5-9f5b-79b8e6bef39f
 source-git-commit: 638d1cef41c5cde1f4f16e231eef5852d779b7e1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1152'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 90%
 
 * ![選択解除アイコン](assets/do-not-localize/close-icon.png) 選択を解除します。
 
-* ![類似アイコンを検索](assets/do-not-localize/find-similar.svg) Assets UI で、メタデータとスマートタグに基づいて類似した画像アセットを見つけます。
+* ![類似検索アイコン](assets/do-not-localize/find-similar.svg) Assets UI で、メタデータとスマートタグに基づいて類似の画像アセットを検索します。
 
 * ![詳細アイコン](assets/do-not-localize/edit-in-icon.png) アセットをプレビューし、詳細なメタデータを表示します。プレビュー時に、バージョンを表示して画像を編集できます。
 
@@ -33,13 +33,13 @@ ht-degree: 90%
 
 * ![コレクションを追加アイコン](assets/do-not-localize/add-collection.svg) 選択したアセットをコレクションに追加します。
 
-* ![アセットアイコンを固定](assets/do-not-localize/pin-quick-access.svg) 後で必要になったときにすばやくアクセスできるように、アセットを固定します。 ピン留めしたすべての項目は、マイワークスペースの「**クイックアクセス**」セクションに表示されます。
+* ![アセットをピン留めアイコン](assets/do-not-localize/pin-quick-access.svg) アセットをピン留めすると、後で必要になった際に、すばやくアクセスできるようになります。ピン留めしたすべての項目は、マイワークスペースの「**クイックアクセス**」セクションに表示されます。
 
-* ![「速達で編集」アイコン](assets/do-not-localize/edit-e.svg) Adobe Experience Manager Assets内の統合Adobe Expressで画像を編集します。
+* ![Express で編集アイコン](assets/do-not-localize/edit-e.svg) Adobe Experience Manager Assets 内に統合された Adobe Express で画像を編集します。
 
-* ![アセットを編集アイコン](assets/do-not-localize/edit-e.svg) 画像を編集するには、Adobe Expressを使用します。
+* ![アセットを編集アイコン](assets/do-not-localize/edit-e.svg) Adobe Express を使用して画像を編集します。
 
-* ![アセットリンクを共有アイコン](assets/do-not-localize/share-link.svg) アセットにアクセスしてダウンロードできるようにするための、他のユーザーとの間のアクセス。
+* ![アセットのリンクを共有アイコン](assets/do-not-localize/share-link.svg) 他のユーザーとアセットのリンクを共有して、アセットにアクセスしてダウンロードできるようにします。
 
 * ![削除アイコン](assets/do-not-localize/delete-icon.png) 選択したアセットまたはフォルダーを削除します。
 
@@ -53,7 +53,7 @@ ht-degree: 90%
 
 * ![タスクを割り当てアイコン](assets/do-not-localize/review-delegate-icon.png) 他のユーザーにタスクを割り当てて、アセットに関する作業を共同で行えるようにします。
 
-* ![タスクを割り当てアイコン](assets/do-not-localize/watch-asset.svg) アセットに対して実行された操作を監視します。
+* ![タスクを割り当てアイコン](assets/do-not-localize/watch-asset.svg) アセットに対して実行される操作を監視します。
 
 アセットのサムネールにも同じオプションが表示されます。
 
