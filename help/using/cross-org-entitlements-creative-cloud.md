@@ -1,40 +1,40 @@
 ---
-title: AEM Assetsでの組織間のCreative Cloud統合の権限
-description: AEM Assetsで組織との統合のためのクロス組織の権利を設定する方法をCreative Cloudします。 AEM Assetsでの最新のCreative Cloud統合 (Express やCreative Cloudライブラリなど ) を簡単に使用できるように、別の IMS 組織にプロビジョニングされたCreative Cloud権限に接続します。
-source-git-commit: b0e20aa3a29a6a37453da16f18d474baf67edb24
-workflow-type: tm+mt
+title: AEM Assets での Creative Cloud 統合の組織をまたいだ資格
+description: AEM Assets で Creative Cloud 統合向けに組織をまたいだ資格を設定する方法について説明します。Express や Creative Cloud のライブラリなど、AEM Assets での最新の Creative Cloud 統合を簡単に使用するには、別の IMS 組織にプロビジョニングされた Creative Cloud 権限に接続します。
+exl-id: 5a39b640-4195-4149-9757-2733ed70e616
+source-git-commit: ebc49d5c29118cd09cf1f97e8f71f63df76b3779
+workflow-type: ht
 source-wordcount: '294'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# 組織間のCreative Cloud統合の権利  {#cross-org-entitlements}
+# Creative Cloud 統合向けの組織をまたいだ資格  {#cross-org-entitlements}
 
-Experience Manager Assetsは、異なる IMS 組織にプロビジョニングされたCreative Cloud権限に接続して、AEM Assetsでの最新のCreative Cloud統合 (Express ライブラリやCreative Cloudライブラリなど ) を簡単に使用できます。
+Experience Manager Assets には、Express ライブラリや Creative Cloud ライブラリなど、AEM Assets での最新の Creative Cloud 統合を簡単に使用するために、別の IMS 組織にプロビジョニングされた Creative Cloud 権限に接続する機能があります。
 
-Creative Cloud製品とAEM Assetsが別々の IMSCreative Cloudにプロビジョニングされている場合、別の組織に接続して、2 つのソリューション間で統合ワークフローを実行できます。
+Creative Cloud 製品と AEM Assets が別の IMS 組織にプロビジョニングされている場合は、異なる Creative Cloud 組織に接続して、2 つのソリューション間で統合されたワークフローを実行できます。
 
 ## 前提条件 {#prerequisites}
 
-* Experience Manager Assetsに対する管理者権限
+* Experience Manager Assets に対する管理者権限
 
-* Creative CloudとExperience Managerの間で使用されるのと同じユーザー ID のCreative Cloudに対するアクティブな権限。 同じ E メールアドレスを持つ個人 ID と Federated ID に対する使用権限は、異なるユーザー ID として扱われます。
+* Creative Cloud と Experience Manager 間で使用される同じユーザー ID に対する Creative Cloud へのアクティブな権限です。同じメールアドレスを持つ個人用 ID と Federated ID に対する権限は、異なるユーザー ID として処理されます。
 
-## 新しいCreative Cloud組織に接続 {#connect-to-creative-cloud-org}
+## 新しい Creative Cloud 組織に対する接続 {#connect-to-creative-cloud-org}
 
-新しいCreative Cloud組織に接続するには、次の手順を実行します。
+新しい Creative Cloud 組織に接続するには、次の手順を実行します。
 
-1. に移動します。 **[!UICONTROL 設定]** > **[!UICONTROL Creative Cloud]**.
+1. **[!UICONTROL 設定]**／**[!UICONTROL Creative Cloud]** に移動します。
 
-1. 次を使用して新しいCreative Cloud組織を選択します： **[!UICONTROL 新しいCreative Cloud組織 ID を選択]** 」ドロップダウンリストから選択できます。 リストには、アクセス権を持つすべての組織が表示されます。 アクティブなCreative Cloud権限を持つ組織を選択します。
+1. **[!UICONTROL 新しい Creative Cloud 組織 ID を選択]**&#x200B;ドロップダウンリストを使用して、新しい Creative Cloud 組織を選択します。リストには、アクセス権のあるすべての組織が表示されます。アクティブな Creative Cloud 権限を持つ組織を選択します。
 
-1. クリック **[!UICONTROL 組織を切り替え]** をクリックして、新しい組織に切り替えます。
+1. 「**[!UICONTROL 組織を切り替え]**」をクリックして、新しい組織に切り替えます。
 
-   ![組織をまたぐ権利](assets/cross-org-entitlements.png)
+   ![組織をまたいだ権限](assets/cross-org-entitlements.png)
 
 ## 制限事項 {#limitations}
 
-* 一度にAEM Assetsを 1 つのCreative Cloud組織に接続できます。 一度に複数のCreative Cloud組織に接続することはできません。
+* AEM Assets は、一度に 1 つの Creative Cloud 組織に接続できます。一度に複数の Creative Cloud 組織への接続はサポートされていません。
 
-* AEM Assets内で接続するCreative Cloud組織は、組織内のすべてのユーザーに適用できます。
-
+* AEM Assets 内で接続する Creative Cloud 組織は、組織内のすべてのユーザーに適用できます。
