@@ -4,9 +4,9 @@ description: 「[!DNL Assets Essentials] は他のアドビソリューション
 role: User
 exl-id: bc43a59e-f295-44d2-a14d-854174f91e41
 source-git-commit: 5bcd55313d1fb8bcf3dedbb24742eca5e2663aa8
-workflow-type: tm+mt
-source-wordcount: '450'
-ht-degree: 82%
+workflow-type: ht
+source-wordcount: '385'
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 82%
 
 Edge 配信を使用すると、作成者がコンテンツをすばやく更新および公開でき、新しいサイトを迅速に起動できる、魅力的な迅速な Web サイトを作成できます。
 
-AEM Assetsをドキュメントベースのオーサリングと統合して、Edge Delivery Services向けに Web サイト作成者がMicrosoft Word またはGoogleドキュメントでドキュメントを作成する際に、AEM Assetsリポジトリで使用可能な画像を使用できるようにします。 詳しくは、 [AEM Assetsとドキュメントベースのオーサリングの統合](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/edge-delivery/using.html#integrate-assets-edge).
+AEM Assetsをドキュメントベースのオーサリングと統合して、Edge Delivery Services向けに Web サイト作成者がMicrosoft Word またはGoogleドキュメントでドキュメントを作成する際に、AEM Assetsリポジトリで使用可能な画像を使用できるようにします。 詳しくは、 [AEM Assetsとドキュメントベースのオーサリングの統合](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/edge-delivery/using.html?lang=ja#integrate-assets-edge).
 
 ## 次の手順 {#next-steps}
 
