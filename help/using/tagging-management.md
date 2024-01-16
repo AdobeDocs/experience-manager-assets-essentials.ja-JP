@@ -1,11 +1,11 @@
 ---
-title: タグのAssets Essentials管理方法
-description: タグの管理方法について説明します。Assets Essentials タグを使用すると、アセットを分類して参照や検索をより効率的に行えるようになります。
+title: Assets Essentials でタグを管理する方法
+description: Assets Essentials でタグを管理する方法を説明します。タグを使用すると、アセットを分類して参照や検索をより効率的に行えるようになります。
 exl-id: da9e8d56-c190-4006-9579-c3c8401c5e5f
 source-git-commit: 74f78f0675e01c09a8654d7f7d0db14a0ee674a2
-workflow-type: tm+mt
-source-wordcount: '1292'
-ht-degree: 88%
+workflow-type: ht
+source-wordcount: '1284'
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 88%
 
 * 組織の語彙が変化するにつれて、タグは時間の経過と共に進化する可能性があります。
 
-* Assets で管理されるタグは、as a Cloud Serviceで管理されるAssets Essentialsと同期が維持され、メタデータのガバナンスと整合性が確保されます。
+* Assets as a Cloud Service で管理するタグは、Assets Essentials で管理するタグと同期されたままとなるので、メタデータのガバナンスと整合性が確保されます。
 
 アセットにタグを適用できるようにするには、最初に名前空間を作成し、次にタグを作成して追加する必要があります。また、タグを作成してから、既存の名前空間に追加することもできます。ルートレベルで作成したタグはすべて、標準タグ名前空間に自動的に追加されます。次に、「タグ」フィールドをメタデータフォームに追加して、アセットの詳細ページに表示できるようにします。これらの設定を指定した後、アセットへのタグの適用を開始できます。
 
@@ -43,7 +43,7 @@ ht-degree: 88%
 
 ![タグ付けの管理](assets/tagging-taxonomy-management.png)
 
-タグの結合、名前の変更、ローカライズ、公開を含め、この記事に記載されている以外の機能は、Assets as a Cloud Serviceで使用できます。
+Assets as a Cloud Service では、タグの結合、名前変更、ローカライズ、公開など、この記事で説明している機能以外にも追加機能があります。
 
 ## 名前空間の作成 {#creating-a-namespace}
 
@@ -93,7 +93,7 @@ ht-degree: 88%
 
 >[!NOTE]
 >
->次を削除する場合： `Standard Tags` Assets as a Cloud Serviceを使用する名前空間では、ルートレベルで作成されたタグは、使用可能なタグのリストに表示されません。
+>Assets as a Cloud Service を使用して `Standard Tags` 名前空間を削除する場合、ルートレベルで作成されたタグは、使用可能なタグのリストに表示されません。
 
 ## タグの移動 {#moving-tags}
 
@@ -116,7 +116,7 @@ ht-degree: 88%
 >[!NOTE]
 >
 >* タグの `Name` は更新できません。タグのルートパスも、タグの名前に基づきます。「`Title`」フィールドを更新しても、パスは同じままです。
->* 結合、ローカライズ、公開などの追加の操作は、Assets as a Cloud Serviceで使用できます。
+>* Assets as a Cloud Service では、結合、ローカライズ、公開などの追加の操作を使用できます。
 
 ## タグの削除 {#deleting-tags}
 
@@ -135,7 +135,7 @@ ht-degree: 88%
 
 ## メタデータフォームへのタグコンポーネントの追加 {#adding-tags-to-metadata-form}
 
-タグコンポーネントが `default` メタデータフォームに自動的に追加されます。[メタデータフォーム](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/metadata.html?lang=ja#metadata-forms)は、テンプレートを使用するまたは最初からデザインできます。既存のメタデータフォームテンプレートを使用しない場合は、メタデータフォームを変更し、タグコンポーネントを追加できます。メタデータプロパティのマッピングは自動的に入力され、この時点では変更できません。Assets as a Cloud Serviceユーザーは、カスタム名前空間を使用してタグ値を格納するようにマッピングを更新し、ルートパスを使用して階層のサブセットのみを公開できます。
+タグコンポーネントが `default` メタデータフォームに自動的に追加されます。[メタデータフォーム](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/metadata.html?lang=ja#metadata-forms)は、テンプレートを使用するまたは最初からデザインできます。既存のメタデータフォームテンプレートを使用しない場合は、メタデータフォームを変更し、タグコンポーネントを追加できます。メタデータプロパティのマッピングは自動的に入力され、この時点では変更できません。Assets as a Cloud Service のユーザーは、カスタム名前空間を使用してタグ値を格納するようにマッピングを更新し、ルートパスを使用する階層のサブセットのみを公開できます。
 
 メタデータフォームにタグコンポーネントを追加する方法について詳しくは、このクイックビデオをご覧ください。
 
@@ -150,4 +150,4 @@ ht-degree: 88%
    ![タグ付け - アセット](assets/adding-tags-to-assets.png)
 
 1. 1 つ以上のタグを選択します。サブタグは、親タグまたは名前空間と共に自動的に選択されます。
-Assets Essentialsで変更されたタグは、 Assets でもas a Cloud Service的に適用されます。
+Assets Essentials で変更したタグは、Assets as a Cloud Service にも適用されます。
