@@ -9,7 +9,7 @@ ht-degree: 100%
 
 ---
 
-#  AEM Assets を Creative Cloud に接続  {#cross-org-entitlements}
+# AEM Assets を Creative Cloud に接続  {#cross-org-entitlements}
 
 Experience Manager Assets には、Express ライブラリや Creative Cloud ライブラリなど、AEM Assets での最新の Creative Cloud 統合を簡単に使用するために、別の IMS 組織にプロビジョニングされた Creative Cloud 権限に接続する機能があります。
 
