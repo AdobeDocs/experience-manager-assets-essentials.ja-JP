@@ -6,7 +6,7 @@ exl-id: be9597a3-056c-436c-a09e-15a03567c85a
 source-git-commit: 92cfe963d37df919b8bc29c49da7c8e9bd62638e
 workflow-type: tm+mt
 source-wordcount: '1524'
-ht-degree: 64%
+ht-degree: 85%
 
 ---
 
@@ -56,7 +56,7 @@ ht-degree: 64%
 
 **必要な権限：** `Can Edit`、`Owner` または管理者。
 
-Assets Essentialsを使用して、ユーザーインターフェイスにカスタムフィルターを追加することもできます。 [標準フィルター](#refine-search-results)に加えて、カスタムフィルターを適用し、検索結果を絞り込むことができます。
+また、Assets Essentials で、ユーザーインターフェイスにカスタムフィルターを追加できます。[標準フィルター](#refine-search-results)に加えて、カスタムフィルターを適用し、検索結果を絞り込むことができます。
 
 Assets Essentials が提供するカスタムフィルターは次のとおりです。
 
@@ -154,7 +154,7 @@ Assets Essentials が提供するカスタムフィルターは次のとおり�
 
 ## 保存済みの検索 {#saved-search}
 
-[!DNL Assets Essentials] の検索機能は非常に使いやすくなっています。検索ボックス内からは、キーワードを入力し、Enter キーを押して結果を確認するだけでなく、最近検索したキーワードを 1 回のクリックですばやく再検索することもできます。
+[!DNL Assets Essentials] の検索機能は非常に使いやすくなっています。検索ボックス内に、キーワードを入力し、Return キーを押して結果を表示できるだけでなく、最近検索したキーワードを 1 回クリックするだけですばやく再検索することもできます。
 
 また、アセットのメタデータやタイプに関する特定の条件に基づいて検索結果をフィルタリングすることもできます。特定のフィルターを頻繁に使用する場合、[!DNL Assets Essentials] では、検索性を向上させるために、検索パラメーターを保存できます。その場合、保存済みの検索を選択し、1 回クリックするだけで検索してフィルターを適用することができます。
 
@@ -177,7 +177,7 @@ When userA is searching and userB add an asset that matches search results, will
 
 検索結果に表示するアセットを選択し、次の操作を実行できます。
 
-* **類似画像を検索**：メタデータとスマートタグに基づいて、Assets UI で類似の画像アセットを見つけます。
+* **類似検索画像**：Assets UI で、メタデータとスマートタグに基づいて類似の画像アセットを検索します。
 
 * **詳細**：アセットのプロパティを表示および編集します。
 
@@ -189,7 +189,7 @@ When userA is searching and userB add an asset that matches search results, will
 
 * **「開く」Adobe Express**:Experience Manager Assets画面から統合Adobe Expressで画像を編集します。
 
-* **編集**:「 」オプションを使用して画像をAdobe Expressします。
+* **編集**：Adobe Express を使用して画像を編集します。
 
 * **リンクを共有**：他のユーザーとアセットの[リンクを共有](share-links-for-assets.md)して、アセットにアクセスしてダウンロードできるようにします。
 
@@ -207,38 +207,38 @@ When userA is searching and userB add an asset that matches search results, will
 
 * **監視**：アセットに対して実行される[操作を監視](manage-notifications.md)します。
 
-## 最初のホームページを検索する設定 {#configuring-search-first-homepage}
+## 最初に検索するホームページの設定 {#configuring-search-first-homepage}
 
-Assets Essentialsを使用すると、組織のデフォルトのランディングページを選択できます。 「最初に検索」をホームページとして使用する場合、ブランドに合わせて背景画像とロゴ画像を設定し、ページのブランディングをカスタマイズするオプションもあります。
+Assets Essentials を使用すると、組織のデフォルトのランディングページを選択できます。最初に検索をホームページとして使用する場合、ブランドに合わせて背景画像とロゴ画像を設定し、ページのブランディングを調整するオプションもあります。
 
-検索用の最初のホームページを設定するには、次の手順を実行します。
+最初に検索するホームページを設定するには、次の手順を実行します。
 
-1. に移動します。 **[!UICONTROL 設定]** > **[!UICONTROL 一般設定]**.
-1. 選択 **[!UICONTROL 最初に検索]**. さらに、検索に関連する最初の設定が開きます。 次の設定が可能です。 [整列](#setting-alignment-search-bar) または [背景とロゴの画像を設定](#setting-background-image-and-logo) 」をクリックします。
+1. **[!UICONTROL 設定]**／**[!UICONTROL 一般設定]**&#x200B;に移動します。
+1. 「**[!UICONTROL 最初に検索]**」を選択します。これにより、最初の検索に関連する設定が開きます。ホームページの[位置](#setting-alignment-search-bar)または[背景画像とロゴ画像の設定](#setting-background-image-and-logo)を設定できます。
 
-### 検索バーの配置を設定しています {#setting-alignment-search-bar}
+### 検索バーの位置の設定 {#setting-alignment-search-bar}
 
-[!DNL Assets Essentials] 検索バーの配置を変更できます。 検索バーは中央または上部に表示できます。 適切な位置揃えを選択し、 **[!UICONTROL 保存]**.
+[!DNL Assets Essentials] を使用すると、検索バーの位置を変更できます。検索バーは中央または上部に表示できます。適切な位置を選択し、「**[!UICONTROL 保存]**」をクリックします。
 
-![最初のホームページの配置を検索](assets/search-first-alignment.png)
+![最初に検索するホームページの位置](assets/search-first-alignment.png)
 
-### ホームページの背景とロゴイメージを設定しています {#setting-background-image-and-logo}
+### ホームページの背景画像とロゴ画像の設定 {#setting-background-image-and-logo}
 
-検索最初のホームページにブランドのロゴと背景画像を追加できます。 以下の手順を実行します。
+最初に検索するホームページにブランドのロゴ画像と背景画像を追加できます。以下の手順を実行します。
 
-1. に移動します。 **[!UICONTROL 背景とロゴの画像]** の下のセクション **[!UICONTROL ホームページ]**.
-1. クリック **[!UICONTROL 置換]** 既存のアセットリポジトリーから画像を参照する場合。
-1. 「**[!UICONTROL 保存]**」をクリックします。[プレビュー](#preview-configured-homepage) 変更をレビューします。
+1. **[!UICONTROL ホームページ]**&#x200B;の「**[!UICONTROL 背景画像とロゴ画像]**」セクションに移動します。
+1. 「**[!UICONTROL 置換]**」をクリックして、既存のアセットリポジトリから画像を参照します。
+1. 「**[!UICONTROL 保存]**」をクリックします。変更を[プレビュー](#preview-configured-homepage)して、変更内容を確認します。
 
-### 設定済みのホームページをプレビュー {#preview-configured-homepage}
+### 設定済みのホームページのプレビュー {#preview-configured-homepage}
 
-プレビューを使用して、検索最初のホームページのレイアウトや書式を確認できます。 使用 **[!UICONTROL プレビュー]**&#x200B;を使用すると、レイアウトを修正したり、必要に応じて変更したりできます。 設定済みのホームページをプレビューするには、次の手順を実行します。
+最初に検索するホームページのレイアウトと書式設定をプレビューして確認できます。**[!UICONTROL プレビュー]**&#x200B;を使用すると、レイアウトを修正したり、要件に応じて変更を加えたりできます。設定済みのホームページをプレビューするには、次の手順を実行します。
 
-1. クリック **[!UICONTROL 一般設定]** を選択し、 **[!UICONTROL 最初に検索]**.
-1. に移動します。 **[!UICONTROL 最初のホームページで検索をカスタマイズ]** をクリックします。 **[!UICONTROL プレビュー]**. 切り替え **[!UICONTROL ダークテーマ]** ボタンをクリックして、ホームページを暗いテーマまたは明るいテーマでプレビューします。
-1. クリック **[!UICONTROL 閉じる]** をクリックして、プレビュー画面を閉じます。
+1. 「**[!UICONTROL 一般設定]**」をクリックし、「**[!UICONTROL 最初に検索]**」を選択します。
+1. **[!UICONTROL 最初に検索するホームページをカスタマイズ]**&#x200B;に移動し、「**[!UICONTROL プレビュー]**」をクリックします。「**[!UICONTROL ダークテーマ]**」ボタンを切り替えて、ダークテーマまたはライトテーマでホームページをプレビューします。
+1. 「**[!UICONTROL 閉じる]**」をクリックし、プレビュー画面を閉じます。
 
-   ![最初のホームページのプレビューを検索](assets/search-first-preview.gif)
+   ![最初に検索するホームページのプレビュー](assets/search-first-preview.gif)
 
 ## 次の手順 {#next-steps}
 

@@ -7,7 +7,7 @@ exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
 source-git-commit: 196fa10fd6788b306aaad3c63100e5763be566b2
 workflow-type: tm+mt
 source-wordcount: '2666'
-ht-degree: 86%
+ht-degree: 98%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 86%
 
 Assets Essentials の最新リリースは 2024年1月11日（PT）にリリースされました。
 
-最近追加された機能の一部を次に示します。
+最近追加された機能には次のようなものがあります。
 
 **スマートタグのブロックリストに加える**
 
@@ -23,33 +23,33 @@ Assets Essentialsは、リポジトリにアッブロックリストに加える
 
 ![ストレージ使用状況インサイト](/help/using/assets/block-tags.png)
 
-**Adobe Fireflyを含む GenAI 画像の作成**
+**Adobe Firefly を使用した生成 AI 画像の作成**
 
-Adobe Fireflyのテキスト/画像間機能を統合し、検索クエリに基づいて新しい画像を作成します (Adobe Fireflyライセンスが必要です )。
+Adobe Firefly のテキストから画像生成機能を統合して、検索クエリに基づいて新しい画像を作成します（Adobe Firefly ライセンスが必要です）。
 
-![AssetsFireflyの統合](/help/using/assets/assets-firefly-integration.png)
+![Assets Firefly の統合](/help/using/assets/assets-firefly-integration.png)
 
-**類似画像の検索**
+**類似検索画像**
 
-画像を選択し、Experience Manager Assetsリポジトリで類似した画像を表示すると、コンテンツを簡単に見つけることができるようになりました。
+画像を選択し、Experience Manager Assets リポジトリで類似の画像を表示することで、コンテンツを簡単に検索できるようになりました。
 
-**AEM Assetsの埋め込みAdobe Expressエディター**
+**AEM Assets の Adobe Express 埋め込みエディター**
 
-Express へのアクセス権を持つユーザーは、AEM Assets内で直接利用できるAdobe ExpressとAdobe Fireflyの画像編集および作成ツールを統合し、コンテンツの再利用を改善し、コンテンツの速度を向上させることができます。
+Express へのアクセス権を持つユーザーは、Adobe Express と Adobe Firefly の統合された画像編集および作成ツールを AEM Assets 内で直接利用できるようになり、コンテンツの再利用を改善し、コンテンツの速度を向上させることができます。
 
-![フォルダーにメタデータフォームを割り当て](/help/using/assets/adobe-express-aem-assets.png)
+![フォルダーにメタデータフォームの割り当て](/help/using/assets/adobe-express-aem-assets.png)
 
-**インサイトのストレージ使用状況レポート**:
+**インサイトのストレージ使用状況レポート**：
 
 管理者は、インサイトの一部として使用できるストレージ使用状況レポートを表示できるようになりました。
 
 ![ストレージ使用状況インサイト](/help/using/assets/storage-usage-insights.png)
 
-**最初のホームページ設定を検索**
+**検索ファーストホームページの設定**
 
-Assets Essentialsが、組織に合わせてホームページのエクスペリエンスを設定できるようになりました。 ホームページで最初に検索を選択した場合は、組織の検索バーの配置、背景画像、ロゴを設定できます。
+Assets Essentials では、組織のホームページエクスペリエンスを設定できるようになりました。ホームページとして検索ファーストを選択した場合は、組織の検索バーの位置、背景画像、ロゴを設定できます。
 
-![最初の設定を検索](/help/using/assets/search-first-configuration.png)
+![検索ファーストの設定](/help/using/assets/search-first-configuration.png)
 
 
 
@@ -81,21 +81,21 @@ Assets Essentialsが、組織に合わせてホームページのエクスペリ
 
 **OneDrive データソースからのアセットの一括読み込み**
 
-管理者は、次の操作を実行できるようになりました。 [OneDrive からAEM Assetsに大量のアセットを読み込む](/help/using/bulk-import-assets-view.md). 一括インポートでサポートされるデータソースの最新のリストには、Azure、AWS、Google Cloud、Dropbox、OneDrive が含まれています。
+管理者は、[OneDrive から AEM Assets に大量のアセットを読み込める](/help/using/bulk-import-assets-view.md)ようになりました。一括読み込みでサポートされるデータソースの更新リストには、Azure、AWS、Google Cloud、Dropbox、および OneDrive が含まれます。
 
-![フォルダーにメタデータフォームを割り当て](/help/using/assets/bulk-import-source-details.png)
+![フォルダーにメタデータフォームの割り当て](/help/using/assets/bulk-import-source-details.png)
 
-**組織間のライブラリの権限付与のサポート**
+**ライブラリに対する組織をまたいだ資格のサポート**
 
-Experience Manager Assetsで、別の IMS 組織のCreative Cloudライブラリへのアクセスを設定できるようになりました。 これにより、Creative CloudとExperience Managerの間の最新のクロス製品ワークフローに容易にアクセスでき、クリエイティブの時間と労力を削減できます。
+Experience Manager Assets では、別の IMS 組織の Creative Cloud ライブラリへのアクセスを設定できるようになりました。これにより、Creative Cloud と Experience Manager の間で、製品をまたいだ最新ワークフローに容易にアクセスできるようになり、クリエイティブの時間と労力を削減できます。
 
 ### 2023年9月リリース {#september2023-release}
 
-**フォルダーへのメタデータフォームの割り当て**
+**フォルダーにメタデータフォームの割り当て**
 
-メタデータフォームを Folders デプロイメント内の特定のフォルダーに割り当てることができるAssets Essentialsになりました。 フォルダー内のすべてのアセット（サブフォルダー内のアセットを含む）には、割り当てられたメタデータフォームで定義されたプロパティが表示されます。
+Assets Essentials デプロイメント内の特定のフォルダーにメタデータフォームを割り当てることができるようになりました。サブフォルダー内のアセットを含むフォルダー内のすべてのアセットには、割り当てられたメタデータフォームで定義されたプロパティが表示されます。
 
-![フォルダーにメタデータフォームを割り当て](/help/using/assets/assign-to-folder.png)
+![フォルダーにメタデータフォームの割り当て](/help/using/assets/assign-to-folder.png)
 
 **データソースからのアセットの一括読み込み**
 
