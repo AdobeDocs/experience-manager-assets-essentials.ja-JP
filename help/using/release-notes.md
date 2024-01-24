@@ -5,9 +5,9 @@ role: User,Leader,Admin,Architect,Developer
 contentOwner: AK
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
 source-git-commit: 196fa10fd6788b306aaad3c63100e5763be566b2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2666'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -17,9 +17,9 @@ Assets Essentials の最新リリースは 2024年1月11日（PT）にリリー�
 
 最近追加された機能には次のようなものがあります。
 
-**スマートタグのブロックリストに加える**
+**スマートタグのブロックリスト**
 
-Assets Essentialsは、リポジトリにアッブロックリストに加えるプロードされる際に、スマートタグとしてアセットに追加しない単語で構成されるを定義できるようになりました。 この機能を使用すると、ブランドコンプライアンスを維持し、スマートタグのモデレートにかかる作業を軽減できます。
+Assets Essentials では、ブロックリストを定義できるようになりました。このリストは、リポジトリにアップロードする際に、アセットにスマートタグとして追加する必要がない単語で構成されます。この機能は、ブランドのコンプライアンスを保持し、スマートタグのモデレートにかかる作業を軽減するのに役立ちます。
 
 ![ストレージ使用状況インサイト](/help/using/assets/block-tags.png)
 
