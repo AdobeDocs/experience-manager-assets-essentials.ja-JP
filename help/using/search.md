@@ -4,9 +4,9 @@ description: ' [!DNL Assets Essentials] でのアセットの検索と検出に�
 role: User
 exl-id: be9597a3-056c-436c-a09e-15a03567c85a
 source-git-commit: 92cfe963d37df919b8bc29c49da7c8e9bd62638e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1524'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -120,37 +120,37 @@ Assets Essentials が提供するカスタムフィルターは次のとおり�
 
 1. 「**[!UICONTROL 確認]**」をクリックして、ユーザーインターフェイスからフィルターを削除します。
 
-## 次を使用したアセットの検索 [!DNL Adobe Firefly] {#search-firefly}
+## [!DNL Adobe Firefly] を使用したアセット検索 {#search-firefly}
 
-どのアセットフォルダーにもないアセットを検索するには、 [!DNL Adobe Firefly] 内のアセット検索機能 [!DNL Experience Manager Assets]. これにより、アセットフォルダーに保存されていないアセットをリアルタイムで効率的に生成できます。
+[!DNL Experience Manager Assets] 内の [!DNL Adobe Firefly] アセット検索機能を利用して、どのアセットフォルダーにもないアセットを検索できます。これにより、アセットフォルダーに保存されていないアセットをリアルタイムで効率的に生成できます。
 
 ### 事前準備
 
-アクティブなが必要です [!DNL Adobe Express] 購読。
+アクティブな [!DNL Adobe Express] サブスクリプションが必要です。
 
-### アセットを生成
+### アセットの生成
 
-を使用して新しいアセットを生成するには [!DNL Adobe Firefly]:
+[!DNL Adobe Firefly] を使用して新しいアセットを生成するには、次の手順に従います。
 
-1. 次に移動： [!DNL AEM Assets] ワークスペース。
+1. [!DNL AEM Assets] ワークスペースに移動します。
 1. ページ上部の検索バーにアセット名を入力します。<br>
-例えば、キーワードを使用してアセットを検索できます `Bugatti Type 57`. アセットを検索する際に、どのアセットフォルダーにもアセットが存在しないので、結果は見つかりません。
-1. ページの中央にある検索バーにアセット名を入力し、 **[!UICONTROL 生成]**.
-   ![Firefly統合](firefly-integration.jpg)
-   *図：アセットフォルダーの Bugatti Type 57 に対する結果が見つかりませんでした。*<br>
+例えば、キーワード `Bugatti Type 57` を使用してアセットを検索できます。アセットを検索する際に、どのアセットフォルダーにもアセットが存在しないので、結果は見つかりません。
+1. ページ中央の検索バーにアセット名を入力し、「**[!UICONTROL 生成]**」をクリックします。
+   ![Firefly の統合](firefly-integration.jpg)
+   *図：アセットフォルダー内に Bugatti Type 57 に関する結果が見つかりませんでした。*<br>
 新しいアセットが正常に生成されました。
-   ![Firefly統合](assets/bugatti-type-57.jpg)
-   *図：を使用して検索された参照アセット [!DNL Adobe Firefly] アセット検索機能。* <br>
-これらのアセットを目的のフォルダーにアップロードして、アクセスしやすくすることができます。
+   ![Firefly の統合](assets/bugatti-type-57.jpg)
+   *図：[!DNL Adobe Firefly] アセット検索機能を使用して、参照アセットが検索されました。* <br>
+これらのアセットを適切なフォルダーにアップロードすると、簡単にアクセスできます。
 
 ### アセットのアップロード
 
-生成したアセットをアセットリポジトリーにアップロードするには：
+生成したアセットをアセットリポジトリにアップロードするには、次の手順に従います。
 
 1. 「**[!UICONTROL アップロード]**」をクリックします。
-1. アセットのアップロード先のアセットフォルダーを選択し、「 **[!UICONTROL フォルダーを選択]**.
+1. アセットをアップロードする必要があるアセットフォルダーを選択し、「**[!UICONTROL フォルダーを選択]**」をクリックします。
    ![アセットをアップロード](assets/upload-asset-firefly.jpg)
-   *図：アセットをアップロードするフォルダーを選択します。*
+   *図：アセットのアップロード先となるフォルダーを選択します。*
 
 ## 保存済みの検索 {#saved-search}
 
@@ -187,7 +187,7 @@ When userA is searching and userB add an asset that matches search results, will
 
 * **クイックアクセスにピン留め**：[アセットをピン留め](my-workspace.md)すると、後で必要になった際に、すばやくアクセスできるようになります。ピン留めしたすべての項目は、マイワークスペースの「**クイックアクセス**」セクションに表示されます。
 
-* **「開く」Adobe Express**:Experience Manager Assets画面から統合Adobe Expressで画像を編集します。
+* **Adobe Express で開く**：Experience Manager Assets 画面から統合された Adobe Express で画像を編集します。
 
 * **編集**：Adobe Express を使用して画像を編集します。
 
