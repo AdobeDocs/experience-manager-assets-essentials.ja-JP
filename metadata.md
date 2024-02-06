@@ -8,9 +8,9 @@ mini-toc-levels: 1
 index: true
 recommendations: noDisplay
 source-git-commit: a33f67452fdb1c42e534c5f423549c933fd5d59a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '93'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -28,5 +28,5 @@ TOC.md ファイル内
 
 | メタデータ | 機能 |
 |--- |--- |
-| user-guide-title | 記事のヘッダーでリンクとして使用されます。 |
+| user-guide-title | 記事ヘッダーでリンクとして使用します。 |
 | user-guide-url | 学習とサポートのハブページを開きます。 |
