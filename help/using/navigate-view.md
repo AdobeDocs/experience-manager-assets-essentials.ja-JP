@@ -3,10 +3,10 @@ title: 「[!DNL Assets Essentials] ユーザーインターフェイス」
 description: ' [!DNL Assets Essentials] のユーザーインターフェイスとナビゲーションについて説明します。'
 role: User
 exl-id: 534a8084-88f7-410e-b872-719e47e62b10
-source-git-commit: 4f3141fe95a0c33b22042da4f234dd2a921cbac6
+source-git-commit: 7dbba95fef582cff32fa705a529f8da8b7e98124
 workflow-type: tm+mt
-source-wordcount: '1000'
-ht-degree: 100%
+source-wordcount: '992'
+ht-degree: 91%
 
 ---
 
@@ -47,7 +47,9 @@ ht-degree: 100%
 * [コレクション](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-collections.html?lang=ja)：コレクションとは、Adobe Experience Manager Assets Essentials 内のアセット、フォルダーまたはその他のコレクションのセットです。コレクションを使用して、ユーザー間でアセットを共有します。フォルダーとは異なり、1 つのコレクションに異なる複数の場所のアセットを含めることができます。1 人のユーザーと複数のコレクションを共有できます。各コレクションには、アセットへの参照が含まれます。アセットの参照整合性はコレクション間で維持されます。
 
 * [インサイト](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-reports.html?lang=ja#view-live-statistics)：[!DNL Assets Essentials] では、ダッシュボードでリアルタイムのインサイトを表示できます。Assets Essentials を使用すると、Assets Essentials 環境のリアルタイムデータをインサイトダッシュボードで表示できます。過去 30 日間または過去 12 か月間のリアルタイムイベント指標を表示できます。
-* **ごみ箱**：ルートの **[!UICONTROL Assets]** フォルダーから削除されたアセットをリストします。ごみ箱フォルダー内のアセットを選択して、元の場所に復元したり、完全に削除したりできます。また、キーワードを指定したり、標準フィルターやカスタムフィルターを適用してごみ箱フォルダー内の適切なアセットを検索することもできます。標準フィルターとカスタムフィルターの使用について詳しくは、[Assets Essentials でのアセットの検索](search.md)を参照してください。
+
+* **ごみ箱**：ルートの **[!UICONTROL Assets]** フォルダーから削除されたアセットをリストします。ごみ箱フォルダ内のアセットを選択して、元の場所に復元するか、完全に削除することができます。 キーワードを指定したり、アセットのステータス、ファイルタイプ、MIME タイプ、画像サイズ、アセットの作成、変更、有効期限などのフィルターを適用したり、現在のユーザーが破棄したアセットによるフィルターを適用したりできます。 また、カスタムフィルターを適用して、ごみ箱フォルダ内の適切なアセットを検索することもできます。 標準フィルターとカスタムフィルターの使用について詳しくは、 [Assets Essentials内のアセットの検索](search.md).
+
 * **設定**：メタデータフォーム、レポート、分類管理など、**設定**&#x200B;を使用して Assets Essentials の様々なオプションを設定できます。
 
 <!-- TBD: Not sure if we want to publish these right now. CC Libs are beta as per Greg.
@@ -80,7 +82,7 @@ ht-degree: 100%
 
 アセットをプレビューするには、目的のアセットを選択し、上部のツールバーで[!UICONTROL 詳細]アイコン（![詳細アイコン](assets/do-not-localize/edit-in-icon.png)）をクリックします。アセットを表示できるだけでなく、詳細なメタデータを表示したり、その他のアクションを実行したりできます。
 
-![アセットのプレビュー](assets/preview-asset-2.png)
+![アセットをプレビュー](assets/preview-asset-2.png)
 
 *A：リポジトリ内の現在のフォルダーまたは現在の検索結果に戻ります*
 *B：プレビューしているファイルの名前と形式*
