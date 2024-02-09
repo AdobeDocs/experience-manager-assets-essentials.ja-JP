@@ -3,7 +3,7 @@ title: 「[!DNL Assets Essentials] ユーザーインターフェイス」
 description: ' [!DNL Assets Essentials] のユーザーインターフェイスとナビゲーションについて説明します。'
 role: User
 exl-id: 534a8084-88f7-410e-b872-719e47e62b10
-source-git-commit: c56e4950e85efd671260c5235ebb54d95b13606c
+source-git-commit: 028c9fbe496e2f29f0b1d46cfcc3cdc20c3d5857
 workflow-type: tm+mt
 source-wordcount: '992'
 ht-degree: 91%
@@ -48,7 +48,7 @@ ht-degree: 91%
 
 * [インサイト](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-reports.html?lang=ja#view-live-statistics)：[!DNL Assets Essentials] では、ダッシュボードでリアルタイムのインサイトを表示できます。Assets Essentials を使用すると、Assets Essentials 環境のリアルタイムデータをインサイトダッシュボードで表示できます。過去 30 日間または過去 12 か月間のリアルタイムイベント指標を表示できます。
 
-* **ごみ箱**：ルートの **[!UICONTROL Assets]** フォルダーから削除されたアセットをリストします。ごみ箱フォルダ内のアセットを選択して、元の場所に復元するか、完全に削除することができます。 キーワードを指定したり、アセットのステータス、ファイルタイプ、MIME タイプ、画像サイズ、アセットの作成、変更、有効期限などのフィルターを適用したり、現在のユーザーが破棄したアセットによるフィルターを適用したりできます。 また、カスタムフィルターを適用して、ごみ箱フォルダ内の適切なアセットを検索することもできます。 標準フィルターとカスタムフィルターの使用について詳しくは、 [Assets Essentials内のアセットの検索](search.md).
+* **ごみ箱**：ルートの **[!UICONTROL Assets]** フォルダーから削除されたアセットをリストします。ごみ箱フォルダ内のアセットを選択して、元の場所に復元したり、完全に削除したりできます。 キーワードを指定したり、アセットのステータス、ファイルタイプ、MIME タイプ、画像サイズ、アセットの作成、変更、有効期限などのフィルターを適用したり、現在のユーザーが破棄したアセットでフィルタリングしたりできます。 また、カスタムフィルターを適用して、ごみ箱フォルダ内の適切なアセットを検索することもできます。 標準フィルターとカスタムフィルターの使用について詳しくは、 [Assets Essentials内のアセットの検索](search.md).
 
 * **設定**：メタデータフォーム、レポート、分類管理など、**設定**&#x200B;を使用して Assets Essentials の様々なオプションを設定できます。
 
