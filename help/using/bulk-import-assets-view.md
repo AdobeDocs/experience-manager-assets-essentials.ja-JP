@@ -3,7 +3,7 @@ title: Assets Essentials を使用したアセットの一括読み込み
 description: 新しい Assets UI（Assets Essentials）を使用してアセットを一括で読み込む方法について説明します。これにより、管理者はデータソースから AEM Assets に大量のアセットを読み込むことができます。
 exl-id: 5f5fc15e-959b-48b6-834a-42b213512b49
 source-git-commit: 4d4b239b0b75ac8a26a7c3001e5b28dcb6243f63
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1812'
 ht-degree: 100%
 
