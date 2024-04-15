@@ -4,10 +4,10 @@ description: ' [!DNL Assets Essentials] 内のアセットを移動、削除、�
 role: User,Leader
 contentOwner: AG
 exl-id: b01e98b9-0cc2-47c5-9f5b-79b8e6bef39f
-source-git-commit: 638d1cef41c5cde1f4f16e231eef5852d779b7e1
-workflow-type: ht
-source-wordcount: '1152'
-ht-degree: 100%
+source-git-commit: a49bfcdf3dbd6601ed15ae8a3309922c0483b3d7
+workflow-type: tm+mt
+source-wordcount: '1195'
+ht-degree: 95%
 
 ---
 
@@ -47,7 +47,10 @@ ht-degree: 100%
 
 * ![移動アイコン](assets/do-not-localize/move-icon.png) 選択したアセットまたはフォルダーをリポジトリ階層内の別の場所に移動します。
 
-* ![名前変更アイコン](assets/do-not-localize/rename-icon.png) 選択したアセットまたはフォルダーの名前を変更します。一意の名前を使用しないと、名前を変更しても警告が表示されて失敗します。その場合は、新しい名前でもう一度やり直すことができます。
+* ![名前変更アイコン](assets/do-not-localize/rename-icon.png) 選択したアセットまたはフォルダーの名前を変更します。一意の名前を使用しないと、名前を変更しても警告が表示されて失敗します。新しい名前でもう一度試すことができます。
+さらに、アセットまたはフォルダーのタイトルをクリックして名前を変更することもできます。 で新しいテキストに言及します **アセット名の変更** テキストボックスでクリック **保存**. この機能は、グリッド表示、ギャラリー表示、ウォーターフォール表示、リスト表示で使用できます。
+
+* ![ウォーターフォール表示アイコン](assets/do-not-localize/waterfall-view.png) [!UICONTROL ウォーターフォール表示].
 
 * ![ライブラリをコピーアイコン](assets/do-not-localize/copy-icon.png) アセットをライブラリに追加します。
 
