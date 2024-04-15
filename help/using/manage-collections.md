@@ -2,10 +2,10 @@
 title: コレクションを管理
 description: コレクションとは、Experience Manager Assets Essentials 内の一連のアセットのことです。コレクションを使用して、ユーザー間でアセットを共有します。
 exl-id: 33c889f5-c989-4772-9591-db62f50e5c80
-source-git-commit: 65200f73a954e4ebf4fbd6dc3a819acc6e0beda4
+source-git-commit: 27ac4035863924dfda1abf2593da9278a57b02a2
 workflow-type: tm+mt
-source-wordcount: '793'
-ht-degree: 100%
+source-wordcount: '916'
+ht-degree: 87%
 
 ---
 
@@ -48,6 +48,8 @@ You can share collections with various users that are assigned different levels 
 
 * [コレクションの削除](#delete-collection)
 
+* [非公開コレクションに対する権限の管理](#manage-permissions-to-a-private-collection)
+
 ## コレクションの作成 {#create-collection}
 
 コレクションを作成する手順は次のとおりです。
@@ -60,7 +62,7 @@ You can share collections with various users that are assigned different levels 
 
 1. 「**[!UICONTROL 作成]**」をクリックして、コレクションを作成します。
 
-![コレクションの作成](assets/create-collection.png)
+   ![コレクションの作成](assets/create-collection.png)
 
 <!--
    
@@ -154,7 +156,7 @@ Click **[!UICONTROL Collections]** in the left rail and use the Search box to sp
 1. 「**[!UICONTROL 基本]**」タブを使用して、コレクションのメタデータを表示します。
 1. 必要に応じてメタデータのフィールドを変更します。「[!UICONTROL タイトル]」および「[!UICONTROL 説明]」フィールドを変更できます。
 
-![コレクションメタデータ](assets/collection-metadata.png)
+   ![コレクションメタデータ](assets/collection-metadata.png)
 
 ## コレクションのリンクの共有 {#share-collection-links}
 
@@ -185,6 +187,18 @@ Click **[!UICONTROL Collections]** in the left rail and use the Search box to sp
 1. 削除するコレクションを選択します。
 
 1. 「**[!UICONTROL 削除]**」をクリックします。
+
+## 非公開コレクションの権限の管理{#manage-permissions-private-collection}
+
+管理者に対し、の管理を許可できます。 [アクセスレベル](/help/using/manage-permissions.md#manage-permissions-on-folders) （リポジトリで使用できる非公開コレクション用）。 次のような権限を割り当てることができます `Can View` および `Can Edit` をユーザー・グループまたはユーザーに送信します。 また、ユーザーグループに権限管理権限をデリゲートすることもできます。 非公開コレクションを作成するユーザーは、それらのコレクションの所有者です。 このコンソールは [!UICONTROL 権限の管理] 他のユーザーにアクセス権を付与するアクション。 また、管理者は以下でプライベートコレクションの権限を表示および管理することができます。 [!DNL Experience Manager] リポジトリ。
+
+>[!NOTE]
+>
+>ユーザーに権限を割り当てることはお勧めしません。
+
+使用可能な権限をユーザーグループに割り当てる方法については、を参照してください。 [ユーザーグループへの権限の追加](/help/using/manage-permissions.md#add-permissions).
+
+エンドツーエンドのワークフローについて詳しくは、を参照してください。 [権限の管理](/help/using/manage-permissions.md).
 
 ## 次の手順 {#next-steps}
 
