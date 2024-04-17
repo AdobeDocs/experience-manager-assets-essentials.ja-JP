@@ -5,11 +5,11 @@ exl-id: 33c889f5-c989-4772-9591-db62f50e5c80
 source-git-commit: d0884f7c5a50d89cb8ce4166dc038814bd7fd07d
 workflow-type: tm+mt
 source-wordcount: '907'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
-# コレクションの管理 {#manage-collections}
+# コレクションを管理 {#manage-collections}
 
 >[!CONTEXTUALHELP]
 >id="assets_collections"
@@ -188,17 +188,17 @@ Click **[!UICONTROL Collections]** in the left rail and use the Search box to sp
 
 1. 「**[!UICONTROL 削除]**」をクリックします。
 
-## 非公開コレクションの権限の管理{#manage-permissions-private-collection}
+## 非公開コレクションに対する権限の管理{#manage-permissions-private-collection}
 
-管理者に対し、の管理を許可できます。 [アクセスレベル](/help/using/manage-permissions.md#manage-permissions-on-folders) （リポジトリで使用できる非公開コレクション用）。 次のような権限を割り当てることができます `Can View` および `Can Edit` をユーザー・グループまたはユーザーに送信します。 また、ユーザーグループに権限管理権限をデリゲートすることもできます。 非公開コレクションを作成するユーザーは、それらのコレクションの所有者です。 このコンソールは [!UICONTROL 権限の管理] 他のユーザーにアクセス権を付与するアクション。 また、管理者は以下でプライベートコレクションの権限を表示および管理することができます。 [!DNL Experience Manager] リポジトリ。
+管理者は、リポジトリで使用可能な非公開コレクションの[アクセスレベル](/help/using/manage-permissions.md#manage-permissions-on-folders)を管理できます。`Can View` や `Can Edit` などの権限をユーザーグループまたはユーザーに割り当てることができます。また、ユーザーグループに権限管理の権限をデリゲートすることもできます。非公開コレクションを作成するユーザーは、それらのコレクションの所有者です。[!UICONTROL 権限を管理]アクションを使用すると、他のユーザーにアクセス権を付与できます。さらに、管理者は、[!DNL Experience Manager] リポジトリ内の非公開コレクションの権限を表示および管理できます。
 <!--
 >[!NOTE]
 >
 >Adobe does not recommend to assign permissions to users.
 -->
-使用可能な権限をユーザーグループに割り当てる方法については、を参照してください。 [ユーザーグループへの権限の追加](/help/using/manage-permissions.md#add-permissions).
+使用可能な権限をユーザーグループに割り当てる方法については、[ユーザーグループへの権限の追加](/help/using/manage-permissions.md#add-permissions)を参照してください。
 
-エンドツーエンドのワークフローについて詳しくは、を参照してください。 [権限の管理](/help/using/manage-permissions.md).
+エンドツーエンドのワークフローについて詳しくは、[権限の管理](/help/using/manage-permissions.md)を参照してください。
 
 ## 次の手順 {#next-steps}
 
@@ -206,4 +206,4 @@ Click **[!UICONTROL Collections]** in the left rail and use the Search box to sp
 
 * 右側のサイドバーにある「[!UICONTROL このページを編集]」（![ページを編集](assets/do-not-localize/edit-page.png)）または「[!UICONTROL 問題を記録] 」（![GitHub イシューを作成](assets/do-not-localize/github-issue.png)）を使用してドキュメントに関するフィードバックを提供する
 
-* [カスタマーケア](https://experienceleague.adobe.com/?support-solution=General&amp;lang=ja#support)に問い合わせる
+* [カスタマーケア](https://experienceleague.adobe.com/ja?support-solution=General#support)に問い合わせる
