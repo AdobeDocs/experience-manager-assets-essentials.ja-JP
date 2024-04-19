@@ -3,10 +3,10 @@ title: ' [!DNL Assets Essentials] でのアセットの検索と検出'
 description: ' [!DNL Assets Essentials] でのアセットの検索と検出について説明します。'
 role: User
 exl-id: be9597a3-056c-436c-a09e-15a03567c85a
-source-git-commit: 92cfe963d37df919b8bc29c49da7c8e9bd62638e
-workflow-type: ht
-source-wordcount: '1524'
-ht-degree: 100%
+source-git-commit: 0da570c129407b6ecaf3e41223f61ce279a308d0
+workflow-type: tm+mt
+source-wordcount: '1890'
+ht-degree: 81%
 
 ---
 
@@ -205,9 +205,9 @@ When userA is searching and userB add an asset that matches search results, will
 
 * **タスクを割り当て**：アセットのユーザーにタスクを割り当てます。
 
-* **監視**：アセットに対して実行される[操作を監視](manage-notifications.md)します。
+* **監視**：アセットに対して実行される[操作を監視](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/search-assets)します。
 
-## 最初に検索するホームページの設定 {#configuring-search-first-homepage}
+## 検索する最初のホームページを設定する {#configuring-search-first-homepage}
 
 Assets Essentials を使用すると、組織のデフォルトのランディングページを選択できます。最初に検索をホームページとして使用する場合、ブランドに合わせて背景画像とロゴ画像を設定し、ページのブランディングを調整するオプションもあります。
 
@@ -239,6 +239,92 @@ Assets Essentials を使用すると、組織のデフォルトのランディ�
 1. 「**[!UICONTROL 閉じる]**」をクリックし、プレビュー画面を閉じます。
 
    ![最初に検索するホームページのプレビュー](assets/search-first-preview.gif)
+
+## コンテキスト検索 {#contextual-search}
+
+また、テキストプロンプトを定義して、リポジトリで使用可能なアセットを検索することもできます。 Experience Manager Assetsは、これらのテキストプロンプトを検索フィルターに自動変換し、検索結果を表示します。 フィルターペインを使用して自動フィルターを表示および変更し、検索結果をさらに絞り込むことができます。
+
+### コンテキスト検索へのアクセス {#access-contextual-search}
+
+Experience Manager Assetsでコンテキスト検索にアクセスするには：
+
+1. クリック **[!UICONTROL 検索]** 左側のウィンドウで確認します。
+
+   ![コンテキスト検索](/help/using/assets/access-contextual-search.png)
+
+1. 検索テキストボックスでテキストプロンプトを定義し、をクリックします **[!UICONTROL コンテキスト検索]**.
+
+   ![コンテキスト検索のテキストプロンプト](/help/using/assets/contextual-search-text-prompt.png)
+
+   [!DNL Experience Manager Assets] 検索結果を表示します。
+
+
+### サポートされるフィルター {#supported-filters}
+
+コンテキスト検索では、すぐに使用できる次のフィルターをサポートしています。 これらのフィルターに基づいてテキストプロンプトを作成し、適切な検索結果を表示します。
+
+* 画像の高さ
+
+* 画像の幅
+
+* ファイルタイプ：画像、ドキュメント、ビデオ、フォルダー。
+
+* MIME タイプ：JPG、PNG、TIFF、GIF、MP4、PDF、PPTX、DOCX または XLSX
+
+* 作成日
+
+* 変更日
+
+* 有効期限
+
+* アセットステータス：承認済み、却下またはすべて
+
+* 期限切れのアセット
+
+### テキストプロンプトの例 {#text-prompts-examples}
+
+**例 1**
+
+**テキストプロンプト**：今月作成された画像。
+
+[!DNL Experience Manager Assets] では、以下のフィルターが自動的に適用され、検索結果が表示されます。
+
+![コンテキスト検索の例 1](/help/using/assets/contextual-search-example1.png)
+
+**例 2**
+
+**テキストプロンプト**：高さ 200 ピクセル、幅 100 ピクセル以上で、ビーチと澄んだ空が見えます。
+
+[!DNL Experience Manager Assets] では、以下のフィルターが自動的に適用され、検索結果が表示されます。
+
+![コンテキスト検索の例 2](/help/using/assets/contextual-search-example2.png)
+
+**例 3**
+
+**テキストプロンプト**：高さが 1500 および 2500 ピクセルで、過去 1 か月に作成された、有効期限が切れて承認されていない青空の画像が必要です。
+
+[!DNL Experience Manager Assets] では、以下のフィルターが自動的に適用され、検索結果が表示されます。
+
+![コンテキスト検索の例 3](/help/using/assets/contextual-search-example3.png)
+
+次のビデオでは、コンテキスト検索ユーザーインターフェイスへのアクセスから、テキストプロンプトの定義、検索結果の表示に至るまでのエンドツーエンドのプロセスを説明します。
+
+>[!VIDEO](https://video.tv.adobe.com/v/3428407)
+
+### コンテキスト検索を無効にする {#disable-contextual-search}
+
+管理者は、組織内のユーザーのコンテキスト検索を無効にするオプションもあります。 これを行うには、次の手順を実行します。
+
+1. **[!UICONTROL 設定]**／**[!UICONTROL 一般設定]**&#x200B;に移動します。
+
+1. が含まれる [!UICONTROL コンテキスト検索] セクションで、 **[!UICONTROL 組織のコンテキスト検索を有効にする]** を切り替えて、組織内のすべてのユーザーに対してコンテキスト検索機能を無効にします。
+
+### コンテキスト検索のフィードバック {#contextual-search-feedback}
+
+コンテキスト検索機能に関するフィードバックを提供する必要がある場合は、 ![コンテキスト検索アイコン](assets/do-not-localize/contextual-search-icon.png)  「フィードバック」アイコンをクリックします。 フィードバックの種類を選択し、件名と説明を指定して、をクリックします **[!UICONTROL Submit]**.
+
+![コンテキスト検索のフィードバック](/help/using/assets/contextual-search-feedback.png)
+
 
 ## 次の手順 {#next-steps}
 
