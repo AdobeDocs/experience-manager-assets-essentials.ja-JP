@@ -2,7 +2,7 @@
 title: ビデオを編集
 description: を使用したビデオの編集 [!DNL Adobe Express] を利用したオプションと、更新したビデオをバージョンとして保存します。
 role: User
-source-git-commit: 4d279f2744abe563abc39639b6541bd67aad3c4d
+source-git-commit: 5bcec500ff6bf67426f532a98eec5d351cc1ad03
 workflow-type: tm+mt
 source-wordcount: '786'
 ht-degree: 16%
