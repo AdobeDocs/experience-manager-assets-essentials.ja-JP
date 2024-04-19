@@ -4,10 +4,10 @@ description: ' [!DNL Assets Essentials] におけるアセットのメタデー�
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AG
 exl-id: cfc105d1-41fc-4418-9905-b2a28a348682
-source-git-commit: b14d8533854df448e2cb7b527ef5b7e69c072380
-workflow-type: ht
-source-wordcount: '1652'
-ht-degree: 100%
+source-git-commit: 37beb971f1e675162eb4b8e9ab008b20a241c066
+workflow-type: tm+mt
+source-wordcount: '1773'
+ht-degree: 92%
 
 ---
 
@@ -134,7 +134,7 @@ MIME サブタイプ／MIME タイプ／`default` フォーム／標準フォー
 | キーワード | フリーフォームキーワードを追加します（dc:subject にマッピング）。 |
 | スマートタグ | メタデータタグを自動的に追加して、検索機能を強化します。 |
 
-### フォルダーにメタデータフォームの割り当て {#assign-metadata-form-folder}
+### メタデータフォームのフォルダーへの割り当て {#assign-metadata-form-folder}
 
 Assets Essentials デプロイメント内のフォルダーにメタデータ フォームを割り当てることもできます。メタデータフォームをフォルダーに手動で適用する際、MIME タイプに従ってフォルダーに割り当てられたメタデータフォームが上書きされます。サブフォルダー内のアセットを含むフォルダー内のすべてのアセットには、メタデータフォームで定義されたプロパティが表示されます。
 
@@ -142,13 +142,29 @@ Assets Essentials デプロイメント内のフォルダーにメタデータ �
 
 1. **[!UICONTROL 設定]**／**[!UICONTROL メタデータフォーム]**&#x200B;に移動し、メタデータフォームを選択します。
 
-2. 「**[!UICONTROL フォルダーに割り当て]**」をクリックします。
+2. クリック **[!UICONTROL フォルダーに割り当て]**.
 
-3. フォルダーを選択し、「**[!UICONTROL 割り当て]**」をクリックします。
+3. フォルダーを選択し、 **[!UICONTROL 割り当て]**. フォルダー名をクリックして、フォルダーを選択できます。
 
    ![フォルダーにメタデータフォームを割り当てる](/help/using/assets/assign-to-folder.png)
 
    フォルダーの詳細ページに移動し、右側のパネルにあるフォルダーのプロパティからメタデータフォームを選択して、そのメタデータフォームをフォルダーに割り当てることもできます。
+
+   ![メタデータフォームフォルダーのプロパティ](/help/using/assets/folder-properties-metadata-forms.png)
+
+### フォルダーからメタデータフォームを削除 {#remove-metadata-form-folder}
+
+メタデータフォームを 1 つまたは複数のフォルダーに割り当てた後、Experience Manager Assetsを使用して、選択したフォルダーからメタデータフォームを削除することもできます。
+
+フォルダーからメタデータフォームを削除するには：
+
+1. **[!UICONTROL 設定]**／**[!UICONTROL メタデータフォーム]**&#x200B;に移動し、メタデータフォームを選択します。
+
+1. クリック **[!UICONTROL フォルダーから削除]**. メタデータフォームに割り当てられたフォルダーのリストが表示されます。
+
+1. フォルダーを選択し、 **[!UICONTROL 削除]**. リストから複数のフォルダーを選択することもできます。
+
+また、フォルダーの詳細ページに移動して、次の項目を選択することもできます **[!UICONTROL システムにマッピングされたメタデータフォーム]** から **[!UICONTROL メタデータForms]** 割り当てられたメタデータフォームをフォルダーから削除するフィールド。
 
 ## 次の手順 {#next-steps}
 

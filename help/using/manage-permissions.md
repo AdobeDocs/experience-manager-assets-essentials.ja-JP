@@ -2,7 +2,7 @@
 title: AEM Assets Essentials のフォルダーに対する権限の管理方法
 description: Assets Essentials では、管理者は、リポジトリで使用可能なフォルダーのアクセスレベルを管理できます。ユーザーグループを作成し、それらのグループに権限を割り当てて、アクセスレベルを管理します。管理者は、フォルダーレベルでユーザーグループに権限管理の権限をデリゲートすることもできます。
 exl-id: 5ef01dbc-87c0-4013-9367-5da3774f4f20
-source-git-commit: a77513f925203f9ad6cad9fd517f28989385af95
+source-git-commit: ec723ae4222254c64e8ddc2e03f8a523203f9f8a
 workflow-type: tm+mt
 source-wordcount: '1657'
 ht-degree: 100%
@@ -118,7 +118,7 @@ Assets Essentials は権限の継承を使用し、子フォルダー内の親�
 
 1. **[!UICONTROL 権限の管理]**&#x200B;ダイアログで、「**[!UICONTROL グループとユーザー]**」フィールドにグループまたはユーザーの名前を指定します。
 
-1. **[!UICONTROL アクセス権]**&#x200B;ドロップダウンリストから「[アクセスのレベル](#manage-permissions-folders)」を選択します。
+1. **[!UICONTROL アクセス権]**&#x200B;ドロップダウンリストから「[アクセスのレベル](#manage-permissions-on-folders)」を選択します。
 
 1. 「**[!UICONTROL 追加]**」をクリックして、ユーザーまたはユーザーグループの権限をすぐに変更します。
 
@@ -144,7 +144,7 @@ Assets Essentials は権限の継承を使用し、子フォルダー内の親�
 
 1. フォルダーを選択し、「**[!UICONTROL 権限の管理]**」をクリックします。
 
-1. **[!UICONTROL 権限の管理]**&#x200B;ダイアログで、**[!UICONTROL アクセス権]**&#x200B;ドロップダウンリストから「[アクセスのレベル](#manage-permissions-folders)」を編集します。
+1. **[!UICONTROL 権限の管理]**&#x200B;ダイアログで、**[!UICONTROL アクセス権]**&#x200B;ドロップダウンリストから「[アクセスのレベル](#manage-permissions-on-folders)」を編集します。
 
 1. 必要に応じて、既存の権限ルールに[ユーザーグループまたはユーザーを追加](#add-permissions)します。
 
