@@ -4,18 +4,77 @@ description: ' [!DNL Assets Essentials] のリリースノートと既知の問�
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AK
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
-source-git-commit: 196fa10fd6788b306aaad3c63100e5763be566b2
-workflow-type: ht
-source-wordcount: '2666'
-ht-degree: 100%
+source-git-commit: 8ad7c9e02e94656200b715047bb25ed79bdbf06d
+workflow-type: tm+mt
+source-wordcount: '2865'
+ht-degree: 93%
 
 ---
 
 # [!DNL Assets Essentials] のリリースノート {#release-notes}
 
-Assets Essentials の最新リリースは 2024年1月11日（PT）にリリースされました。
+Assets Essentials の最新リリースは 2024年4月18日（PT）にリリースされました。
 
 最近追加された機能には次のようなものがあります。
+
+**コンテキスト検索**
+
+テキストプロンプトを定義して、リポジトリで使用可能なアセットを検索できるようになりました。 Experience Manager Assetsは、これらのテキストプロンプトを検索フィルターに自動変換し、検索結果を表示します。 フィルターペインを使用して自動フィルターを表示および変更し、検索結果をさらに絞り込むことができます。
+
+![ストレージ使用状況インサイト](/help/using/assets/contextual-search-text-prompt1.png)
+
+<!--
+
+**Dynamic renditions**
+
+You can now view and download dynamic renditions (including smart crops) in Experience Manager Assets. Dynamic renditions are customized versions of image assets created in real-time to meet specific needs, such as resizing images based on device resolution or cropping to fit different aspect ratios. These renditions enable organizations to deliver personalized and optimized experiences to diverse audience needs.
+
+![storage usage insights](/help/using/assets/renditions-view-download.png)
+
+-->
+
+**アセットおよびフォルダーのインプレース名前変更**
+
+Experience Manager Assetsでは、1 回のクリックでアセットまたはフォルダーの名前を変更する機能により、シンプルなユーザーエクスペリエンスを提供するようになりました。
+
+**ビデオのクイックアクションの表現**
+
+Experience Manager Assetsに、コンテンツの再利用を促進しコンテンツベロシティを向上させる、Adobe Expressを活用した簡単で直感的なビデオ編集ツールが含まれるようになりました。 AEM Assets内でのビデオのライト編集には、ビデオ編集ツールおよびコンセプトに関する十分な知識は必要ありません。 トリミング、切り抜き、ビデオのサイズ変更、MP4 からGIFファイルへの変換などの編集オプションがあります。
+
+![Adobe Expressでビデオを切り抜く](/help/using/assets/adobe-express-crop-video.png)
+
+**複数のフォルダーへのメタデータフォームの割り当てまたは削除**
+
+複数のフォルダーにメタデータフォームを割り当てる、または削除できるようになりました。
+
+**プライベートコレクションの権限の管理**
+
+管理者に、リポジトリで使用可能な非公開コレクションのアクセスレベルの管理を許可できます。 `Can View` や `Can Edit` などの権限をユーザーグループまたはユーザーに割り当てることができます。また、ユーザーグループに権限管理権限をデリゲートすることもできます。
+
+
+**お客様からのフィードバックに基づく改善**
+
+お客様からのフィードバックに基づく機能強化およびバグ修正。
+
+
+## 既知の問題 {#known-issues}
+
+[!DNL Assets Essentials] ソリューションに関する既知の問題のリストは、継続的に改訂され、更新されています。
+
+<!--
+
+* Assets Essentials does not support creating Private collections.
+
+-->
+
+
+* 非公開コレクションは、作成者および管理者権限を持つユーザーが使用できます。管理者は、コレクションへのアクセス権を他のユーザーに委任することはできません。
+
+問題が発生した場合や機能強化のご要望については、サポートチームに[フィードバックを送付](#provide-feedback)してください。
+
+## 過去のリリース {#past-releases}
+
+### 2024年1月リリース {#january-2024-release}
 
 **スマートタグのブロックリスト**
 
@@ -50,32 +109,6 @@ Express へのアクセス権を持つユーザーは、Adobe Express と Adobe 
 Assets Essentials では、組織のホームページエクスペリエンスを設定できるようになりました。ホームページとして検索ファーストを選択した場合は、組織の検索バーの位置、背景画像、ロゴを設定できます。
 
 ![検索ファーストの設定](/help/using/assets/search-first-configuration.png)
-
-
-
-**お客様からのフィードバックに基づく改善**
-
-お客様からのフィードバックに基づく機能強化およびバグ修正。
-
-
-## 既知の問題 {#known-issues}
-
-[!DNL Assets Essentials] ソリューションに関する既知の問題のリストは、継続的に改訂され、更新されています。
-
-<!--
-
-* Assets Essentials does not support creating Private collections.
-
--->
-
-
-* 非公開コレクションは、作成者および管理者権限を持つユーザーが使用できます。管理者は、コレクションへのアクセス権を他のユーザーに委任することはできません。
-
-* 管理者は、コレクションへのアクセス権を他のユーザーに委任することはできません。
-
-問題が発生した場合や機能強化のご要望については、サポートチームに[フィードバックを送付](#provide-feedback)してください。
-
-## 過去のリリース {#past-releases}
 
 ### 2023年10月リリース {#october2023-release}
 
