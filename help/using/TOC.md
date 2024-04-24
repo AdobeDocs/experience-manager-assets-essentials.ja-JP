@@ -10,9 +10,9 @@ feature: Assets Essentials
 role: User,Leader
 solution: Experience Manager
 source-git-commit: 9c37194a04057600fe602b4de373c21e69389a16
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '138'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 98%
 + [マイワークスペース](my-workspace.md)
 + Assets Essentials の基本を学ぶ（管理者向け） {#get-started-admins}
    + [ユーザーの管理と追加](deploy-administer.md)
-   + フォルダーアクセスの管理 {#folder-access}
+   + フォルダーアクセスの管理{#folder-access}
       + [フォルダー権限の管理](manage-permissions.md)
       + [権限管理のベストプラクティス](permission-management-best-practices.md)
    + [Creative Cloud Pro 向け Assets Essentials と作業管理ソリューションの連携の管理者向けジャーニー](assets-essentials-cc-pro-work-management-admin-journey.md)
@@ -37,7 +37,7 @@ ht-degree: 98%
 + [アセットの検索と検出](search.md)
 + [アセット管理タスク](manage-organize.md)
 + [画像の編集](edit-images.md)
-+ [ビデオを編集](edit-videos.md)
++ [ビデオの編集](edit-videos.md)
 + [アセットメタデータの管理](metadata.md)
 + [アセットを共有する](share-links-for-assets.md)
 + [コレクションの管理](manage-collections.md)

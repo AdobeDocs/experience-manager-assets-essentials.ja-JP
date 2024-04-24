@@ -4,9 +4,9 @@ description: ' [!DNL Assets Essentials] でのアセットの検索と検出に�
 role: User
 exl-id: be9597a3-056c-436c-a09e-15a03567c85a
 source-git-commit: 0da570c129407b6ecaf3e41223f61ce279a308d0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1890'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -205,9 +205,9 @@ When userA is searching and userB add an asset that matches search results, will
 
 * **タスクを割り当て**：アセットのユーザーにタスクを割り当てます。
 
-* **監視**：アセットに対して実行される[操作を監視](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/search-assets)します。
+* **監視**：アセットに対して実行される[操作を監視](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/manage/search-assets)します。
 
-## 検索する最初のホームページを設定する {#configuring-search-first-homepage}
+## 最初に検索するホームページの設定 {#configuring-search-first-homepage}
 
 Assets Essentials を使用すると、組織のデフォルトのランディングページを選択できます。最初に検索をホームページとして使用する場合、ブランドに合わせて背景画像とロゴ画像を設定し、ページのブランディングを調整するオプションもあります。
 
@@ -242,26 +242,26 @@ Assets Essentials を使用すると、組織のデフォルトのランディ�
 
 ## コンテキスト検索 {#contextual-search}
 
-また、テキストプロンプトを定義して、リポジトリで使用可能なアセットを検索することもできます。 Experience Manager Assetsは、これらのテキストプロンプトを検索フィルターに自動変換し、検索結果を表示します。 フィルターペインを使用して自動フィルターを表示および変更し、検索結果をさらに絞り込むことができます。
+また、テキストプロンプトを定義して、リポジトリで使用可能なアセットを検索することもできます。Experience Manager Assets は、これらのテキストプロンプトを検索フィルターに自動変換し、検索結果を表示します。フィルターペインを使用して自動フィルターを表示および変更すると、検索結果をさらに絞り込むことができます。
 
 ### コンテキスト検索へのアクセス {#access-contextual-search}
 
-Experience Manager Assetsでコンテキスト検索にアクセスするには：
+Experience Manager Assets でコンテキスト検索にアクセスするには、次の手順を実行します。
 
-1. クリック **[!UICONTROL 検索]** 左側のウィンドウで確認します。
+1. 左側のウィンドウで「**[!UICONTROL 検索]**」をクリックします。
 
    ![コンテキスト検索](/help/using/assets/access-contextual-search.png)
 
-1. 検索テキストボックスでテキストプロンプトを定義し、をクリックします **[!UICONTROL コンテキスト検索]**.
+1. 検索テキストボックスでテキストプロンプトを定義し、「**[!UICONTROL コンテキスト検索]**」をクリックします。
 
    ![コンテキスト検索のテキストプロンプト](/help/using/assets/contextual-search-text-prompt.png)
 
-   [!DNL Experience Manager Assets] 検索結果を表示します。
+   [!DNL Experience Manager Assets] に検索結果が表示されます。
 
 
 ### サポートされるフィルター {#supported-filters}
 
-コンテキスト検索では、すぐに使用できる次のフィルターをサポートしています。 これらのフィルターに基づいてテキストプロンプトを作成し、適切な検索結果を表示します。
+コンテキスト検索では、すぐに使用できる次のフィルターをサポートしています。これらのフィルターに基づいてテキストプロンプトを作成し、適切な検索結果を表示します。
 
 * 画像の高さ
 
@@ -279,7 +279,7 @@ Experience Manager Assetsでコンテキスト検索にアクセスするには�
 
 * アセットステータス：承認済み、却下またはすべて
 
-* 期限切れのアセット
+* 有効期限切れのアセット
 
 ### テキストプロンプトの例 {#text-prompts-examples}
 
@@ -293,7 +293,7 @@ Experience Manager Assetsでコンテキスト検索にアクセスするには�
 
 **例 2**
 
-**テキストプロンプト**：高さ 200 ピクセル、幅 100 ピクセル以上で、ビーチと澄んだ空が見えます。
+**テキストプロンプト**：高さ 200 ピクセル、幅 100 ピクセル以上の、ビーチと澄んだ空の画像。
 
 [!DNL Experience Manager Assets] では、以下のフィルターが自動的に適用され、検索結果が表示されます。
 
@@ -301,27 +301,27 @@ Experience Manager Assetsでコンテキスト検索にアクセスするには�
 
 **例 3**
 
-**テキストプロンプト**：高さが 1500 および 2500 ピクセルで、過去 1 か月に作成された、有効期限が切れて承認されていない青空の画像が必要です。
+**テキストプロンプト**：高さが 1500 および 2500 ピクセルで、過去 1 か月以内に作成された、有効期限が切れて承認されていない青空の画像が必要です。
 
 [!DNL Experience Manager Assets] では、以下のフィルターが自動的に適用され、検索結果が表示されます。
 
 ![コンテキスト検索の例 3](/help/using/assets/contextual-search-example3.png)
 
-次のビデオでは、コンテキスト検索ユーザーインターフェイスへのアクセスから、テキストプロンプトの定義、検索結果の表示に至るまでのエンドツーエンドのプロセスを説明します。
+次のビデオでは、コンテキスト検索ユーザーインターフェイスへのアクセスから、テキストプロンプトの定義、検索結果の表示までのエンドツーエンドのプロセスを説明します。
 
 >[!VIDEO](https://video.tv.adobe.com/v/3428407)
 
 ### コンテキスト検索を無効にする {#disable-contextual-search}
 
-管理者は、組織内のユーザーのコンテキスト検索を無効にするオプションもあります。 これを行うには、次の手順を実行します。
+管理者には、組織内のユーザーのコンテキスト検索を無効にするオプションも用意しています。これを行うには、次の手順を実行します。
 
 1. **[!UICONTROL 設定]**／**[!UICONTROL 一般設定]**&#x200B;に移動します。
 
-1. が含まれる [!UICONTROL コンテキスト検索] セクションで、 **[!UICONTROL 組織のコンテキスト検索を有効にする]** を切り替えて、組織内のすべてのユーザーに対してコンテキスト検索機能を無効にします。
+1. 「[!UICONTROL コンテキスト検索]」セクションで、「**[!UICONTROL 組織のコンテキスト検索を有効にする]**」切替スイッチをオフにして、組織内のすべてのユーザーに対してコンテキスト検索機能を無効にします。
 
 ### コンテキスト検索のフィードバック {#contextual-search-feedback}
 
-コンテキスト検索機能に関するフィードバックを提供する必要がある場合は、 ![コンテキスト検索アイコン](assets/do-not-localize/contextual-search-icon.png)  「フィードバック」アイコンをクリックします。 フィードバックの種類を選択し、件名と説明を指定して、をクリックします **[!UICONTROL Submit]**.
+コンテキスト検索機能に関するフィードバックを提供する必要がある場合は、![コンテキスト検索アイコン](assets/do-not-localize/contextual-search-icon.png)、フィードバックアイコンの順にクリックします。フィードバックの種類を選択し、件名と説明を指定して、「**[!UICONTROL 送信]**」をクリックします。
 
 ![コンテキスト検索のフィードバック](/help/using/assets/contextual-search-feedback.png)
 
