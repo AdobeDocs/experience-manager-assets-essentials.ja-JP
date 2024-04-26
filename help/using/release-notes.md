@@ -5,9 +5,9 @@ role: User,Leader,Admin,Architect,Developer
 contentOwner: AK
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
 source-git-commit: ae72670b4e66b79ac531f4050703951e0e7852e0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2847'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ Assets Essentials の最新リリースは 2024年4月18日（PT）にリリー�
 
 **コンテキスト検索**
 
-テキストプロンプトを定義して、リポジトリで使用可能なアセットを検索できるようになりました。 Experience Manager Assetsは、これらのテキストプロンプトを検索フィルターに自動変換し、検索結果を表示します。 フィルターペインを使用して自動フィルターを表示および変更し、検索結果をさらに絞り込むことができます。
+また、テキストプロンプトを定義して、リポジトリで使用可能なアセットを検索することもできるようになりました。Experience Manager Assets は、これらのテキストプロンプトを検索フィルターに自動変換し、検索結果を表示します。フィルターペインを使用して自動フィルターを表示および変更すると、検索結果をさらに絞り込むことができます。
 
 ![ストレージ使用状況インサイト](/help/using/assets/contextual-search-text-prompt1.png)
 
@@ -35,13 +35,13 @@ You can now view and download dynamic renditions (including smart crops) in Expe
 
 **アセットおよびフォルダーのインプレース名前変更**
 
-Experience Manager Assetsでは、1 回のクリックでアセットまたはフォルダーの名前を変更する機能により、シンプルなユーザーエクスペリエンスを提供するようになりました。
+Experience Manager Assets では、シングルクリックでアセットまたはフォルダーを名前変更できる機能を提供して、簡素化されたユーザーエクスペリエンスを提供するようになりました。
 
-**ビデオのクイックアクションの表現**
+**ビデオのクイックアクションの高速化**
 
-Experience Manager Assetsに、コンテンツの再利用を促進しコンテンツベロシティを向上させる、Adobe Expressを活用した簡単で直感的なビデオ編集ツールが含まれるようになりました。 トリミング、切り抜き、ビデオのサイズ変更、MP4 からGIFファイルへの変換などの編集オプションがあります。
+Experience Manager Assets には、Adobe Express を活用した簡単で直感的なビデオ編集ツールが含まれており、コンテンツの再利用を増やし、コンテンツの速度を高速化します。編集オプションには、ビデオのトリミング、切り抜き、サイズ変更、MP4 から GIF ファイルへの変換などが含まれます。
 
-![Adobe Expressでビデオを切り抜く](/help/using/assets/adobe-express-crop-video.png)
+![Adobe Express を使用したビデオの切り抜き](/help/using/assets/adobe-express-crop-video.png)
 
 **複数のフォルダーへのメタデータフォームの割り当てまたは削除**
 
@@ -49,7 +49,7 @@ Experience Manager Assetsに、コンテンツの再利用を促進しコンテ�
 
 **プライベートコレクションの権限の管理**
 
-管理者に、リポジトリで使用可能な非公開コレクションのアクセスレベルの管理を許可できます。 `Can View` や `Can Edit` などの権限をユーザーグループまたはユーザーに割り当てることができます。また、ユーザーグループに権限管理権限をデリゲートすることもできます。
+管理者は、リポジトリで使用可能な非公開コレクションのアクセスレベルを管理できます。`Can View` や `Can Edit` などの権限をユーザーグループまたはユーザーに割り当てることができます。また、ユーザーグループに権限管理の権限をデリゲートすることもできます。
 
 
 **お客様からのフィードバックに基づく改善**
