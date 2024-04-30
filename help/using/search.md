@@ -4,7 +4,7 @@ description: ' [!DNL Assets Essentials] でのアセットの検索と検出に�
 role: User
 exl-id: be9597a3-056c-436c-a09e-15a03567c85a
 source-git-commit: 5d6cc2c27fc416d3f616a25db0e6497d9ad946c1
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1834'
 ht-degree: 100%
 
