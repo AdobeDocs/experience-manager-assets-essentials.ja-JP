@@ -3,9 +3,9 @@ title: ' [!DNL Assets Essentials] でのアセットの検索と検出'
 description: ' [!DNL Assets Essentials] でのアセットの検索と検出について説明します。'
 role: User
 exl-id: be9597a3-056c-436c-a09e-15a03567c85a
-source-git-commit: 0da570c129407b6ecaf3e41223f61ce279a308d0
+source-git-commit: 5d6cc2c27fc416d3f616a25db0e6497d9ad946c1
 workflow-type: ht
-source-wordcount: '1890'
+source-wordcount: '1834'
 ht-degree: 100%
 
 ---
@@ -246,9 +246,9 @@ Assets Essentials を使用すると、組織のデフォルトのランディ�
 
 ### コンテキスト検索へのアクセス {#access-contextual-search}
 
-Experience Manager Assets でコンテキスト検索にアクセスするには、次の手順を実行します。
+Experience Manager Assets でコンテキスト検索にアクセスするには、次の手順に従います。
 
-1. 左側のウィンドウで「**[!UICONTROL 検索]**」をクリックします。
+1. 左側のペインで「**[!UICONTROL 検索]**」をクリックします。
 
    ![コンテキスト検索](/help/using/assets/access-contextual-search.png)
 
@@ -267,7 +267,7 @@ Experience Manager Assets でコンテキスト検索にアクセスするには
 
 * 画像の幅
 
-* ファイルタイプ：画像、ドキュメント、ビデオ、フォルダー。
+* ファイルタイプ：画像、ドキュメント、ビデオまたはフォルダー。
 
 * MIME タイプ：JPG、PNG、TIFF、GIF、MP4、PDF、PPTX、DOCX または XLSX
 
@@ -287,23 +287,23 @@ Experience Manager Assets でコンテキスト検索にアクセスするには
 
 **テキストプロンプト**：今月作成された画像。
 
-[!DNL Experience Manager Assets] では、以下のフィルターが自動的に適用され、検索結果が表示されます。
+[!DNL Experience Manager Assets] は次のフィルターを自動的に適用し、検索結果を表示します。
 
 ![コンテキスト検索の例 1](/help/using/assets/contextual-search-example1.png)
 
 **例 2**
 
-**テキストプロンプト**：高さ 200 ピクセル、幅 100 ピクセル以上の、ビーチと澄んだ空の画像。
+**テキストプロンプト**：高さ 200 ピクセル、幅 100 ピクセル以上で、ビーチと澄んだ空の画像。
 
-[!DNL Experience Manager Assets] では、以下のフィルターが自動的に適用され、検索結果が表示されます。
+[!DNL Experience Manager Assets] は、次のフィルターを自動的に適用し、検索結果を表示します。
 
 ![コンテキスト検索の例 2](/help/using/assets/contextual-search-example2.png)
 
 **例 3**
 
-**テキストプロンプト**：高さが 1500 および 2500 ピクセルで、過去 1 か月以内に作成された、有効期限が切れて承認されていない青空の画像が必要です。
+**テキストプロンプト**：高さが 1500 および 2500 ピクセルで、過去 1 か月以内に作成された、有効期限が切れておらず、承認された青空の画像が必要です。
 
-[!DNL Experience Manager Assets] では、以下のフィルターが自動的に適用され、検索結果が表示されます。
+[!DNL Experience Manager Assets] は、次のフィルターを自動的に適用し、検索結果を表示します。
 
 ![コンテキスト検索の例 3](/help/using/assets/contextual-search-example3.png)
 
@@ -311,17 +311,19 @@ Experience Manager Assets でコンテキスト検索にアクセスするには
 
 >[!VIDEO](https://video.tv.adobe.com/v/3428407)
 
-### コンテキスト検索を無効にする {#disable-contextual-search}
+<!--
+### Disable Contextual Search {#disable-contextual-search}
 
-管理者には、組織内のユーザーのコンテキスト検索を無効にするオプションも用意しています。これを行うには、次の手順を実行します。
+Administrators also have the option to disable Contextual Search for users in your organization. To do so, execute the following steps:
 
-1. **[!UICONTROL 設定]**／**[!UICONTROL 一般設定]**&#x200B;に移動します。
+1. Navigate to **[!UICONTROL Settings]** > **[!UICONTROL General Settings]**.
 
-1. 「[!UICONTROL コンテキスト検索]」セクションで、「**[!UICONTROL 組織のコンテキスト検索を有効にする]**」切替スイッチをオフにして、組織内のすべてのユーザーに対してコンテキスト検索機能を無効にします。
+1. In the [!UICONTROL Contextual Search] section, turn off the **[!UICONTROL Enable Contextual Search for your organization]** toggle to disable the Contextual Search feature for all users in your organization.  
+-->
 
 ### コンテキスト検索のフィードバック {#contextual-search-feedback}
 
-コンテキスト検索機能に関するフィードバックを提供する必要がある場合は、![コンテキスト検索アイコン](assets/do-not-localize/contextual-search-icon.png)、フィードバックアイコンの順にクリックします。フィードバックの種類を選択し、件名と説明を指定して、「**[!UICONTROL 送信]**」をクリックします。
+コンテキスト検索機能に関するフィードバックを提供する必要がある場合は、![コンテキスト検索アイコン](assets/do-not-localize/Smock_Help_18_N.svg)、フィードバックアイコンの順にクリックします。フィードバックの種類を選択し、件名と説明を指定して、「**[!UICONTROL 送信]**」をクリックします。
 
 ![コンテキスト検索のフィードバック](/help/using/assets/contextual-search-feedback.png)
 
