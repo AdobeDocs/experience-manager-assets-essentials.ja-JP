@@ -2,10 +2,10 @@
 title: アセットへのリンクの共有方法
 description: リンクを生成し、 [!DNL Assets Essentials]  アプリケーションへのアクセス権を持たない他のユーザーとアセットを共有します。
 exl-id: 6e05b06c-7436-40e3-acee-c8b1ed218f9e
-source-git-commit: 65200f73a954e4ebf4fbd6dc3a819acc6e0beda4
-workflow-type: ht
-source-wordcount: '407'
-ht-degree: 100%
+source-git-commit: 0ce79167583178f2b81b7ac9f91dd518455cc49f
+workflow-type: tm+mt
+source-wordcount: '413'
+ht-degree: 76%
 
 ---
 
@@ -21,6 +21,11 @@ ht-degree: 100%
 
 1. 調整したい場合は、カレンダーアイコンをクリックし、「**[!UICONTROL 有効期限]**」フィールドを使用してリンクの有効期限を定義します。 また、`yyyy-mm-dd` 形式で日付を直接指定することもできます。デフォルトでは、リンクの有効期限は共有日から 2 週間に設定されています。
 
+>[!NOTE]
+> 日付の形式は、選択したロケールに基づいて変更されます。
+> 例： `de-DE` 使用 `dd-mm-yyyy`, `ja-JA` 使用 `yyyy-mm-dd`それにもかかわらず、 `en-EN` 使用 `mm-dd-yyyy`.
+>
+
 1. 「**[!UICONTROL リンクを共有]**」フィールドからリンクをコピーします。
 
    ![切り抜きと角度補正のオプション](assets/share-asset-link.png)
@@ -29,7 +34,7 @@ ht-degree: 100%
 
 ## 共有アセットにアクセス {#access-shared-assets}
 
-受信者は、アセットの公開リンクを共有した後、リンクをクリックし、[!DNL Assets Essentials] にログインしなくても web ブラウザーで共有アセットをプレビューまたはダウンロードできます。
+受信者は、アセットの公開リンクを共有した後、リンクをクリックし、にログインしなくても web ブラウザーで共有アセットをプレビューまたはダウンロードできます [!DNL Assets Essentials].
 
 リンクをクリックし、フォルダーをクリックしてアセットに移動し、アセットをクリックしてプレビューします。リスト表示またはカード表示で共有アセットを表示するように選択できます。
 
@@ -43,10 +48,10 @@ ht-degree: 100%
 
 ## 次の手順 {#next-steps}
 
-* [ビデオを視聴して Assets Essentials 内のアセットのリンクを共有する方法を学ぶ](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/basics/link-sharing.html?lang=ja)
+* [ビデオを視聴してAssets Essentials内のアセットのリンクを共有する方法を学ぶ](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/basics/link-sharing.html?lang=ja).
 
-* Assets Essentials ユーザーインターフェイスの「[!UICONTROL フィードバック]」オプションを使用して製品に関するフィードバックを提供する
+* を使用して製品に関するフィードバックを提供する [!UICONTROL Feedback] オプションはAssets Essentialsユーザーインターフェイスで使用できます。
 
-* 右側のサイドバーにある「[!UICONTROL このページを編集]」（![ページを編集](assets/do-not-localize/edit-page.png)）または「[!UICONTROL 問題を記録] 」（![GitHub イシューを作成](assets/do-not-localize/github-issue.png)）を使用してドキュメントに関するフィードバックを提供する
+* を使用してドキュメントに関するフィードバックを提供する [!UICONTROL このページを編集] ![ページを編集](assets/do-not-localize/edit-page.png) または [!UICONTROL 問題を記録] ![github イシューの作成](assets/do-not-localize/github-issue.png) 右側のサイドバーで使用できます。
 
-* [カスタマーケア](https://experienceleague.adobe.com/?support-solution=General&amp;lang=ja#support)に問い合わせる
+* 連絡先 [カスタマーケア](https://experienceleague.adobe.com/?support-solution=General&amp;lang=ja#support).

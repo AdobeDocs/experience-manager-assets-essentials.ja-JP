@@ -4,10 +4,10 @@ description: ' [!DNL Assets Essentials] のリリースノートと既知の問�
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AK
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
-source-git-commit: ae72670b4e66b79ac531f4050703951e0e7852e0
-workflow-type: ht
-source-wordcount: '2847'
-ht-degree: 100%
+source-git-commit: eac31e102b9e26241cd513b1aeb8774802120a9d
+workflow-type: tm+mt
+source-wordcount: '2903'
+ht-degree: 94%
 
 ---
 
@@ -43,13 +43,16 @@ Experience Manager Assets には、Adobe Express を活用した簡単で直感�
 
 ![Adobe Express を使用したビデオの切り抜き](/help/using/assets/adobe-express-crop-video.png)
 
+>[!NOTE]
+> アクセスする権限 [!DNL Adobe Express] は必須で、AEM Assets内に 1 つ以上の環境があります。 内の任意のリポジトリを環境にすることができます [!DNL Assets as a Cloud Service] または [!DNL Assets Essentials].
+
 **複数のフォルダーへのメタデータフォームの割り当てまたは削除**
 
-複数のフォルダーにメタデータフォームを割り当てる、または削除できるようになりました。
+メタデータフォームを複数のフォルダーに割り当てたり、複数のフォルダーから削除したりできます。
 
 **プライベートコレクションの権限の管理**
 
-管理者は、リポジトリで使用可能な非公開コレクションのアクセスレベルを管理できます。`Can View` や `Can Edit` などの権限をユーザーグループまたはユーザーに割り当てることができます。また、ユーザーグループに権限管理の権限をデリゲートすることもできます。
+管理者または管理者以外（他のユーザー）に対して、リポジトリで使用可能な非公開コレクションのアクセスレベルの管理を許可できます。 `Can View` や `Can Edit` などの権限をユーザーグループまたはユーザーに割り当てることができます。また、ユーザーグループに権限管理の権限をデリゲートすることもできます。
 
 
 **お客様からのフィードバックに基づく改善**
@@ -59,7 +62,7 @@ Experience Manager Assets には、Adobe Express を活用した簡単で直感�
 
 ## 既知の問題 {#known-issues}
 
-[!DNL Assets Essentials] ソリューションに関する既知の問題のリストは、継続的に改訂され、更新されています。
+の既知の問題のリスト [!DNL Assets Essentials] オファーは継続的に改訂され、更新されます。
 
 <!--
 
@@ -68,7 +71,7 @@ Experience Manager Assets には、Adobe Express を活用した簡単で直感�
 -->
 
 
-* 非公開コレクションは、作成者および管理者権限を持つユーザーが使用できます。管理者は、コレクションへのアクセス権を他のユーザーに委任することはできません。
+<!--* Private collections are available to creator and the users with administrator privileges. As an administrator, you cannot delegate the permissions to access the collection to other users.-->
 
 問題が発生した場合や機能強化のご要望については、サポートチームに[フィードバックを送付](#provide-feedback)してください。
 
@@ -106,7 +109,7 @@ Express へのアクセス権を持つユーザーは、Adobe Express と Adobe 
 
 **検索ファーストホームページの設定**
 
-Assets Essentials では、組織のホームページエクスペリエンスを設定できるようになりました。ホームページとして検索ファーストを選択した場合は、組織の検索バーの位置、背景画像、ロゴを設定できます。
+Assets Essentials では、組織のホームページエクスペリエンスを設定できるようになりました。ホームページとして最初に検索を選択した場合は、組織の検索バーの配置、背景画像、ロゴを設定できます。 選択 [!UICONTROL 一般設定] デフォルトのランディングページを上書きします。 例えば、デフォルトのランディングはです [!UICONTROL マイワークスペース] 管理者向けおよび [!UICONTROL 最初に検索] 管理者以外の場合、「一般設定」の下のオプションのいずれかを選択すると、すべてのユーザーに適用されます
 
 ![検索ファーストの設定](/help/using/assets/search-first-configuration.png)
 
@@ -209,7 +212,7 @@ Assets Essentials では、複数値テキストおよびドロップダウン�
 
 **アセットメタデータの一括アップデート**
 
-メタデータの一括アップデートを使用すると、複数のアセットに対して、共通のメタデータアップデートを同時に実行できます。 レコードを個別に更新する必要はなく、検索を通じてアクセスするアセットやフォルダーにプロパティをすばやく適用することができます。
+メタデータの一括アップデートを使用すると、複数のアセットに対して、共通のメタデータアップデートを同時に実行できます。 レコードを個別に更新する必要はなく、検索を通じてアクセスするアセットやフォルダーにプロパティをすばやく適用することができます。 また、メタデータの一括アップデートは既存の値を上書きします。つまり、既存のキーワードがメタデータの一括アップデートによって上書きされます。
 
 **設定可能なウィジェットを使用したマイワークスペース**
 
