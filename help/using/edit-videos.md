@@ -3,7 +3,7 @@ title: ビデオの編集
 description: を使用したビデオの編集 [!DNL Adobe Express] を利用したオプションと、更新したビデオをバージョンとして保存します。
 role: User
 exl-id: 8468d572-89f1-431d-be7f-01e583d06cd7
-source-git-commit: eede4280258595b7c74061786a8c173afaeee058
+source-git-commit: e775f6ebeda48ff01082c471a9f997c57e0dedb3
 workflow-type: tm+mt
 source-wordcount: '786'
 ht-degree: 18%
@@ -95,7 +95,7 @@ Adobe Expressを使用して、MP4 ビデオをGIF形式にすばやく変換で
 
 ### 次の手順 {#next-steps}
 
-* Assets Essentials ユーザーインターフェイスの「[!UICONTROL フィードバック]」オプションを使用して製品に関するフィードバックを提供する
+* Assets Essentials ユーザーインターフェイスの「[!UICONTROL フィードバック]」オプションを使用して、製品に関するフィードバックを提供する
 
 * 右側のサイドバーにある「[!UICONTROL このページを編集]」（![ページを編集](assets/do-not-localize/edit-page.png)）または「[!UICONTROL 問題を記録] 」（![GitHub イシューを作成](assets/do-not-localize/github-issue.png)）を使用してドキュメントに関するフィードバックを提供する
 
