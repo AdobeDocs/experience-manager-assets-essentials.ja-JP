@@ -2,10 +2,10 @@
 title: Assets Essentials でのレポートの管理
 description: Assets Essentials の「レポート」セクションのデータにアクセスして、製品と機能の使用状況を評価し、主要な成功指標に関するインサイトを導き出します。
 exl-id: c7155459-05d9-4a95-a91f-a1fa6ae9d9a4
-source-git-commit: b24113299b5f8d32b3c4aef453923b23dc775228
-workflow-type: ht
-source-wordcount: '857'
-ht-degree: 100%
+source-git-commit: eede4280258595b7c74061786a8c173afaeee058
+workflow-type: tm+mt
+source-wordcount: '930'
+ht-degree: 92%
 
 ---
 
@@ -44,26 +44,32 @@ Assets Essentials を使用すると、Assets Essentials 環境のリアルタ�
 
 左側のナビゲーションパネルにある「**[!UICONTROL インサイト]**」をクリックすると、自動生成された以下のグラフを表示できます。
 
-![インサイト](assets/insights.png)
-
 * **ダウンロード**：過去 30 日間または 12 か月間に Assets Essentials 環境からダウンロードされたアセットの数は、折れ線グラフで表されます。
+  ![ダウンロード](/help/using/assets/insights-downloads2341.svg)
 
 * **アップロード**：過去 30 日間または 12 か月間に Assets Essentials 環境にアップロードされたアセットの数は、折れ線グラフで表されます。
+  ![アップロード](/help/using/assets/insights-uplods2.svg)
 
 <!--* **Asset Count by Size**: The division of count of assets based on their range of various sizes from 0 MB to 100 GB.-->
 
 * **ストレージ使用量**：Assets Essentials 環境のストレージ使用量（バイト）は、棒グラフで表されます。
-
-<!--* **Delivery**: The graph depicts the count of assets as the delivery dates.-->
+  ![ストレージ使用状況](/help/using/assets/insights-storage-usage1.svg)
+  <!--* **Delivery**: The graph depicts the count of assets as the delivery dates.-->
 
 <!--* **Asset Count by Asset Type**: Represents count of various MIME types of the available assets. For example, application/zip, image/png, video/mp4, application/postscripte.-->
 
 * **上位の検索**：過去 30 日間または 12 か月間に Assets Essentials 環境内で検索された上位の検索キーワードと回数は、表形式で表されます。
+  ![ストレージ使用状況](/help/using/assets/insights-top-search.svg)
 
   <!--
    ![Insights](assets/insights1.png)
    ![Insights](assets/insights2.png)
    -->
+
+* **サイズ別アセット数：** Assets Essentials環境内の合計アセット数をセグメント化し、ファイルタイプに基づいてアセットの数と割合をハイライト表示します（ドーナツグラフで表示）。
+  ![insights-assets-count-by-size](/help/using/assets/insights-assets-count-by-size.svg)
+* **アセットタイプ別のアセット数：** Assets Essentials環境内の合計アセット数を様々なサイズ範囲にセグメント化し、各サイズ範囲内のアセットの数と割合をドーナツグラフで表示します。
+  ![insights-assets-count-by-size](/help/using/assets/insights-assest-count-by-asset-type1.svg)
 
 ## ダウンロードレポートの作成 {#create-download-report}
 
