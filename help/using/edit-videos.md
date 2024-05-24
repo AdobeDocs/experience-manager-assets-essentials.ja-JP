@@ -3,7 +3,7 @@ title: ビデオの編集
 description: を使用したビデオの編集 [!DNL Adobe Express] を利用したオプションと、更新したビデオをバージョンとして保存します。
 role: User
 exl-id: 8468d572-89f1-431d-be7f-01e583d06cd7
-source-git-commit: e775f6ebeda48ff01082c471a9f997c57e0dedb3
+source-git-commit: 456ffec077617909f98b66bed711921c0b7b3925
 workflow-type: tm+mt
 source-wordcount: '786'
 ht-degree: 18%
@@ -87,7 +87,7 @@ Adobe Expressを使用して、MP4 ビデオをGIF形式にすばやく変換で
 
 * サポートされるソースファイルの最大サイズは 200 MB です。
 
-* サポートされているビデオは、どの側も 46 ピクセルを超え、3840 ピクセル未満です
+* サポートされているビデオは、どの側も 46 ピクセルを超え、3840 ピクセル未満です。
 
 * サポートされている web ブラウザーは、Google Chrome、Firefox、Safari および Edge です。
 
