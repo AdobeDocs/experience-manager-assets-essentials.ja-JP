@@ -4,9 +4,9 @@ description: ' [!DNL Adobe Express]  を利用したオプションを使用し�
 role: User
 exl-id: fc21a6ee-bf23-4dbf-86b0-74695a315b2a
 source-git-commit: f65e4eb7e0877e8b8d7ba4d5dd88c64b4423f152
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '796'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -76,9 +76,9 @@ Adobe Express を使用すると、JPEG 画像を PNG 形式にすばやく変�
 
 ### 制限事項 {#limitations-adobe-express}
 
-* サポートされる画像解像度：ディメンションあたり最小 – 50 ピクセル、最大 – 6000 ピクセル。
+* サポートされる画像解像度：最小 - 50 ピクセル、最大 - ディメンションあたり 6000 ピクセル。
 
-* サポートされる最大ファイルサイズ : 17 MB。
+* サポートされるファイルの最大サイズ：17 MB。
 
 ## Adobe Express 埋め込みエディターを使用した画像の編集 {#edit-using-embedded-editor}
 
