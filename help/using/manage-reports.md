@@ -2,10 +2,10 @@
 title: Assets Essentials でのレポートの管理
 description: Assets Essentials の「レポート」セクションのデータにアクセスして、製品と機能の使用状況を評価し、主要な成功指標に関するインサイトを導き出します。
 exl-id: c7155459-05d9-4a95-a91f-a1fa6ae9d9a4
-source-git-commit: eede4280258595b7c74061786a8c173afaeee058
+source-git-commit: 8f91cd833712363e09b81a5f59b08e2f41237d90
 workflow-type: tm+mt
-source-wordcount: '930'
-ht-degree: 92%
+source-wordcount: '862'
+ht-degree: 99%
 
 ---
 
@@ -65,11 +65,6 @@ Assets Essentials を使用すると、Assets Essentials 環境のリアルタ�
    ![Insights](assets/insights1.png)
    ![Insights](assets/insights2.png)
    -->
-
-* **サイズ別アセット数：** Assets Essentials環境内の合計アセット数をセグメント化し、ファイルタイプに基づいてアセットの数と割合をハイライト表示します（ドーナツグラフで表示）。
-  ![insights-assets-count-by-size](/help/using/assets/insights-assets-count-by-size.svg)
-* **アセットタイプ別のアセット数：** Assets Essentials環境内の合計アセット数を様々なサイズ範囲にセグメント化し、各サイズ範囲内のアセットの数と割合をドーナツグラフで表示します。
-  ![insights-assets-count-by-size](/help/using/assets/insights-assest-count-by-asset-type1.svg)
 
 ## ダウンロードレポートの作成 {#create-download-report}
 
