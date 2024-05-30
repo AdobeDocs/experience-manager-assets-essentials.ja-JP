@@ -2,7 +2,7 @@
 title: Assets Essentials でのレポートの管理
 description: Assets Essentials の「レポート」セクションのデータにアクセスして、製品と機能の使用状況を評価し、主要な成功指標に関するインサイトを導き出します。
 exl-id: c7155459-05d9-4a95-a91f-a1fa6ae9d9a4
-source-git-commit: 3f2c2cdb948a3a33c25e10588aa2bc8fa2a5a845
+source-git-commit: 9cfb01590ae8ce620cc0eed042dcddfbb8b91742
 workflow-type: tm+mt
 source-wordcount: '929'
 ht-degree: 93%
@@ -66,10 +66,10 @@ Assets Essentials を使用すると、Assets Essentials 環境のリアルタ�
    ![Insights](assets/insights2.png)
    -->
 
-* **サイズ別アセット数：** アセットビュー環境の合計アセット数を様々なサイズ範囲にセグメント化し、各サイズ範囲におけるアセットの数と割合をドーナツグラフで強調表示します。
+* **サイズ別アセット数：** Assets Essentials 環境の合計アセット数を様々なサイズ範囲にセグメント化し、各サイズ範囲内のアセットの数と割合をハイライト表示して、ドーナツグラフで表します。
   ![サイズ別のアセットカウントのインサイト](/help/using/assets/insights-assets-count-by-size.svg)
 
-* **アセットタイプ別のアセット数：** アセットビュー環境で合計アセット数をセグメント化し、ファイルタイプに基づいてアセットの数と割合をハイライト表示します（ドーナツグラフで表されます）。
+* **アセットタイプ別のアセット数：** Assets Essentials 環境で合計アセット数をセグメント化し、ファイルタイプに基づいてアセットの数と割合をハイライト表示して、ドーナツグラフで表します。
   ![サイズ別のアセットカウントのインサイト](/help/using/assets/insights-assest-count-by-asset-type1.svg)
 
 ## ダウンロードレポートの作成 {#create-download-report}
