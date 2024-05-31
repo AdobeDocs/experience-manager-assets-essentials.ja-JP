@@ -2,7 +2,7 @@
 title: Assets Essentials でのレポートの管理
 description: Assets Essentials の「レポート」セクションのデータにアクセスして、製品と機能の使用状況を評価し、主要な成功指標に関するインサイトを導き出します。
 exl-id: c7155459-05d9-4a95-a91f-a1fa6ae9d9a4
-source-git-commit: 5b5fe779f1dd50470016706a5ba3f6f59ab46793
+source-git-commit: 71a0381f5f7c32d3da1923778b3cd7b678391cae
 workflow-type: tm+mt
 source-wordcount: '862'
 ht-degree: 100%
@@ -86,7 +86,7 @@ Assets Essentials を使用すると、Assets Essentials 環境のリアルタ�
 
 1. 「[!UICONTROL 列]」タブで、レポートに表示する列名を選択します。
 
-1. 「**[!UICONTROL 作成]**」をクリックします。
+1. 「**[!UICONTROL 作成]**」をクリックします
 
    ![レポートをダウンロード](assets/download-reports-config.png)
 
