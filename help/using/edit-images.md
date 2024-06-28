@@ -3,16 +3,16 @@ title: 画像の編集
 description: ' [!DNL Adobe Express]  を利用したオプションを使用して画像を編集し、更新した画像をバージョンとして保存します。'
 role: User
 exl-id: fc21a6ee-bf23-4dbf-86b0-74695a315b2a
-source-git-commit: 35f92dfe66fa2cae6a512b6b59bfe2bacc87511c
+source-git-commit: 5947e7db586b691f1db3bf734481de8438e5a3b5
 workflow-type: tm+mt
 source-wordcount: '1116'
 ht-degree: 30%
 
 ---
 
-# [!DNL Assets Essentials] での画像の編集  {#edit-images-in-asset-essentials}
+# [!DNL Assets Essentials] での画像の編集  {#edit-images-in-assets-essentials}
 
-Asset Essentials UI を使用すると、サイズ変更、背景の削除、切り抜き、JPEG形式と PNG 形式の変換など、基本的な画像編集を行うことができます。 また、Adobe Expressとの連携による高度な編集も可能です。 画像の編集後、新しい画像を新しいバージョンとして保存できます。バージョン管理を使用すると、必要に応じて後で元のアセットに戻すことができます。 画像を編集するには、[プレビューを開き](https://experienceleague.adobe.com/en/docs/experience-manager-assets-essentials/help/navigate-view#preview-assets)、「**画像を編集**」をクリックします。
+Assets Essentials UI を使用すると、サイズ変更、背景の削除、切り抜き、JPEG形式と PNG 形式の変換などの基本的な画像編集が可能になります。 また、Adobe Expressとの連携による高度な編集も可能です。 画像の編集後、新しい画像を新しいバージョンとして保存できます。バージョン管理を使用すると、必要に応じて後で元のアセットに戻すことができます。 画像を編集するには、[プレビューを開き](https://experienceleague.adobe.com/en/docs/experience-manager-assets-essentials/help/navigate-view#preview-assets)、「**画像を編集**」をクリックします。
 
 >[!NOTE]
 >
@@ -22,8 +22,8 @@ Asset Essentials UI を使用すると、サイズ変更、背景の削除、切
 
 ## 画像を編集 {#edit-images}
 
-リンクを使用して、Asset Essentials UI にアクセスします。 [Asset Essentials UI](https://experience.adobe.com/#/assets) 適切なリポジトリを選択します。 アクセス権を受け取るには、組織の管理者に問い合わせてください。
-その他の参照情報については、次を参照してください。 [Adobe Experience Manager Assets Essentialsの基本](https://experienceleague.adobe.com/en/docs/experience-manager-assets-essentials/help/get-started), [ユーザーインターフェイスについて](https://experienceleague.adobe.com/en/docs/experience-manager-assets-essentials/help/navigate-view), [Asset essentials のユースケース](https://experienceleague.adobe.com/en/docs/experience-manager-assets-essentials/help/get-started#use-cases) および [既知の問題](https://experienceleague.adobe.com/en/docs/experience-manager-assets-essentials/help/release-notes).
+リンクを使用して、Assets EssentialsUI に移動します。 [ASSETS ESSENTIALSUI](https://experience.adobe.com/#/assets) 適切なリポジトリを選択します。 アクセス権を受け取るには、組織の管理者に問い合わせてください。
+その他の参照情報については、次を参照してください。 [Adobe Experience Manager Assets Essentialsの基本](https://experienceleague.adobe.com/en/docs/experience-manager-assets-essentials/help/get-started), [ユーザーインターフェイスについて](https://experienceleague.adobe.com/en/docs/experience-manager-assets-essentials/help/navigate-view), [Assets essentials のユースケース](https://experienceleague.adobe.com/en/docs/experience-manager-assets-essentials/help/get-started#use-cases) および [既知の問題](https://experienceleague.adobe.com/en/docs/experience-manager-assets-essentials/help/release-notes).
 <!--
 >[!CONTEXTUALHELP]
 >id="assets_express_integration"
@@ -86,11 +86,11 @@ Express の使用権限を持つユーザーは、Assets EssentialsUI 内から�
 ![essentials UI で表現](/help/using/assets/express-in-essentials-ui.jpg)
 Adobe Express埋め込みエディターを使用して画像を編集するには、次の手順に従います。
 
-1. リンクを使用してAEM Asset Essentials UI にアクセスします。 [AEM Asset Essentials UI](https://experience.adobe.com/#/assets) 適切なリポジトリを選択します。
+1. リンクを使用してAEM Assets Essentials UI にアクセスします。 [AEM Assets Essentials UI](https://experience.adobe.com/#/assets) 適切なリポジトリを選択します。
 1. クリック **Assets**&#x200B;でフォルダーを入力し、画像を選択します。
 1. クリック **Adobe Expressーで開く**. 画像が高速キャンバスで開きます。
 1. 画像に対して必要な編集を行います。
-1. プロジェクトでページを追加する必要がある場合は、 **追加**&#x200B;をクリックし、Assetsを選択します。次に、フォルダーを入力し、キャンバスページに取り込む画像を選択して、画像に対して必要な編集を行います。
+1. プロジェクトでページを追加する必要がある場合は、 **追加**&#x200B;を選択し、アセットを選択してフォルダーを入力し、キャンバスページに取り込む画像を選択して、画像に対して必要な編集を実行します。
 1. 画像を保存するには、をクリックします **保存**. 保存ダイアログボックスが表示されます。
 
    >[!NOTE]
