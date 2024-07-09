@@ -3,10 +3,10 @@ title: 画像の編集
 description: ' [!DNL Adobe Express]  を利用したオプションを使用して画像を編集し、更新した画像をバージョンとして保存します。'
 role: User
 exl-id: fc21a6ee-bf23-4dbf-86b0-74695a315b2a
-source-git-commit: 5947e7db586b691f1db3bf734481de8438e5a3b5
-workflow-type: ht
-source-wordcount: '1116'
-ht-degree: 100%
+source-git-commit: a9ef92194f55da9ad5352adf4251c85e3abcdcd1
+workflow-type: tm+mt
+source-wordcount: '1138'
+ht-degree: 99%
 
 ---
 
@@ -20,17 +20,17 @@ Assets Essentials UI を使用すると、サイズ変更、背景の削除、�
 
 <!--The editing actions that are available are Spot healing, Crop and straighten, Resize image, and Adjust image.-->
 
-## 画像を編集 {#edit-images}
+## 画像の編集 {#edit-images}
 
 [Assets Essentials UI](https://experience.adobe.com/#/assets) のリンクを使用し、適切なリポジトリを選択し、Assets Essentials UI にアクセスします。 アクセス権を取得するには、組織の管理者にお問い合わせください。
 その他の参照情報については、[Adobe Experience Manager Assets Essentials 使用の基本を学ぶ](https://experienceleague.adobe.com/ja/docs/experience-manager-assets-essentials/help/get-started)、[ユーザーインターフェイスについて](https://experienceleague.adobe.com/ja/docs/experience-manager-assets-essentials/help/navigate-view)、[Assets Essentials のユースケース](https://experienceleague.adobe.com/ja/docs/experience-manager-assets-essentials/help/get-started#use-cases)および[既知の問題](https://experienceleague.adobe.com/ja/docs/experience-manager-assets-essentials/help/release-notes)を参照してください。
-<!--
+
+### Adobe Expressを使用した画像の編集 {#edit-images-using-adobe-express}
+
 >[!CONTEXTUALHELP]
 >id="assets_express_integration"
->title="Adobe Express Integration"
->abstract="Easy and intuitive image-editing tools powered by Adobe Express available directly within AEM Assets to increase content reuse and accelerate content velocity."-->
-
-### Adobe Express を使用した Essentials UI での画像編集 {#edit-image-on-essentials-ui-using-adobe-express}
+>title="Adobe Express の統合"
+>abstract="AEM Assets 内で直接使用できる Adobe Express を活用した、簡単で直感的な画像編集ツールにより、コンテンツの再利用性を高め、コンテンツの速度を向上させます。"
 
 Essentials UI にアクセスしたら、「**アセット**」をクリックし、画像を選択して、上部のパネルから「**編集**」をクリックします。 新しい画面には、サイズ変更、背景の削除、切り抜き、JPEG 形式と PNG 形式間の変換など、使用可能な編集オプションが表示されます。
 

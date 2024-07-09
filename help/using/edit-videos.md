@@ -3,16 +3,16 @@ title: ビデオの編集
 description: を使用したビデオの編集 [!DNL Adobe Express] を利用したオプションと、更新したビデオをバージョンとして保存します。
 role: User
 exl-id: 8468d572-89f1-431d-be7f-01e583d06cd7
-source-git-commit: 78187929a6baa0f1ab5d8675287408a24e1ada98
+source-git-commit: a9ef92194f55da9ad5352adf4251c85e3abcdcd1
 workflow-type: tm+mt
-source-wordcount: '786'
-ht-degree: 18%
+source-wordcount: '833'
+ht-degree: 22%
 
 ---
 
 # でビデオを編集する [!DNL Assets Essentials] {#edit-videos}
 
-を組み込んだ Assets ユーザーは、ビデオコンテンツのバリエーションを簡単に作成できます [!DNL Adobe Express] ビデオのクイックアクション。 でのクイックアクション [!DNL Assets Essentials] powered by [!DNL Adobe Express] には、ビデオの切り抜き、ビデオのサイズ変更、ビデオのトリミング、ビデオのGIFへの変換など、使いやすいビデオ編集オプションが用意されています。
+を組み込んだAssets ユーザーは、ビデオコンテンツのバリエーションを簡単に作成できます [!DNL Adobe Express] ビデオのクイックアクション。 でのクイックアクション [!DNL Assets Essentials] powered by [!DNL Adobe Express] には、ビデオの切り抜き、ビデオのサイズ変更、ビデオのトリミング、ビデオのGIFへの変換など、使いやすいビデオ編集オプションが用意されています。
 
 ビデオを編集するには、ビデオの詳細に移動して、 [!UICONTROL ビデオを編集]. または、アセットを選択して「詳細」をクリックし、をクリックします ![はさみ](assets/do-not-localize/cut.svg) アイコンは右側のパネルに表示されます。 ビデオの編集後、新しいビデオを新しいバージョンまたは新しいアセットとして保存できます。
 
@@ -23,6 +23,11 @@ ht-degree: 18%
 アクセスする権限 [!DNL Adobe Express] およびAEM Assets内の少なくとも 1 つの環境が対象となります。 環境には、[!DNL Assets as a Cloud Service] または [!DNL Assets Essentials] 内の任意のリポジトリを指定できます。
 
 ## Adobe Expressを使用したビデオの編集 {#edit-video-using-express}
+
+>[!CONTEXTUALHELP]
+>id="assets_express_integration_videos"
+>title="ビデオ編集のためのAdobe Expressの統合"
+>abstract="Experience Manager Assets には、Adobe Express を活用した簡単で直感的なビデオ編集ツールが含まれており、コンテンツの再利用を増やし、コンテンツの速度を高速化します。編集オプションには、ビデオのトリミング、切り抜き、サイズ変更、MP4 から GIF ファイルへの変換などが含まれます。"
 
 埋め込みを使用すると、ビデオを最適なサイズと向きに簡単に変換できます [!DNL Adobe Express] クイックアクション。
 
@@ -89,7 +94,7 @@ Adobe Expressを使用して、MP4 ビデオをGIF形式にすばやく変換で
 
 * サポートされているビデオは、どの側も 46 ピクセルを超え、3840 ピクセル未満です。
 
-* サポートされている web ブラウザーは、Google Chrome、Firefox、Safari および Edge です。
+* サポートされている web ブラウザーは、Google Chrome、Firefox、Safari、Edgeです。
 
 * 機能は、web ブラウザーの匿名モードでは開けません。
 
