@@ -3,7 +3,7 @@ title: Assets Essentials でのレポートの管理
 description: Assets Essentials の「レポート」セクションのデータにアクセスして、製品と機能の使用状況を評価し、主要な成功指標に関するインサイトを導き出します。
 exl-id: c7155459-05d9-4a95-a91f-a1fa6ae9d9a4
 source-git-commit: 71a0381f5f7c32d3da1923778b3cd7b678391cae
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '862'
 ht-degree: 100%
 
@@ -36,7 +36,7 @@ In the **[!UICONTROL Reports]** screen, various components are shown in the tabu
 >[!CONTEXTUALHELP]
 >id="assets_reports"
 >title="レポート"
->abstract="インサイトダッシュボードを使用すると、過去 30 日間または過去 12 か月間の Experience Manager Assets 環境のリアルタイムのイベント指標を表示できます。イベントのリストには、ダウンロード数、アップロード数、上位の検索数などが含まれます。"
+>abstract="インサイトダッシュボードを使用すると、過去 30 日間または過去 12 か月間の Experience Manager Assets 環境のリアルタイムのイベント指標を表示できます。 イベントのリストには、ダウンロード数、アップロード数、上位の検索数などが含まれます。"
 
 Assets Essentials を使用すると、Assets Essentials 環境のリアルタイムデータをインサイトダッシュボードで表示できます。過去 30 日間または過去 12 か月間のリアルタイムイベント指標を表示できます。
 
