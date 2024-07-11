@@ -4,9 +4,9 @@ description: ' [!DNL Adobe Express]  を利用したオプションを使用し�
 role: User
 exl-id: fc21a6ee-bf23-4dbf-86b0-74695a315b2a
 source-git-commit: a9ef92194f55da9ad5352adf4251c85e3abcdcd1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1138'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ Assets Essentials UI を使用すると、サイズ変更、背景の削除、�
 [Assets Essentials UI](https://experience.adobe.com/#/assets) のリンクを使用し、適切なリポジトリを選択し、Assets Essentials UI にアクセスします。 アクセス権を取得するには、組織の管理者にお問い合わせください。
 その他の参照情報については、[Adobe Experience Manager Assets Essentials 使用の基本を学ぶ](https://experienceleague.adobe.com/ja/docs/experience-manager-assets-essentials/help/get-started)、[ユーザーインターフェイスについて](https://experienceleague.adobe.com/ja/docs/experience-manager-assets-essentials/help/navigate-view)、[Assets Essentials のユースケース](https://experienceleague.adobe.com/ja/docs/experience-manager-assets-essentials/help/get-started#use-cases)および[既知の問題](https://experienceleague.adobe.com/ja/docs/experience-manager-assets-essentials/help/release-notes)を参照してください。
 
-### Adobe Expressを使用した画像の編集 {#edit-images-using-adobe-express}
+### Adobe Express を使用した画像の編集 {#edit-images-using-adobe-express}
 
 >[!CONTEXTUALHELP]
 >id="assets_express_integration"
