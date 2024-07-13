@@ -3,7 +3,7 @@ title: 通知の管理
 description: Assets Essentials 通知を使用して、リポジトリで使用可能なアセットやフォルダーで実行した操作を監視します。
 exl-id: 5c0039a2-caa2-4b55-b963-0e7e9e542c47
 source-git-commit: c34fa28a698523dee00f972ede0781305aee6e60
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '617'
 ht-degree: 100%
 
@@ -94,7 +94,7 @@ Assets Essentials は購読しているカテゴリの通知を送信するよ�
 
 同様に、購読解除するには、購読しているアセット、フォルダー、またはコレクションを選択し、「**[!UICONTROL ウォッチ解除]**」をクリックします。
 
-## 通知の表示 {#view-notifications}
+## 通知を表示 {#view-notifications}
 
 通知は、Assets Essentials ユーザーインターフェイスのメニューバーの右端に表示されます。
 

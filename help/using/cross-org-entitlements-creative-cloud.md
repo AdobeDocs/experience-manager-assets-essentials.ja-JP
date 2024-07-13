@@ -3,7 +3,7 @@ title: AEM Assets での Creative Cloud 統合の組織をまたいだ資格
 description: AEM Assets で Creative Cloud 統合向けに組織をまたいだ資格を設定する方法について説明します。Express や Creative Cloud のライブラリなど、AEM Assets での最新の Creative Cloud 統合を簡単に使用するには、別の IMS 組織にプロビジョニングされた Creative Cloud 権限に接続します。
 exl-id: 5a39b640-4195-4149-9757-2733ed70e616
 source-git-commit: ebc49d5c29118cd09cf1f97e8f71f63df76b3779
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '294'
 ht-degree: 100%
 

@@ -3,8 +3,8 @@ title: Assets Essentials と Creative Cloud アプリケーションの統合
 description: Assets Essentials を Creative Cloud アプリケーションと統合して、Adobe Asset Link のアプリ内パネルを使用して、サポート対象の [!DNL Adobe Creative Cloud] デスクトップアプリケーション内から [!DNL Assets Essentials] リポジトリに接続できるようにします。
 exl-id: 817bc955-0074-435e-83a8-3fd5f7f2505a
 source-git-commit: 65200f73a954e4ebf4fbd6dc3a819acc6e0beda4
-workflow-type: ht
-source-wordcount: '761'
+workflow-type: tm+mt
+source-wordcount: '719'
 ht-degree: 100%
 
 ---

@@ -3,8 +3,8 @@ title: Assets Essentials と Creative Cloud Pro および作業管理ソリュ�
 description: このチュートリアルでは、Assets Essentials アプリケーションを Creative Cloud デスクトップアプリケーションおよび Adobe Workfront アプリケーションと統合できるようにする管理者ジャーニーを紹介します。Creative Cloud デスクトップアプリケーションには、Adobe Photoshop、Adobe Illustrator、Adobe InDesign および Adobe XD が含まれます。
 exl-id: a5e9e0c3-35ec-41de-9656-f4f0f88946c7
 source-git-commit: 65200f73a954e4ebf4fbd6dc3a819acc6e0beda4
-workflow-type: ht
-source-wordcount: '941'
+workflow-type: tm+mt
+source-wordcount: '870'
 ht-degree: 100%
 
 ---
