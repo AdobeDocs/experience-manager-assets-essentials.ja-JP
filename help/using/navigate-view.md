@@ -3,10 +3,10 @@ title: 「[!DNL Assets Essentials] ユーザーインターフェイス」
 description: ' [!DNL Assets Essentials] のユーザーインターフェイスとナビゲーションについて説明します。'
 role: User
 exl-id: 534a8084-88f7-410e-b872-719e47e62b10
-source-git-commit: c6b04d1882347a4647a690939353856844b2a27a
+source-git-commit: 8debab75bb335d4a81279c9c0e84229c3b3ca2cd
 workflow-type: tm+mt
 source-wordcount: '1036'
-ht-degree: 90%
+ht-degree: 88%
 
 ---
 
@@ -55,7 +55,7 @@ ht-degree: 90%
 
 左側のサイドバーを開いたり折りたたんだりして、使用可能なアセット表示領域を広げることができます。
 
-[!DNL Assets Essentials] では、アセット、フォルダーおよび検索結果を 4 種類のレイアウトで表示できます。
+[!DNL Assets Essentials] では、アセット、フォルダーおよび検索結果を次の 4 種類のレイアウトで表示できます。
 
 * ![リスト表示アイコン](assets/do-not-localize/list-view.png) [!UICONTROL リスト表示]
 * ![グリッド表示アイコン](assets/do-not-localize/grid-view.png) [!UICONTROL グリッド表示]
