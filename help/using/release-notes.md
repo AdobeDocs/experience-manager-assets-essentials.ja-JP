@@ -5,9 +5,9 @@ role: User,Leader,Admin,Architect,Developer
 contentOwner: AK
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
 source-git-commit: 323e1ebd3ee81dfae0d15dc4120997ae3c4798b9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2976'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -17,15 +17,15 @@ Assets Essentials の最新リリースは 2024年7月25日（PT）にリリー�
 
 最近追加された機能には次のようなものがあります。
 
-**Content credentialsの統合**
+**コンテンツ資格情報の統合**
 
-Experience Manager Assetsで、サポートされる画像形式のcontent credentialsがサポートされるようになりました。 これにより、アセットの系列と作成方法（GenAI を使用して変更されたかどうかなど）に関する情報が提供されます。
+Experience Manager Assets で、サポートされる画像形式のコンテンツ資格情報がサポートされるようになりました。これにより、アセットの系統と作成方法（生成 AI を使用して変更したかどうかなど）に関する情報が提供されます。
 
-![Content credentials](/help/using/assets/content-credentials.png)
+![コンテンツ資格情報](/help/using/assets/content-credentials.png)
 
-**フォルダーコンテンツの視覚的プレビュー**
+**フォルダーのコンテンツの視覚的なプレビュー**
 
-Experience Manager Assetsでは、コンテンツの参照時や検索時に、フォルダーのサムネールにフォルダーコンテンツの視覚的なプレビューが表示されるようになりました。これにより、AEM Assets リポジトリー内で使用可能なアセットを見つけやすくなります。
+Experience Manager Assets で、コンテンツを参照または検索する際に、フォルダーのサムネールにフォルダーのコンテンツの視覚的なプレビューが表示されるようになりました。これにより、AEM Assets リポジトリ内で使用可能なアセットの検出性が向上します。
 
 **コンテキスト検索**
 
