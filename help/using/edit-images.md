@@ -3,7 +3,7 @@ title: 画像の編集
 description: ' [!DNL Adobe Express]  を利用したオプションを使用して画像を編集し、更新した画像をバージョンとして保存します。'
 role: User
 exl-id: fc21a6ee-bf23-4dbf-86b0-74695a315b2a
-source-git-commit: 56a2af8467f3e44855f26bd86a394c76e9f7ccf3
+source-git-commit: 53f638e0dc934f2a4134acb89713b5d4828c8d1f
 workflow-type: tm+mt
 source-wordcount: '1182'
 ht-degree: 63%
@@ -85,6 +85,7 @@ Adobe Express を使用すると、JPEG 画像形式と PNG 画像形式間で�
 ### Adobe Express 埋め込みエディターでの画像編集 {#edit-images-in-adobe-express-embedded-editor}
 
 Express の使用権限を持つユーザーは、Assets EssentialsUI 内から組み込みの Express Editor を使用して、コンテンツを編集したり、Adobe Fireflyから GenAI で新しいコンテンツを簡単に作成したりできます。 この機能により、コンテンツの再利用が向上し、コンテンツベロシティ（コンテンツ創出速度）が向上します。 また、定義済みの要素を使用して、アセットの見栄えを良くしたり、数回クリックするだけで画像を編集するクイックアクションを実行したりすることもできます。
+
 ![essentials UI で表現 ](/help/using/assets/express-in-essentials-ui.jpg)
 Adobe Express埋め込みエディター内で画像を編集するには、次の手順に従います。
 
