@@ -3,10 +3,10 @@ title: 画像の編集
 description: ' [!DNL Adobe Express]  を利用したオプションを使用して画像を編集し、更新した画像をバージョンとして保存します。'
 role: User
 exl-id: fc21a6ee-bf23-4dbf-86b0-74695a315b2a
-source-git-commit: 65e9f9414fe71d9e9add9b794856d77f87aed086
+source-git-commit: 56a2af8467f3e44855f26bd86a394c76e9f7ccf3
 workflow-type: tm+mt
 source-wordcount: '1182'
-ht-degree: 65%
+ht-degree: 63%
 
 ---
 
@@ -34,7 +34,7 @@ Assets Essentials UI を使用すると、Adobe Expressを活用した基本的�
 >title="Adobe Express の統合"
 >abstract="AEM Assets 内で直接使用できる Adobe Express を活用した、簡単で直感的な画像編集ツールにより、コンテンツの再利用性を高め、コンテンツの速度を向上させます。"
 
-Essentials UI にアクセスしたら、「**アセット**」をクリックし、画像を選択して、上部のパネルから「**編集**」をクリックします。 新しい画面には、サイズ変更、背景の削除、切り抜き、JPEG形式と PNG 形式の変換など、Adobe Expressを利用した使用可能な編集オプションが表示されます。
+Essentials UI に移動したら、**Assets** をクリックし、画像を選択して、上部レールから **編集** をクリックします。 新しい画面には、サイズ変更、背景の削除、切り抜き、JPEG形式と PNG 形式の変換など、Adobe Expressを利用した使用可能な編集オプションが表示されます。
 
 #### 画像のサイズ変更 {#resize-image-using-express}
 
