@@ -5,18 +5,18 @@ role: User,Leader,Admin,Architect,Developer
 contentOwner: AG
 exl-id: bc44e98d-446e-41ff-b5b4-9dc324834630
 source-git-commit: 243a41aef81cd1fdcbad8f4355fe2d888db394d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '527'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
-# [!DNL Assets Essentials] でサポートされているファイル形式  {#file-format-support}
+# [!DNL Assets Essentials] でサポートされているファイル形式 {#file-format-support}
 
 [!DNL Assets Essentials] では幅広いファイル形式をサポートしており、各機能は各種ファイルタイプに対応しています。
 
 * ![画像ファイルタイプのアイコン](assets/image-icon.svg) 画像：JPG、PNG、GIF、TIFF およびその他
-* ![creative cloudtype アイコン ](assets/creative-cloud-files.svg)Creative Cloudファイル：PSD、PSB、AI および INDD
+* ![Creative Cloud タイプのアイコン](assets/creative-cloud-files.svg) Creative Cloud ファイル：PSD、PSB、AI および INDD
 * ![カメラタイプのアイコン](assets/camera-icon.svg) Camera Raw ファイル：CR2/CR3、NEF、SRW/SRF およびその他
 * ![ドキュメントファイルタタイプのアイコン](assets/document-icon.svg) ドキュメント：DOCX、PDF、PPTX および XLSX
 * ![ビデオファイルタイプのアイコン](assets/video-icon.svg) ビデオ：MP4
@@ -25,7 +25,7 @@ ht-degree: 94%
 
 [!DNL Assets Essentials] は Adobe Camera Raw を活用し、キヤノン（CR2/CR3）、ニコン（NEF）、ソニー（SRW/SRF）、富士フイルム（RAF）、オリンパス（ORF）など、幅広い大手カメラメーカーの Camera Raw ファイルもサポートしています。
 
-以下に示すように、ユースケースや機能に対する各種ファイルタイプのサポートレベルは異なります。凡例を使用すると、サポートレベルがわかります。
+以下に示すように、ユースケースや機能に対する各種ファイルタイプのサポートレベルは異なります。 凡例を使用すると、サポートレベルがわかります。
 
 | サポートレベル | 説明 |
 |-------------------|-------------------------|
@@ -62,7 +62,7 @@ ht-degree: 94%
 | ビデオ | ✓ | ✓ | − | ✓ | ✓ | ✓ | ✓ |
 | CC ライブラリ | − | − | − | − | − | ✓ | ✓ |
 | PDF | ✓ | ✓ | − | ✓ | ✓ | ✓ | ✓ |
-| PSDと PSB | ✓ | ✓ | − | ✓ | ✓ | ✓ | ✓ |
+| PSD および PSB | ✓ | ✓ | − | ✓ | ✓ | ✓ | ✓ |
 | AI と INDD | ✓ | ✓ | − | ✓ | − | ✓ | ✓ |
 | その他のバイナリファイル | ✓ | ✓ | − | ✓ | − | ✓ | ✓ |
 
@@ -99,7 +99,7 @@ ht-degree: 94%
 | CC ライブラリ | ✓ | − | − | − | − |
 | PDF | ✓ | − | ✓ | ✓ | ✓ |
 | AI と INDD | ✓ | − | ✓ | ✓ | ✓ |
-| PSDと PSB | ✓ | ✓ | ✓ | ✓ | ✓ |
+| PSD および PSB | ✓ | ✓ | ✓ | ✓ | ✓ |
 | その他のバイナリファイル | ✓ | − | ✓ | ✓ | ✓ |
 
 [!DNL Adobe Asset Link] のユーザーは、サポート対象の [!DNL Adobe Creative Cloud] デスクトップアプリケーションから [!DNL Assets Essentials] リポジトリにファイルをアップロードしてチェックイン（新しいバージョンをアップロード）できます。
