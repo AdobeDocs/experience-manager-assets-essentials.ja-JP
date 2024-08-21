@@ -3,8 +3,8 @@ title: ' [!DNL Assets Essentials] でのアセットの検索と検出'
 description: ' [!DNL Assets Essentials] でのアセットの検索と検出について説明します。'
 role: User
 exl-id: be9597a3-056c-436c-a09e-15a03567c85a
-source-git-commit: a471074ec0eee8487222cc344046715ed5d90d0b
-workflow-type: tm+mt
+source-git-commit: 6b6f898f2232a03c69a517c3d315d565253b37b7
+workflow-type: ht
 source-wordcount: '1890'
 ht-degree: 100%
 
@@ -254,7 +254,7 @@ Experience Manager Assets でコンテキスト検索にアクセスするには
 
 1. 検索テキストボックスでテキストプロンプトを定義し、「**[!UICONTROL コンテキスト検索]**」をクリックします。
 
-   ![コンテキスト検索のテキストプロンプト](/help/using/assets/contextual-search-text-prompt.png)
+   ![コンテキスト検索のテキストプロンプト](/help/using/assets/wknd-contextual-search.png)
 
    [!DNL Experience Manager Assets] に検索結果が表示されます。
 
