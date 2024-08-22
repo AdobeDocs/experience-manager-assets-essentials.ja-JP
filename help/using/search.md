@@ -3,8 +3,8 @@ title: ' [!DNL Assets Essentials] でのアセットの検索と検出'
 description: ' [!DNL Assets Essentials] でのアセットの検索と検出について説明します。'
 role: User
 exl-id: be9597a3-056c-436c-a09e-15a03567c85a
-source-git-commit: 6b6f898f2232a03c69a517c3d315d565253b37b7
-workflow-type: tm+mt
+source-git-commit: ebd019640ddb984e0600fb4fb99b0f2d0afdba7d
+workflow-type: ht
 source-wordcount: '1890'
 ht-degree: 100%
 
@@ -335,3 +335,4 @@ Experience Manager Assets でコンテキスト検索にアクセスするには
 * 右側のサイドバーにある「[!UICONTROL このページを編集]」![ページを編集](assets/do-not-localize/edit-page.png) または「[!UICONTROL イシューを記録]」![GitHub イシューを作成](assets/do-not-localize/github-issue.png) を使用してドキュメントのフィードバックを提供します。
 
 * [カスタマーケア](https://experienceleague.adobe.com/?support-solution=General&amp;lang=ja#support)に問い合わせる
+
