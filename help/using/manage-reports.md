@@ -2,10 +2,10 @@
 title: Assets Essentials でのレポートの管理
 description: Assets Essentials の「レポート」セクションのデータにアクセスして、製品と機能の使用状況を評価し、主要な成功指標に関するインサイトを導き出します。
 exl-id: c7155459-05d9-4a95-a91f-a1fa6ae9d9a4
-source-git-commit: 49b650b3efe5740eb1ce39b7dcf6f84e34e0e81a
-workflow-type: ht
-source-wordcount: '1226'
-ht-degree: 100%
+source-git-commit: cb3cd047d3fbfa8e6b2e5a398c11301f93692b2e
+workflow-type: tm+mt
+source-wordcount: '1591'
+ht-degree: 79%
 
 ---
 
@@ -42,7 +42,7 @@ AEM Assets Essentials 環境では、レポートダッシュボードを通じ�
 
    **「設定」タブ：**
 
-   1. **レポートタイプ：**&#x200B;アップロードとダウンロードのどちらかのタイプを選択します。
+   1. **レポートタイプ：**[!UICONTROL  アップロード ]、[!UICONTROL  ダウンロード ]、[Dynamic Media配信レポート ](#dynamic-media-delivery-reports) のいずれかのタイプを選択します。
    1. **タイトル：**&#x200B;レポートにタイトルを追加します。
    1. **説明：**&#x200B;レポートにオプションの説明を追加します。
    1. **フォルダーパスを選択：**&#x200B;フォルダーパスを選択すると、その特定のフォルダー内でアップロードおよびダウンロードされたアセットのレポートが生成されます。 例えば、フォルダーにアップロードされたアセットのレポートが必要な場合は、そのフォルダーへのパスを指定します。
@@ -70,7 +70,7 @@ AEM Assets Essentials 環境では、レポートダッシュボードを通じ�
      <tr>
       <td>パス</td>
       <td>Assets Essentials でアセットを使用できるフォルダーパス。</td>
-      <td>アップロードとダウンロード</td>
+      <td>アップロード、ダウンロード、Dynamic Media配信</td>
      </tr>
      <tr>
       <td>MIME タイプ</td>
@@ -116,13 +116,71 @@ AEM Assets Essentials 環境では、レポートダッシュボードを通じ�
       <td>ユーザー名によりダウンロード</td>
       <td>アセットをダウンロードしたユーザーの名前。</td>
       <td>ダウンロード</td>
-     </tr>           
+     </tr>
+     <tr>
+      <td>リファラー</td>
+      <td>アセットが配信される、または含まれる URL</td>
+      <td>Dynamic Media 配信</td>
+     </tr>  
+     <tr>
+      <td>ヒット数</td>
+      <td>アセットが配信された回数（配信数）</td>
+      <td>Dynamic Media 配信</td>
+     </tr>             
     </tbody>
    </table>
 
+## Dynamic Media配信レポート {#dynamic-media-delivery-reports}
+
+アセットレベルの配信数、リファラー情報、AEM Assets 内のアセットパス、一意のアセット ID など、Dynamic Media で配信されたアセットの配信インサイトを取得します。 レポートは、AEM AssetsのDynamic Media リポジトリを介して配信されたすべてのアセットについて、またはAEM Assetsの特定のフォルダー階層について生成できます。 さらに、Dynamic Media配信レポートのインサイトは、配信されたアセットの ROI の測定、チャネルのパフォーマンスの測定、情報に基づいたアセット管理タスクの実行に役立ちます。
+
+>[!NOTE]
+> 
+>Dynamic Media アカウントのDynamic Media配信レポートに早期にアクセスするには、[Adobeのカスタマーサポートケースを作成して送信 ](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html) します。
+
+### 前提条件 {#prereqs-dynamic-media-delivery-reports}
+
+このレポートを作成して使用するには、Dynamic Media ライセンスが必要です。
+
+>[!IMPORTANT]
+> 
+>* Dynamic Media 経由で配信されるアセットに関するレポートが提供されます。
+>* レポートは、最初の 100 万行に対して生成されます。この制限内のすべてのファイルを取り込むには、小さいフォルダーのリファラー列を含めることを検討してください。
+>* レポートは過去 3 か月間のみ生成できます。
+
+### Dynamic Media配信レポートの作成{#create-dynamic-media-delivery-report}
+
+1. [ レポートの作成 ](#create-report) で説明されている手順を使用して、Dynamic Media配信レポートを作成します。
+
+1. ]**レポートタイプ**[!UICONTROL  ドロップダウンリストから「**[!UICONTROL Dynamic Media配信]**」を選択します。
+
+   ![Dynamic Media配信レポートドロップダウン ](/help/using/assets/dynamic-media-delivery-report-option.png)
+
+
+1. 「**[!UICONTROL 列]**」タブで「**[!UICONTROL リファラー]**」列を選択すると、レポートに含めることができます。
+
+   ![ リファラー ](/help/using/assets/referrer.png)
+
+   ダウンロードされたレポートのすべての列は、読み取り専用です。ただし、「リファラー **列は、レポートに含めたり除外したりするように変更できます**。<!--Choosing a referrer displays the number of visitors received from each referred report that directs traffic to the site. It offers insights into the sources of traffic and the origin of the visitors. Such insights help measure ROI of delivered assets, measure channel performance, and help take informed asset management tasks for assets.-->
+
+### Dynamic Media配信レポートで実行されたアクション {#actions-performed-dynamic-media-delivery-reports}
+
+レポートを作成した後、次の操作を実行できます。
+
+* **[!UICONTROL 削除]**：選択したレポートを削除できます。
+* **[!UICONTROL CSV をダウンロード]**：選択したレポートを CSV 形式でダウンロードできます。 ダウンロードされたレポートは、名前、パス、DynamicMediaID、リファラー、ヒットの各列で構成されます。
+   * **リファラー** 列には、アセットが配信または含まれる URL がリストされます。
+
+   * **ヒット数** 列には、アセットが配信された回数（配信数）がリストされます。
+
+Dynamic Media配信レポートを CSV 形式で削除またはダウンロードするには、[ 既存のレポートの表示とダウンロード ](#View-and-download-existing-report) を参照してください。
+
+![ ダウンロードした CSV のDynamic Media配信レポート ](/help/using/assets/csv-dynamic-media-delivery-report.png)
+
+
 ## 既存のレポートの表示とダウンロード {#View-and-download-existing-report}
 
-既存のレポートは、「**実行されたレポート**」タブの下に表示されます。 「**レポート**」をクリックし、「**実行されたレポート**」を選択すると、ステータスが&#x200B;**完了**&#x200B;となり、ダウンロードの準備が整ったことを示す、作成済みのすべてのレポートが表示されます。 レポートを CSV 形式でダウンロードすることや、レポートを削除するには、レポート行を選択します。 次に、「**CSV をダウンロード**」または「**削除**」を選択します。
+既存のレポートは、「**実行されたレポート**」タブの下に表示されます。 「**レポート**」をクリックし、「**実行されたレポート**」を選択すると、ステータスが&#x200B;**完了**&#x200B;となり、ダウンロードの準備が整ったことを示す、作成済みのすべてのレポートが表示されます。 レポートを CSV 形式でダウンロードしたり、レポートを削除したりするには、レポート行を選択し、「**CSV をダウンロード**」または **削除** を選択します。
 ![既存のレポートの表示とダウンロード](/help/using/assets/view-download-existing-report.png)
 
 ## レポートのスケジュール {#schedule-report}
