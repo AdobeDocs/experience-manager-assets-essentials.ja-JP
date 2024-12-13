@@ -2,7 +2,8 @@
 title: の名前変更と一括アセット名の変更  [!DNL Assets Essentials]
 description: 新しいAssets UI （Assets Essentials）を使用して、アセットの名前を一括で変更する方法を説明します。 複数のアセットの名前を一度に変更できます。
 role: User
-source-git-commit: 9232f1ccb1d71057c909330d7e4861d048310b7b
+exl-id: 5d18950f-1863-46c0-83d7-079ae95a6320
+source-git-commit: 0526340ed0491d33a5084ea3538fa872ec2899e5
 workflow-type: tm+mt
 source-wordcount: '440'
 ht-degree: 17%
@@ -67,3 +68,4 @@ AI を使用して、AI プロンプトに基づいてアセットの名前を�
 * 右側のサイドバーにある「[!UICONTROL このページを編集]」（![ページを編集](assets/do-not-localize/edit-page.png)）または「[!UICONTROL 問題を記録] 」（![GitHub イシューを作成](assets/do-not-localize/github-issue.png)）を使用してドキュメントに関するフィードバックを提供する
 
 * [カスタマーケア](https://experienceleague.adobe.com/?support-solution=General&amp;lang=ja#support)に問い合わせる
+
