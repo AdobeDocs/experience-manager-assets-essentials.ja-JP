@@ -4,10 +4,10 @@ description: ' [!DNL Assets Essentials] におけるアセットのメタデー�
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AG
 exl-id: cfc105d1-41fc-4418-9905-b2a28a348682
-source-git-commit: 37beb971f1e675162eb4b8e9ab008b20a241c066
+source-git-commit: 09040ef6dc777aa631b00bb37108f86b83bdf583
 workflow-type: tm+mt
-source-wordcount: '1773'
-ht-degree: 100%
+source-wordcount: '1884'
+ht-degree: 94%
 
 ---
 
@@ -130,9 +130,11 @@ MIME サブタイプ／MIME タイプ／`default` フォーム／標準フォー
 | ドロップダウン | ドロップダウンリストを追加します。 |
 | State | リポジトリの状態プロパティを追加します（repo:state にマッピング）。 |
 | アセットのステータス | デフォルトのアセットステータスプロパティを追加します（dam:assetStatus にマッピング）。 |
+| 承認済み | |
 | タグ | 分類管理に保存されている値からタグを追加します（xcm:tags にマッピング）。 |
 | キーワード | フリーフォームキーワードを追加します（dc:subject にマッピング）。 |
 | スマートタグ | メタデータタグを自動的に追加して、検索機能を強化します。 |
+| リンク | を追加して外部 URL を有効にします。 |
 
 ### フォルダーにメタデータフォームの割り当て {#assign-metadata-form-folder}
 
@@ -165,6 +167,19 @@ Assets Essentials デプロイメント内のフォルダーにメタデータ �
 1. フォルダーを選択し、「**[!UICONTROL 削除]**」をクリックします。また、リストから複数のフォルダーを選択することもできます。
 
 また、フォルダーの詳細ページに移動し、「**[!UICONTROL メタデータフォーム]**」フィールドから「**[!UICONTROL システムマッピングされたメタデータフォーム]**」を選択して、割り当てられたメタデータフォームをフォルダーから削除することもできます。
+
+### メタデータフォームでのリンクコンポーネントの操作 {#link-component-metadata-form}
+
+リンクコンポーネントを使用すると、ストレージリンク、著作権情報、問い合わせフォームなどの外部 URL を有効にすることができます。 メタデータフォームでリンクコンポーネントを使用するには、[ メタデータフォームを設定 ](#metadata-forms) する必要があります。
+
+メタデータフォームでリンクコンポーネントを使用するには、次の手順に従います。
+
+1. アセットの詳細ページに移動し、「**[!UICONTROL URL をリンク]**」に移動します。
+1. 選択したアセットのリダイレクトに使用する URL を追加します。
+1. **[!UICONTROL リンクを追加]** をクリックします。 次のいずれかのアクションを実行します。
+   * ![ コピーアイコン ](assets/do-not-localize/copy.svg) をクリックして、URL をコピーします。
+   * ![ 編集アイコン ](assets/do-not-localize/edit.svg) をクリックして、URL を編集します。
+1. 「**[!UICONTROL 保存]**」をクリックして、変更を保存します。
 
 ## 次の手順 {#next-steps}
 
