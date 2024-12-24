@@ -10,9 +10,9 @@ feature: Assets Essentials
 role: User,Leader
 solution: Experience Manager
 source-git-commit: e6a83309f974736d30ee40de5b6bf857f8e7fde1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '145'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 98%
 + [画像の編集](edit-images.md)
 + [ビデオの編集](edit-videos.md)
 + [アセットメタデータの管理](metadata.md)
-+ [一括名前変更](bulk-rename.md)
++ [名前の一括変更](bulk-rename.md)
 + [一括メタデータ編集](/help/using/bulk-metadata-edit.md)
 + [アセットを共有する](share-links-for-assets.md)
 + [コレクションを管理](manage-collections.md)
