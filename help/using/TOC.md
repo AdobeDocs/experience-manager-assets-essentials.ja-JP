@@ -9,10 +9,10 @@ feature-set: Experience Manager Assets,Experience Manager
 feature: Assets Essentials
 role: User,Leader
 solution: Experience Manager
-source-git-commit: e6a83309f974736d30ee40de5b6bf857f8e7fde1
-workflow-type: ht
-source-wordcount: '145'
-ht-degree: 100%
+source-git-commit: c6298614d6085deca8618112d1d1533b4b980f54
+workflow-type: tm+mt
+source-wordcount: '146'
+ht-degree: 99%
 
 ---
 
@@ -39,12 +39,13 @@ ht-degree: 100%
 + [画像の編集](edit-images.md)
 + [ビデオの編集](edit-videos.md)
 + [アセットメタデータの管理](metadata.md)
-+ [名前の一括変更](bulk-rename.md)
++ [名前を一括変更](bulk-rename.md)
 + [一括メタデータ編集](/help/using/bulk-metadata-edit.md)
 + [アセットを共有する](share-links-for-assets.md)
 + [コレクションを管理](manage-collections.md)
 + [アセット、フォルダー、コレクションの監視](manage-notifications.md)
 + [レポートの管理](manage-reports.md)
++ [再処理](reprocessing.md)
 + [タグを管理](tagging-management.md)
 + [コンテンツ資格情報](/help/using/content-credentials.md)
 + 他のソリューションとの統合 {#integration-with-other-solutions}
