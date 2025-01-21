@@ -10,9 +10,9 @@ feature: Assets Essentials
 role: User,Leader
 solution: Experience Manager
 source-git-commit: c6298614d6085deca8618112d1d1533b4b980f54
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '146'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 99%
 + [アセット、フォルダー、コレクションの監視](manage-notifications.md)
 + [レポートの管理](manage-reports.md)
 + [再処理](reprocessing.md)
-+ [タグを管理](tagging-management.md)
++ [タグの管理](tagging-management.md)
 + [コンテンツ資格情報](/help/using/content-credentials.md)
 + 他のソリューションとの統合 {#integration-with-other-solutions}
    + [概要](integration.md)
