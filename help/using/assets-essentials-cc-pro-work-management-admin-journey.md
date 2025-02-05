@@ -2,9 +2,9 @@
 title: Assets Essentials と Creative Cloud Pro および作業管理ソリューションの連携のセットアップ
 description: このチュートリアルでは、Assets Essentials アプリケーションを Creative Cloud デスクトップアプリケーションおよび Adobe Workfront アプリケーションと統合できるようにする管理者ジャーニーを紹介します。Creative Cloud デスクトップアプリケーションには、Adobe Photoshop、Adobe Illustrator、Adobe InDesign および Adobe XD が含まれます。
 exl-id: a5e9e0c3-35ec-41de-9656-f4f0f88946c7
-source-git-commit: 65200f73a954e4ebf4fbd6dc3a819acc6e0beda4
+source-git-commit: b1ae487b4b4e9a88e0d9c39889d3893d92a766c9
 workflow-type: tm+mt
-source-wordcount: '870'
+source-wordcount: '867'
 ht-degree: 100%
 
 ---
@@ -77,7 +77,7 @@ Admin Console でユーザーの使用権限を管理したら、管理者は As
 
 * メタデータフォームの設定
 
-[![ガイドを参照してください](https://helpx.adobe.com/content/dam/help/en/marketing-cloud/how-to/digital-foundation/_jcr_content/main-pars/image_1250343773/see-the-guide-sm.png)](deploy-administer.md)
+[![ガイドを参照](assets/see-the-guide-sm.png)](deploy-administer.md)
 
 Assets Essentials アプリケーションを設定および管理したら、[Creative Cloud アプリケーションを Experience Manager Assets Essentials アプリケーションと統合します](integrate-with-creative-cloud.md)。
 
@@ -99,7 +99,7 @@ Assets Essentials アプリケーションを設定および管理したら、[C
 
 * Adobe Asset Link の使用
 
-[![ガイドを参照してください](https://helpx.adobe.com/content/dam/help/en/marketing-cloud/how-to/digital-foundation/_jcr_content/main-pars/image_1250343773/see-the-guide-sm.png)](integrate-with-creative-cloud.md)
+[![ガイドを参照](assets/see-the-guide-sm.png)](integrate-with-creative-cloud.md)
 
 これで、Creative Cloud アプリケーションと Assets Essentials の統合が完了したので、[Adobe Workfront と Experience Manager Assets Essentials の統合](integrate-with-workfront.md)を行います。
 
@@ -119,4 +119,4 @@ Assets Essentials アプリケーションを設定および管理したら、[C
 
 * Experience Manager Assets Essentials 統合の設定
 
-[![ガイドを参照してください](https://helpx.adobe.com/content/dam/help/en/marketing-cloud/how-to/digital-foundation/_jcr_content/main-pars/image_1250343773/see-the-guide-sm.png)](integrate-with-workfront.md)
+[![ガイドを参照](assets/see-the-guide-sm.png)](integrate-with-workfront.md)
