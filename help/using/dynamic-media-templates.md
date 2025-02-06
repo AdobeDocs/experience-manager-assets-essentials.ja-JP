@@ -4,9 +4,9 @@ description: Dynamic Media テンプレートエディターを使用してWYSIW
 hide: true
 role: User
 exl-id: 07de648e-4ae2-4524-8e05-3cf10bb6006d
-source-git-commit: a06bdadcd2194e1ffce23c672e605cfb95f14bcf
+source-git-commit: 85b8fc64c6bb0243803df3d8e18c00d1b17b1868
 workflow-type: tm+mt
-source-wordcount: '2800'
+source-wordcount: '2758'
 ht-degree: 0%
 
 ---
@@ -86,8 +86,6 @@ DM テンプレートを作成するには、次の手順に従います。
 **左側のペインのメニューオプション：** 以下に示すように、一般的なエディターアクションにこれらのオプションを使用します。
 
 * ![DM テンプレート ](/help/using/assets/layer-selector.svg): レイヤーを選択します。
-* ![ カスタマイズをサポートするテンプレート ](/help/using/assets/bring-forward.svg)：クリックして、選択したレイヤーを前面に移動するか、**Ctrl** + **]** （Windows）または **Cmd** + **]** （Mac）を押します。
-* ![ 簡単にカスタマイズできるテンプレートを作成する方法 ](/help/using/assets/send-backward.svg)：選択したレイヤーを後ろに移動するにはクリックするか、**Ctrl** + **[** （Windows）または **Cmd** + **[** （Mac）を押します。
 * ![ すぐにカスタマイズできるテンプレートを作成 ](/help/using/assets/undo.svg): クリックして最後の操作を取り消すか、**Ctrl** + **Z** （Windows）または **Cmd** + **Z** （Mac）を押します。
 * ![ テンプレートを使用してバナーをすばやく作成 ](/help/using/assets/redo.svg)：クリックして最後の操作をやり直すか、**Ctrl** + **Y** （Windows）または **Cmd** + **Y** （Mac）を押します。
 * ![ テンプレートを使用してチラシをすばやく作成 ](/help/using/assets/zoomin.svg)：クリックしてカンバスをズームするか、**Ctrl** + **+** （Windows）または Cmd + **+** （Mac）を押します。
