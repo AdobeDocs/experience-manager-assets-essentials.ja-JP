@@ -4,16 +4,16 @@ description: Dynamic Media テンプレートエディターを使用してWYSIW
 hide: true
 role: User
 exl-id: 07de648e-4ae2-4524-8e05-3cf10bb6006d
-source-git-commit: 85b8fc64c6bb0243803df3d8e18c00d1b17b1868
+source-git-commit: e09573fb64567b2975d5e7e08c2cf2db62b72202
 workflow-type: tm+mt
-source-wordcount: '2758'
-ht-degree: 0%
+source-wordcount: '2766'
+ht-degree: 1%
 
 ---
 
 # Dynamic Media テンプレート{#dynamic-media-templates}
 
-| [検索のベストプラクティス](/help/assets/search-best-practices.md) | [メタデータのベストプラクティス](/help/assets/metadata-best-practices.md) | [コンテンツハブ](/help/assets/product-overview.md) | [AEM Assets 開発者向けドキュメント](https://developer.adobe.com/experience-cloud/experience-manager-apis/) |
+| [検索のベストプラクティス](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/best-practices/search-best-practices) | [メタデータのベストプラクティス](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/best-practices/metadata-best-practices) | [コンテンツハブ](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/content-hub/product-overview) | [AEM Assets 開発者向けドキュメント](https://developer.adobe.com/experience-cloud/experience-manager-apis/) |
 | ------------- | --------------------------- |---------|-----|
 
 Dynamic Media テンプレートエディターを使用してWYSIWYG テンプレートを作成し、複数の画像とテキストレイヤーを含めることで、バナーやチラシをすばやく作成してダウンストリームのアプリケーションで使用できます。 また、テンプレートに含まれる画像レイヤーやテキストレイヤーにパラメーターを追加し、[Dynamic Media URL](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/wysiwyg/storage/catalog-urls-dynamic-media) を使用して、これらのレイヤーの値をリアルタイムで更新することもできます。
@@ -44,10 +44,10 @@ Dynamic Media テンプレートの主なメリットには、次のようなも
 Dynamic Mediaテンプレートを作成するには、次の要件を満たす必要があります。
 
 1. Dynamic Mediaへのアクセス。
-1. [AEM Assets インスタンスで使用可能な画像をDynamic Mediaと同期して、テンプレートの作成に使用します ](/help/assets/dynamic-media/config-dm.md)。
+1. [AEM Assets インスタンスで使用可能な画像をDynamic Mediaと同期して、テンプレートの作成に使用します ](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/dynamicmedia/config-dm)。
 1. タッチ UI で次の内容を確認しました。
-   * **[!UICONTROL Dynamic Media設定を編集ページ]** で、**[!UICONTROL デフォルトで無効]** に設定されている **[!UICONTROL Dynamic Media同期モード]** が、すべてのAEM フォルダーに適用されない（**[!UICONTROL すべてのコンテンツを同期]** がオフになっている）。 詳しくは [Dynamic MediaCloud Serviceの設定 ](/help/assets/dynamic-media/config-dm.md) を参照してください。
-   * **[!UICONTROL Dynamic Media同期モード]** は、作成後にテンプレートを保存する出力先フォルダーまたはサブフォルダーに対して **[!UICONTROL サブフォルダーで有効にする]** に設定されています。 詳しくは [Dynamic MediaCloud Serviceの設定 ](/help/assets/dynamic-media/config-dm.md) を参照してください。
+   * **[!UICONTROL Dynamic Media設定を編集ページ]** で、**[!UICONTROL デフォルトで無効]** に設定されている **[!UICONTROL Dynamic Media同期モード]** が、すべてのAEM フォルダーに適用されない（**[!UICONTROL すべてのコンテンツを同期]** がオフになっている）。 詳しくは [Dynamic MediaCloud Serviceの設定 ](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/dynamicmedia/config-dm) を参照してください。
+   * **[!UICONTROL Dynamic Media同期モード]** は、作成後にテンプレートを保存する出力先フォルダーまたはサブフォルダーに対して **[!UICONTROL サブフォルダーで有効にする]** に設定されています。 詳しくは [Dynamic MediaCloud Serviceの設定 ](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/dynamicmedia/config-dm) を参照してください。
 
 ## Dynamic Media WYSIWYG テンプレートの作成{#how-to-create-dynamic-media-wysiwyg-template}
 
@@ -69,7 +69,7 @@ DM テンプレートを作成するには、次の手順に従います。
 
 1. **[!UICONTROL テンプレートを作成]** をクリックして、Dynamic Media Assetsの下にテンプレートを保存するか、フォルダーに移動して **[!UICONTROL テンプレートを作成]** をクリックします。 **[!UICONTROL 新規テンプレート]** ダイアログボックスが表示されます。
    ![ リアルタイムでカスタマイズできる動的テンプレートの作成方法 ](/help/using/assets/new-template.png)
-[ フォルダーを作成 ](/help/assets/add-delete-assets-view.md) するには、**[!UICONTROL Dynamic Media AssetsAssets]** の下にフォルダーを作成します ]**。**[!UICONTROL **[!UICONTROL Assets]** の下のフォルダーツリーは、**[!UICONTROL Dynamic Media Assets]** の下に複製されます。
+[ フォルダーを作成 ](/help/using/add-delete.md) するには、**[!UICONTROL Dynamic Media AssetsAssets]** の下にフォルダーを作成します ]**。**[!UICONTROL **[!UICONTROL Assets]** の下のフォルダーツリーは、**[!UICONTROL Dynamic Media Assets]** の下に複製されます。
 1. テンプレート名を指定し、キャンバスの幅と高さを定義して、「**[!UICONTROL 作成]**」をクリックします。 テンプレートの作成に使用するメニューオプションが両側に表示された、空のキャンバス。 メニューオプションにカーソルを合わせると、ツールチップが表示されます。
    ![ リアルタイムのカスタマイズ可能なテンプレート ](/help/using/assets/blank-canvas-page.png)
 
@@ -89,7 +89,7 @@ DM テンプレートを作成するには、次の手順に従います。
 * ![ すぐにカスタマイズできるテンプレートを作成 ](/help/using/assets/undo.svg): クリックして最後の操作を取り消すか、**Ctrl** + **Z** （Windows）または **Cmd** + **Z** （Mac）を押します。
 * ![ テンプレートを使用してバナーをすばやく作成 ](/help/using/assets/redo.svg)：クリックして最後の操作をやり直すか、**Ctrl** + **Y** （Windows）または **Cmd** + **Y** （Mac）を押します。
 * ![ テンプレートを使用してチラシをすばやく作成 ](/help/using/assets/zoomin.svg)：クリックしてカンバスをズームするか、**Ctrl** + **+** （Windows）または Cmd + **+** （Mac）を押します。
-* ![ テンプレートを使用して横断幕をすばやく作成 ](/help/using/assets/zoomout.svg)：クリックしてキャンバスをズームアウトするか、**Ctrl** + **-** （Windows）または **Cmd** + **-** （Mac）を押します。
+* ![ テンプレートを使用して横断幕をすばやく作成 ](/help/using/assets/ZoomOut-1.svg)：クリックしてキャンバスをズームアウトするか、**Ctrl** + **-** （Windows）または **Cmd** + **-** （Mac）を押します。
 * テキストまたはプロパティが編集されていない場合に、選択したレイヤーを削除するには、**Backspace** または **delete** を押します。
 
 ![ テンプレートをクリックすると ](/help/using/assets/show-layers-list.svg) チラシをすばやく作成できます **> キャンバスレイヤーにさらにオプション（![](/help/using/assets/three-dots.svg)）を** 加すると、テンプレートの作成中にいつでもキャンバスの寸法を編集できます。
@@ -121,7 +121,7 @@ DM テンプレートを作成するには、次の手順に従います。
 
 >[!NOTE]
 >
-> デフォルトのAdobe Sans F2 フォントファミリー以外のフォントを使用するには、フォントファイルをAEM AssetsとDynamic Mediaにアップロードして公開する必要があります。 インスタンスに古いフォントがある場合は、テンプレートエディターに表示するために ](/help/assets/reprocessing-assets-view.md) 再処理 [ してください。
+> デフォルトのAdobe Sans F2 フォントファミリー以外のフォントを使用するには、フォントファイルをAEM AssetsとDynamic Mediaにアップロードして公開する必要があります。 インスタンスに古いフォントがある場合は、テンプレートエディターに表示するために ](/help/using/reprocessing.md) 再処理 [ してください。
 
 ### レイヤーの編集または削除 {#edit-or-delete-a-layer}
 
@@ -281,5 +281,5 @@ URL 内でパラメーターを直接編集するのは面倒な場合があり�
 
 ## 関連トピック
 
-1. [Dynamic Mediaとその機能を探索する ](/help/assets/dynamic-media/dynamic-media.md)
-1. OpenAPI 機能を使用した [Dynamic Mediaの探索 ](/help/assets/dynamic-media-open-apis-overview.md)
+1. [Dynamic Mediaとその機能を探索する ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media)
+1. OpenAPI 機能を使用した [Dynamic Mediaの探索 ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview)
