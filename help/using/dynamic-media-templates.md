@@ -4,7 +4,7 @@ description: Dynamic Media テンプレートエディターを使用してWYSIW
 hide: true
 role: User
 exl-id: 07de648e-4ae2-4524-8e05-3cf10bb6006d
-source-git-commit: e09573fb64567b2975d5e7e08c2cf2db62b72202
+source-git-commit: 64123ef9b8f669da24b296a5c1ea6bd514778c32
 workflow-type: tm+mt
 source-wordcount: '2766'
 ht-degree: 1%
@@ -65,7 +65,7 @@ DM テンプレートを作成するには、次の手順に従います。
 
 1. Assets Essentialsに移動し、左側のパネルで使用可能な **[!UICONTROL Dynamic Media Assets]** をクリックします。
 
-   ![Dynamic Media テンプレート ](/help/using/assets/DM-Assets1.png)
+   ![Dynamic Media テンプレート](/help/using/assets/DM-Assets1.png)
 
 1. **[!UICONTROL テンプレートを作成]** をクリックして、Dynamic Media Assetsの下にテンプレートを保存するか、フォルダーに移動して **[!UICONTROL テンプレートを作成]** をクリックします。 **[!UICONTROL 新規テンプレート]** ダイアログボックスが表示されます。
    ![ リアルタイムでカスタマイズできる動的テンプレートの作成方法 ](/help/using/assets/new-template.png)
