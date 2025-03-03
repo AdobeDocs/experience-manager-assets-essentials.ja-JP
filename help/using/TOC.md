@@ -9,10 +9,10 @@ feature-set: Experience Manager Assets,Experience Manager
 feature: Assets Essentials
 role: User,Leader
 solution: Experience Manager
-source-git-commit: dec81fe265f907775addee640ff307ab142e15d8
-workflow-type: ht
-source-wordcount: '149'
-ht-degree: 100%
+source-git-commit: fc35954e30985ec1b2367527423e0508020eccdd
+workflow-type: tm+mt
+source-wordcount: '152'
+ht-degree: 98%
 
 ---
 
@@ -35,6 +35,7 @@ ht-degree: 100%
 + [アセットのアップロードと追加](add-delete.md)
 + [アセットの一括読み込み](bulk-import-assets-view.md)
 + [アセットの検索と検出](search.md)
++ [カスタム検索フィルター](custom-search-filters.md)
 + [アセット管理タスク](manage-organize.md)
 + [画像の編集](edit-images.md)
 + [ビデオの編集](edit-videos.md)
@@ -47,7 +48,7 @@ ht-degree: 100%
 + [レポートの管理](manage-reports.md)
 + [再処理](reprocessing.md)
 + [タグの管理](tagging-management.md)
-+ [コンテンツ資格情報](/help/using/content-credentials.md)
++ [Content Credentials](/help/using/content-credentials.md)
 + 他のソリューションとの統合 {#integration-with-other-solutions}
    + [概要](integration.md)
    + [Adobe Asset Link との統合](integrate-with-creative-cloud.md)
