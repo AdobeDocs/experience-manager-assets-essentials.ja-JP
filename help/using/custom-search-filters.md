@@ -3,9 +3,9 @@ title: カスタム検索フィルター
 description: 検索フィルターフォームのカスタマイズについて説明します
 role: User, Leader, Developer
 exl-id: 8c579d5b-6bfc-44bb-a381-ca5716bd20cb
-source-git-commit: 7d87b25b25d866af741a8aef22ec52abdaa7b974
+source-git-commit: e7068ab473eb016fa2bbdd7ed21e7c2c582544e5
 workflow-type: tm+mt
-source-wordcount: '1279'
+source-wordcount: '1280'
 ht-degree: 13%
 
 ---
@@ -376,7 +376,7 @@ Assets Essentials が提供する次のカスタムフィルターは、要件�
         <ul>
         <li>「<b> 追加 </b>」をクリックして、新しい値を追加します。 
         <li><span>✎</span> をクリックしてラベルを編集します。 
-        <li>「<img src="assets/do-not-localize/delete-icon.png">」をクリックすると、オプション値が削除されます。 
+        <li><span>??</span> をクリックすると、オプション値が削除されます。 
         <li><b> 編集 </b> をクリックして、編集オプションを変更します。 
         <li>また、オプションのシーケンスを保持して変更することもできます。
         </td>
