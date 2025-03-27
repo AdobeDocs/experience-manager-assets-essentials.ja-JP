@@ -3,12 +3,55 @@ title: ' [!DNL Assets Essentials] でのアセットの検索と検出'
 description: ' [!DNL Assets Essentials] でのアセットの検索と検出について説明します。'
 role: User
 exl-id: be9597a3-056c-436c-a09e-15a03567c85a
-source-git-commit: 84695c5a2b6423b0a5863b088ac8507f0de0e80d
-workflow-type: ht
-source-wordcount: '1967'
-ht-degree: 100%
+source-git-commit: 461773235cb2d27d334b5ceb23f959dc9a848716
+workflow-type: tm+mt
+source-wordcount: '2019'
+ht-degree: 98%
 
 ---
+
+
+<table>
+    <tr>
+        <td>
+            <img src="assets/new.gif" width="20px" height="25px" alt="新規">
+            <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dm-prime-ultimate"><b>Dynamic Media PrimeとUltimate</b></a>
+        </td>
+        <td>
+            <img src="assets/new.gif" width="20px" height="25px" alt="新規">
+            <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/assets-ultimate-overview"><b>AEM AssetsUltimate</b></a>
+        </td>
+        <td>
+            <img src="assets/new.gif" width="20px" height="25px" alt="新規">
+            <a href="http://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrate-aem-assets-edge-delivery-services"><b>AEM AssetsとEdge Delivery Servicesの統合 </b></a>
+        </td>
+        <td>
+            <img src="assets/new.gif" width="20px" height="25px" alt="新規">
+            <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/assets-view/aem-assets-view-ui-extensibility"><b>UI 拡張機能 </b></a>
+        </td>
+          <td>
+            <img src="assets/new.gif" width="20px" height="25px" alt="新規">
+            <a href="https://experienceleague.adobe.com/en/docs/experience-manager-assets-essentials/help/custom-search-filters"><b> カスタム検索フィルター </b></a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/best-practices/search-best-practices"><b>検索のベストプラクティス</b></a>
+        </td>
+        <td>
+            <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/best-practices/metadata-best-practices"><b>メタデータのベストプラクティス</b></a>
+        </td>
+        <td>
+            <a href="https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/content-hub/product-overview"><b>コンテンツハブ</b></a>
+        </td>
+        <td>
+            <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview"><b>OpenAPI 機能を備えた Dynamic Media</b></a>
+        </td>
+        <td>
+            <a href="https://developer.adobe.com/experience-cloud/experience-manager-apis/"><b>AEM Assets 開発者向けドキュメント</b></a>
+        </td>
+    </tr>
+</table>
 
 # [!DNL Assets Essentials] でアセットを検索 {#search-assets}
 
