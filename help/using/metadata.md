@@ -4,10 +4,10 @@ description: ' [!DNL Assets Essentials] におけるアセットのメタデー�
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AG
 exl-id: cfc105d1-41fc-4418-9905-b2a28a348682
-source-git-commit: f922e9191cc3bf6beef66665dec49fd3876bf33b
-workflow-type: ht
-source-wordcount: '1964'
-ht-degree: 100%
+source-git-commit: 1cda73b6ddc573d2736fdaa45b582198420ed5b1
+workflow-type: tm+mt
+source-wordcount: '2159'
+ht-degree: 89%
 
 ---
 
@@ -169,16 +169,47 @@ Assets Essentials デプロイメント内のフォルダーにメタデータ �
 
 ### メタデータフォームでのリンクコンポーネントの操作 {#link-component-metadata-form}
 
-リンクコンポーネントを使用して、ストレージリンク、著作権情報、お問い合わせフォームなどの外部 URL を有効にします。メタデータフォームでリンクコンポーネントを使用するには、[メタデータフォームを設定する](#metadata-forms)必要があります。URL コンポーネントは、メタデータエディターページの特定のメタデータプロパティにマッピングでき、他のメタデータコンポーネントと同じように機能します。このメタデータフォームはフォルダーに割り当てることができます。したがって、割り当てられたフォルダーアセットの詳細ページには、アセットリンクのメタデータ値が表示される場合があります。
+リンクコンポーネントを使用して、ストレージリンク、著作権情報、お問い合わせフォームなどの外部 URL を有効にします。メタデータフォームでリンクコンポーネントを使用するには、[メタデータフォームを設定する](#metadata-forms)必要があります。URL コンポーネントは、メタデータエディターページの特定のメタデータプロパティにマッピングでき、他のメタデータコンポーネントと同じように機能します。このメタデータフォームはフォルダーに割り当てることができます。したがって、割り当てられたフォルダーアセットの詳細ページに、アセットリンクのメタデータ値が表示される場合があります。
 
-アセット詳細ページでリンクコンポーネントを使用するには、次の手順に従います。
+アセットの詳細ページでリンクコンポーネントを使用するには、次の手順に従います。
 
-1. アセット詳細ページに移動し、**[!UICONTROL リンク URL]** に移動します。
+1. アセットの詳細ページに移動し、**[!UICONTROL リンク URL]** に移動します。
 1. 選択したアセットのリダイレクトに使用する URL を追加します。
 1. 「**[!UICONTROL リンクを追加]**」をクリックします。次のいずれかの操作を行います。
-   * 「![アイコンをコピー](assets/do-not-localize/copy.svg)」をクリックして、URL をコピーします。
-   * 「![編集アイコン](assets/do-not-localize/edit.svg)」をクリックして、URL を編集します。
+   * ![コピーアイコン](assets/do-not-localize/copy.svg) をクリックして、URL をコピーします。
+   * ![編集アイコン](assets/do-not-localize/edit.svg) をクリックして、URL を編集します。
 1. 「**[!UICONTROL 保存]**」をクリックして、変更を保存します。
+
+### メタデータフォーム内のタグコンポーネントの操作 {#tag-component-metadata-form}
+
+ルート要素は、アセットに関連付けることができるタグのツリー構造を表します。これにより、割り当てられたタグに基づいてアセットを識別できます。 さらに、メタデータエディターでメタデータフォームを設定する際に、特定の分類へのアクセスを制限できます。
+
+#### タグコンポーネントの設定 {#tags-component-configuration}
+
+次の手順を実行して、タグコンポーネントを設定します。
+
+1. メタデータエディターに移動し、**[!UICONTROL タグ]** に移動してキャンバスに配置します。
+1. キャンバスのコンポーネントの名前を変更します。 これをおこなうには、設定パネルの **[!UICONTROL メタデータプロパティ]** の下の [!UICONTROL  ラベル ] に移動して、識別するテキストを追加します。
+1. 設定パネルの [!UICONTROL  メタデータプロパティ ] の下で、コンポーネントに割り当てるメタデータプロパティを検索します。
+1. **[!UICONTROL 特定の分類に制限]** をクリックして、分類のルートパスを制限します。 これを行うには、タグを参照し、特定のパスに対する分類を選択します。
+1. 「**[!UICONTROL 保存]**」をクリックして、変更を保存します。
+
+   ![ ルートタグの設定 ](assets/root-tag-config.png)
+1. [ メタデータフォームをフォルダーに割り当てます ](#assign-metadata-form-folder)。
+
+<!--
+#### Mapping between assets and taxonomy {#asset-taxonomy-mapping}
+
+See [Assign metadata form to folders](#assign-metadata-form-folder). Follow the steps below to perform mapping between folder and taxonomy:
+
+1. Go back to the Settings and click **[!UICONTROL Metadata forms]**.
+1. Select a Metadata form that needs mapping. 
+1. Click **[!UICONTROL Assign to folder(s)]**. **[!UICONTROL Select Folder(s)]** screen appears. 
+1. Navigate to the folder that you want to assign to the metadata form. You can select multiple folders.
+1. Click **[!UICONTROL Assign]**.
+-->
+
+設定済みのルートタグを表示するには、アセットの詳細ページに移動します。このページで、メタデータフォームとルートタグの間のマッピングが実行されます。
 
 ## 次の手順 {#next-steps}
 
