@@ -37,8 +37,11 @@ Adobe Experience Manager AssetsでContent credentialsがサポートされるよ
 1. **詳細** をクリックし、右側のパネルから「`Cr pin`」を選択します。 「Content credentials」タブには、アセットに関する次の情報が表示されます。
    1. **生成された画像：** Content credentialsが適用された日時。
    1. **コンテンツ概要：** アセットが AI によって部分的に生成されたか、完全に生成されたか、またはアセットの編集方法を示します。
+
       ![ コンテンツの概要 ](/help/using/assets/content-credentials1.png)
    1. **プロセス：** アセットの生成に使用されるアプリケーション、デバイス、AI ツール（Adobe Fireflyなど）の詳細と、その後の変更。
+
       ![ プロセス ](/help/using/assets/CR-Process.png)
    1. **本Content credentialsについて：** 発行者名、発行日時。
+
       ![ 発行者 ](/help/using/assets/CR-issuer.png)
