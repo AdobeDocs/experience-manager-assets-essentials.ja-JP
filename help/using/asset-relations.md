@@ -48,7 +48,7 @@ ht-degree: 59%
 
 関連アセット機能を使用してアセット間でソースと派生の関係を作成すると、翻訳ワークフローにも役立ちます。派生アセットで翻訳ワークフローを実行すると、[!DNL Experience Manager Assets] はソースファイルが参照するすべてのアセットを自動的に取得し、翻訳用に組み込みます。これにより、ソースアセットが参照するアセットが、ソースおよび派生アセットと共に翻訳されます。ソースファイルが別のアセットに関連付けられている場合、[!DNL Experience Manager Assets] は参照されているアセットを取得し、翻訳用に組み込みます。
 
-[AEMのアセットの翻訳 ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/admin/translate-assets) を参照してください。
+[AEMのアセットの翻訳 ](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/admin/translate-assets) を参照してください。
 
 ## 次の手順 {#next-steps}
 
@@ -61,5 +61,5 @@ ht-degree: 59%
 >[!MORELIKETHIS]
 >
 >* [アセットのバージョンを表示](manage-organize.md#view-versions)
->* [AEMでのアセットの翻訳 ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/admin/translate-assets)
+>* [AEMでのアセットの翻訳 ](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/admin/translate-assets)
 >* [Assets ビューでサポートされるファイル形式 ](supported-file-formats.md)。
