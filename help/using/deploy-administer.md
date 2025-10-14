@@ -161,7 +161,7 @@ Assets Essentials には、多数の標準メタデータフィールドがデ�
 
 * 右側のサイドバーにある「[!UICONTROL このページを編集]」（![ページを編集](assets/do-not-localize/edit-page.png)）または「[!UICONTROL 問題を記録] 」（![GitHub イシューを作成](assets/do-not-localize/github-issue.png)）を使用してドキュメントに関するフィードバックを提供する
 
-* [カスタマーケア](https://experienceleague.adobe.com/ja?support-solution=General&amp;lang=ja#support)に問い合わせる
+* [カスタマーケア](https://experienceleague.adobe.com/ja?support-solution=General&lang=ja#support)に問い合わせる
 
 
 
@@ -171,4 +171,4 @@ Assets Essentials には、多数の標準メタデータフィールドがデ�
 >* [[!DNL Cloud Manager]  のヘルプ](https://experienceleague.adobe.com/docs/experience-manager-cloud-manager/using/introduction-to-cloud-manager.html?lang=ja)
 >* [Adobe Journey Optimizer のドキュメント](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home.html?lang=ja)
 >* [リリースノート](release-notes.md)
->* [ [!DNL Assets Essentials]](get-started.md) の基本
+>* [&#x200B; [!DNL Assets Essentials]](get-started.md) の基本

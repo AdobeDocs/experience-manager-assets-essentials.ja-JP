@@ -52,8 +52,8 @@ Dynamic Media テンプレートを作成するには、次の操作が必要で
 1. Dynamic Media にアクセスします。
 1. [AEM Assets インスタンスで使用可能な画像を Dynamic Media と同期して、テンプレートの作成に使用します](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/dynamicmedia/config-dm)。
 1. タッチ UI で次の内容を確認しました。
-   * **[!UICONTROL Dynamic Media設定を編集ページ]** で、**[!UICONTROL デフォルトで無効]** に設定されている **[!UICONTROL Dynamic Media同期モード]** が、すべてのAEM フォルダーに適用されない（**[!UICONTROL すべてのコンテンツを同期]** がオフになっている）。 詳しくは [Dynamic MediaCloud Serviceの設定 ](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/dynamicmedia/config-dm) を参照してください。
-   * **[!UICONTROL Dynamic Media同期モード]** は、作成後にテンプレートを保存する出力先フォルダーまたはサブフォルダーに対して **[!UICONTROL サブフォルダーで有効にする]** に設定されています。 詳しくは [Dynamic MediaCloud Serviceの設定 ](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/dynamicmedia/config-dm) を参照してください。
+   * **[!UICONTROL Dynamic Media設定を編集ページ]** で、**[!UICONTROL デフォルトで無効]** に設定されている **[!UICONTROL Dynamic Media同期モード]** が、すべてのAEM フォルダーに適用されない（**[!UICONTROL すべてのコンテンツを同期]** がオフになっている）。 詳しくは [Dynamic MediaCloud Serviceの設定 &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/dynamicmedia/config-dm) を参照してください。
+   * **[!UICONTROL Dynamic Media同期モード]** は、作成後にテンプレートを保存する出力先フォルダーまたはサブフォルダーに対して **[!UICONTROL サブフォルダーで有効にする]** に設定されています。 詳しくは [Dynamic MediaCloud Serviceの設定 &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/dynamicmedia/config-dm) を参照してください。
 
 ## Dynamic Media WYSIWYG テンプレートの作成{#how-to-create-dynamic-media-wysiwyg-template}
 

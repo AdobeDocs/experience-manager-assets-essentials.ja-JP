@@ -24,7 +24,7 @@ ht-degree: 0%
 * **使用する AI ツール：** 生成 AI を使用してアセットを編集または作成した場合は、使用するモデルの名前を含めることができます。
 * **その他の関連情報：** 追加データは、アセットの履歴に関するより多くのコンテキストを提供するために含めることもできます。
 
-[ 検証 ](https://contentcredentials.org/verify) を使用すると、アセット履歴に関するより包括的なインサイトを得て、完全な表示を行うことができます。
+[&#x200B; 検証 &#x200B;](https://contentcredentials.org/verify) を使用すると、アセット履歴に関するより包括的なインサイトを得て、完全な表示を行うことができます。
 
 Adobe Experience Manager AssetsでContent credentialsがサポートされるようになり、AEMのAssets EssentialsUI 内でContent credentialsを直接確認できるようになりました。 アセットの詳細を見ると、Content credentialsを含むすべての画像（GenAI サービスで作成された画像など）は、マニフェストの詳細を専用パネルに表示します。 アセットをダウンロード、公開、共有しても、資格情報はアセットとまったく同じままです。
 
@@ -38,10 +38,10 @@ Adobe Experience Manager AssetsでContent credentialsがサポートされるよ
    1. **生成された画像：** Content credentialsが適用された日時。
    1. **コンテンツ概要：** アセットが AI によって部分的に生成されたか、完全に生成されたか、またはアセットの編集方法を示します。
 
-      ![ コンテンツの概要 ](/help/using/assets/content-credentials1.png)
+      ![&#x200B; コンテンツの概要 &#x200B;](/help/using/assets/content-credentials1.png)
    1. **プロセス：** アセットの生成に使用されるアプリケーション、デバイス、AI ツール（Adobe Fireflyなど）の詳細と、その後の変更。
 
-      ![ プロセス ](/help/using/assets/CR-Process.png)
+      ![&#x200B; プロセス &#x200B;](/help/using/assets/CR-Process.png)
    1. **本Content credentialsについて：** 発行者名、発行日時。
 
-      ![ 発行者 ](/help/using/assets/CR-issuer.png)
+      ![&#x200B; 発行者 &#x200B;](/help/using/assets/CR-issuer.png)

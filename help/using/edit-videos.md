@@ -14,9 +14,9 @@ ht-degree: 24%
 
 ビデオ用の埋め込みクイックアクションを使用すると、Assets ユーザーは、ビデオコンテンツのバリエーション [!DNL Adobe Express] 簡単に作成できます。 [!DNL Adobe Express] を利用した [!DNL Assets Essentials] のクイックアクションでは、ビデオの切り抜き、ビデオのサイズ変更、ビデオのトリミング、ビデオのGIFへの変換など、使いやすいビデオ編集オプションが提供されています。
 
-ビデオを編集するには、ビデオの詳細に移動し、「[!UICONTROL &#x200B; ビデオを編集 &#x200B;]」をクリックします。 または、アセットを選択して「詳細」をクリックし、右側のパネルにある ![ はさみ ](assets/do-not-localize/cut.svg) アイコンをクリックします。 ビデオの編集後、新しいビデオを新しいバージョンまたは新しいアセットとして保存できます。
+ビデオを編集するには、ビデオの詳細に移動し、「[!UICONTROL &#x200B; ビデオを編集 &#x200B;]」をクリックします。 または、アセットを選択して「詳細」をクリックし、右側のパネルにある ![&#x200B; はさみ &#x200B;](assets/do-not-localize/cut.svg) アイコンをクリックします。 ビデオの編集後、新しいビデオを新しいバージョンまたは新しいアセットとして保存できます。
 
-[ プレビューインターフェイス ](/help/using/navigate-view.md#preview-assets) の詳細を説明します。
+[&#x200B; プレビューインターフェイス &#x200B;](/help/using/navigate-view.md#preview-assets) の詳細を説明します。
 
 ## 前提条件 {#prerequisites}
 
@@ -42,7 +42,7 @@ AEM Assets内の [!DNL Adobe Express] および少なくとも 1 つの環境に
 5. 「**[!UICONTROL 適用]**」をクリックします。
    ![Adobe Express を使用したビデオの切り抜き](/help/using/assets/adobe-express-crop-video.png)
 
-   切り抜いたビデオはダウンロードできます。 編集したアセットは、同じアセットの新しいバージョンとして保存するか、新しいアセットとして保存できます。 ![Adobe Expressでビデオを保存 ](/help/using/assets/adobe-express-save-video.png)
+   切り抜いたビデオはダウンロードできます。 編集したアセットは、同じアセットの新しいバージョンとして保存するか、新しいアセットとして保存できます。 ![Adobe Expressでビデオを保存 &#x200B;](/help/using/assets/adobe-express-save-video.png)
 
 ### ビデオのサイズ変更 {#resize-video-using-express}
 
@@ -54,7 +54,7 @@ AEM Assets内の [!DNL Adobe Express] および少なくとも 1 つの環境に
 4. 必要に応じて、「ビデオスケール **[!UICONTROL フィールドを使用してビデオを拡大・縮小]** ます。
 5. ビデオのミュートまたはミュート解除を選択できます。
 6. 「**[!UICONTROL 適用]**」をクリックし、変更を適用します。
-   ![Adobe Expressを使用したビデオのサイズ変更 ](/help/using/assets/adobe-express-resize-video.png)
+   ![Adobe Expressを使用したビデオのサイズ変更 &#x200B;](/help/using/assets/adobe-express-resize-video.png)
 
 サイズを変更したビデオはダウンロードできます。 編集したアセットを同じアセットの新しいバージョンとして保存するか、新しいアセットとして保存することができます。
 
@@ -68,7 +68,7 @@ AEM Assets内の [!DNL Adobe Express] および少なくとも 1 つの環境に
 4. **[!UICONTROL サイズ]** ドロップダウンリストから適切な寸法を選択します。
 5. ビデオのミュートまたはミュート解除を選択できます。
 6. 「**[!UICONTROL 適用]**」をクリックし、変更を適用します。
-   ![Adobe Expressを使用したビデオのサイズ変更 ](/help/using/assets/adobe-express-trim-video.png)
+   ![Adobe Expressを使用したビデオのサイズ変更 &#x200B;](/help/using/assets/adobe-express-trim-video.png)
 
 トリミングしたビデオをダウンロードできます。 編集したアセットを同じアセットの新しいバージョンとして保存するか、新しいアセットとして保存することができます。
 
@@ -82,7 +82,7 @@ Adobe Expressを使用して、MP4 ビデオをGIF形式にすばやく変換で
 4. ビデオの隅にあるハンドルをドラッグして、目的の切り抜きを作成します。
 5. 「**[!UICONTROL 適用]**」をクリックします。
 
-   ![Adobe Expressを使用してビデオをGIFに変換 ](/help/using/assets/adobe-express-convert-video-to-gif.png)
+   ![Adobe Expressを使用してビデオをGIFに変換 &#x200B;](/help/using/assets/adobe-express-convert-video-to-gif.png)
 
 ビデオは、GIF形式でダウンロードできます。 編集したアセットを同じアセットの新しいバージョンとして保存するか、新しいアセットとして保存することができます。
 
@@ -108,5 +108,5 @@ Adobe Expressを使用して、MP4 ビデオをGIF形式にすばやく変換で
 
 >[!MORELIKETHIS]
 >
->* [Assets Essentialsでの画像の編集 ](/help/using/edit-images.md)
->* [ アセットのプレビュー ](/help/using/navigate-view.md#preview-assets)
+>* [Assets Essentialsでの画像の編集 &#x200B;](/help/using/edit-images.md)
+>* [&#x200B; アセットのプレビュー &#x200B;](/help/using/navigate-view.md#preview-assets)

@@ -27,28 +27,28 @@ ht-degree: 59%
 
    ![アセットのプロパティページを開きアセットを関連付ける](assets/asset-properties-relate-assets.png)
 
-1. 選択したアセットに別のアセットを関連付けるには、「**[!UICONTROL アセットの関係]**![ アセットの関連付け ](assets/do-not-localize/link-relate.png) をクリックします。
+1. 選択したアセットに別のアセットを関連付けるには、「**[!UICONTROL アセットの関係]**![&#x200B; アセットの関連付け &#x200B;](assets/do-not-localize/link-relate.png) をクリックします。
 1. 次のいずれかの操作を行います。
 
    * アセットのソースファイルを関連付けるには、リストから「**[!UICONTROL Sourceを追加]**」を選択します。 ソースとして関連付けることができるアセットは 1 つだけです。
    * 派生ファイルを関連付けるには、リストから「**[!UICONTROL 派生を追加]**」を選択します。 このカテゴリには複数のアセットを関連付けることができます。
    * アセット間に双方向関係を作成するには、リストから **[!UICONTROL その他を追加]** を選択します。 このカテゴリには複数のアセットを関連付けることができます。
 
-1. **[!UICONTROL Assetsを選択]** 画面で、関連付けるアセットの場所に移動し、アセットを選択します。 Shift キーを押しながらクリックすることで、1 つのアセットを一度に選択することも、複数のアセットを選択することもできます。この場合、[Assets ビューでサポートされているファイル形式 ](supported-file-formats.md) を使用できます。
+1. **[!UICONTROL Assetsを選択]** 画面で、関連付けるアセットの場所に移動し、アセットを選択します。 Shift キーを押しながらクリックすることで、1 つのアセットを一度に選択することも、複数のアセットを選択することもできます。この場合、[Assets ビューでサポートされているファイル形式 &#x200B;](supported-file-formats.md) を使用できます。
 
-   ![ 関連アセットを追加 ](assets/add-related-asset.png)
+   ![&#x200B; 関連アセットを追加 &#x200B;](assets/add-related-asset.png)
 
 1. **[!UICONTROL 選択]** をクリックします。 手順 3 で選択した関係に応じて、関連アセットが「**[!UICONTROL アセット関係]**」セクションの適切なカテゴリの下に表示されます。 例えば、関連付けたアセットが現在のアセットのソースファイルの場合は、「**[!UICONTROL ソース]**」の下に表示されます。
 
-   ![Assets関係の例 ](assets/asset-relations-example.png)
+   ![Assets関係の例 &#x200B;](assets/asset-relations-example.png)
 
-1. 各セクションのすべての関連アセットで使用できる **[!UICONTROL 関連付けを解除]**![ アセットの関連付けを解除 ](assets/do-not-localize/link-unrelate-icon.png)、（[!UICONTROL Source]、[!UICONTROL &#x200B; 派生 &#x200B;]、（その他 ）  をクリックして、アセットの関連付けを解除します。
+1. 各セクションのすべての関連アセットで使用できる **[!UICONTROL 関連付けを解除]**![&#x200B; アセットの関連付けを解除 &#x200B;](assets/do-not-localize/link-unrelate-icon.png)、（[!UICONTROL Source]、[!UICONTROL &#x200B; 派生 &#x200B;]、（その他 ）  をクリックして、アセットの関連付けを解除します。
 
 ## 関連アセットの翻訳 {#translating-related-assets}
 
 関連アセット機能を使用してアセット間でソースと派生の関係を作成すると、翻訳ワークフローにも役立ちます。派生アセットで翻訳ワークフローを実行すると、[!DNL Experience Manager Assets] はソースファイルが参照するすべてのアセットを自動的に取得し、翻訳用に組み込みます。これにより、ソースアセットが参照するアセットが、ソースおよび派生アセットと共に翻訳されます。ソースファイルが別のアセットに関連付けられている場合、[!DNL Experience Manager Assets] は参照されているアセットを取得し、翻訳用に組み込みます。
 
-[AEMのアセットの翻訳 ](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/admin/translate-assets) を参照してください。
+[AEMのアセットの翻訳 &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/admin/translate-assets) を参照してください。
 
 ## 次の手順 {#next-steps}
 
@@ -61,5 +61,5 @@ ht-degree: 59%
 >[!MORELIKETHIS]
 >
 >* [アセットのバージョンを表示](manage-organize.md#view-versions)
->* [AEMでのアセットの翻訳 ](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/admin/translate-assets)
->* [Assets ビューでサポートされるファイル形式 ](supported-file-formats.md)。
+>* [AEMでのアセットの翻訳 &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/admin/translate-assets)
+>* [Assets ビューでサポートされるファイル形式 &#x200B;](supported-file-formats.md)。

@@ -20,7 +20,7 @@ ht-degree: 17%
 
 1. アセットまたはフォルダーの名前を変更するには、次のいずれかの方法を使用します。
 
-   * アセットまたはフォルダーを選択し、上部のメニューから ![ 名前を変更アイコン ](assets/do-not-localize/rename-icon.png)**[!UICONTROL 名前を変更]** をクリックします。
+   * アセットまたはフォルダーを選択し、上部のメニューから ![&#x200B; 名前を変更アイコン &#x200B;](assets/do-not-localize/rename-icon.png)**[!UICONTROL 名前を変更]** をクリックします。
    * アセットまたはフォルダーの `...` にある「その他」オプションをクリックし、「**[!UICONTROL 名前を変更]**」を選択します。
    * アセットまたはフォルダーのタイトルをクリックして、名前を変更します。 「**アセット名を変更**」テキストボックスに新しいテキストを入力し、「**保存**」をクリックします。 この機能は、グリッド、ギャラリー、ウォーターフォール、リストの各表示で利用できます。
 
@@ -32,15 +32,15 @@ AI で生成されたプロンプトを使用して一度にアセットのバ�
 
 1. 複数のアセットを選択し、上部のメニューから **[!UICONTROL 一括名前変更]** をクリックします。
 
-1. 選択したアセットの名前の変更方法を示すプロンプトを追加します。 [AI の一括名前変更の例 ](#examples-ai-bulk-rename) を参照してください。
+1. 選択したアセットの名前の変更方法を示すプロンプトを追加します。 [AI の一括名前変更の例 &#x200B;](#examples-ai-bulk-rename) を参照してください。
 
 1. **[!UICONTROL 実行]** をクリックして、プロンプトに示すように、AI がアセットの名前を変更できるようにします。
 
-1. [ オプション ] ![ 取り消しアイコン ](assets/do-not-localize/undo.svg) をクリックして、最後に実行したアクションを取り消したりキャンセルしたりします。
+1. [ オプション ] ![&#x200B; 取り消しアイコン &#x200B;](assets/do-not-localize/undo.svg) をクリックして、最後に実行したアクションを取り消したりキャンセルしたりします。
 
 1. [!UICONTROL &#x200B; 新しい名前のプレビュー &#x200B;] 列で変更を確認し、**[!UICONTROL 保存]** をクリックします。
 
-   ![AI 一括名前変更 ](assets/ai-bulk-rename.png)
+   ![AI 一括名前変更 &#x200B;](assets/ai-bulk-rename.png)
 
 ## AI の一括名前変更の例 {#examples-ai-bulk-rename}
 
@@ -67,5 +67,5 @@ AI を使用して、AI プロンプトに基づいてアセットの名前を�
 
 * 右側のサイドバーにある「[!UICONTROL このページを編集]」（![ページを編集](assets/do-not-localize/edit-page.png)）または「[!UICONTROL 問題を記録] 」（![GitHub イシューを作成](assets/do-not-localize/github-issue.png)）を使用してドキュメントに関するフィードバックを提供する
 
-* [カスタマーケア](https://experienceleague.adobe.com/ja?support-solution=General&amp;lang=ja#support)に問い合わせる
+* [カスタマーケア](https://experienceleague.adobe.com/ja?support-solution=General&lang=ja#support)に問い合わせる
 
