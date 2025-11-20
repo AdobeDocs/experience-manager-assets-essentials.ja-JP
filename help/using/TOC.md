@@ -29,7 +29,7 @@ ht-degree: 93%
       + [フォルダー権限の管理](manage-permissions.md)
       + [権限管理のベストプラクティス](permission-management-best-practices.md)
    + [Creative Cloud Pro 向け Assets Essentials と作業管理ソリューションの連携の管理者向けジャーニー](assets-essentials-cc-pro-work-management-admin-journey.md)
-+ [ [!DNL Assets Essentials] の基本](get-started.md)
++ [&#x200B; [!DNL Assets Essentials] の基本](get-started.md)
 + [サポートされているファイルタイプとユースケース](supported-file-formats.md)
 + [アセットの表示](navigate-view.md)
 + [アセットのアップロードと追加](add-delete.md)
