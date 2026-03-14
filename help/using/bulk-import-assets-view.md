@@ -49,7 +49,7 @@ Dropbox アカウントからAEM Assets にアセットを読み込む前に、D
 
 以下の手順を実行します。
 
-1. [Dropbox アカウントにサインインし ](https://www.dropbox.com/developers) 「**[!UICONTROL アプリを作成]**」をクリックします。<br>Enterprise Dropbox アカウントを使用している場合は、コンテンツ管理者のロールにアクセスできる必要があります。
+1. [Dropbox アカウントにサインインし &#x200B;](https://www.dropbox.com/developers) 「**[!UICONTROL アプリを作成]**」をクリックします。<br>Enterprise Dropbox アカウントを使用している場合は、コンテンツ管理者のロールにアクセスできる必要があります。
 
 1. 「**[!UICONTROL API を選択]**」セクションで、使用可能なラジオボタンのみを選択します。
 
