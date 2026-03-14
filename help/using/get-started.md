@@ -3,10 +3,10 @@ title: ' [!DNL Assets Essentials] の基本'
 description: ' [!DNL Assets Essentials] のアクセス方法、ログイン操作、サポートされているユースケース、既知の問題について説明します。'
 role: User, Leader
 exl-id: 7917b2a0-8340-4d94-aa6f-30ce986fa752
-source-git-commit: fedcf02b5338d6640e557dad25ca03cfbd78d7e5
+source-git-commit: b3c726122425c9a89a5d6c0ac35b652d20d8e0b9
 workflow-type: tm+mt
-source-wordcount: '418'
-ht-degree: 100%
+source-wordcount: '445'
+ht-degree: 97%
 
 ---
 
@@ -20,19 +20,19 @@ ht-degree: 100%
 * **手順 2**：アセットを[検索](/help/using/search.md)し[ダウンロード](/help/using/manage-organize.md#download)する。
 * **手順 3**：アセットを[管理および整理](/help/using/manage-organize.md)する。
 
-[!DNL Assets Essentials] を使用するには、[https://experience.adobe.com/#/assets](https://experience.adobe.com/#/assets) でログインします。ログイン時に、`Company or School Account` を選択します。アクセス権を受け取るには、組織の管理者に問い合わせてください。
+[!DNL Assets Essentials] を使用するには、[https://experience.adobe.com/#/assets](https://experience.adobe.com/#/assets) でログインします。 ログイン時に、`Company or School Account` を選択します。 アクセス権を受け取るには、組織の管理者に問い合わせてください。
 
 さらに、[ユーザーインターフェイスについて](/help/using/navigate-view.md)、[ユースケース一覧](#use-cases)、<!-- TBD: [supported file types](/help/using/supported-file-formats.md), -->[既知の問題](/help/using/release-notes.md#known-issues)も参考になります。
 
 ## [!DNL Assets Essentials] へのアクセス権の取得 {#get-access}
 
-アドビは、ソリューションをプロビジョニングし、組織が指名した人物を管理者として追加します。管理者は、[[!DNL Admin Console]](https://helpx.adobe.com/jp/enterprise/using/admin-console.html) を使用して、組織の様々なユーザーにアクセス権を付与できます。アクセスに関するリクエストについては、組織の管理者に問い合わせてください。
+アドビは、ソリューションをプロビジョニングし、組織が指名した人物を管理者として追加します。 管理者は、[[!DNL Admin Console]](https://helpx.adobe.com/jp/enterprise/using/admin-console.html) を使用して、組織の様々なユーザーにアクセス権を付与できます。 アクセスに関するリクエストについては、組織の管理者に問い合わせてください。
 
 ログイン時、資格情報を入力すると、[!DNL Assets Essentials] からアカウントを選択するように求められます。 この場合、`Company or School Account` をクリックして続行します。
 
 ## [!DNL Assets Essentials] の設定 {#configuration}
 
-環境設定を開くには、ユーザーインターフェイスの右上隅にあるアバターをクリックします。ソリューションの環境設定で、明るいテーマと暗いテーマを切り替えることができます。
+環境設定を開くには、ユーザーインターフェイスの右上隅にあるアバターをクリックします。 ソリューションの環境設定で、明るいテーマと暗いテーマを切り替えることができます。
 
 複数の異なる組織に属している場合は、組織を変更し、様々な組織のアカウントにアクセスすることもできます。
 
@@ -46,7 +46,7 @@ ht-degree: 100%
 
 | ユーザータスク | 機能とハウツー情報 |
 |-----|------|
-| アセットの参照と表示 | <ul> <li>[リポジトリーの参照](/help/using/navigate-view.md#view-assets-and-details) </li> <li> [アセットのプレビュー](/help/using/navigate-view.md#preview-assets) <li> [アセットのレンディションの表示](/help/using/add-delete.md#renditions) </li> <li>[アセットのバージョンの表示](/help/using/manage-organize.md#view-versions)</li></ul> |
+| アセットの参照と表示 | <ul> <li>[リポジトリーの参照](/help/using/navigate-view.md#view-assets-and-details) </li> <li> [アセットをプレビュー](/help/using/navigate-view.md#preview-assets) <li> [アセットのレンディションの表示](/help/using/add-delete.md#renditions) </li> <li>[アセットのバージョンの表示](/help/using/manage-organize.md#view-versions)</li></ul> |
 | 新しいアセットの追加 | <ul> <li>[新しいアセットやフォルダーのアップロード](/help/using/add-delete.md#add-assets)</li> <li>[アップロードの進行状況の監視とアップロードの管理](/help/using/add-delete.md#upload-progress)</li> <li>[重複の解決](/help/using/add-delete.md#resolve-upload-fails)</li> </ul> |
 | アセットまたは関連情報の更新 | <ul> <li>[画像の編集](/help/using/edit-images.md)</li> <li>[バージョンの作成](/help/using/manage-organize.md#create-versions)と[バージョンの表示](/help/using/manage-organize.md#view-versions)</li> <li>[画像の編集](/help/using/edit-images.md)</li> </ul> |
 | アセットの編集 | <ul> <li>[Adobe Photoshop Express を使用したブラウザー内編集](/help/using/edit-images.md)</li> <li>[ソーシャルメディアプロファイルの切り抜き](/help/using/edit-images.md#crop-straighten-images)</li> <li>[バージョンの表示と管理](/help/using/manage-organize.md#view-versions)</li> <li>[使用方法 [!DNL Adobe Asset Link]](/help/using/integration.md#integrations)</ul></ul> |
@@ -59,19 +59,19 @@ ht-degree: 100%
 
 * [ビデオを視聴して Assets Essentials の基本を学ぶ](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/getting-started.html?lang=ja)
 
-* Assets Essentials ユーザーインターフェイスの「[!UICONTROL フィードバック]」オプションを使用して関する関するフィードバックを提供する
+* Assets Essentials ユーザーインターフェイスの「[!UICONTROL フィードバック]」オプションを使用して製品に関するフィードバックを提供する
 
 * 右側のサイドバーにある「[!UICONTROL このページを編集]」（![ページを編集](assets/do-not-localize/edit-page.png)）または「[!UICONTROL 問題を記録] 」（![GitHub イシューを作成](assets/do-not-localize/github-issue.png)）を使用してドキュメントに関するフィードバックを提供する
 
-* [カスタマーケア](https://experienceleague.adobe.com/ja?support-solution=General&amp;lang=ja#support)に問い合わせる
+* [カスタマーケア](https://experienceleague.adobe.com/?support-solution=General&lang=ja#support)に問い合わせる
 
 
-<!--TBD: Merge the below rows in the table when the use cases are documented/available.
+<!--
+TBD: Merge the below rows in the table when the use cases are documented/available.
 
 | How do I delete assets? | <ul> <li>[Delete assets](/help/using/manage-organize.md)</li> <li>Recover deleted assets</li> <li>Permanently delete assets</li> </ul> |
 | How do I share assets or find shared assets? | <ul> <li>Shared by me</li> <li>Shared with me</li> <li>Share for comments and review</li> <li>Unshare assets</li> </ul> |
 | How do I collaborate with others and get my assets reviewed | <ul> <li>Share for review</li> <li>Provide comments. Resolve and filter comments</li> <li>Annotations on images</li> <li>Assign tasks to specific users and prioritize</li> </ul> |
-
 -->
 
 <!-- 
@@ -94,6 +94,7 @@ To provide feedback for documentation, click [!UICONTROL Edit this page] ![edit 
 >* [ユーザーインターフェイスについて](/help/using/navigate-view.md)
 >* [リリースノートと既知の問題](/help/using/release-notes.md)
 
-<!-- TBD: 
+<!-- 
+TBD: 
 >* [Supported file types](/help/using/supported-file-formats.md).
 -->
