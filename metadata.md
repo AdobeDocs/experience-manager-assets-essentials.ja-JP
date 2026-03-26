@@ -1,32 +1,34 @@
 ---
 cloud: Experience Cloud
 solution: Experience Manager, Experience Manager Assets
+landing-page-name: experience-manager
+landing-page-breadcrumb-title: AEM
 product: adobe experience manager
 type: Documentation
-git-repo: https://github.com/AdobeDocs/experience-manager-assets-essentials.ja-JP
+git-repo: https://github.com/AdobeDocs/experience-manager-assets-essentials.en
 mini-toc-levels: 1
 index: true
 recommendations: noDisplay
-source-git-commit: a33f67452fdb1c42e534c5f423549c933fd5d59a
-workflow-type: ht
-source-wordcount: '93'
-ht-degree: 100%
+source-git-commit: 22ad420175d3e8ee00ef8486a3c6684c6aec3b05
+workflow-type: tm+mt
+source-wordcount: '107'
+ht-degree: 6%
 
 ---
 
 
-# 内部使用メタデータ
+# 内部使用のためのメタデータ
 
-metadata.md ファイルには、リポジトリ内にあるユーザーガイドの TOC.md ファイルにパススルーされる、リポジトリレベルのメタデータが含まれています。任意のユーザーガイドの metadata.md コンテンツを変更するには、任意の TOC.md ファイル内で行います。
-
-| メタデータ | 機能 |
-|--- |--- |
-| mini-toc-levels | 右側のレールに表示される見出しレベルの数を決定します。デフォルト値は 2 です。 |
-| git-repo | 内部使用のメインリポジトリーの場所を指定します。 |
-
-TOC.md ファイル内
+metadata.md ファイルには、リポジトリ内のユーザーガイド TOC.md ファイルに渡されるリポジトレベルのメタデータが含まれています。 任意のユーザーガイドのmetadata.md コンテンツを変更する場合は、任意のTOC.md ファイルで変更します。
 
 | メタデータ | 機能 |
 |--- |--- |
-| user-guide-title | 記事ヘッダーでリンクとして使用します。 |
-| user-guide-url | 学習とサポートのハブページを開きます。 |
+| ミニ目次レベル | 右側のパネルに表示される見出しレベルの数を指定します。 デフォルト値は 2 です。 |
+| git-repo | 内部使用のメインリポジトリの場所を指定します。 |
+
+TOC.md ファイル
+
+| メタデータ | 機能 |
+|--- |--- |
+| user-guide-title | 記事ヘッダーにリンクとして使用します。 |
+| user-guide-url | ラーニングとサポートのハブページを開きます。 |
