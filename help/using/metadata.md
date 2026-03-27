@@ -53,7 +53,7 @@ ht-degree: 98%
 
 ## キーワードの追加または更新 {#manually-tag}
 
-[!DNL Adobe Sensei] スマートサービスを使用して自動的に追加されるスマートタグに加えて、アセットにさらにタグを追加できます。 アセットをプレビュー用に開き、「[!UICONTROL タグ]」をクリックして、「[!UICONTROL キーワード]」フィールドに目的のキーワードを入力します。 タグを追加するには、Return キーを押します。[!DNL Assets Essentials] により、ほぼリアルタイムでキーワードのインデックスが作成されるので、チームは新しいキーワードを使用して更新済みのアセットをすぐに検索できます。
+[!DNL Adobe Sensei] スマートサービスを使用して自動的に追加されるスマートタグに加えて、アセットにさらにタグを追加できます。 アセットをプレビュー用に開き、「[!UICONTROL タグ]」をクリックして、「[!UICONTROL キーワード]」フィールドに目的のキーワードを入力します。 タグを追加するには、Return キーを押します。[!DNL Assets Essentials] キーワードにほぼリアルタイムでインデックスを作成し、新しいキーワードを使用して更新されたアセットをすぐに検索できます。
 
 アップロードされたすべてのアセットに [!DNL Assets Essentials] で自動的に追加されたタグを、「[!UICONTROL スマートタグ]」セクションから削除することもできます。
 
@@ -213,7 +213,7 @@ See [Assign metadata form to folders](#assign-metadata-form-folder). Follow the 
 
 ## 次の手順 {#next-steps}
 
-* [ビデオを視聴して Assets Essentials でのメタデータフォームの管理を学ぶ](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/configuring/metadata-forms.html?lang=ja)
+* [動画を見るAssets Essentialsでのメタデータフォームの管理](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/configuring/metadata-forms.html?lang=ja)
 
 * Assets Essentials ユーザーインターフェイスの「[!UICONTROL フィードバック]」オプションを使用して製品に関するフィードバックを提供する
 
