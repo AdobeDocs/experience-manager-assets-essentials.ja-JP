@@ -1,10 +1,10 @@
 ---
 title: コレクションを管理
-description: コレクションとは、Experience Manager Assets Essentials 内の一連のアセットのことです。コレクションを使用して、ユーザー間でアセットを共有します。
+description: コレクションとは、Experience Manager Assets Essentials 内の一連のアセットのことです。 コレクションを使用して、ユーザー間でアセットを共有します。
 exl-id: 33c889f5-c989-4772-9591-db62f50e5c80
 source-git-commit: 441136b23281185b82a5767aefc2c382512501a7
-workflow-type: ht
-source-wordcount: '907'
+workflow-type: tm+mt
+source-wordcount: '915'
 ht-degree: 100%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="assets_collections"
 >title="コレクションを管理"
->abstract="コレクションとは、 Assets Essentials 内のアセット、フォルダーまたはその他のコレクションのセットです。 コレクションを使用して、ユーザー間でアセットを共有します。フォルダーとは異なり、1 つのコレクションに異なる複数の場所のアセットを含めることができます。1 人のユーザーと複数のコレクションを共有できます。各コレクションには、アセットへの参照が含まれます。アセットの参照整合性はコレクション間で維持されます。"
+>abstract="コレクションとは、 Assets Essentials 内のアセット、フォルダーまたはその他のコレクションのセットです。 コレクションを使用して、ユーザー間でアセットを共有します。 フォルダーとは異なり、1 つのコレクションに異なる複数の場所のアセットを含めることができます。 1 人のユーザーと複数のコレクションを共有できます。 各コレクションには、アセットへの参照が含まれます。 アセットの参照整合性はコレクション間で維持されます。"
 
 コレクションとは、Adobe Experience Manager Assets Essentials 内のアセット、フォルダーまたはその他のコレクションのセットです。 コレクションを使用して、ユーザー間でアセットを共有します。
 
@@ -24,7 +24,7 @@ ht-degree: 100%
 You can share collections with various users that are assigned different levels of privileges, including viewing, editing, and so on.
 -->
 
-1 人のユーザーと複数のコレクションを共有できます。各コレクションには、アセットへの参照が含まれます。アセットの参照整合性はコレクション間で維持されます。
+1 人のユーザーと複数のコレクションを共有できます。 各コレクションには、アセットへの参照が含まれます。 アセットの参照整合性はコレクション間で維持されます。
 
 ![コレクション](assets/collections.png)
 
@@ -58,7 +58,7 @@ You can share collections with various users that are assigned different levels 
 
 1. コレクションのタイトルと、オプションで説明を指定します。
 
-1. 非公開コレクションまたは公開コレクションを作成する必要があるかどうかを選択します。公開コレクションは、すべてのユーザーが表示および編集できます。一方、非公開コレクションは、作成者と管理者権限を持つユーザーが利用できます。
+1. 非公開コレクションまたは公開コレクションを作成する必要があるかどうかを選択します。 公開コレクションは、すべてのユーザーが表示および編集できます。 一方、非公開コレクションは、作成者と管理者権限を持つユーザーが利用できます。
 
 1. 「**[!UICONTROL 作成]**」をクリックして、コレクションを作成します。
 
@@ -94,7 +94,7 @@ You can share collections with various users that are assigned different levels 
 
 ## スマートコレクションの管理 {#manage-smart-collection}
 
-検索結果をスマートコレクションとして保存して、コレクションのコンテンツを動的に更新します。スマートコレクションの作成時に定義した検索条件に適合するアセットが Assets Essentials リポジトリに追加されている場合、スマートコレクションを開くと、スマートコレクションのコンテンツが自動的に更新されます。
+検索結果をスマートコレクションとして保存して、コレクションのコンテンツを動的に更新します。 スマートコレクションの作成時に定義した検索条件に適合するアセットが Assets Essentials リポジトリに追加されている場合、スマートコレクションを開くと、スマートコレクションのコンテンツが自動的に更新されます。
 
 ### スマートコレクションを作成 {#create-smart-collection}
 
@@ -108,7 +108,7 @@ You can share collections with various users that are assigned different levels 
 
 1. [!UICONTROL スマートコレクションを作成]ダイアログボックスで、スマートコレクションのタイトルと説明を指定します。
 
-1. すべてのユーザーがコレクションにアクセスする必要がある場合、「**[!UICONTROL 公開コレクション]**」を選択します。限られたユーザーのグループがコレクションにアクセスする必要がある場合、「**[!UICONTROL 非公開コレクション]**」を選択します。
+1. すべてのユーザーがコレクションにアクセスする必要がある場合、「**[!UICONTROL 公開コレクション]**」を選択します。 限られたユーザーのグループがコレクションにアクセスする必要がある場合、「**[!UICONTROL 非公開コレクション]**」を選択します。
 
 1. 「**[!UICONTROL 作成]**」をクリックして、スマートコレクションを作成します。
 
@@ -154,13 +154,13 @@ Click **[!UICONTROL Collections]** in the left rail and use the Search box to sp
 
 1. 左側のパネルから、「**[!UICONTROL コレクション]**」をクリックし、コレクションを選択して「**[!UICONTROL 詳細]**」をクリックします。
 1. 「**[!UICONTROL 基本]**」タブを使用して、コレクションのメタデータを表示します。
-1. 必要に応じてメタデータのフィールドを変更します。「[!UICONTROL タイトル]」および「[!UICONTROL 説明]」フィールドを変更できます。
+1. 必要に応じてメタデータのフィールドを変更します。 「[!UICONTROL タイトル]」および「[!UICONTROL 説明]」フィールドを変更できます。
 
    ![コレクションメタデータ](assets/collection-metadata.png)
 
 ## コレクションのリンクの共有 {#share-collection-links}
 
-[!DNL Assets Essentials] を使用すると、リンクを生成して、[!DNL Assets Essentials] アプリケーションに対するアクセス権を持たない外部の関係者と、コレクションやコレクション内のアセットを共有できます。リンクの有効期限を定義し、メールやメッセージングサービスなどの好みの通信方法を使用して、他のユーザーとリンクを共有できます。リンクの受信者は、アセットをプレビューし、ダウンロードできます。
+[!DNL Assets Essentials] を使用すると、リンクを生成して、[!DNL Assets Essentials] アプリケーションに対するアクセス権を持たない外部の関係者と、コレクションやコレクション内のアセットを共有できます。 リンクの有効期限を定義し、メールやメッセージングサービスなどの好みの通信方法を使用して、他のユーザーとリンクを共有できます。 リンクの受信者は、アセットをプレビューし、ダウンロードできます。
 
 ![アセットのリンクの共有](assets/share-link-collections.png)
 
@@ -190,7 +190,7 @@ Click **[!UICONTROL Collections]** in the left rail and use the Search box to sp
 
 ## 非公開コレクションに対する権限の管理{#manage-permissions-private-collection}
 
-管理者は、リポジトリで使用可能な非公開コレクションの[アクセスレベル](/help/using/manage-permissions.md#manage-permissions-on-folders)を管理できます。`Can View` や `Can Edit` などの権限をユーザーグループまたはユーザーに割り当てることができます。また、ユーザーグループに権限管理の権限をデリゲートすることもできます。非公開コレクションを作成するユーザーは、それらのコレクションの所有者です。[!UICONTROL 権限を管理]アクションを使用すると、他のユーザーにアクセス権を付与できます。さらに、管理者は、[!DNL Experience Manager] リポジトリ内の非公開コレクションの権限を表示および管理できます。
+管理者は、リポジトリで使用可能な非公開コレクションの[アクセスレベル](/help/using/manage-permissions.md#manage-permissions-on-folders)を管理できます。 `Can View` や `Can Edit` などの権限をユーザーグループまたはユーザーに割り当てることができます。 また、ユーザーグループに権限管理の権限をデリゲートすることもできます。 非公開コレクションを作成するユーザーは、それらのコレクションの所有者です。 [!UICONTROL 権限を管理]アクションを使用すると、他のユーザーにアクセス権を付与できます。 さらに、管理者は、[!DNL Experience Manager] リポジトリ内の非公開コレクションの権限を表示および管理できます。
 <!--
 >[!NOTE]
 >
