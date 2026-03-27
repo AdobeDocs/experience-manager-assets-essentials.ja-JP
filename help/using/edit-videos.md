@@ -16,7 +16,7 @@ ht-degree: 83%
 
 ビデオを編集するには、ビデオの詳細に移動し、「[!UICONTROL ビデオを編集]」をクリックします。 または、アセットを選択して「詳細」をクリックし、右側のパネルにある![はさみ](assets/do-not-localize/cut.svg)アイコンをクリックします。 ビデオを編集した後、新しいビデオを新しいバージョンとして保存したり、新しいアセットとして保存したりできます。
 
-[ プレビューインターフェイス ](/help/using/navigate-view.md#preview-assets)について詳しく説明します。
+[&#x200B; プレビューインターフェイス &#x200B;](/help/using/navigate-view.md#preview-assets)について詳しく説明します。
 
 ## 前提条件 {#prerequisites}
 
