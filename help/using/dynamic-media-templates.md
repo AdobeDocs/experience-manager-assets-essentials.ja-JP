@@ -2,12 +2,13 @@
 title: Dynamic Media テンプレートの管理方法
 description: WYSIWYG テンプレートエディターを使用して Dynamic Media テンプレートを作成し、複数の画像とテキストレイヤーを含めてバナーやチラシをすばやく作成し、ダウンストリームアプリケーションで使用する方法について説明します。
 hide: true
+hidefromtoc: true
 role: User
 exl-id: 07de648e-4ae2-4524-8e05-3cf10bb6006d
-source-git-commit: b0b103b91ca4f4c657fd6d6f526be5f5b05dc156
+source-git-commit: 4c176db86c9f3219f2cb63edda71435a2aa76850
 workflow-type: tm+mt
 source-wordcount: '3000'
-ht-degree: 94%
+ht-degree: 93%
 
 ---
 
@@ -51,7 +52,7 @@ Dynamic Media テンプレートを作成するには、次の操作が必要で
 
 1. Dynamic Media にアクセスします。
 1. [AEM Assets インスタンスで使用可能な画像を Dynamic Media と同期して、テンプレートの作成に使用します](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/dynamicmedia/config-dm)。
-1. タッチ UI で次の内容を確認しました。
+1. タッチ UIで次のことを確認しました。
    * **[!UICONTROL Dynamic Media 設定を編集ページ]**&#x200B;で、**[!UICONTROL デフォルトで無効]**&#x200B;に設定されている **[!UICONTROL Dynamic Media 同期モード]**&#x200B;は、すべての AEM フォルダーに適用されません（「**[!UICONTROL すべてのコンテンツを同期]**」がオフになっています）。 詳しくは、[Dynamic Media Cloud Service の設定](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/dynamicmedia/config-dm)を参照してください。
    * 作成後にテンプレートを保存する宛先フォルダーまたはサブフォルダーの **[!UICONTROL Dynamic Media 同期モード]**&#x200B;が&#x200B;**[!UICONTROL サブフォルダーに対して有効にする]**&#x200B;に設定されています。 詳しくは、[Dynamic Media Cloud Service の設定](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/dynamicmedia/config-dm)を参照してください。
 
