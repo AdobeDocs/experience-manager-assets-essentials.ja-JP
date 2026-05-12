@@ -3,10 +3,15 @@ title: ビデオの編集
 description: ' [!DNL Adobe Express]  を利用したオプションを使用してビデオを編集し、更新したビデオをバージョンとして保存します。'
 role: User
 exl-id: 8468d572-89f1-431d-be7f-01e583d06cd7
-source-git-commit: a9ef92194f55da9ad5352adf4251c85e3abcdcd1
+TQID: https://experienceleague.adobe.com/j9r915ua9GXUoTHdbSBHWxnHm-FIhCwvIuKOp91AFCg
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: f026b389ce582ece5d2ca8745d291b1ae50d657e
 workflow-type: tm+mt
-source-wordcount: '841'
-ht-degree: 83%
+source-wordcount: 841
+ht-degree: 91%
 
 ---
 
@@ -42,11 +47,11 @@ ht-degree: 83%
 5. 「**[!UICONTROL 適用]**」をクリックします。
    ![Adobe Express を使用したビデオの切り抜き](/help/using/assets/adobe-express-crop-video.png)
 
-   切り抜いたビデオはダウンロードできます。 編集したアセットは、同じアセットの新しいバージョンとして保存することも、新しいアセットとして保存することもできます。![Adobe Expressでビデオを保存](/help/using/assets/adobe-express-save-video.png)
+   切り抜いたビデオはダウンロードできます。 編集したアセットを同じアセットの新しいバージョンとして保存するか、新しいアセットとして保存することができます。 ![Adobe Express を使用したビデオの保存](/help/using/assets/adobe-express-save-video.png)
 
 ### ビデオのサイズ変更 {#resize-video-using-express}
 
-一般的に、DAMの最終的なビデオコンテンツは、特定のチャネルに配信するためにサイズを変更する必要があります。[!DNL Assets Essentials] 一般的なソーシャルチャネルに必要なサイズに合わせてビデオのサイズを簡単に変更でき、カスタム解像度にもサイズを変更できます。 [!DNL Assets Essentials] を使用してビデオをサイズ変更するには、次の手順を実行します。
+DAM の最終的なビデオコンテンツは、多くの場合、特定のチャネルに配信するためにサイズ変更する必要があります。 [!DNL Assets Essentials] を使用すると、一般的なソーシャルチャネルで必要な寸法に合わせて簡単にビデオをサイズ変更できるほか、カスタム解像度に合わせてサイズを変更することもできます。 [!DNL Assets Essentials] を使用してビデオをサイズ変更するには、次の手順を実行します。
 
 1. ビデオを選択し、「**[!UICONTROL 編集]**」をクリックします。
 2. 左側のパネルにあるクイックアクションから「**[!UICONTROL ビデオをサイズ変更]**」をクリックします。

@@ -2,16 +2,22 @@
 title: アセットへのリンクの共有方法
 description: リンクを生成し、 [!DNL Assets Essentials]  アプリケーションへのアクセス権を持たない他のユーザーとアセットを共有します。
 exl-id: 6e05b06c-7436-40e3-acee-c8b1ed218f9e
-source-git-commit: 0ce79167583178f2b81b7ac9f91dd518455cc49f
+TQID: https://experienceleague.adobe.com/7emFt0d0IFyOdeDx4BGB7O1Ks4hQvK9W2sEdWk0mz-I
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+source-git-commit: f026b389ce582ece5d2ca8745d291b1ae50d657e
 workflow-type: tm+mt
-source-wordcount: '413'
+source-wordcount: 428
 ht-degree: 100%
 
 ---
 
 # アセットへのリンクの共有 {#share-links-assets}
 
-[!DNL Assets Essentials] を使用すると、[!DNL Assets Essentials] アプリケーションに対するアクセス権を持たない外部の関係者と、リンクを生成してアセットを共有できます。リンクの有効期限を定義し、メールやメッセージングサービスなどの好みの通信方法を使用して、他のユーザーとリンクを共有できます。 リンクの受信者は、アセットをプレビューし、ダウンロードできます。
+[!DNL Assets Essentials] を使用すると、[!DNL Assets Essentials] アプリケーションに対するアクセス権を持たない外部の関係者と、リンクを生成してアセットを共有できます。 リンクの有効期限を定義し、メールやメッセージングサービスなどの好みの通信方法を使用して、他のユーザーとリンクを共有できます。 リンクの受信者は、アセットをプレビューし、ダウンロードできます。
 
 ## アセットのリンクを生成 {#generate-link-for-assets}
 
@@ -19,7 +25,7 @@ ht-degree: 100%
 
 1. アセットまたはアセットを含むフォルダーを選択し、「**[!UICONTROL リンクを共有]**」をクリックします。
 
-1. 調整したい場合は、カレンダーアイコンをクリックし、「**[!UICONTROL 有効期限]**」フィールドを使用してリンクの有効期限を定義します。 また、`yyyy-mm-dd` 形式で日付を直接指定することもできます。デフォルトでは、リンクの有効期限は共有日から 2 週間に設定されています。
+1. 調整したい場合は、カレンダーアイコンをクリックし、「**[!UICONTROL 有効期限]**」フィールドを使用してリンクの有効期限を定義します。 また、`yyyy-mm-dd` 形式で日付を直接指定することもできます。 デフォルトでは、リンクの有効期限は共有日から 2 週間に設定されています。
 
 >[!NOTE]
 > 日付形式は、選択したロケールに基づいて変更されます。
@@ -36,11 +42,11 @@ ht-degree: 100%
 
 受信者は、アセットの公開リンクを共有した後、リンクをクリックし、[!DNL Assets Essentials] にログインしなくても web ブラウザーで共有アセットをプレビューまたはダウンロードできます。
 
-リンクをクリックし、フォルダーをクリックしてアセットに移動し、アセットをクリックしてプレビューします。リスト表示またはカード表示で共有アセットを表示するように選択できます。
+リンクをクリックし、フォルダーをクリックしてアセットに移動し、アセットをクリックしてプレビューします。 リスト表示またはカード表示で共有アセットを表示するように選択できます。
 
 共有アセットまたは共有アセットフォルダーにマウスポインターを置くと、アセットを選択するか、ダウンロードできます。
 
-複数のアセットを選択して、「**[!UICONTROL ダウンロード]**」をクリックすることもできます。[!DNL Assets Essentials] は、選択したアセットを zip ファイルとしてダウンロードします。[!DNL Assets Essentials] は、ダウンロードするように選択した各アセットに対し、アセットと同じ名前のサブフォルダーを親 zip ファイルに作成します。
+複数のアセットを選択して、「**[!UICONTROL ダウンロード]**」をクリックすることもできます。 [!DNL Assets Essentials] は、選択したアセットを zip ファイルとしてダウンロードします。 [!DNL Assets Essentials] は、ダウンロードするように選択した各アセットに対し、アセットと同じ名前のサブフォルダーを親 zip ファイルに作成します。
 
 すべてのアセットを一度にダウンロードするには、「**[!UICONTROL リスト表示]**」に切り替え、「**[!UICONTROL すべてを選択]**」をクリックしてから「**[!UICONTROL ダウンロード]**」をクリックします。
 
@@ -54,4 +60,4 @@ ht-degree: 100%
 
 * 右側のサイドバーにある「[!UICONTROL このページを編集]」 ![ページを編集](assets/do-not-localize/edit-page.png) または「[!UICONTROL イシューを記録]」 ![GitHub イシューを作成](assets/do-not-localize/github-issue.png) を使用してドキュメントのフィードバックを提供する
 
-* [カスタマーケア](https://experienceleague.adobe.com/ja?support-solution=General&amp;lang=ja#support)に問い合わせる
+* [カスタマーケア](https://experienceleague.adobe.com/ja?support-solution=General&lang=ja#support)に問い合わせる

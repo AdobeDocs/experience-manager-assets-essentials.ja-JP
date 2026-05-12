@@ -3,9 +3,20 @@ title: ' [!DNL Assets Essentials] の基本'
 description: ' [!DNL Assets Essentials] のアクセス方法、ログイン操作、サポートされているユースケース、既知の問題について説明します。'
 role: User, Leader
 exl-id: 7917b2a0-8340-4d94-aa6f-30ce986fa752
-source-git-commit: b3c726122425c9a89a5d6c0ac35b652d20d8e0b9
+TQID: https://experienceleague.adobe.com/jZWd3neYHmifmT7YVTMymgAfMK88N-9220D4Ek-7rjY
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: ae478996-b206-4712-9b0c-dc78a2644453
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: da3860b0-d637-47df-bef0-273751180266
+source-git-commit: f026b389ce582ece5d2ca8745d291b1ae50d657e
 workflow-type: tm+mt
-source-wordcount: '445'
+source-wordcount: 445
 ht-degree: 97%
 
 ---
@@ -48,7 +59,7 @@ ht-degree: 97%
 |-----|------|
 | アセットの参照と表示 | <ul> <li>[リポジトリーの参照](/help/using/navigate-view.md#view-assets-and-details) </li> <li> [アセットをプレビュー](/help/using/navigate-view.md#preview-assets) <li> [アセットのレンディションの表示](/help/using/add-delete.md#renditions) </li> <li>[アセットのバージョンの表示](/help/using/manage-organize.md#view-versions)</li></ul> |
 | 新しいアセットの追加 | <ul> <li>[新しいアセットやフォルダーのアップロード](/help/using/add-delete.md#add-assets)</li> <li>[アップロードの進行状況の監視とアップロードの管理](/help/using/add-delete.md#upload-progress)</li> <li>[重複の解決](/help/using/add-delete.md#resolve-upload-fails)</li> </ul> |
-| アセットまたは関連情報の更新 | <ul> <li>[画像の編集](/help/using/edit-images.md)</li> <li>[バージョンの作成](/help/using/manage-organize.md#create-versions)と[バージョンの表示](/help/using/manage-organize.md#view-versions)</li> <li>[画像の編集](/help/using/edit-images.md)</li> </ul> |
+| アセットまたは関連情報の更新 | <ul> <li>[画像を編集](/help/using/edit-images.md)</li> <li>[バージョンの作成](/help/using/manage-organize.md#create-versions)と[バージョンの表示](/help/using/manage-organize.md#view-versions)</li> <li>[画像の編集](/help/using/edit-images.md)</li> </ul> |
 | アセットの編集 | <ul> <li>[Adobe Photoshop Express を使用したブラウザー内編集](/help/using/edit-images.md)</li> <li>[ソーシャルメディアプロファイルの切り抜き](/help/using/edit-images.md#crop-straighten-images)</li> <li>[バージョンの表示と管理](/help/using/manage-organize.md#view-versions)</li> <li>[使用方法 [!DNL Adobe Asset Link]](/help/using/integration.md#integrations)</ul></ul> |
 | リポジトリー内のアセットの検索 | <ul> <li>[特定のフォルダー内での検索](/help/using/search.md#refine-search-results)</li> <li>[保存済みの検索](/help/using/search.md#saved-search)</li> <li>[最近表示されたアセットの検索](/help/using/search.md)</li> <li>[フルテキスト検索](/help/using/search.md) |
 | アセットのダウンロード | <ul> <li> [アセットのプレビュー](/help/using/navigate-view.md#preview-assets) </li> <li> [アセットのダウンロード](/help/using/manage-organize.md#download) <li> [レンディションのダウンロード](/help/using/add-delete.md#renditions) </li></ul> |
@@ -57,7 +68,7 @@ ht-degree: 97%
 
 ## 次の手順 {#next-steps}
 
-* [ビデオを視聴して Assets Essentials の基本を学ぶ](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/getting-started.html?lang=ja)
+* [動画を見るAdobe Experience Manager Assets Essentialsの概要](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/getting-started.html?lang=ja)
 
 * Assets Essentials ユーザーインターフェイスの「[!UICONTROL フィードバック]」オプションを使用して製品に関するフィードバックを提供する
 

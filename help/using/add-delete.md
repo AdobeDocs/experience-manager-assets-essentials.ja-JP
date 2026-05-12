@@ -3,9 +3,16 @@ title: リポジトリへのアセットのアップロード
 description: ' [!DNL Assets Essentials] へのアセットのアップロード、アップロードステータスの表示、アップロードの問題の解決について説明します。'
 role: User
 exl-id: a85a4455-4456-48af-aee9-f05300677605
-source-git-commit: b3c726122425c9a89a5d6c0ac35b652d20d8e0b9
+TQID: https://experienceleague.adobe.com/aEqz-LzeQEOrAurYW3Y-6xdONbA6WoRxA-0hHX5A99o
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: f026b389ce582ece5d2ca8745d291b1ae50d657e
 workflow-type: tm+mt
-source-wordcount: '846'
+source-wordcount: 846
 ht-degree: 98%
 
 ---
@@ -100,7 +107,7 @@ TBD: Update this GIF
 
 ## 次の手順 {#next-steps}
 
-* [ビデオを視聴して Assets Essentials へのアセットのアップロードを学ぶ](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/basics/creating.html?lang=ja)
+* [動画を見てAssets Essentialsにアセットをアップロード](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/basics/creating.html?lang=ja)
 
 * Assets Essentials ユーザーインターフェイスの「[!UICONTROL フィードバック]」オプションを使用して製品に関するフィードバックを提供する
 

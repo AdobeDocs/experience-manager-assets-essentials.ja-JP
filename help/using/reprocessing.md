@@ -2,16 +2,28 @@
 title: デジタルアセットの再処理
 description: デジタルアセットの再処理の様々な方法について説明します。
 role: User, Leader, Developer
-source-git-commit: ab2d6b0e9f4d53076ab461f9a09698a6cb8437e0
+exl-id: 8d84ecc2-e716-4e25-a0ec-87138ff2c499
+TQID: https://experienceleague.adobe.com/08mkBUcjbm5OQaeWzBiLmhwJtCmtSU2Gm0bo9octzUs
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+  - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
+source-git-commit: f026b389ce582ece5d2ca8745d291b1ae50d657e
 workflow-type: tm+mt
-source-wordcount: '685'
+source-wordcount: 798
 ht-degree: 100%
 
 ---
 
 # デジタルアセットの再処理 {#reprocessing-digital-assets}
 
-後で変更した既存のメタデータプロファイルが存在するフォルダー内のアセットを再処理できます。新しく編集したプリセットをフォルダー内の既存のアセットに再適用する場合は、フォルダーを再処理する必要があります。必要な数のアセットを再処理できます。
+後で変更した既存のメタデータプロファイルが存在するフォルダー内のアセットを再処理できます。 新しく編集したプリセットをフォルダー内の既存のアセットに再適用する場合は、フォルダーを再処理する必要があります。 必要な数のアセットを再処理できます。
 
 次の 2 つのシナリオのいずれかが発生した場合は、フォルダー内のアセットを再処理します。
 
@@ -29,7 +41,7 @@ ht-degree: 100%
    * 選択したメインフォルダー内にアセットを含んだ 1 つ以上のサブフォルダーが存在する場合、ワークフローはフォルダー階層内のあらゆるアセットを再処理します。
    * ベストプラクティスとしては、1,000 個を超えるアセットを含んだフォルダー階層に対しては、このワークフローを実行しないでください。
 
-1. 「**[!UICONTROL アセットを再処理]**」を選択します。次の 2 つのオプションのどちらかを選択します。
+1. 「**[!UICONTROL アセットを再処理]**」を選択します。 次の 2 つのオプションのどちらかを選択します。
 
    ![アセット再処理オプション](assets/reprocessing-options.png)
 
@@ -44,16 +56,16 @@ ht-degree: 100%
 
       * **[!UICONTROL メタデータ]：**&#x200B;選択したアセットのメタデータ情報とスマートタグを抽出する場合は、このオプションを選択します。
 
-      * **[!UICONTROL 処理プロファイル]：**&#x200B;選択したプロファイルを再処理する場合は、このオプションを選択します。「**[!UICONTROL 完全なプロセス]**」オプションを選択して、デフォルトの処理およびフォルダーレベルで割り当てられたカスタムプロファイルを含めることができます。
+      * **[!UICONTROL 処理プロファイル]：**&#x200B;選択したプロファイルを再処理する場合は、このオプションを選択します。 「**[!UICONTROL 完全なプロセス]**」オプションを選択して、デフォルトの処理およびフォルダーレベルで割り当てられたカスタムプロファイルを含めることができます。
         <!--When assets are uploaded to a folder, [!DNL Assets Essentials] checks the containing folder's properties for a processing profile. If none is applied, a parent folder in the hierarchy is checked for a processing profile to apply.-->
 
-      * **[!UICONTROL 後処理ワークフロー]：**&#x200B;処理プロファイルを使用して達成できない追加のアセット処理が必要な場合は、このオプションを選択します。追加の後処理ワークフローを設定に追加できます。後処理では、アセットマイクロサービスを使用して、設定可能な処理の上に、完全にカスタマイズされた処理を追加できます。
+      * **[!UICONTROL 後処理ワークフロー]：**&#x200B;処理プロファイルを使用して達成できない追加のアセット処理が必要な場合は、このオプションを選択します。 追加の後処理ワークフローを設定に追加できます。 後処理では、アセットマイクロサービスを使用して、設定可能な処理の上に、完全にカスタマイズされた処理を追加できます。
 
 処理プロファイルと後処理プロセスワークフローについて詳しくは、[アセットマイクロサービスと処理プロファイルの使用](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/asset-microservices-configure-and-use.html?lang=ja)を参照してください。
 
 ![詳細なアセット再処理オプション 2](assets/reprocessing-options-advanced-2.png)
 
-適切なオプションを選択したら、「**[!UICONTROL 再処理]**」をクリックします。成功メッセージが表示されます。
+適切なオプションを選択したら、「**[!UICONTROL 再処理]**」をクリックします。 成功メッセージが表示されます。
 
 ## デジタルアセットの再処理のシナリオ {#scenarios-reprocessing}
 
@@ -61,7 +73,7 @@ ht-degree: 100%
 
 ### スマートタグ {#reprocessing-smart-tags}
 
-デジタルアセットを扱う組織では、アセットメタデータで分類に基づく統制語彙を使用することがますます多くなっています。これには、基本的に、従業員、パートナーおよび顧客が特定のクラスのデジタルアセットを参照したり、検索したりする場合によく使用するキーワードのリストが含まれます。分類に基づく統制語彙を使用してアセットをタグ付けすると、アセットを簡単に識別し、取得することができます。
+デジタルアセットを扱う組織では、アセットメタデータで分類に基づく統制語彙を使用することがますます多くなっています。 これには、基本的に、従業員、パートナーおよび顧客が特定のクラスのデジタルアセットを参照したり、検索したりする場合によく使用するキーワードのリストが含まれます。 分類に基づく統制語彙を使用してアセットをタグ付けすると、アセットを簡単に識別し、取得することができます。
 
 自然言語語彙と比較して、ビジネス上の分類に基づいたデジタルアセットのタグ付けでは、デジタルアセットを会社のビジネスと容易に連携させることができ、関連性の最も高いアセットが検索で表示されるようになります。
 
@@ -75,13 +87,13 @@ ht-degree: 100%
 
 ### メタデータ {#reprocessing-metadata}
 
-[!DNL Adobe Experience Manager Assets] では、あらゆるアセットのメタデータを保持します。したがって、アセットの分類と編成が容易にでき、特定のアセットを検索しやすくなります。メタデータ管理は、Experience Manager Assets にアップロードされるファイルからメタデータを抽出する機能と共に、クリエイティブワークフローに統合されます。アセットの任意のメタデータを保持して管理する機能によって、メタデータに基づいてアセットを自動的に編成および処理できます。
+[!DNL Adobe Experience Manager Assets] では、あらゆるアセットのメタデータを保持します。 したがって、アセットの分類と編成が容易にでき、特定のアセットを検索しやすくなります。 メタデータ管理は、Experience Manager Assets にアップロードされるファイルからメタデータを抽出する機能と共に、クリエイティブワークフローに統合されます。 アセットの任意のメタデータを保持して管理する機能によって、メタデータに基づいてアセットを自動的に編成および処理できます。
 
 詳しくは、[メタデータプロファイルの再処理](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/metadata-profiles.html?lang=ja)を参照してください。
 
 ### フォルダー内の Dynamic Media アセットの再処理 {#reprocessing-dynamic-media}
 
-後で変更した既存の Dynamic Media イメージプロファイルまたは Dynamic Media ビデオプロファイルが存在するフォルダー内のアセットを再処理できます。詳しくは、[フォルダー内の Dynamic Media アセットの再処理](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/admin/about-image-video-profiles.html?lang=ja)を参照してください。
+後で変更した既存の Dynamic Media イメージプロファイルまたは Dynamic Media ビデオプロファイルが存在するフォルダー内のアセットを再処理できます。 詳しくは、[フォルダー内の Dynamic Media アセットの再処理](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/admin/about-image-video-profiles.html?lang=ja)を参照してください。
 
 >[!NOTE]
 >
