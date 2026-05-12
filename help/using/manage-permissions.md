@@ -3,8 +3,11 @@ title: AEM Assets Essentials のフォルダーに対する権限の管理方法
 description: Assets Essentials では、管理者は、リポジトリで使用可能なフォルダーのアクセスレベルを管理できます。 ユーザーグループを作成し、それらのグループに権限を割り当てて、アクセスレベルを管理します。 管理者は、フォルダーレベルでユーザーグループに権限管理の権限をデリゲートすることもできます。
 exl-id: 5ef01dbc-87c0-4013-9367-5da3774f4f20
 TQID: https://experienceleague.adobe.com/fWLQ3XI2WVIbouGb7QXznoGhEoB-pHiHw-8P-Fo4128
-product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
 source-git-commit: f026b389ce582ece5d2ca8745d291b1ae50d657e
 workflow-type: tm+mt
 source-wordcount: 1700
