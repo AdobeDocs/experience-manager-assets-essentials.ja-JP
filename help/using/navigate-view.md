@@ -3,10 +3,14 @@ title: '[!DNL Assets Essentials] ユーザーインターフェイス'
 description: ' [!DNL Assets Essentials] のユーザーインターフェイスとナビゲーションについて説明します。'
 role: User
 exl-id: 534a8084-88f7-410e-b872-719e47e62b10
-source-git-commit: 2ad90f931f84bf8e0ceb51e4e6450d36a7b31a03
+TQID: https://experienceleague.adobe.com/W1zIfwgI5yZzAqjES-EZZOe7qKnB15huoHvfi--Xi2o
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
+source-git-commit: f026b389ce582ece5d2ca8745d291b1ae50d657e
 workflow-type: tm+mt
-source-wordcount: '1107'
-ht-degree: 98%
+source-wordcount: 1107
+ht-degree: 100%
 
 ---
 
@@ -36,7 +40,7 @@ ht-degree: 98%
 * [マイワークスペース](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/my-workspace.html?lang=ja)：Assets には、ウィジェットを提供するカスタマイズ可能なワークスペースが含まれるようになりました。このワークスペースは、Assets ユーザーインターフェイスの主要な領域と、最も関連性の高い情報に簡単にアクセスできます。 このページは、作業項目の概要を示し、主要なワークフローにすばやくアクセスできるワンストップソリューションとして機能します。 これらのオプションにより簡単にアクセスできるので、効率とコンテンツ速度が向上します。
 * [タスク](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/my-workspace.html?lang=ja)：自分に割り当てられたタスクは、「**マイタスク**」タブで確認できます。 一方、自分が作成したタスクは、「**割り当てられたタスク**」タブで表示できます。 また、完了したタスクは、「**完了済みタスク**」タブにあります。
 * [アセット](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-organize.html?lang=ja)：アクセス可能なすべてのフォルダーのリストがツリー表示されます。
-* **最近表示された項目**：最近プレビューしたアセットのリスト。[!DNL Assets Essentials] は、プレビューしたアセットのみを表示します。 リポジトリーファイルまたはフォルダーを参照する際にスクロールして通過したアセットは表示されません。
+* **最近表示された項目**：最近プレビューしたアセットのリスト。 [!DNL Assets Essentials] は、プレビューしたアセットのみを表示します。 リポジトリーファイルまたはフォルダーを参照する際にスクロールして通過したアセットは表示されません。
 * [コレクション](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-collections.html?lang=ja)：コレクションとは、Adobe Experience Manager Assets Essentials 内のアセット、フォルダーまたはその他のコレクションのセットです。 コレクションを使用して、ユーザー間でアセットを共有します。 フォルダーとは異なり、1 つのコレクションに異なる複数の場所のアセットを含めることができます。 1 人のユーザーと複数のコレクションを共有できます。 各コレクションには、アセットへの参照が含まれます。 アセットの参照整合性はコレクション間で維持されます。
 
 * [インサイト](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-reports.html?lang=ja#view-live-statistics)：[!DNL Assets Essentials] では、ダッシュボードでリアルタイムのインサイトを表示できます。 Assets Essentials を使用すると、Assets Essentials 環境のリアルタイムデータをインサイトダッシュボードで表示できます。 過去 30 日間または過去 12 か月間のリアルタイムイベント指標を表示できます。
