@@ -1,10 +1,10 @@
 ---
 title: AEM Assets での Creative Cloud 統合の組織をまたいだ資格
-description: AEM Assets で Creative Cloud 統合向けに組織をまたいだ資格を設定する方法について説明します。Express や Creative Cloud のライブラリなど、AEM Assets での最新の Creative Cloud 統合を簡単に使用するには、別の IMS 組織にプロビジョニングされた Creative Cloud 権限に接続します。
+description: AEM Assets で Creative Cloud 統合向けに組織をまたいだ資格を設定する方法について説明します。 Express や Creative Cloud のライブラリなど、AEM Assets での最新の Creative Cloud 統合を簡単に使用するには、別の IMS 組織にプロビジョニングされた Creative Cloud 権限に接続します。
 exl-id: 5a39b640-4195-4149-9757-2733ed70e616
 source-git-commit: ebc49d5c29118cd09cf1f97e8f71f63df76b3779
-workflow-type: tm+mt
-source-wordcount: '294'
+workflow-type: ht
+source-wordcount: '295'
 ht-degree: 100%
 
 ---
@@ -19,7 +19,7 @@ Creative Cloud 製品と AEM Assets が別の IMS 組織にプロビジョニン
 
 * Experience Manager Assets に対する管理者権限
 
-* Creative Cloud と Experience Manager 間で使用される同じユーザー ID に対する Creative Cloud へのアクティブな権限です。同じメールアドレスを持つ個人用 ID と Federated ID に対する権限は、異なるユーザー ID として処理されます。
+* Creative Cloud と Experience Manager 間で使用される同じユーザー ID に対する Creative Cloud へのアクティブな権限です。 同じメールアドレスを持つ個人用 ID と Federated ID に対する権限は、異なるユーザー ID として処理されます。
 
 ## 新しい Creative Cloud 組織に対する接続 {#connect-to-creative-cloud-org}
 
@@ -27,7 +27,7 @@ Creative Cloud 製品と AEM Assets が別の IMS 組織にプロビジョニン
 
 1. **[!UICONTROL 設定]**／**[!UICONTROL Creative Cloud]** に移動します。
 
-1. **[!UICONTROL 新しい Creative Cloud 組織 ID を選択]**&#x200B;ドロップダウンリストを使用して、新しい Creative Cloud 組織を選択します。リストには、アクセス権のあるすべての組織が表示されます。アクティブな Creative Cloud 権限を持つ組織を選択します。
+1. **[!UICONTROL 新しい Creative Cloud 組織 ID を選択]**&#x200B;ドロップダウンリストを使用して、新しい Creative Cloud 組織を選択します。 リストには、アクセス権のあるすべての組織が表示されます。 アクティブな Creative Cloud 権限を持つ組織を選択します。
 
 1. 「**[!UICONTROL 組織を切り替え]**」をクリックして、新しい組織に切り替えます。
 
@@ -35,6 +35,6 @@ Creative Cloud 製品と AEM Assets が別の IMS 組織にプロビジョニン
 
 ## 制限事項 {#limitations}
 
-* AEM Assets は、一度に 1 つの Creative Cloud 組織に接続できます。一度に複数の Creative Cloud 組織への接続はサポートされていません。
+* AEM Assets は、一度に 1 つの Creative Cloud 組織に接続できます。 一度に複数の Creative Cloud 組織への接続はサポートされていません。
 
 * AEM Assets 内で接続する Creative Cloud 組織は、組織内のすべてのユーザーに適用できます。
