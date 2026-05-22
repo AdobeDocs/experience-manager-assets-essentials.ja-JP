@@ -18,7 +18,7 @@ topic_v2:
 source-git-commit: f026b389ce582ece5d2ca8745d291b1ae50d657e
 workflow-type: tm+mt
 source-wordcount: 1475
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 94%
     <tr>
         <td>
             <img src="assets/new3.gif" width="20px" height="25px" alt="新規">
-            <a href="https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dm-prime-ultimate"><b>Dynamic Media Prime と Ultimate</b></a>
+            <a href="https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dm-prime-ultimate"><b>Dynamic Media Prime と Ultimate</b></a>
         </td>
         <td>
             <img src="assets/new3.gif" width="20px" height="25px" alt="新規">
@@ -42,7 +42,7 @@ ht-degree: 94%
         </td>
           <td>
             <img src="assets/new3.gif" width="20px" height="25px" alt="新規">
-            <a href="https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dm-prime-ultimate"><b>Dynamic Media PrimeとUltimateを有効にする</b></a>
+            <a href="https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dm-prime-ultimate"><b>Dynamic Media Prime と Ultimate の有効化</b></a>
         </td>
     </tr>
     <tr>
@@ -86,7 +86,7 @@ ht-degree: 94%
 
 ## 使用可能なカスタムフィルター {#available-custom-filters}
 
-Assets Essentialsには、要件に応じて再設定可能な次のカスタムフィルターが用意されています。
+Assets Essentials には、要件に応じて再設定可能な次のカスタムフィルターが用意されています。
 
 * [フィルター要素](#filter-elements)
 * [定義済みフィルター](#preconfigured-filters)
@@ -190,7 +190,7 @@ Assets Essentialsには、要件に応じて再設定可能な次のカスタム
     </tr>
     <tr>
         <td>タグ</td>
-        <td>使用可能なオプションからタグを選択するために使用します。 タグによりアセットに関するより具体的な情報が得られ、検出性が向上します。 選択したアセットに既に適用されているタグが、<b>プロパティ</b>パネルに表示されます。 カスタムメタデータプロパティにタグを保存し、ルートパスを使用して階層に制限する場合は、検索フィルターで同じ設定を活用できます。 関連するタグが見つからない場合は、作成し、選択したアセットに割り当てます。 アセットのタグの作成と割り当てについて詳しくは、<a href = "/help/using/tagging-management.md"> Assets Essentials </a>でのタグの管理を参照してください。</td>
+        <td>使用可能なオプションからタグを選択するために使用します。 タグによりアセットに関するより具体的な情報が得られ、検出性が向上します。 選択したアセットに既に適用されているタグが、<b>プロパティ</b>パネルに表示されます。 カスタムメタデータプロパティにタグを保存し、ルートパスを使用して階層に制限する場合は、検索フィルターで同じ設定を活用できます。 関連するタグが見つからない場合は、作成し、選択したアセットに割り当てます。 アセットへのタグの作成と割り当てについて詳しくは、<a href = "/help/using/tagging-management.md">Assets Essentials でのタグの管理</a>を参照してください。</td>
         <td>
             <ul>
                 <li>ラベル
@@ -239,7 +239,7 @@ Assets Essentialsには、要件に応じて再設定可能な次のカスタム
     </tr>
     <tr>
         <td>ファイル形式</td>
-        <td>Assets Essentialsは、ストレージ、アップロード、コピー、移動、削除、メタデータの追加などの基本的なサービスを使用して、任意のバイナリファイル形式をサポートします。</td>
+        <td>Assets Essentials は、メタデータのストレージ、アップロード、コピー、移動、削除、追加など、基本サービスを備えた任意のバイナリファイル形式をサポートしています。</td>
         <td>
             <ul>
                 <li>ラベル
@@ -317,7 +317,7 @@ Assets Essentialsには、要件に応じて再設定可能な次のカスタム
     </tr>
     <tr>
         <td>アセットのステータス</td>
-        <td>Assets Essentialsでは、リポジトリで使用可能なアセットのステータスを設定できます。 デジタルアセットのダウンストリーム使用をより適切に制御および管理するためのアセットステータスを設定します。 <b>承認済み、却下、ステータスなし</b>の中から選択します。</td>
+        <td>Assets Essentials では、リポジトリで使用可能なアセットのステータスを設定できます。 デジタルアセットのダウンストリーム使用をより適切に制御および管理するためのアセットステータスを設定します。 <b>承認済み、却下、ステータスなし</b>の中から選択します。</td>
         <td>
             <ul>
                 <li>ラベル
@@ -430,7 +430,7 @@ Assets Essentialsには、要件に応じて再設定可能な次のカスタム
         <ul>
         <li>新しい値を追加するには、「<b>追加</b>」をクリックします。 
         <li>ラベルを編集するには、<span>✎</span> をクリックします。 
-        <li>「<span>🗑</span>」をクリックして、オプション値を削除します。 
+        <li>オプション値を削除するには、<span>🗑</span> をクリックします。 
         <li>編集オプションを変更するには、「<b>編集</b>」をクリックします。 
         <li>また、オプションのシーケンスを保持して変更することもできます。
         </td>

@@ -20,7 +20,7 @@ topic_v2:
 source-git-commit: f026b389ce582ece5d2ca8745d291b1ae50d657e
 workflow-type: tm+mt
 source-wordcount: 2195
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -226,7 +226,7 @@ See [Assign metadata form to folders](#assign-metadata-form-folder). Follow the 
 
 ## 次の手順 {#next-steps}
 
-* [動画を見るAssets Essentialsでのメタデータフォームの管理](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/configuring/metadata-forms.html?lang=ja)
+* [ビデオを視聴して Assets Essentials でのメタデータフォームの管理を学ぶ](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/configuring/metadata-forms.html?lang=ja)
 
 * Assets Essentials ユーザーインターフェイスの「[!UICONTROL フィードバック]」オプションを使用して製品に関するフィードバックを提供する
 

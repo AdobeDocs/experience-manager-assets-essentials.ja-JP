@@ -17,7 +17,7 @@ topic_v2:
 source-git-commit: f026b389ce582ece5d2ca8745d291b1ae50d657e
 workflow-type: tm+mt
 source-wordcount: 445
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -57,18 +57,18 @@ ht-degree: 97%
 
 | ユーザータスク | 機能とハウツー情報 |
 |-----|------|
-| アセットの参照と表示 | <ul> <li>[リポジトリーの参照](/help/using/navigate-view.md#view-assets-and-details) </li> <li> [アセットをプレビュー](/help/using/navigate-view.md#preview-assets) <li> [アセットのレンディションの表示](/help/using/add-delete.md#renditions) </li> <li>[アセットのバージョンの表示](/help/using/manage-organize.md#view-versions)</li></ul> |
-| 新しいアセットの追加 | <ul> <li>[新しいアセットやフォルダーのアップロード](/help/using/add-delete.md#add-assets)</li> <li>[アップロードの進行状況の監視とアップロードの管理](/help/using/add-delete.md#upload-progress)</li> <li>[重複の解決](/help/using/add-delete.md#resolve-upload-fails)</li> </ul> |
-| アセットまたは関連情報の更新 | <ul> <li>[画像を編集](/help/using/edit-images.md)</li> <li>[バージョンの作成](/help/using/manage-organize.md#create-versions)と[バージョンの表示](/help/using/manage-organize.md#view-versions)</li> <li>[画像の編集](/help/using/edit-images.md)</li> </ul> |
+| アセットの参照と表示 | <ul> <li>[リポジトリの参照](/help/using/navigate-view.md#view-assets-and-details) </li> <li> [アセットのプレビュー](/help/using/navigate-view.md#preview-assets) <li> [アセットのレンディションの表示](/help/using/add-delete.md#renditions) </li> <li>[アセットのバージョンの表示](/help/using/manage-organize.md#view-versions)</li></ul> |
+| 新しいアセットの追加 | <ul> <li>[新しいアセットとフォルダーのアップロード](/help/using/add-delete.md#add-assets)</li> <li>[アップロードの進行状況の監視とアップロードの管理](/help/using/add-delete.md#upload-progress)</li> <li>[重複の解決](/help/using/add-delete.md#resolve-upload-fails)</li> </ul> |
+| アセットまたは関連情報の更新 | <ul> <li>[画像の編集](/help/using/edit-images.md)</li> <li>[バージョンの作成](/help/using/manage-organize.md#create-versions)と[バージョンの表示](/help/using/manage-organize.md#view-versions)</li> <li>[画像の編集](/help/using/edit-images.md)</li> </ul> |
 | アセットの編集 | <ul> <li>[Adobe Photoshop Express を使用したブラウザー内編集](/help/using/edit-images.md)</li> <li>[ソーシャルメディアプロファイルの切り抜き](/help/using/edit-images.md#crop-straighten-images)</li> <li>[バージョンの表示と管理](/help/using/manage-organize.md#view-versions)</li> <li>[使用方法 [!DNL Adobe Asset Link]](/help/using/integration.md#integrations)</ul></ul> |
 | リポジトリー内のアセットの検索 | <ul> <li>[特定のフォルダー内での検索](/help/using/search.md#refine-search-results)</li> <li>[保存済みの検索](/help/using/search.md#saved-search)</li> <li>[最近表示されたアセットの検索](/help/using/search.md)</li> <li>[フルテキスト検索](/help/using/search.md) |
 | アセットのダウンロード | <ul> <li> [アセットのプレビュー](/help/using/navigate-view.md#preview-assets) </li> <li> [アセットのダウンロード](/help/using/manage-organize.md#download) <li> [レンディションのダウンロード](/help/using/add-delete.md#renditions) </li></ul> |
-| メタデータ操作 | <ul> <li>[詳細なメタデータの表示](/help/using/metadata.md) </li> <li> [メタデータを更新](/help/using/metadata.md#update-metadata)</li> <li> [新しいメタデータフォームの作成](/help/using/metadata.md#metadata-forms) </li> </ul> |
-| 他のソリューションとの統合 | <ul> <li>[アセットセレクターの使用： [!DNL Adobe Journey Optimizer]](/help/using/integration.md)</li> <li>[[!DNL Adobe Asset Link] （ [!DNL Creative Cloud]](/help/using/integration.md) 用）</li> <li>[他のソリューションとの統合： [!DNL Adobe Workfront]](/help/using/integration.md)</li> </ul> |
+| メタデータ操作 | <ul> <li>[詳細なメタデータの表示](/help/using/metadata.md) </li> <li> [メタデータの更新](/help/using/metadata.md#update-metadata)</li> <li> [新しいメタデータフォームの作成](/help/using/metadata.md#metadata-forms) </li> </ul> |
+| 他のソリューションとの統合 | <ul> <li>[ [!DNL Adobe Journey Optimizer]](/help/using/integration.md) でのアセットセレクターの使用</li> <li>[[!DNL Adobe Asset Link] （ [!DNL Creative Cloud]](/help/using/integration.md) 用）</li> <li>[他のソリューションとの統合： [!DNL Adobe Workfront]](/help/using/integration.md)</li> </ul> |
 
 ## 次の手順 {#next-steps}
 
-* [動画を見るAdobe Experience Manager Assets Essentialsの概要](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/getting-started.html?lang=ja)
+* [ビデオを視聴して Assets Essentials の基本を学ぶ](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/getting-started.html?lang=ja)
 
 * Assets Essentials ユーザーインターフェイスの「[!UICONTROL フィードバック]」オプションを使用して製品に関するフィードバックを提供する
 

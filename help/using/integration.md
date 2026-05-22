@@ -15,7 +15,7 @@ topic_v2:
 source-git-commit: f026b389ce582ece5d2ca8745d291b1ae50d657e
 workflow-type: tm+mt
 source-wordcount: 491
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -25,15 +25,15 @@ ht-degree: 95%
 
 組み込みの [!DNL Assets Essentials] エクスペリエンスは、次のソリューションと統合できます。
 
-* **[!DNL Creative Cloud for Enterprise]**：[Adobe Asset Link のアプリ内パネル](https://www.adobe.com/jp/creativecloud/business/enterprise/adobe-asset-link.html)を使用すると、クリエイターは、サポートされている [!DNL Adobe Creative Cloud] デスクトップアプリケーション内から [!DNL Assets Essentials] リポジトリーに接続できます。 このパネルは、[!DNL Adobe Photoshop]、[!DNL Adobe Illustrator]、[!DNL Adobe InDesign] および [!DNL Adobe XD] で使用できます。 これにより、アセットへのアクセスが効率化され、その結果、コンテンツベロシティ（コンテンツ創出速度）が向上します。 [&#x200B; [!DNL Adobe Asset Link] を使用したアセットの管理](https://helpx.adobe.com/jp/enterprise/using/manage-assets-using-adobe-asset-link.html)を参照してください。
+* **[!DNL Creative Cloud for Enterprise]**：[Adobe Asset Link のアプリ内パネル](https://www.adobe.com/jp/creativecloud/business/enterprise/adobe-asset-link.html)を使用すると、クリエイターは、サポートされている [!DNL Adobe Creative Cloud] デスクトップアプリケーション内から [!DNL Assets Essentials] リポジトリーに接続できます。 このパネルは、[!DNL Adobe Photoshop]、[!DNL Adobe Illustrator]、[!DNL Adobe InDesign] および [!DNL Adobe XD] で使用できます。 これにより、アセットへのアクセスが効率化され、その結果、コンテンツベロシティ（コンテンツ創出速度）が向上します。 [ [!DNL Adobe Asset Link] を使用したアセットの管理](https://helpx.adobe.com/jp/enterprise/using/manage-assets-using-adobe-asset-link.html)を参照してください。
 
-  [動画を見るAdobe Experience Manager Assets EssentialsとAdobe Creative Cloud Librariesの連携](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/creative-cloud.html?lang=ja)
+  [ビデオを視聴して Assets Essentials と Adobe Creative Cloud ライブラリの統合を学ぶ](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/creative-cloud.html?lang=ja)
 
-* **[!DNL Adobe Journey Optimizer]**：[[!DNL Adobe Journey Optimizer]](https://business.adobe.com/jp/products/journey-optimizer/adobe-journey-optimizer.html) は、ジャーニー管理を簡素化して、インテリジェントな意思決定とインサイトに基づいてオムニチャネルキャンペーンを提供できるようにします。 [!DNL Journey Optimizer] を使用してメッセージを設計する際に、[!DNL Journey Optimizer] インターフェイス内から [!DNL Assets Essentials] リポジトリーに直接アクセスできます。 ユーザーは、[!DNL Assets Essentials] の組み込みユーザーインターフェイスを使用してアセットにアクセスできます。 [&#x200B; [!DNL Assets Essentials] の使用に関するヘルプ記事](https://experienceleague.adobe.com/docs/journey-optimizer/using/create-messages/assets-essentials.html?lang=ja)または[メールコンテンツの作成に関するビデオチュートリアル](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-messages/create-email-content-with-the-message-editor.html?lang=ja)を参照してください。
+* **[!DNL Adobe Journey Optimizer]**：[[!DNL Adobe Journey Optimizer]](https://business.adobe.com/jp/products/journey-optimizer/adobe-journey-optimizer.html) は、ジャーニー管理を簡素化して、インテリジェントな意思決定とインサイトに基づいてオムニチャネルキャンペーンを提供できるようにします。 [!DNL Journey Optimizer] を使用してメッセージを設計する際に、[!DNL Journey Optimizer] インターフェイス内から [!DNL Assets Essentials] リポジトリーに直接アクセスできます。 ユーザーは、[!DNL Assets Essentials] の組み込みユーザーインターフェイスを使用してアセットにアクセスできます。 [ [!DNL Assets Essentials] の使用に関するヘルプ記事](https://experienceleague.adobe.com/docs/journey-optimizer/using/create-messages/assets-essentials.html?lang=ja)または[メールコンテンツの作成に関するビデオチュートリアル](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-messages/create-email-content-with-the-message-editor.html?lang=ja)を参照してください。
 
-* **[!DNL Adobe Workfront]**：[[!DNL Adobe Workfront]](https://www.workfront.com/) は作業管理アプリケーションで、作業のライフサイクル全体を一元的に管理するのに役立ちます。 [!DNL Adobe Workfront] と [!DNL Assets Essentials] のネイティブ統合により、組織は、作業とアセット管理を本質的に関連付けることで、コンテンツベロシティを向上させ市場投入までの時間を短縮することができます。 ユーザーは、自分の作業を管理するという観点で、同じソリューション内の必要なドキュメントや画像にアクセスできます。 [!DNL Assets Essentials] は、[!DNL Workfront] の新規顧客が別途購入できるアドオンとして利用できます。 [&#x200B; [!DNL Workfront]  と  [!DNL Essentials]  の統合の設定と使用](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&topicId=Content%2FDocuments%2FAdobe_Workfront_for_Experience_Manager_Assets_Essentials%2F_workfront-for-aem-asset-essentials.htm)を参照してください。
+* **[!DNL Adobe Workfront]**：[[!DNL Adobe Workfront]](https://www.workfront.com/) は作業管理アプリケーションで、作業のライフサイクル全体を一元的に管理するのに役立ちます。 [!DNL Adobe Workfront] と [!DNL Assets Essentials] のネイティブ統合により、組織は、作業とアセット管理を本質的に関連付けることで、コンテンツベロシティを向上させ市場投入までの時間を短縮することができます。 ユーザーは、自分の作業を管理するという観点で、同じソリューション内の必要なドキュメントや画像にアクセスできます。 [!DNL Assets Essentials] は、[!DNL Workfront] の新規顧客が別途購入できるアドオンとして利用できます。 [ [!DNL Workfront]  と  [!DNL Essentials]  の統合の設定と使用](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&topicId=Content%2FDocuments%2FAdobe_Workfront_for_Experience_Manager_Assets_Essentials%2F_workfront-for-aem-asset-essentials.htm)を参照してください。
 
-  [Adobe WorkfrontとAssets Essentialsの連携を設定する動画を見る](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/workfront/configure.html?lang=ja)
+  [ビデオを視聴して Adobe Workfront と Assets Essentials の統合の設定を学ぶ](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/workfront/configure.html?lang=ja)
 
 ## Edge Delivery Services向けのドキュメントベースオーサリングとの統合 {#integrate-doc-authoring-edge-and-assets}
 

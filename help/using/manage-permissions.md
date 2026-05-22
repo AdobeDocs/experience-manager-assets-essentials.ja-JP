@@ -11,7 +11,7 @@ role_v2:
 source-git-commit: f026b389ce582ece5d2ca8745d291b1ae50d657e
 workflow-type: tm+mt
 source-wordcount: 1700
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -193,7 +193,7 @@ Assets Essentials リポジトリ全体の権限を編集するには：
 
 * 法務チーム
 
-次の図は、フォルダー階層と各ユーザーグループに割り当てられた権限を示しています。
+次の図に、各ユーザーグループに割り当てられるフォルダー階層と権限を示します。
 ![権限の割り当て](assets/use-case-permissions-management.png)
 
 フォルダー階層内のすべてのユーザーグループのアクセスレベルは次のとおりです。
@@ -216,7 +216,7 @@ Assets Essentials リポジトリ全体の権限を編集するには：
 
 ## 次の手順 {#next-steps}
 
-* [動画を見るAssets Essentialsでの権限の管理](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/configuring/permissions-management.html?lang=ja)
+* [ビデオを視聴して Assets Essentials での権限の管理を学ぶ](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/configuring/permissions-management.html?lang=ja)
 
 * 右側のサイドバーにある「[!UICONTROL このページを編集]」（![ページを編集](assets/do-not-localize/edit-page.png)）または「[!UICONTROL 問題を記録] 」（![GitHub イシューを作成](assets/do-not-localize/github-issue.png)）を使用してドキュメントに関するフィードバックを提供する
 
