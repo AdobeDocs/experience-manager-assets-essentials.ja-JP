@@ -12,7 +12,7 @@ solution: Experience Manager
 source-git-commit: daef55564f4e5c05df2ac167de804261ca714f90
 workflow-type: tm+mt
 source-wordcount: '159'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -23,13 +23,13 @@ ht-degree: 93%
 + [リリースノート](release-notes.md)
 + [セキュリティ](security-overview.md)
 + [マイワークスペース](my-workspace.md)
-+ 管理者向けAssets Essentialsの基本を学ぶ {#get-started-admins}
++ 管理者向け Assets Essentials の基本を学ぶ {#get-started-admins}
    + [ユーザーの管理と追加](deploy-administer.md)
    + フォルダーアクセスの管理{#folder-access}
       + [フォルダー権限の管理](manage-permissions.md)
       + [権限管理のベストプラクティス](permission-management-best-practices.md)
    + [Creative Cloud Pro 向け Assets Essentials と作業管理ソリューションの連携の管理者向けジャーニー](assets-essentials-cc-pro-work-management-admin-journey.md)
-+ [&#x200B; [!DNL Assets Essentials] の基本](get-started.md)
++ [ [!DNL Assets Essentials] の基本](get-started.md)
 + [サポートされているファイルタイプとユースケース](supported-file-formats.md)
 + [アセットの表示](navigate-view.md)
 + [アセットのアップロードと追加](add-delete.md)

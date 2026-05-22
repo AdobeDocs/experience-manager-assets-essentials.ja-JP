@@ -3,17 +3,13 @@ title: Assets Essentials と Adobe Workfront の統合
 description: Assets Essentials を Adobe Workfront アプリケーションと統合して、Workfront アプリケーション内で Assets Essentials リポジトリにアクセスできるようにします。
 exl-id: 9605fa3a-d454-48b5-9f84-b384eb1ad493
 TQID: https://experienceleague.adobe.com/VpoSSKnrDT7do5QtUolcbPiw4lsO2DEbgLGvJxUslaw
-product_v2:
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: f026b389ce582ece5d2ca8745d291b1ae50d657e
 workflow-type: tm+mt
 source-wordcount: 570
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -66,10 +62,10 @@ Admin Console を使用して Workfront および Assets Essentials 製品プロ
 
 統合の設定後、以下を行えます。
 
-* [Experience Manager Assets Essentialsからアセットとフォルダーをリンクする](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&topicId=Content%2FDocuments%2FAdobe_Workfront_for_Experience_Manager_Assets_Essentials%2Flink-to-aem.htm&_LANG=jajp)
+* [Experience Manager Assets Essentials からのアセットおよびフォルダーのリンク](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&topicId=Content%2FDocuments%2FAdobe_Workfront_for_Experience_Manager_Assets_Essentials%2Flink-to-aem.htm&_LANG=jajp)
 
-* [Experience Manager Assets Essentialsへのドキュメントの送信](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&topicId=Content%2FDocuments%2FAdobe_Workfront_for_Experience_Manager_Assets_Essentials%2Fsend-to-aem.htm&_LANG=jajp)
+* [Experience Manager Assets Essentials へのドキュメントの送信](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&topicId=Content%2FDocuments%2FAdobe_Workfront_for_Experience_Manager_Assets_Essentials%2Fsend-to-aem.htm&_LANG=jajp)
 
-* [Experience Manager Assets Essentials用のリンクされたアセットの校正](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&topicId=Content%2FDocuments%2FAdobe_Workfront_for_Experience_Manager_Assets_Essentials%2Fproof-linked-asset-aem.htm)
+* [Experience Manager Assets Essentials のリンク先アセットのプルーフ](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&topicId=Content%2FDocuments%2FAdobe_Workfront_for_Experience_Manager_Assets_Essentials%2Fproof-linked-asset-aem.htm)
 
-* [Experience Manager Assets Essentialsからリンクされたアセットを表示またはダウンロードする](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&topicId=Content%2FDocuments%2FAdobe_Workfront_for_Experience_Manager_Assets_Essentials%2Fview-download-asset.htm)
+* [Experience Manager Assets Essentials からのリンク先アセットの表示またはダウンロード](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&topicId=Content%2FDocuments%2FAdobe_Workfront_for_Experience_Manager_Assets_Essentials%2Fview-download-asset.htm)
