@@ -13,54 +13,13 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: f026b389ce582ece5d2ca8745d291b1ae50d657e
+source-git-commit: a292d5bf73e5c366cbc3d5e9695fecdcc930d31b
 workflow-type: tm+mt
-source-wordcount: 2217
+source-wordcount: 1662
 ht-degree: 100%
 
 ---
 
-<table>
-    <tr>
-        <td>
-            <img src="assets/new.gif" width="20px" height="25px" alt="新規">
-            <a href="https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dm-prime-ultimate"><b>Dynamic Media Prime と Ultimate</b></a>
-        </td>
-        <td>
-            <img src="assets/new.gif" width="20px" height="25px" alt="新規">
-            <a href="https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/assets-ultimate-overview"><b>AEM Assets Ultimate</b></a>
-        </td>
-        <td>
-            <img src="assets/new.gif" width="20px" height="25px" alt="新規">
-            <a href="http://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/integrate-aem-assets-edge-delivery-services"><b>AEM Assets と Edge Delivery Services の統合</b></a>
-        </td>
-        <td>
-            <img src="assets/new.gif" width="20px" height="25px" alt="新規">
-            <a href="https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/assets-view/aem-assets-view-ui-extensibility"><b>UI 拡張機能</b></a>
-        </td>
-          <td>
-            <img src="assets/new.gif" width="20px" height="25px" alt="新規">
-            <a href="https://experienceleague.adobe.com/ja/docs/experience-manager-assets-essentials/help/custom-search-filters"><b>カスタム検索フィルター</b></a>
-        </td>
-    </tr>
-    <tr>
-        <td>
-            <a href="https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/best-practices/search-best-practices"><b>検索のベストプラクティス</b></a>
-        </td>
-        <td>
-            <a href="https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/best-practices/metadata-best-practices"><b>メタデータのベストプラクティス</b></a>
-        </td>
-        <td>
-            <a href="https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/content-hub/product-overview"><b>コンテンツハブ</b></a>
-        </td>
-        <td>
-            <a href="https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview"><b>OpenAPI 機能を備えた Dynamic Media</b></a>
-        </td>
-        <td>
-            <a href="https://developer.adobe.com/experience-cloud/experience-manager-apis/"><b>AEM Assets 開発者向けドキュメント</b></a>
-        </td>
-    </tr>
-</table>
 
 # [!DNL Assets Essentials] でアセットを検索 {#search-assets}
 
@@ -78,9 +37,9 @@ ht-degree: 100%
 
   ![検索ボックス](assets/search-box.png)
 
-   * キーワードを使用して検索します。オプションで、フォルダーを変更することもできます。 Return キーを押します。
+  * キーワードを使用して検索します。オプションで、フォルダーを変更することもできます。 Return キーを押します。
 
-   * 最近表示されたアセットを直接検索して、操作を開始します。 検索ボックス内をクリックし、最近表示されたアセットを候補から選択します。
+  * 最近表示されたアセットを直接検索して、操作を開始します。 検索ボックス内をクリックし、最近表示されたアセットを候補から選択します。
 
 ## 検索結果のフィルタリング {#refine-search-results}
 
@@ -300,92 +259,6 @@ Assets Essentials を使用すると、組織のデフォルトのランディ�
 1. 「**[!UICONTROL 閉じる]**」をクリックし、プレビュー画面を閉じます。
 
    ![最初に検索するホームページのプレビュー](assets/search-first-preview.gif)
-
-## コンテキスト検索 {#contextual-search}
-
-また、テキストプロンプトを定義して、リポジトリで使用可能なアセットを検索することもできます。 Experience Manager Assets は、これらのテキストプロンプトを検索フィルターに自動変換し、検索結果を表示します。 フィルターペインを使用して自動フィルターを表示および変更すると、検索結果をさらに絞り込むことができます。
-
-### コンテキスト検索へのアクセス {#access-contextual-search}
-
-Experience Manager Assets でコンテキスト検索にアクセスするには、次の手順に従います。
-
-1. 左側のペインで「**[!UICONTROL 検索]**」をクリックします。
-
-   ![コンテキスト検索](/help/using/assets/access-contextual-search.png)
-
-1. 検索テキストボックスでテキストプロンプトを定義し、「**[!UICONTROL コンテキスト検索]**」をクリックします。
-
-   ![コンテキスト検索のテキストプロンプト](/help/using/assets/wknd-contextual-search.png)
-
-   [!DNL Experience Manager Assets] に検索結果が表示されます。
-
-
-### サポートされるフィルター {#supported-filters}
-
-コンテキスト検索では、すぐに使用できる次のフィルターをサポートしています。 これらのフィルターに基づいてテキストプロンプトを作成し、適切な検索結果を表示します。
-
-* 画像の高さ
-
-* 画像の幅
-
-* ファイルタイプ：画像、ドキュメント、ビデオまたはフォルダー。
-
-* MIME タイプ：JPG、PNG、TIFF、GIF、MP4、PDF、PPTX、DOCX または XLSX
-
-* 作成日
-
-* 変更日
-
-* 有効期限
-
-* アセットステータス：承認済み、却下またはすべて
-
-* 有効期限切れのアセット
-
-### テキストプロンプトの例 {#text-prompts-examples}
-
-**例 1**
-
-**テキストプロンプト**：今月作成された画像。
-
-[!DNL Experience Manager Assets] は次のフィルターを自動的に適用し、検索結果を表示します。
-
-![コンテキスト検索の例 1](/help/using/assets/contextual-search-example1.png)
-
-**例 2**
-
-**テキストプロンプト**：高さ 200 ピクセル、幅 100 ピクセル以上で、ビーチと澄んだ空の画像。
-
-[!DNL Experience Manager Assets] は、次のフィルターを自動的に適用し、検索結果を表示します。
-
-![コンテキスト検索の例 2](/help/using/assets/contextual-search-example2.png)
-
-**例 3**
-
-**テキストプロンプト**：高さが 1500 および 2500 ピクセルで、過去 1 か月以内に作成された、期限内の承認された青空の画像が必要です。
-
-[!DNL Experience Manager Assets] は、次のフィルターを自動的に適用し、検索結果を表示します。
-
-![コンテキスト検索の例 3](/help/using/assets/contextual-search-example3.png)
-
-次のビデオでは、コンテキスト検索ユーザーインターフェイスへのアクセスから、テキストプロンプトの定義、検索結果の表示までのエンドツーエンドのプロセスを説明します。
-
->[!VIDEO](https://video.tv.adobe.com/v/3428407)
-
-### コンテキスト検索を無効にする {#disable-contextual-search}
-
-管理者には、組織内のユーザーのコンテキスト検索を無効にするオプションも用意しています。 これを行うには、次の手順を実行します。
-
-1. **[!UICONTROL 設定]**／**[!UICONTROL 一般設定]**&#x200B;に移動します。
-
-1. 「[!UICONTROL コンテキスト検索]」セクションで、**[!UICONTROL 組織のコンテキスト検索を有効にする]**&#x200B;切替スイッチをオフにして、組織内のすべてのユーザーに対してコンテキスト検索機能を無効にします。
-
-### コンテキスト検索のフィードバック {#contextual-search-feedback}
-
-コンテキスト検索機能に関するフィードバックを提供する必要がある場合は、![コンテキスト検索アイコン](assets/do-not-localize/Smock_Help_18_N.svg)、フィードバックアイコンの順にクリックします。 フィードバックの種類を選択し、件名と説明を指定して、「**[!UICONTROL 送信]**」をクリックします。
-
-![コンテキスト検索のフィードバック](/help/using/assets/contextual-search-feedback.png)
-
 
 ## 次の手順 {#next-steps}
 
