@@ -5,22 +5,25 @@ exl-id: c7155459-05d9-4a95-a91f-a1fa6ae9d9a4
 TQID: https://experienceleague.adobe.com/fTzTJd0JhjMbexn1ffynNQM7wx-nX-8Os1Y-c79FKdo
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: f026b389ce582ece5d2ca8745d291b1ae50d657e
+    internal-label: Insights
+source-git-commit: 10c0e2375ba16dfeeeeca8f0b816ca366254dd67
 workflow-type: tm+mt
-source-wordcount: 1243
+source-wordcount: '1261'
 ht-degree: 100%
-
 ---
-
 # レポートの管理 {#manage-reports}
 
-アセットレポートを使用すると、管理者は Adobe Experience Manager Assets Essentials 環境のアクティビティを視覚的に確認できます。 このデータは、ユーザーがコンテンツや製品とどのようにやり取りするかについての有用な情報を提供します。 すべてのユーザーが Insights ダッシュボードにアクセスでき、管理者の製品プロファイルに割り当てられたユーザーはユーザー定義レポートを作成できます。
+アセットレポートにより、管理者は Adobe Experience Manager Assets Essentials 環境のアクティビティの可視性を得ることができます。 このデータは、ユーザーがコンテンツや製品とどのようにやり取りするかについての有用な情報を提供します。 すべてのユーザーが Insights ダッシュボードにアクセスでき、管理者の製品プロファイルに割り当てられたユーザーはユーザー定義レポートを作成できます。
 
 ## レポートへのアクセス {#access-reports}
 
@@ -78,7 +81,7 @@ AEM Assets Essentials 環境では、レポートダッシュボードを通じ�
      </tr>
      <tr>
       <td>パス</td>
-      <td>Assets Essentials でアセットを使用できるフォルダーパス。</td>
+      <td>Assets Essentials でアセットを利用できるフォルダーのパス。</td>
       <td>アップロードとダウンロード</td>
      </tr>
      <tr>
@@ -118,7 +121,7 @@ AEM Assets Essentials 環境では、レポートダッシュボードを通じ�
      </tr>
      <tr>
       <td>期限切れ</td>
-      <td>アセットの有効期限切れステータス。</td>
+      <td>アセットの有効期限ステータス。</td>
       <td>アップロードとダウンロード</td>
      </tr>
      <tr>
@@ -143,7 +146,7 @@ AEM Essentials UI の「**レポートをスケジュール**」では、日別�
 レポートをスケジュールするには、次の手順に従います。
 
 1. 左側のパネルから「レポート」をクリックし、「レポートを作成」（右上から）をクリックします。
-1. レポートダイアログボックスには、以下の情報が表示されます。
+1. レポートダイアログには、以下の情報が表示されます。
    1. **レポートタイプ：**&#x200B;アップロードとダウンロードのどちらかのタイプを選択します。
    1. **タイトル：**&#x200B;レポートにタイトルを追加します。
    1. **説明**：レポートにオプションの説明を追加します。
