@@ -82,7 +82,7 @@ Assets Essentials アプリケーションにアクセスできるように、�
 
    * **[!DNL Assets Essentials] ユーザー**：完全なユーザーインターフェイスにアクセスできます。 デジタルアセットのアップロード、整理、タグ付け、検索が可能です。
 
-   * **[!DNL Assets Essentials]コンシューマーユーザー**は、Assets Essentials で検索、プレビューおよびダウンロード操作を実行できます。 また、Adobe Journey Optimizer でアセットを検索して選択したり、Workfront 内で使用するアセットを検索して選択したりすることもできます。
+   * **[!DNL Assets Essentials]コンシューマーユーザー**&#x200B;は、Assets Essentials で検索、プレビューおよびダウンロード操作を実行できます。 また、Adobe Journey Optimizer でアセットを検索して選択したり、Workfront 内で使用するアセットを検索して選択したりすることもできます。
      詳しくは、[他のソリューションとの統合](integration.md)を参照してください。
 
    ![Admin Console 管理プロファイル](assets/admin-console-admin-profile.png)
@@ -183,4 +183,4 @@ Assets Essentials には、多数の標準メタデータフィールドがデ�
 >* [[!DNL Cloud Manager]  のヘルプ](https://experienceleague.adobe.com/docs/experience-manager-cloud-manager/using/introduction-to-cloud-manager.html?lang=ja)
 >* [Adobe Journey Optimizer のドキュメント](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home.html?lang=ja)
 >* [リリースノート](release-notes.md)
->* [ [!DNL Assets Essentials]](get-started.md) の基本
+>* [&#x200B; [!DNL Assets Essentials]](get-started.md) の基本
