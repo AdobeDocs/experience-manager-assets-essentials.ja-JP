@@ -1,24 +1,27 @@
 ---
 title: ユーザーの管理
-description: ' [!DNL Assets Essentials] でのデプロイメントやユーザー管理など、管理に関するユースケース'
+description: '[!DNL Assets Essentials]でのデプロイメントやユーザー管理などの管理ユースケース。'
 role: Admin
 exl-id: ef91126f-3aee-442b-b242-a6bf4034f3dc
 TQID: https://experienceleague.adobe.com/q-Eq1tZANfkgtIpwSifDVfLakJvRhia0pO2lXEMCYYg
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f026b389ce582ece5d2ca8745d291b1ae50d657e
+    internal-label: Administration
+source-git-commit: 10c0e2375ba16dfeeeeca8f0b816ca366254dd67
 workflow-type: tm+mt
-source-wordcount: 1364
-ht-degree: 100%
-
+source-wordcount: '1365'
+ht-degree: 99%
 ---
-
 # [!DNL Assets Essentials] の管理とユーザーの追加 {#administer}
 
 [!DNL Adobe Experience Manager Assets Essentials] は、アドビのお客様向けにアドビによってプロビジョニングされます。 プロビジョニングの一環として、[!DNL Adobe Admin Console] でお客様の組織に [!DNL Assets Essentials] が追加されます。 管理者は [!DNL Admin Console] を使用して [!DNL Assets Essentials] ソリューションに対するユーザーの使用権限を管理し、[!DNL Assets Essentials] に権限とメタデータフォームをセットアップするアプリケーション管理者を割り当てます。
@@ -79,8 +82,8 @@ Assets Essentials アプリケーションにアクセスできるように、�
 
    * **[!DNL Assets Essentials] ユーザー**：完全なユーザーインターフェイスにアクセスできます。 デジタルアセットのアップロード、整理、タグ付け、検索が可能です。
 
-   * **[!DNL Assets Essentials]コンシューマーユーザー**は、Assets Essentials で検索、プレビューおよびダウンロード操作を実行できます。 また、Adobe Journey Optimizer でアセットを検索して選択したり、Workfront 内で使用するアセットを検索して選択したりすることもできます。
-詳しくは、[他のソリューションとの統合](integration.md)を参照してください。
+   * **[!DNL Assets Essentials]コンシューマーユーザー**&#x200B;は、Assets Essentials で検索、プレビューおよびダウンロード操作を実行できます。 また、Adobe Journey Optimizer でアセットを検索して選択したり、Workfront 内で使用するアセットを検索して選択したりすることもできます。
+     詳しくは、[他のソリューションとの統合](integration.md)を参照してください。
 
    ![Admin Console 管理プロファイル](assets/admin-console-admin-profile.png)
 
@@ -96,7 +99,7 @@ Assets Essentials アプリケーションにアクセスできるように、�
 
 ## Assets Essentials アプリケーションへのアクセス {#access-assets-essentials-application}
 
-Admin Console でユーザーの使用権限を実行した後、Assets Essentials アプリケーションにアクセスして、次のタスクを実行できます。
+Admin Console でユーザーの使用権限を設定した後、Assets Essentials アプリケーションにアクセスして、次のタスクを実行できます。
 
 * [フォルダー構造の作成](#create-folder-structure)
 
@@ -180,4 +183,4 @@ Assets Essentials には、多数の標準メタデータフィールドがデ�
 >* [[!DNL Cloud Manager]  のヘルプ](https://experienceleague.adobe.com/docs/experience-manager-cloud-manager/using/introduction-to-cloud-manager.html?lang=ja)
 >* [Adobe Journey Optimizer のドキュメント](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home.html?lang=ja)
 >* [リリースノート](release-notes.md)
->* [ [!DNL Assets Essentials]](get-started.md) の基本
+>* [&#x200B; [!DNL Assets Essentials]](get-started.md) の基本

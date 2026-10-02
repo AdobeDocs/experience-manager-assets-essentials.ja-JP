@@ -5,13 +5,11 @@ hide: true
 hidefromtoc: true
 role: User
 exl-id: 07de648e-4ae2-4524-8e05-3cf10bb6006d
-source-git-commit: 4c176db86c9f3219f2cb63edda71435a2aa76850
+source-git-commit: 10c0e2375ba16dfeeeeca8f0b816ca366254dd67
 workflow-type: tm+mt
-source-wordcount: '3000'
+source-wordcount: '3017'
 ht-degree: 99%
-
 ---
-
 # Dynamic Media テンプレート{#dynamic-media-templates}
 
 | [検索のベストプラクティス](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/best-practices/search-best-practices) | [メタデータのベストプラクティス](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/best-practices/metadata-best-practices) | [コンテンツハブ](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/content-hub/product-overview) | [AEM Assets 開発者向けドキュメント](https://developer.adobe.com/experience-cloud/experience-manager-apis/) |
@@ -35,7 +33,7 @@ WYSIWYG テンプレートエディターを使用して Dynamic Media テンプ
 
 Dynamic Media テンプレートの主なメリットには、次のようなものがあります。
 
-* **1:1 パーソナライゼーションを最適化：**&#x200B;リアルタイムの顧客シグナルに合わせて、コンテンツを調整します。
+* **1対1の最適化Personalization:** リアルタイムの顧客シグナルに合わせてコンテンツをカスタマイズします。
 * **手作業を削減：**&#x200B;コンテンツの作成と管理を自動化および高速化します。
 * **一貫したオムニチャネルエクスペリエンスを確保：**&#x200B;チャネル全体でブランドの一貫性を維持します。
 * **コンテンツを効果的に再利用：** 1 回使用のコンテンツを避け、動的なパラメーター化されたテンプレートを使用して拡大します。
@@ -76,7 +74,7 @@ DM テンプレートを作成するには、次の手順に従います。
 
 1. 「**[!UICONTROL テンプレートを作成]**」をクリックしてテンプレートを Dynamic Media アセットに保存するか、フォルダーに移動して「**[!UICONTROL テンプレートを作成]**」をクリックし、そのフォルダー内にテンプレートを保存します。 **[!UICONTROL 新規テンプレート]**&#x200B;ダイアログボックスが表示されます。
    ![リアルタイムでカスタマイズできる動的テンプレートの作成方法](/help/using/assets/new-template.png)
-**[!UICONTROL Dynamic Media アセット]**&#x200B;の下に[フォルダーを作成](/help/using/add-delete.md)するには、**[!UICONTROL アセット]**&#x200B;の下にフォルダーを作成します。 **[!UICONTROL アセット]**&#x200B;の下のフォルダーツリーは、**[!UICONTROL Dynamic Media アセット]**&#x200B;の下にレプリケートされます。
+   **[!UICONTROL Dynamic Media アセット]**&#x200B;の下に[フォルダーを作成](/help/using/add-delete.md)するには、**[!UICONTROL アセット]**&#x200B;の下にフォルダーを作成します。 **[!UICONTROL アセット]**&#x200B;の下のフォルダーツリーは、**[!UICONTROL Dynamic Media アセット]**&#x200B;の下にレプリケートされます。
 1. テンプレート名を指定し、キャンバスの幅と高さを定義して、「**[!UICONTROL 作成]**」をクリックします。 空白のキャンバスが表示され、テンプレートの作成に使用するメニューオプションが両側に表示されます。 メニューオプションにポインタを合わせると、ツールチップが表示されます。
    ![リアルタイムのカスタマイズ可能なテンプレート](/help/using/assets/blank-canvas-page.png)
 
@@ -181,7 +179,7 @@ DM テンプレートを作成するには、次の手順に従います。
 1. **オプション：**&#x200B;パラメーター名を変更します。 パラメーター名には、レイヤー名の後に接尾辞が続きます。 選択したレイヤーでは、そのすべてのパラメーター化されたプロパティは同じレイヤー名を共有し、その後に様々な接尾辞が続きます。 セマンティックの命名規則に従ってレイヤー名を変更すると、URL にパラメーターを含める際に、パラメーター名自体がレイヤーのコンテンツや目的についての説明となります。
 1. 「**[!UICONTROL 保存]**」をクリックします。
    ![即時コンテンツ制作](/help/using/assets/parameterise-a-layer.png)
-画像とテキストレイヤーのパラメーターパネルを切り替えるには、キャンバス上でレイヤーを選択し、「**[!UICONTROL パラメーター]**」をクリックします。
+   画像とテキストレイヤーのパラメーターパネルを切り替えるには、キャンバス上でレイヤーを選択し、「**[!UICONTROL パラメーター]**」をクリックします。
 
 #### パラメーターパネルオプション {#parameterisation-options-or-allowed-parameters}
 
