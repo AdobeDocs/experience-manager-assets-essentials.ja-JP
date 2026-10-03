@@ -56,4 +56,4 @@ Adobeの社員でコントリビューションをお持ちの場合は、企業
 
 ## AdobeのGitHub オーサリングプラットフォームとMarkdownについて
 
-GitHub オーサリングプラットフォームの使用方法について詳しくは、[Adobe Docs Contributor Guide](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html)を参照してください。
+GitHub オーサリングプラットフォームの使用方法について詳しくは、[Adobe Docs Contributor Guide](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=ja)を参照してください。
