@@ -36,7 +36,7 @@ ht-degree: 3%
 
 [!DNL Experience Manager]のドキュメントを改善するために必要なアイデアは、寄付として歓迎されます。 ただし、コメント、イシュー、およびプルリクエストは、*寄付*&#x200B;のみを対象としています。 これらは、[!DNL Experience Manager]の使用方法、[!DNL Experience Manager] プロジェクトの実装、技術的な問題の解決に関する質問への回答を目的としたものではありません。
 
-[!DNL Experience Manager]の使用状況や技術的なエラーに関する質問は、[[!DNL Experience Manager]  サポートポータル &#x200B;](https://experienceleague.adobe.com/?support-solution=Experience+Manager&lang=ja#support)を通じて通常のサポートプロセスを通じて報告するか、[Experience Manager コミュニティ &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community?profile.language=ja)で相談する必要があります。
+[!DNL Experience Manager]の使用状況や技術的なエラーに関する質問は、[[!DNL Experience Manager]  サポートポータル &#x200B;](https://experienceleague.adobe.com/ja?support-solution=Experience+Manager&lang=ja#support)を通じて通常のサポートプロセスを通じて報告するか、[Experience Manager コミュニティ &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community?profile.language=ja)で相談する必要があります。
 
 ***[!DNL Experience Manager]件のドキュメントへの投稿は、Adobe カスタマーサポート***&#x200B;の代替となるものではなく、サポート関連の質問に対する回答を求めるそのような投稿は拒否されます。
 
