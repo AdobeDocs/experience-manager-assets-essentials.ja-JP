@@ -3,22 +3,26 @@ title: Content Credentials の統合
 description: AEM Assets に統合され、AEM Assets Essentials UI 内に表示される Content Credentials を使用すると、アセットの作成方法や作成に関わったユーザーなど、アセットの履歴に関するコンテキストを提供できます。 デジタルコンテンツの栄養ラベルと同様に、Content Credentials は透明性を高め、オーディエンスとの信頼関係を構築するのに役立ちます。
 role: User
 exl-id: 703f74a6-24d4-4181-8174-9ff4a90ee7aa
-TQID: https://experienceleague.adobe.com/witCqgAh8EKfD-hdn8efjZ-M4sypX44KB2ELs3ECInI
+TQID: 'https://experienceleague.adobe.com/witCqgAh8EKfD-hdn8efjZ-M4sypX44KB2ELs3ECInI'
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+    internal-label: Experience Manager Assets
 feature_v2:
   - id: ec4263d9-bf7c-44c7-b3f1-3e664861c8f2
+    internal-label: Generative AI
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: f026b389ce582ece5d2ca8745d291b1ae50d657e
+    internal-label: Metadata
+source-git-commit: b4d4525733ecb7beeec9babd93b479a89760e820
 workflow-type: tm+mt
-source-wordcount: 474
+source-wordcount: '474'
 ht-degree: 100%
-
 ---
-
 # Content Credentials {#content-credentials}
 
 ブランドは、コンテンツの透明性、AI の開示、アセットの改ざん防止について、これまで以上に関心を寄せています。 アドビのコンテンツ認証イニシアチブ（CAI）は、[Coalition for Content Provenance and Authenticity](https://c2pa.org/specifications/specifications/1.1/specs/C2PA_Specification.html#_trust_model)（C2PA）技術標準に準拠したツールを作成しています。 新しい種類の暗号化された改ざん防止メタデータである Content Credentials は、閲覧者がコンテンツの系統を理解し、ブランドアセットの整合性を確保するのに役立ちます。 これらには、デジタルアセットの履歴に関するインサイトを提供する様々な来歴データを含めることができます。
