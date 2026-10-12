@@ -1,17 +1,20 @@
 ---
 title: AEM Assets での Creative Cloud 統合の組織をまたいだ資格
-description: AEM Assets で Creative Cloud 統合向けに組織をまたいだ資格を設定する方法について説明します。 Express や Creative Cloud のライブラリなど、AEM Assets での最新の Creative Cloud 統合を簡単に使用するには、別の IMS 組織にプロビジョニングされた Creative Cloud 権限に接続します。
+description: AEM Assets で Creative Cloud 統合向けに組織をまたいだ資格を設定する方法について説明します。 Express や Creative Cloud Libraries など、AEM Assets での最新の Creative Cloud 統合を簡単に使用するには、別の IMS 組織にプロビジョニングされた Creative Cloud 利用資格に接続します。
 exl-id: 5a39b640-4195-4149-9757-2733ed70e616
-source-git-commit: ebc49d5c29118cd09cf1f97e8f71f63df76b3779
-workflow-type: ht
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+    internal-label: Experience Manager Assets
+source-git-commit: b4d4525733ecb7beeec9babd93b479a89760e820
+workflow-type: tm+mt
 source-wordcount: '295'
 ht-degree: 100%
-
 ---
-
 # Creative Cloud 統合向けの組織をまたいだ資格  {#cross-org-entitlements}
 
-Experience Manager Assets には、Express ライブラリや Creative Cloud ライブラリなど、AEM Assets での最新の Creative Cloud 統合を簡単に使用するために、別の IMS 組織にプロビジョニングされた Creative Cloud 権限に接続する機能があります。
+Experience Manager Assets には、Express や Creative Cloud Libraries など、AEM Assets での最新の Creative Cloud 統合を簡単に使用するために、別の IMS 組織にプロビジョニングされた Creative Cloud 利用資格に接続する機能があります。
 
 Creative Cloud 製品と AEM Assets が別の IMS 組織にプロビジョニングされている場合は、異なる Creative Cloud 組織に接続して、2 つのソリューション間で統合されたワークフローを実行できます。
 
@@ -37,4 +40,4 @@ Creative Cloud 製品と AEM Assets が別の IMS 組織にプロビジョニン
 
 * AEM Assets は、一度に 1 つの Creative Cloud 組織に接続できます。 一度に複数の Creative Cloud 組織への接続はサポートされていません。
 
-* AEM Assets 内で接続する Creative Cloud 組織は、組織内のすべてのユーザーに適用できます。
+* AEM Assets 内で接続する Creative Cloud 組織は、組織内のすべてのユーザーに適用されます。

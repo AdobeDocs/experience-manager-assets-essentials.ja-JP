@@ -2,13 +2,16 @@
 title: Experience Manager Assets Essentials の管理
 description: Admin Console を使用して Assets Essentials アプリケーションへのアクセスを設定し、Assets Essentials アプリケーションへのログイン後に実行できるタスクを管理します。
 exl-id: ffd65741-21b7-47cd-9779-63a7903879e6
-source-git-commit: 65200f73a954e4ebf4fbd6dc3a819acc6e0beda4
-workflow-type: ht
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+    internal-label: Experience Manager Assets
+source-git-commit: b4d4525733ecb7beeec9babd93b479a89760e820
+workflow-type: tm+mt
 source-wordcount: '1417'
 ht-degree: 100%
-
 ---
-
 # Experience Manager Assets Essentials の管理 {#administer-assets-essentials}
 
 ![暗いテーマと明るいテーマを切り替えるための環境設定](assets/cce-assets.png)
@@ -40,17 +43,17 @@ Assets Essentials ソリューションがプロビジョニングされると�
 
 Admin Console で次のタスクを実行します。
 
-* [製品プロファイルへのユーザーの追加](#add-users-to-product-profiles)
+* [ユーザーを製品プロファイルに追加](#add-users-to-product-profiles)
 
 * [ユーザーグループの追加](#add-user-groups)
 
 * [グループへのユーザーの追加](#add-users-to-user-groups)
 
-### 製品プロファイルへのユーザーの追加 {#add-users-to-product-profiles}
+### ユーザーを製品プロファイルに追加 {#add-users-to-product-profiles}
 
 Assets Essentials アプリケーションにアクセスできるように、製品プロファイルにユーザーを追加します。
 
-製品プロファイルにユーザーを追加するには：
+ユーザーを製品プロファイルに追加するには：
 
 1. 組織の [Admin Console](https://adminconsole.adobe.com) にアクセスし、上部のバーで「**[!UICONTROL 製品]**」をクリックしたあと、「**[!UICONTROL AEM Assets Essentials]**」をクリックし、次に [!DNL Assets Essentials] のインスタンスをクリックします。 インスタンスの名前は、以下のスクリーンショットに示す名前とは異なる可能性があります。
    >[!NOTE]
@@ -90,13 +93,13 @@ Assets Essentials アプリケーションにアクセスできるように、�
 >Admin Console が、Azure や Google コネクタ、ユーザー同期ツール、User Management Rest API など、ユーザー／グループの割り当てを管理する外部システムを活用するように設定されている場合、グループとユーザーの割り当ては自動的に設定されます。 詳しくは、[Adobe Admin Consoleユーザー](https://helpx.adobe.com/jp/enterprise/using/users.html)を参照してください。
 
 
-### グループにユーザーを追加 {#add-users-to-user-groups}
+### ユーザーをグループに追加 {#add-users-to-user-groups}
 
 ユーザーグループを作成した後、ユーザーグループへのユーザーの追加を開始できます。
 
 ユーザーグループへのユーザーの追加を管理する方法については、[ユーザーグループの管理](https://helpx.adobe.com/jp/enterprise/using/user-groups.html#add-users-to-groups)の `Add users to groups` を参照してください。
 
-## Assets Essentials 管理タスクの管理 {#manage-assets-essentials-tasks}
+## Assets Essentials の管理タスク {#manage-assets-essentials-tasks}
 
 Admin Console タスクを実行したら、Assets Essentials アプリケーションで次の管理タスクを実行できるようになります。
 
@@ -127,7 +130,7 @@ Assets Essentials リポジトリでフォルダー構造を作成する計画�
 
 * スケーラブル：フォルダー構造は、組織の今後のニーズに準拠し、容易に拡張可能にする必要があります。
 
-* サイズ：1 つのフォルダーに含めるアセットの数が多くなりすぎないようにします。 ファイルの数が多すぎると、操作性の問題を引き起こし、管理が困難になる可能性があります。
+* サイズ：1 つのフォルダーに含めるアセットの数が多くなりすぎないようにします。 アセットの数が多すぎると、操作性の問題を引き起こし、管理が困難になる可能性があります。
 
 * 直感的：フォルダー構造は、参照が容易で、エンドユーザーにとって直感的なものにする必要があります。 フォルダー構造内の新しいアセットをアップロードする場所を容易に識別できるようにする必要があります。
 
