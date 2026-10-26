@@ -5,16 +5,17 @@ exl-id: 5ef01dbc-87c0-4013-9367-5da3774f4f20
 TQID: https://experienceleague.adobe.com/fWLQ3XI2WVIbouGb7QXznoGhEoB-pHiHw-8P-Fo4128
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-source-git-commit: f026b389ce582ece5d2ca8745d291b1ae50d657e
+    internal-label: Leader
+source-git-commit: 8c5846e522315e4494bfd41caedbcc83e44637fe
 workflow-type: tm+mt
-source-wordcount: 1700
+source-wordcount: '1700'
 ht-degree: 100%
-
 ---
-
 # フォルダーの権限の管理 {#manage-permissions}
 
 >[!CONTEXTUALHELP]
@@ -54,7 +55,7 @@ Assets Essentials アプリケーションの管理者を追加して、他の�
 
 ユーザーグループを作成し、それらのグループに権限を割り当てて、Assets Essentials リポジトリのフォルダーアクセスレベルを管理します。 その後、ユーザーをユーザーグループに割り当てることができます。
 
-![グループおよび製品プロファイルへのユーザーの追加](assets/user-groups-product-profiles.svg)
+![グループおよび製品プロファイルへのユーザーの追加](assets/user-group-product-profiles.png)
 
 ユーザーをユーザーグループ（1）に追加し、[ユーザーを Assets Essentials 製品プロファイル（2）に](#add-admin-users)追加することはできます。 ただし、ユーザーグループを Assets Essentials 製品プロファイル（3）に直接追加することはできません。
 
@@ -65,7 +66,7 @@ Assets Essentials アプリケーションの管理者を追加して、他の�
 >Admin Console が、Azure や Google コネクタ、ユーザー同期ツール、User Management Rest API など、ユーザー／グループの割り当てを管理する外部システムを活用するように設定されている場合、グループとユーザーの割り当ては自動的に設定されます。 詳しくは、[Adobe Admin Consoleユーザー](https://helpx.adobe.com/jp/enterprise/using/users.html)を参照してください。
 
 
-### グループにユーザーを追加 {#add-users-to-uesr-groups}
+### ユーザーをグループに追加 {#add-users-to-uesr-groups}
 
 ユーザーグループを作成した後、ユーザーグループへのユーザーの追加を開始できます。
 
@@ -87,8 +88,8 @@ Assets Essentials アプリケーションの管理者を追加して、他の�
 
 | 権限名 | 説明 |
 |-----|------|
-| 表示可能 | <ul><li>フォルダーを表示および移動するための読み取りアクセス </li><li>アセットのプレビュー</li><li>アセットをダウンロード</li><li>アセットのコピー</li><li>アセットへのリンクの共有</li><ul> |
-| 編集可能 | <ul><li>表示可能権限に使用できるすべての権限 </li><li>フォルダーの作成</li><li>フォルダーの削除</li><li>フォルダー名の変更</li><li>アセットの作成</li><li>アセットの更新</li><li>アセットの削除</li><li>アセットの移動</li><li>アセット名の変更</li><ul> |
+| 表示可能 | <ul><li>フォルダーを表示および移動するための読み取りアクセス </li><li>アセットのプレビュー</li><li>アセットのダウンロード</li><li>アセットのコピー</li><ul> |
+| 編集可能 | <ul><li>表示可能権限に使用できるすべての権限 </li><li>フォルダーの作成</li><li>フォルダーの削除</li><li>フォルダー名の変更</li><li>アセットの作成</li><li>アセットの更新</li><li>アセットの削除</li><li>アセットの移動</li><li>アセット名の変更</li><li>アセットへのリンクの共有</li><ul> |
 | 所有者 | <ul><li>編集可能権限に使用できるすべての権限</li><li>フォルダーとそのサブフォルダーに対する権限の管理</li>この権限がある管理者は、フォルダーとそのサブフォルダーに対する管理者権限を他のユーザーに委任できます。<ul> |
 | アクセスを拒否 | フォルダーとそのサブフォルダーに対する表示可能、編集可能および所有者の権限を削除します。 |
 
@@ -104,13 +105,13 @@ Assets Essentials アプリケーションにログオンできるすべての�
 
 組織のマーケティング部門にのみ `Marketing` フォルダーへの編集権限を付与し、他の部門に表示権限を付与する必要がある場合は、スーパーグループ `All Authenticated Users` に `Can View` 権限、サブグループ `Marketing` に `Can Edit` 権限を割り当てます。
 
-![権限の割り当て](assets/permissions-management-groups.svg)
+![権限の割り当て](assets/permissions-management-group.png)
 
 **権限の継承**
 
-Assets Essentials は権限の継承を使用し、子フォルダー内の親フォルダーに設定されている権限を継承できます。 例えば、親フォルダーが `All Authenticated Users` グループの `Can View` 権限、子フォルダーに `Marketing` ユーザーグループの `Can Edit` 権限を持っている場合、すべての認証済みユーザーに子フォルダーの表示権限、`Marketing` ユーザーグループが子フォルダーの編集権限を与えることができます。 `Marketing` ユーザーグループには、子フォルダー（Marketing）よりさらに下のレベルのフォルダーに対する編集権限があります。
+Assets Essentials では権限の継承を使用するため、親フォルダーに設定された権限を子フォルダーが継承できます。 例えば、親フォルダーが `All Authenticated Users` グループの `Can View` 権限、子フォルダーに `Marketing` ユーザーグループの `Can Edit` 権限を持っている場合、すべての認証済みユーザーに子フォルダーの表示権限、`Marketing` ユーザーグループが子フォルダーの編集権限を与えることができます。 `Marketing` ユーザーグループには、子フォルダー（Marketing）よりさらに下のレベルのフォルダーに対する編集権限があります。
 
-![権限の割り当て](assets/permissions-inheritance.svg)
+![権限の割り当て](assets/permission-inheritance.png)
 
 >[!NOTE]
 >
@@ -142,7 +143,7 @@ Assets Essentials は権限の継承を使用し、子フォルダー内の親�
 
 >[!CAUTION]
 >
-> 個々のユーザーではなく、ユーザーグループの権限を管理することをお勧めします。 `Deny access` 権限の設定は、ユーザーグループに対してのみサポートしており、個々のユーザーに対してはサポートしていません。
+> 個人ユーザーではなく、ユーザーグループの権限を管理することをお勧めします。 `Deny access` 権限の設定は、ユーザーグループに対してのみサポートしており、個人ユーザーに対してはサポートしていません。
 
 ### ユーザーグループに割り当てられた権限の編集 {#edit-permissions}
 
@@ -198,7 +199,7 @@ Assets Essentials リポジトリ全体の権限を編集するには：
 
 フォルダー階層内のすべてのユーザーグループのアクセスレベルは次のとおりです。
 
-* /All Assets：管理者がルートレベルで権限をデフォルトの `Can Edit` から `Can View` に変更します。 すべてのユーザーがフォルダーやアセットを表示できますが、編集することはできません。
+* /All Assets：管理者がルートレベルで権限をデフォルトの `Can Edit` から `Can View` に変更します。 すべてのユーザーが、フォルダーやアセットを表示できますが、編集することはできません。
 
 * /marketing：すべてのユーザーが、権限の継承に基づいてフォルダーとそのサブフォルダーを表示できますが、マーケティングチームのユーザーグループには、フォルダーに対する編集権限があります。
 
@@ -206,9 +207,9 @@ Assets Essentials リポジトリ全体の権限を編集するには：
 
 * /projects：すべてのユーザーが、権限の継承に基づいてフォルダーとそのサブフォルダーを表示できます。 プロジェクトマネージャーチームのユーザーグループには、次の権限があります。
 
-   * 編集権限
+  * 編集権限
 
-   * 所有者権限：フォルダーとそのサブフォルダーに対する権限を管理します。
+  * 所有者権限：フォルダーとそのサブフォルダーに対する権限を管理します。
 
 * /projects/project-x：すべてのユーザーが、フォルダーとそのサブフォルダーを表示できます。 プロジェクトマネージャーチームのユーザーグループには編集権限があり、フォルダーとそのサブフォルダーに対する権限を管理できます（所有者権限）。 プロジェクト X チームのユーザーグループには、編集権限があります。
 

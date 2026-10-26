@@ -1,27 +1,32 @@
 ---
-title: ' [!DNL Assets Essentials] の概要'
+title: '[!DNL Assets Essentials] の概要'
 description: Experience Cloud アプリケーション内で動作する軽量なデジタルアセット管理ツールである Experience Manager Assets Essentials を使用してアセットを管理します。
 role: User,Leader
 exl-id: 43ddf11c-36d3-4643-80c9-b7dd5d199450
 TQID: https://experienceleague.adobe.com/GpMzdyeYFVMhrLhiS-AbTH08VKXkEfiel-0mJ6lNqf8
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: ae478996-b206-4712-9b0c-dc78a2644453
+    internal-label: Integrations
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: da3860b0-d637-47df-bef0-273751180266
+    internal-label: Digital asset management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f026b389ce582ece5d2ca8745d291b1ae50d657e
+    internal-label: Administration
+source-git-commit: 8c5846e522315e4494bfd41caedbcc83e44637fe
 workflow-type: tm+mt
-source-wordcount: 660
+source-wordcount: '660'
 ht-degree: 100%
-
 ---
-
 # [!DNL Adobe Experience Manager Assets Essentials] の概要 {#assets-essentials}
 
 <!-- 
@@ -29,7 +34,7 @@ TBD: Update this banner to remove Beta label.
 ![Banner image for beta docs](assets/do-not-localize/banner-image-beta-docs.png)
 -->
 
-アドビでは、デジタルアセットを最大限に活用するための堅牢なデジタルアセット管理（DAM）ソリューションを提供しています。 Adobe Experience Manager Assets Essentials は、デジタルアセットを保存、管理、検出、使用する、アドビの軽量アセット管理ソリューションです。
+アドビでは、デジタルアセットを最大限に活用するための堅牢なデジタルアセット管理（DAM）ソリューションを提供しています。 Adobe Experience Manager Assets Essentials は、デジタルアセットを保存、管理、検索および利用するための、アドビの軽量なアセット管理ソリューションです。
 
 ## Assets Essentials とは {#assets-essemtials-overview}
 
@@ -41,7 +46,7 @@ Assets Essentials では、次のことが可能です。
 
 * チームをまたいだコンテンツ開発の共同作業。
 
-* 最終承認済みアセットへのアクセス、検索。
+* 最終承認済みアセットへのアクセス、検索、取得。
 
 * ダウンストリーム配信用のアセットの共有とダウンロード。
 
@@ -49,11 +54,11 @@ Assets Essentials では、次のことが可能です。
 
 Assets Essentials は、エンドユーザーおよび管理者向けのスタンドアロン web ユーザーインターフェイスを備えており、これらのユーザーはすべてのソリューションの機能にアクセスできます。 また、その他のアドビのソリューションのユーザーも、埋め込みエクスペリエンス（Creative Cloud エンタープライズ版、Adobe Journey Optimizer、Adobe Workfront の各アプリケーションで利用可能）を通じて、Assets Essentials のアセットにアクセスしたり、操作したりできます。
 
-![その他のソリューションとの統合](assets/assets-essentials-integration.svg)
+![その他のソリューションとの統合](assets/assets-essentials-integration.png)
 
 ## Assets Essentials を選ぶ理由 {#assets-essentials-features}
 
-Assets Essentials では、次のことができるという主なメリットがあります。
+Assets Essentials は主なメリットを提供し、次のことが可能になります。
 
 * 既製のアセット管理ツールを使用して、**素早く開始できる**。
 
@@ -67,7 +72,7 @@ Assets Essentials では、次のことができるという主なメリット�
 
 **すぐに使い始める**
 
-Assets Essentials ソリューションは、アドビによってお客様に提供され、プロビジョニングプロセス完了後に利用できます。 管理者は Adobe Admin Console で製品にアクセスでき、システム設定とユーザーのオンボーディングをすぐに開始できます。
+Assets Essentials ソリューションは、アドビによってお客様に提供され、プロビジョニングが完了すると利用できるようになります。 管理者は Adobe Admin Console で製品にアクセスでき、システム設定とユーザーのオンボーディングをすぐに開始できます。
 
 Assets Essentials の[管理とユーザーのオンボーディング](deploy-administer.md)の詳細情報。
 
@@ -87,7 +92,7 @@ Assets Essentials は、サポートされているアドビソリューショ�
 
 **クラウドベースのプラットフォーム**
 
-アドビのクラウドインフラストラクチャーに基づいた Assets Essentials を使用することで、組織はデジタルアセットの作成、管理、配布に関するビジネスニーズに焦点を当てることができます。 さらに、アドビは、頻繁なアップデートを通じてユーザーにシームレスに提供される製品イノベーションを利用して、ソリューションの可用性、安全性、拡張性を確保し、常に最新の状態に保ちます。
+アドビのクラウドインフラストラクチャーに基づいた Assets Essentials を使用することで、組織はデジタルアセットの作成、管理、配布に関するビジネスニーズに焦点を当てることができます。 さらに、アドビは、頻繁なアップデートを通じてユーザーにシームレスに提供される製品イノベーションにより、ソリューションの可用性、安全性、拡張性を確保し、常に最新の状態に保ちます。
 
 **お客様と共に成長する機能**
 

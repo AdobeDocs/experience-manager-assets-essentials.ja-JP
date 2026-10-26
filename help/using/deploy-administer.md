@@ -17,7 +17,7 @@ topic_v2:
     internal-label: Governance
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 10c0e2375ba16dfeeeeca8f0b816ca366254dd67
+source-git-commit: 8c5846e522315e4494bfd41caedbcc83e44637fe
 workflow-type: tm+mt
 source-wordcount: '1365'
 ht-degree: 99%
@@ -29,7 +29,7 @@ ht-degree: 99%
 
 次のデータフロー図は、Assets Essentials の設定と管理を行うために管理者が実行する必要があるタスクのシーケンスを示しています。
 
-![Assets Essentials のデプロイ](assets/deploy-assets-essentials.svg)
+![Assets Essentials のデプロイ](assets/deploy-assets-essentials.png)
 
 ## Admin Console へのアクセス {#access-admin-console}
 
@@ -123,7 +123,7 @@ Admin Console でユーザーの使用権限を設定した後、Assets Essentia
 
 組織で使用できるフォルダー構造タイプには様々なものがあります。 一般的なフォルダー構造の例を以下に示します。
 
-![典型的な フォルダー構造](assets/folder-structure.svg)
+![典型的な フォルダー構造](assets/folder-structure-new.png)
 
 >[!NOTE]
 >
