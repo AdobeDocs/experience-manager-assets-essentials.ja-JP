@@ -17,7 +17,7 @@ topic_v2:
     internal-label: Governance
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 10c0e2375ba16dfeeeeca8f0b816ca366254dd67
+source-git-commit: 8c5846e522315e4494bfd41caedbcc83e44637fe
 workflow-type: tm+mt
 source-wordcount: '1365'
 ht-degree: 99%
@@ -29,7 +29,7 @@ ht-degree: 99%
 
 次のデータフロー図は、Assets Essentials の設定と管理を行うために管理者が実行する必要があるタスクのシーケンスを示しています。
 
-![Assets Essentials のデプロイ](assets/deploy-assets-essentials.svg)
+![Assets Essentials のデプロイ](assets/deploy-assets-essentials.png)
 
 ## Admin Console へのアクセス {#access-admin-console}
 
@@ -82,7 +82,7 @@ Assets Essentials アプリケーションにアクセスできるように、�
 
    * **[!DNL Assets Essentials] ユーザー**：完全なユーザーインターフェイスにアクセスできます。 デジタルアセットのアップロード、整理、タグ付け、検索が可能です。
 
-   * **[!DNL Assets Essentials]コンシューマーユーザー**&#x200B;は、Assets Essentials で検索、プレビューおよびダウンロード操作を実行できます。 また、Adobe Journey Optimizer でアセットを検索して選択したり、Workfront 内で使用するアセットを検索して選択したりすることもできます。
+   * **[!DNL Assets Essentials]コンシューマーユーザー**は、Assets Essentials で検索、プレビューおよびダウンロード操作を実行できます。 また、Adobe Journey Optimizer でアセットを検索して選択したり、Workfront 内で使用するアセットを検索して選択したりすることもできます。
      詳しくは、[他のソリューションとの統合](integration.md)を参照してください。
 
    ![Admin Console 管理プロファイル](assets/admin-console-admin-profile.png)
@@ -123,7 +123,7 @@ Admin Console でユーザーの使用権限を設定した後、Assets Essentia
 
 組織で使用できるフォルダー構造タイプには様々なものがあります。 一般的なフォルダー構造の例を以下に示します。
 
-![典型的な フォルダー構造](assets/folder-structure.svg)
+![典型的な フォルダー構造](assets/folder-structure-new.png)
 
 >[!NOTE]
 >
@@ -167,13 +167,13 @@ Assets Essentials には、多数の標準メタデータフィールドがデ�
 
 ## 次の手順 {#next-steps}
 
-<!-- THIS URL IS A 404 ERROR; NO REDIRECT WAS PUT IN PLACE * [Watch a video to deploy Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/provisioning.html?lang=ja) -->
+<!-- THIS URL IS A 404 ERROR; NO REDIRECT WAS PUT IN PLACE * [Watch a video to deploy Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/provisioning.html?lang=en) -->
 
 * Assets Essentials ユーザーインターフェイスの「[!UICONTROL フィードバック]」オプションを使用して製品に関するフィードバックを提供する
 
 * 右側のサイドバーにある「[!UICONTROL このページを編集]」（![ページを編集](assets/do-not-localize/edit-page.png)）または「[!UICONTROL 問題を記録] 」（![GitHub イシューを作成](assets/do-not-localize/github-issue.png)）を使用してドキュメントに関するフィードバックを提供する
 
-* [カスタマーケア](https://experienceleague.adobe.com/ja?support-solution=General&lang=ja#support)に問い合わせる
+* [カスタマーケア](https://experienceleague.adobe.com/?support-solution=General&lang=ja#support)に問い合わせる
 
 
 
@@ -183,4 +183,4 @@ Assets Essentials には、多数の標準メタデータフィールドがデ�
 >* [[!DNL Cloud Manager]  のヘルプ](https://experienceleague.adobe.com/docs/experience-manager-cloud-manager/using/introduction-to-cloud-manager.html?lang=ja)
 >* [Adobe Journey Optimizer のドキュメント](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home.html?lang=ja)
 >* [リリースノート](release-notes.md)
->* [&#x200B; [!DNL Assets Essentials]](get-started.md) の基本
+>* [ [!DNL Assets Essentials]](get-started.md) の基本

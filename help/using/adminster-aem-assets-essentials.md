@@ -7,7 +7,7 @@ product_v2:
     internal-label: Experience Manager
   - id: d09181b5-a36a-43de-ba01-36641440bc43
     internal-label: Experience Manager Assets
-source-git-commit: b4d4525733ecb7beeec9babd93b479a89760e820
+source-git-commit: f15fe91faf6a1f1341e4f4cda45bbe10bcd19544
 workflow-type: tm+mt
 source-wordcount: '1417'
 ht-degree: 100%
@@ -29,7 +29,7 @@ ht-degree: 100%
 
 次のデータフロー図は、Assets Essentials の設定と管理を行うために管理者が実行する必要があるタスクのシーケンスを示しています。
 
-![Assets Essentials の管理フロー](assets/permissions-management-cce-next.svg)
+![Assets Essentials の管理フロー](assets/permission-management-cce-next.png)
 
 ## Admin Console へのアクセス {#access-admin-console}
 
@@ -84,7 +84,7 @@ Assets Essentials アプリケーションにアクセスできるように、�
 
 ユーザーをユーザーグループ（1）に追加し、[ユーザーを Assets Essentials 製品プロファイル（2）に](#add-admin-users)追加することはできます。 ただし、ユーザーグループを Assets Essentials 製品プロファイル（3）に直接追加することはできません。
 
-![グループおよび製品プロファイルへのユーザーの追加](assets/user-groups-product-profiles.svg)
+![グループおよび製品プロファイルへのユーザーの追加](assets/user-group-product-profiles.png)
 
 ユーザーグループの管理方法については、[ユーザーグループの管理](https://helpx.adobe.com/jp/enterprise/using/user-groups.html)の `Create user groups` および `Edit user groups` を参照してください。
 
@@ -136,7 +136,7 @@ Assets Essentials リポジトリでフォルダー構造を作成する計画�
 
 組織で使用できるフォルダー構造タイプには様々なものがあります。 一般的なフォルダー構造の例を以下に示します。
 
-![典型的な フォルダー構造](assets/folder-structure.svg)
+![典型的な フォルダー構造](assets/folder-structure-new.png)
 
 ### フォルダーの権限の管理 {#manage-permissions-for-folders}
 

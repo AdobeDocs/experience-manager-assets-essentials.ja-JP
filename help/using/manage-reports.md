@@ -16,7 +16,7 @@ topic_v2:
     internal-label: Reporting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 10c0e2375ba16dfeeeeca8f0b816ca366254dd67
+source-git-commit: 8c5846e522315e4494bfd41caedbcc83e44637fe
 workflow-type: tm+mt
 source-wordcount: '1261'
 ht-degree: 100%
@@ -50,7 +50,7 @@ AEM Assets Essentials 環境では、レポートダッシュボードを通じ�
 **レポートを作成するには：**
 
 1. **レポート**&#x200B;に移動し、「**レポートを作成**」（右上から）をクリックします。 **レポートを作成**ダイアログボックスには、以下のフィールドが表示されます。
-   ![create-report](/help/using/assets/executed-reports1.svg)
+   ![create-report](/help/using/assets/executed-reports1.png)
 
    **「設定」タブ：**
 
@@ -152,7 +152,7 @@ AEM Essentials UI の「**レポートをスケジュール**」では、日別�
    1. **説明**：レポートにオプションの説明を追加します。
    1. **フォルダーパスを選択：**&#x200B;フォルダーパスを選択すると、今後のその特定のフォルダーにアップロードされるか、その特定のフォルダーからダウンロードされるアセットのレポートが生成されます。
    1. **「レポートをスケジュール」を切り替え：**レポートを後で実行するようにスケジュールするか、繰り返し実行するように切り替えます。
-      ![レポートのスケジュール](/help/using/assets/schedule-reports1.svg)
+      ![レポートのスケジュール](/help/using/assets/schedule-reports1.png)
 
    1. **頻度を選択：**&#x200B;レポートを生成する間隔（例えば、日別、週別、月別、年別、1 回限り）を指定し、レポートを実行する日時と繰り返しの終了日を設定します。 1 回限りのレポートの場合は、AEM 環境で選択したアクティビティタイプに関するレポートの日付範囲を選択します。 例えば、特定の月の 10日から 29日（今後の日付）までにダウンロードされたアセットに関するレポートが必要な場合は、「**日付間隔を選択**」フィールドでこれらの日付を選択します。
 
@@ -196,21 +196,21 @@ Assets Essentials を使用すると、Assets Essentials 環境のリアルタ�
 左側のナビゲーションパネルにある「**[!UICONTROL インサイト]**」をクリックすると、自動生成された以下のグラフを表示できます。
 
 * **ダウンロード**：過去 30 日間または 12 か月間に Assets Essentials 環境からダウンロードされたアセットの数は、折れ線グラフで表されます。
-  ![ダウンロード](/help/using/assets/insights-downloads2341.svg)
+  ![ダウンロード](/help/using/assets/insights-downloads2341.png)
 
 * **アップロード**：過去 30 日間または 12 か月間に Assets Essentials 環境にアップロードされたアセットの数は、折れ線グラフで表されます。
-  ![アップロード](/help/using/assets/insights-uplods2.svg)
+  ![アップロード](/help/using/assets/insights-uplods2.png)
 
 <!--* **Asset Count by Size**: The division of count of assets based on their range of various sizes from 0 MB to 100 GB.-->
 
 * **ストレージ使用量**：Assets Essentials 環境のストレージ使用量（バイト）は、棒グラフで表されます。
-  ![ストレージ使用状況](/help/using/assets/insights-storage-usage1.svg)
+  ![ストレージ使用状況](/help/using/assets/insights-storage-usage1.png)
   <!--* **Delivery**: The graph depicts the count of assets as the delivery dates.-->
 
 <!--* **Asset Count by Asset Type**: Represents count of various MIME types of the available assets. For example, application/zip, image/png, video/mp4, application/postscripte.-->
 
 * **上位の検索**：過去 30 日間または 12 か月間に Assets Essentials 環境内で検索された上位の検索キーワードと回数は、表形式で表されます。
-  ![ストレージ使用量](/help/using/assets/insights-top-search.svg)
+  ![ストレージ使用量](/help/using/assets/insights-top-search.png)
 
   <!--
    ![Insights](assets/insights1.png)
@@ -218,8 +218,8 @@ Assets Essentials を使用すると、Assets Essentials 環境のリアルタ�
    -->
 
 * **サイズ別のアセットカウント：**Assets Essentials 環境の合計アセット数を様々なサイズ範囲にセグメント化し、各サイズ範囲内のアセットの数と割合をハイライト表示し、ドーナツグラフで表します。
-  ![insights-assets-count-by-size](/help/using/assets/insights-assets-count-by-size.svg)
+  ![insights-assets-count-by-size](/help/using/assets/insights-assets-count-by-size.png)
 
 * **アセットタイプ別のアセットカウント：**Assets Essentials 環境の合計アセット数をセグメント化し、ファイルタイプに基づいてアセットの数と割合をハイライト表示し、ドーナツグラフで表します。
-  ![insights-assets-count-by-size](/help/using/assets/insights-assest-count-by-asset-type1.svg)
+  ![insights-assets-count-by-size](/help/using/assets/insights-assest-count-by-asset-type1.png)
 
